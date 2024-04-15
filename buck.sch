@@ -5313,6 +5313,11 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/163-179PH-EX.
 <part name="R2_0603" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
 <part name="X_2" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="J1" library="163-179PH-EX" deviceset="163-179PH-EX" device=""/>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
+<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
+<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
 </parts>
 <sheets>
 <sheet>
@@ -5339,6 +5344,26 @@ impedance and lowers thermal resistance</text>
 <instance part="J1" gate="G$1" x="-22.86" y="86.36" smashed="yes">
 <attribute name="NAME" x="-6.35" y="93.98" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-6.35" y="91.44" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="R1" gate="G$1" x="2.54" y="43.18" smashed="yes">
+<attribute name="NAME" x="-1.27" y="44.6786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-1.27" y="39.878" size="1.778" layer="96"/>
+</instance>
+<instance part="R2" gate="G$1" x="2.54" y="38.1" smashed="yes">
+<attribute name="NAME" x="-1.27" y="39.5986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-1.27" y="34.798" size="1.778" layer="96"/>
+</instance>
+<instance part="R3" gate="G$1" x="-10.16" y="35.56" smashed="yes">
+<attribute name="NAME" x="-13.97" y="37.0586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-13.97" y="32.258" size="1.778" layer="96"/>
+</instance>
+<instance part="R4" gate="G$1" x="-12.7" y="43.18" smashed="yes">
+<attribute name="NAME" x="-16.51" y="44.6786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-16.51" y="39.878" size="1.778" layer="96"/>
+</instance>
+<instance part="R5" gate="G$1" x="2.54" y="55.88" smashed="yes">
+<attribute name="NAME" x="-1.27" y="57.3786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-1.27" y="52.578" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
