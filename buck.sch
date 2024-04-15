@@ -5221,6 +5221,82 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="163-179PH-EX">
+<description>&lt;DC Power Connectors PCB 2.1MM&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="163179PHEX">
+<description>&lt;b&gt;163-179PH-EX&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="A" x="5.15" y="1.365" drill="3.6401" diameter="5.46"/>
+<pad name="B" x="2.2" y="-3.535" drill="3.6401" diameter="5.46"/>
+<pad name="C" x="-0.85" y="1.365" drill="3.6401" diameter="5.46"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-8.55" y1="6.265" x2="5.95" y2="6.265" width="0.2" layer="51"/>
+<wire x1="5.95" y1="6.265" x2="5.95" y2="-3.535" width="0.2" layer="51"/>
+<wire x1="5.95" y1="-3.535" x2="-8.55" y2="-3.535" width="0.2" layer="51"/>
+<wire x1="-8.55" y1="-3.535" x2="-8.55" y2="6.265" width="0.2" layer="51"/>
+<wire x1="-9.55" y1="7.265" x2="9.55" y2="7.265" width="0.1" layer="51"/>
+<wire x1="9.55" y1="7.265" x2="9.55" y2="-7.265" width="0.1" layer="51"/>
+<wire x1="9.55" y1="-7.265" x2="-9.55" y2="-7.265" width="0.1" layer="51"/>
+<wire x1="-9.55" y1="-7.265" x2="-9.55" y2="7.265" width="0.1" layer="51"/>
+<wire x1="-9.55" y1="7.265" x2="9.55" y2="7.265" width="0.1" layer="51"/>
+<wire x1="9.55" y1="7.265" x2="9.55" y2="-7.265" width="0.1" layer="51"/>
+<wire x1="9.55" y1="-7.265" x2="-9.55" y2="-7.265" width="0.1" layer="51"/>
+<wire x1="-9.55" y1="-7.265" x2="-9.55" y2="7.265" width="0.1" layer="51"/>
+<wire x1="-1.55" y1="6.265" x2="-8.55" y2="6.265" width="0.1" layer="21"/>
+<wire x1="-8.55" y1="6.265" x2="-8.55" y2="-3.535" width="0.1" layer="21"/>
+<wire x1="-8.55" y1="-3.535" x2="5.95" y2="-3.535" width="0.1" layer="21"/>
+<wire x1="5.95" y1="-3.535" x2="5.95" y2="-1.635" width="0.1" layer="21"/>
+<wire x1="8.45" y1="1.465" x2="8.45" y2="1.465" width="0.2" layer="21"/>
+<wire x1="8.45" y1="1.465" x2="8.45" y2="1.265" width="0.2" layer="21" curve="-180"/>
+<wire x1="8.45" y1="1.265" x2="8.45" y2="1.265" width="0.2" layer="21"/>
+<wire x1="8.45" y1="1.265" x2="8.45" y2="1.465" width="0.2" layer="21" curve="-180"/>
+</package>
+</packages>
+<symbols>
+<symbol name="163-179PH-EX">
+<wire x1="5.08" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-5.08" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<text x="16.51" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="16.51" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="A" x="20.32" y="-2.54" length="middle" rot="R180"/>
+<pin name="B" x="0" y="0" length="middle"/>
+<pin name="C" x="20.32" y="0" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="163-179PH-EX" prefix="J">
+<description>&lt;b&gt;DC Power Connectors PCB 2.1MM&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/163-179PH-EX.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="163-179PH-EX" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="163179PHEX">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="B" pad="B"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="DC Power Connectors PCB 2.1MM" constant="no"/>
+<attribute name="HEIGHT" value="11mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Kobiconn" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="163-179PH-EX" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="163-179PH-EX" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kobiconn/163-179PH-EX?qs=Xb8IjHhkxj5l2UOaIqcGCw%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5234,11 +5310,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="U1" library="TPS54KC23" deviceset="TPS54KC23RZRR" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="X_1" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
-<part name="R1_0805" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
 <part name="R2_0603" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
-<part name="R3_0805" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
-<part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="X_2" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
+<part name="J1" library="163-179PH-EX" deviceset="163-179PH-EX" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5246,6 +5320,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <text x="-2.54" y="7.62" size="1.778" layer="91">PGND - place as many vias as possible beneath PGND
 pins and as close as possible. minimizes parasistic
 impedance and lowers thermal resistance</text>
+<text x="-27.94" y="78.74" size="1.778" layer="91">Battery Jack Connector 5.5x2.1mm</text>
 </plain>
 <instances>
 <instance part="U1" gate="A" x="33.02" y="73.66" smashed="yes">
@@ -5256,22 +5331,15 @@ impedance and lowers thermal resistance</text>
 <attribute name="VALUE" x="25.4" y="81.28" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="X_1" gate="G$1" x="83.82" y="40.64" smashed="yes"/>
-<instance part="R1_0805" gate="G$1" x="17.78" y="86.36" smashed="yes" rot="R90">
-<attribute name="NAME" x="16.2814" y="82.55" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="21.082" y="82.55" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="R2_0603" gate="G$1" x="12.7" y="27.94" smashed="yes">
 <attribute name="NAME" x="8.89" y="29.4386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="8.89" y="24.638" size="1.778" layer="96"/>
 </instance>
-<instance part="R3_0805" gate="G$1" x="17.78" y="73.66" smashed="yes" rot="R90">
-<attribute name="NAME" x="16.2814" y="69.85" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="21.082" y="69.85" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="P+2" gate="VCC" x="17.78" y="96.52" smashed="yes">
-<attribute name="VALUE" x="15.24" y="93.98" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="X_2" gate="G$1" x="78.74" y="33.02" smashed="yes"/>
+<instance part="J1" gate="G$1" x="-22.86" y="86.36" smashed="yes">
+<attribute name="NAME" x="-6.35" y="93.98" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-6.35" y="91.44" size="1.778" layer="96" align="center-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -5288,9 +5356,9 @@ impedance and lowers thermal resistance</text>
 <junction x="27.94" y="73.66"/>
 </segment>
 <segment>
-<pinref part="R1_0805" gate="G$1" pin="2"/>
-<wire x1="17.78" y1="91.44" x2="17.78" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="P+2" gate="VCC" pin="VCC"/>
+<pinref part="J1" gate="G$1" pin="A"/>
+<wire x1="-2.54" y1="83.82" x2="2.54" y2="83.82" width="0.1524" layer="91"/>
+<label x="2.54" y="83.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="0" class="0">
@@ -5315,19 +5383,14 @@ impedance and lowers thermal resistance</text>
 <junction x="78.74" y="35.56"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="N$2" class="0">
 <segment>
-<pinref part="R1_0805" gate="G$1" pin="1"/>
-<pinref part="R3_0805" gate="G$1" pin="2"/>
-<wire x1="17.78" y1="81.28" x2="17.78" y2="78.74" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="R3_0805" gate="G$1" pin="1"/>
-<wire x1="17.78" y1="68.58" x2="17.78" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="U1" gate="A" pin="EN"/>
-<wire x1="17.78" y1="66.04" x2="33.02" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="C"/>
+<wire x1="-2.54" y1="86.36" x2="2.54" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="86.36" x2="2.54" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="91.44" x2="-22.86" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="B"/>
+<wire x1="-22.86" y1="91.44" x2="-22.86" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
