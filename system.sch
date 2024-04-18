@@ -8990,7 +8990,7 @@ Output: VS_2.5V</text>
 <pinref part="IC1" gate="G$1" pin="V+"/>
 <pinref part="Q1" gate="G$1" pin="C"/>
 <wire x1="-48.26" y1="76.2" x2="-38.1" y2="76.2" width="0.1524" layer="91"/>
-<label x="-81.28" y="88.9" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="-81.28" y="88.9" size="1.778" layer="95" rot="R180"/>
 <wire x1="-38.1" y1="76.2" x2="-15.24" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="-38.1" y1="76.2" x2="-38.1" y2="88.9" width="0.1524" layer="91"/>
 <junction x="-38.1" y="76.2"/>
@@ -9007,7 +9007,7 @@ Output: VS_2.5V</text>
 <pinref part="Q1" gate="G$1" pin="E"/>
 <wire x1="-15.24" y1="60.96" x2="-15.24" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="58.42" x2="0" y2="58.42" width="0.1524" layer="91"/>
-<label x="0" y="58.42" size="1.778" layer="95" xref="yes"/>
+<label x="0" y="58.42" size="1.778" layer="95"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="-15.24" y1="58.42" x2="-15.24" y2="55.88" width="0.1524" layer="91"/>
 <junction x="-15.24" y="58.42"/>
@@ -9020,7 +9020,7 @@ Output: VS_2.5V</text>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="30.48" y1="76.2" x2="30.48" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="83.82" x2="22.86" y2="83.82" width="0.1524" layer="91"/>
-<label x="22.86" y="83.82" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="22.86" y="83.82" size="1.778" layer="95" rot="R180"/>
 <pinref part="IC2" gate="G$1" pin="V+"/>
 <wire x1="73.66" y1="66.04" x2="96.52" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="66.04" x2="96.52" y2="83.82" width="0.1524" layer="91"/>
@@ -9062,7 +9062,7 @@ Output: VS_2.5V</text>
 <wire x1="-73.66" y1="66.04" x2="-73.66" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="-73.66" y1="66.04" x2="-81.28" y2="66.04" width="0.1524" layer="91"/>
 <junction x="-73.66" y="66.04"/>
-<label x="-81.28" y="66.04" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="-81.28" y="66.04" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <wire x1="-111.76" y1="109.22" x2="-99.06" y2="109.22" width="0.1524" layer="91"/>
@@ -9092,7 +9092,7 @@ Output: VS_2.5V</text>
 <wire x1="76.2" y1="68.58" x2="73.66" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="68.58" x2="81.28" y2="68.58" width="0.1524" layer="91"/>
 <junction x="76.2" y="68.58"/>
-<label x="81.28" y="68.58" size="1.778" layer="95" xref="yes"/>
+<label x="81.28" y="68.58" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="-99.06" y1="96.52" x2="-111.76" y2="96.52" width="0.1524" layer="91"/>
@@ -9175,7 +9175,7 @@ Output: V_BG</text>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="2.54" y1="93.98" x2="2.54" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="96.52" x2="-12.7" y2="96.52" width="0.1524" layer="91"/>
-<label x="-12.7" y="96.52" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="-12.7" y="96.52" size="1.778" layer="95" rot="R180"/>
 <pinref part="Q1" gate="G$1" pin="C1"/>
 <wire x1="15.24" y1="83.82" x2="15.24" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="96.52" x2="2.54" y2="96.52" width="0.1524" layer="91"/>
@@ -9186,7 +9186,7 @@ Output: V_BG</text>
 <wire x1="106.68" y1="45.72" x2="111.76" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="45.72" x2="111.76" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="35.56" x2="71.12" y2="35.56" width="0.1524" layer="91"/>
-<label x="71.12" y="35.56" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="71.12" y="35.56" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <wire x1="-25.4" y1="71.12" x2="-35.56" y2="71.12" width="0.1524" layer="91"/>
@@ -9282,7 +9282,7 @@ Output: V_BG</text>
 <wire x1="78.74" y1="48.26" x2="78.74" y2="58.42" width="0.1524" layer="91"/>
 <junction x="78.74" y="48.26"/>
 <wire x1="78.74" y1="58.42" x2="121.92" y2="58.42" width="0.1524" layer="91"/>
-<label x="121.92" y="58.42" size="1.778" layer="95" xref="yes"/>
+<label x="121.92" y="58.42" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="-25.4" y1="66.04" x2="-35.56" y2="66.04" width="0.1524" layer="91"/>
@@ -9413,7 +9413,7 @@ Output: V_TH</text>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="-7.62" y1="15.24" x2="5.08" y2="15.24" width="0.1524" layer="91"/>
 <junction x="-7.62" y="15.24"/>
-<label x="5.08" y="15.24" size="1.778" layer="95" xref="yes"/>
+<label x="5.08" y="15.24" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="-101.6" y1="27.94" x2="-114.3" y2="27.94" width="0.1524" layer="91"/>
@@ -9439,12 +9439,12 @@ Output: V_TH</text>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="-7.62" y1="55.88" x2="-7.62" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="-7.62" y1="63.5" x2="-20.32" y2="63.5" width="0.1524" layer="91"/>
-<label x="-20.32" y="63.5" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="-20.32" y="63.5" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="V+"/>
 <wire x1="-53.34" y1="25.4" x2="-71.12" y2="25.4" width="0.1524" layer="91"/>
-<label x="-71.12" y="25.4" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="-71.12" y="25.4" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <wire x1="-99.06" y1="50.8" x2="-111.76" y2="50.8" width="0.1524" layer="91"/>
@@ -9458,7 +9458,7 @@ Output: V_TH</text>
 <wire x1="-27.94" y1="22.86" x2="-22.86" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="22.86" x2="-22.86" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="15.24" x2="-71.12" y2="15.24" width="0.1524" layer="91"/>
-<label x="-71.12" y="15.24" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="-71.12" y="15.24" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <wire x1="-111.76" y1="43.18" x2="-99.06" y2="43.18" width="0.1524" layer="91"/>
@@ -9469,7 +9469,7 @@ Output: V_TH</text>
 <net name="VS_2.5V" class="0">
 <segment>
 <wire x1="-60.96" y1="-10.16" x2="-45.72" y2="-10.16" width="0.1524" layer="91"/>
-<label x="-60.96" y="-10.16" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="-60.96" y="-10.16" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <wire x1="-111.76" y1="35.56" x2="-99.06" y2="35.56" width="0.1524" layer="91"/>
