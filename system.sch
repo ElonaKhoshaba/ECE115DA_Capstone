@@ -8304,6 +8304,154 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/163-179PH-EX.
 </deviceset>
 </devicesets>
 </library>
+<library name="744053003">
+<description>&lt;Wurth Shielded Wire-wound SMD Inductor with a Ferrite Core, 3 uH +/-30% 2.8A Idc&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="WE-TPC_5818/582892">
+<description>&lt;b&gt;WE-TPC_5818/582892&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-2" y="0" dx="6.3" dy="2.2" layer="1" rot="R90"/>
+<smd name="2" x="2.01" y="0" dx="6.3" dy="2.2" layer="1" rot="R90"/>
+<text x="-3.81" y="3.81" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<text x="-3.81" y="-5.08" size="1.27" layer="25" align="center">&gt;NAME</text>
+<wire x1="-2.05" y1="0" x2="2.05" y2="0" width="0.25" layer="51"/>
+<wire x1="-2.9559" y1="3.2671" x2="2.9559" y2="3.2671" width="0.127" layer="21"/>
+<wire x1="2.9559" y1="3.2671" x2="2.9559" y2="-3.2671" width="0.127" layer="51"/>
+<wire x1="2.9559" y1="-3.2671" x2="-2.9559" y2="-3.2671" width="0.127" layer="21"/>
+<wire x1="-2.9559" y1="-3.2671" x2="-2.9559" y2="3.2671" width="0.127" layer="51"/>
+<wire x1="-3.5" y1="3.75" x2="3.75" y2="3.75" width="0.127" layer="51"/>
+<wire x1="3.75" y1="3.75" x2="3.75" y2="-3.75" width="0.127" layer="51"/>
+<wire x1="3.75" y1="-3.75" x2="-3.5" y2="-3.75" width="0.127" layer="51"/>
+<wire x1="-3.5" y1="-3.75" x2="-3.5" y2="3.75" width="0.127" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="744053003">
+<wire x1="5.08" y1="0" x2="7.62" y2="0" width="0.254" layer="94" curve="-175.4"/>
+<wire x1="7.62" y1="0" x2="10.16" y2="0" width="0.254" layer="94" curve="-175.4"/>
+<wire x1="10.16" y1="0" x2="12.7" y2="0" width="0.254" layer="94" curve="-175.4"/>
+<wire x1="12.7" y1="0" x2="15.24" y2="0" width="0.254" layer="94" curve="-175.4"/>
+<text x="16.51" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="16.51" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" visible="pad" length="middle"/>
+<pin name="2" x="20.32" y="0" visible="pad" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="744053003" prefix="L">
+<description>&lt;b&gt;Wurth Shielded Wire-wound SMD Inductor with a Ferrite Core, 3 uH +/-30% 2.8A Idc&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/744053003.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="744053003" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-TPC_5818/582892">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Wurth Shielded Wire-wound SMD Inductor with a Ferrite Core, 3 uH +/-30% 2.8A Idc" constant="no"/>
+<attribute name="HEIGHT" value="mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Wurth Elektronik" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="744053003" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="710-744053003" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=710-744053003" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="SLW-864547-5A-RA-D">
+<description>&lt;8.6 x 4.5 x 4.7 mm, 5 mm Raised Slide Actuator, Right Angle, Through Hole, Slide Switch&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="SLW8645475ARAD">
+<description>&lt;b&gt;SLW-864547-5A-RA-D-1&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="0" drill="0.8" diameter="1.3" shape="square"/>
+<pad name="2" x="2" y="0" drill="0.8" diameter="1.3"/>
+<pad name="3" x="4" y="0" drill="0.8" diameter="1.3"/>
+<pad name="MH1" x="-2.1" y="0" drill="1.66" diameter="2.49"/>
+<pad name="MH2" x="6.1" y="0" drill="1.66" diameter="2.49"/>
+<text x="2" y="-2.5" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="2" y="-2.5" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.3" y1="2.25" x2="6.3" y2="2.25" width="0.1" layer="51"/>
+<wire x1="6.3" y1="2.25" x2="6.3" y2="-2.25" width="0.1" layer="51"/>
+<wire x1="6.3" y1="-2.25" x2="-2.3" y2="-2.25" width="0.1" layer="51"/>
+<wire x1="-2.3" y1="-2.25" x2="-2.3" y2="2.25" width="0.1" layer="51"/>
+<wire x1="-4.345" y1="3.25" x2="8.345" y2="3.25" width="0.1" layer="51"/>
+<wire x1="8.345" y1="3.25" x2="8.345" y2="-8.25" width="0.1" layer="51"/>
+<wire x1="8.345" y1="-8.25" x2="-4.345" y2="-8.25" width="0.1" layer="51"/>
+<wire x1="-4.345" y1="-8.25" x2="-4.345" y2="3.25" width="0.1" layer="51"/>
+<wire x1="3" y1="-2.25" x2="3" y2="-7.25" width="0.1" layer="51"/>
+<wire x1="3" y1="-7.25" x2="1" y2="-7.25" width="0.1" layer="51"/>
+<wire x1="1" y1="-7.25" x2="1" y2="-2.25" width="0.1" layer="51"/>
+<wire x1="1" y1="-2.25" x2="1" y2="-7.25" width="0.2" layer="21"/>
+<wire x1="1" y1="-7.25" x2="3" y2="-7.25" width="0.2" layer="21"/>
+<wire x1="3" y1="-7.25" x2="3" y2="-2.25" width="0.2" layer="21"/>
+<wire x1="-2.3" y1="-1.75" x2="-2.3" y2="-2.25" width="0.2" layer="21"/>
+<wire x1="-2.3" y1="-2.25" x2="6.3" y2="-2.25" width="0.2" layer="21"/>
+<wire x1="6.3" y1="-2.25" x2="6.3" y2="-1.75" width="0.2" layer="21"/>
+<wire x1="-2.3" y1="1.75" x2="-2.3" y2="2.25" width="0.2" layer="21"/>
+<wire x1="-2.3" y1="2.25" x2="6.3" y2="2.25" width="0.2" layer="21"/>
+<wire x1="6.3" y1="2.25" x2="6.3" y2="1.75" width="0.2" layer="21"/>
+<wire x1="-3.9" y1="0" x2="-3.9" y2="0" width="0.1" layer="21"/>
+<wire x1="-3.9" y1="0" x2="-4" y2="0" width="0.1" layer="21" curve="180"/>
+<wire x1="-4" y1="0" x2="-4" y2="0" width="0.1" layer="21"/>
+<wire x1="-4" y1="0" x2="-3.9" y2="0" width="0.1" layer="21" curve="180"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SLW-864547-5A-RA-D">
+<wire x1="5.08" y1="2.54" x2="17.78" y2="2.54" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-12.7" x2="17.78" y2="2.54" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-12.7" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
+<text x="19.05" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="19.05" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="NC" x="0" y="-2.54" length="middle" direction="nc"/>
+<pin name="COM" x="0" y="-5.08" length="middle"/>
+<pin name="NO" x="0" y="-7.62" length="middle"/>
+<pin name="MH1" x="0" y="0" length="middle"/>
+<pin name="MH2" x="0" y="-10.16" length="middle"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SLW-864547-5A-RA-D" prefix="S">
+<description>&lt;b&gt;8.6 x 4.5 x 4.7 mm, 5 mm Raised Slide Actuator, Right Angle, Through Hole, Slide Switch&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.cuidevices.com/product/resource/slw-864547-5a-ra-d.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="SLW-864547-5A-RA-D" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SLW8645475ARAD">
+<connects>
+<connect gate="G$1" pin="COM" pad="2"/>
+<connect gate="G$1" pin="MH1" pad="MH1"/>
+<connect gate="G$1" pin="MH2" pad="MH2"/>
+<connect gate="G$1" pin="NC" pad="1"/>
+<connect gate="G$1" pin="NO" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="8.6 x 4.5 x 4.7 mm, 5 mm Raised Slide Actuator, Right Angle, Through Hole, Slide Switch" constant="no"/>
+<attribute name="HEIGHT" value="4.9mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="CUI Devices" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SLW-864547-5A-RA-D" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="179-SLW-864547-5ARAD" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/CUI-Devices/SLW-864547-5A-RA-D?qs=1Kr7Jg1SGW%252Bn%2FarYZIP3WQ%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -8324,12 +8472,23 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/163-179PH-EX.
 </variantdefs>
 <parts>
 <part name="IC1" library="AP64350SP-13" deviceset="AP64350SP-13" device=""/>
+<part name="L1" library="744053003" deviceset="744053003" device="" value="3uH"/>
+<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF"/>
+<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF"/>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="143k"/>
+<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF"/>
+<part name="S1" library="SLW-864547-5A-RA-D" deviceset="SLW-864547-5A-RA-D" device=""/>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="22.1k"/>
 <part name="X_1" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
+<part name="X_2" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
+<part name="X_3" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
+<part name="X_4" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
+<part name="X_5" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="60.96" y="91.44" size="1.778" layer="91">Buck Converter Circuit
+<text x="55.88" y="101.6" size="1.778" layer="91">Buck Converter Circuit
 Input: VS_9V
 Output: VS_6V</text>
 </plain>
@@ -8338,21 +8497,162 @@ Output: VS_6V</text>
 <attribute name="NAME" x="73.914" y="82.55" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="73.66" y="80.264" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="X_1" gate="G$1" x="106.68" y="58.42" smashed="yes"/>
+<instance part="L1" gate="G$1" x="106.68" y="76.2" smashed="yes">
+<attribute name="NAME" x="120.65" y="82.55" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="120.65" y="80.01" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="C3" gate="G$1" x="101.6" y="83.82" smashed="yes">
+<attribute name="NAME" x="102.616" y="84.455" size="1.778" layer="95"/>
+<attribute name="VALUE" x="102.616" y="79.629" size="1.778" layer="96"/>
+</instance>
+<instance part="C1" gate="G$1" x="132.08" y="68.58" smashed="yes">
+<attribute name="NAME" x="133.096" y="69.215" size="1.778" layer="95"/>
+<attribute name="VALUE" x="133.096" y="64.389" size="1.778" layer="96"/>
+</instance>
+<instance part="R1" gate="G$1" x="147.32" y="68.58" smashed="yes" rot="R90">
+<attribute name="NAME" x="145.8214" y="64.77" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="150.622" y="64.77" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="C2" gate="G$1" x="50.8" y="66.04" smashed="yes">
+<attribute name="NAME" x="51.816" y="66.675" size="1.778" layer="95"/>
+<attribute name="VALUE" x="51.816" y="61.849" size="1.778" layer="96"/>
+</instance>
+<instance part="S1" gate="G$1" x="22.86" y="48.26" smashed="yes" rot="R270">
+<attribute name="NAME" x="5.08" y="34.29" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-2.54" y="31.75" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="R2" gate="G$1" x="147.32" y="50.8" smashed="yes" rot="R90">
+<attribute name="NAME" x="145.8214" y="46.99" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="150.622" y="46.99" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="X_1" gate="G$1" x="81.28" y="53.34" smashed="yes"/>
+<instance part="X_2" gate="G$1" x="50.8" y="53.34" smashed="yes"/>
+<instance part="X_3" gate="G$1" x="147.32" y="43.18" smashed="yes"/>
+<instance part="X_4" gate="G$1" x="111.76" y="68.58" smashed="yes"/>
+<instance part="X_5" gate="G$1" x="2.54" y="50.8" smashed="yes"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="VS_9V" class="0">
 <segment>
-<wire x1="38.1" y1="78.74" x2="27.94" y2="78.74" width="0.1524" layer="91"/>
-<label x="27.94" y="78.74" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="10.16" y1="73.66" x2="50.8" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="VIN"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="50.8" y1="73.66" x2="66.04" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="73.66" x2="50.8" y2="68.58" width="0.1524" layer="91"/>
+<junction x="50.8" y="73.66"/>
+<label x="10.16" y="73.66" size="1.778" layer="95" align="bottom-right"/>
+</segment>
+<segment>
+<pinref part="S1" gate="G$1" pin="COM"/>
+<wire x1="17.78" y1="48.26" x2="17.78" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="60.96" x2="25.4" y2="60.96" width="0.1524" layer="91"/>
+<label x="25.4" y="60.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="-7.62" y1="99.06" x2="5.08" y2="99.06" width="0.1524" layer="91"/>
+<label x="5.08" y="99.06" size="1.778" layer="95"/>
+<label x="-7.62" y="99.06" size="1.778" layer="95" rot="MR0" xref="yes"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="SW"/>
+<pinref part="C3" gate="G$1" pin="2"/>
+<wire x1="96.52" y1="76.2" x2="101.6" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="76.2" x2="101.6" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="L1" gate="G$1" pin="1"/>
+<wire x1="101.6" y1="76.2" x2="106.68" y2="76.2" width="0.1524" layer="91"/>
+<junction x="101.6" y="76.2"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="C3" gate="G$1" pin="1"/>
+<pinref part="IC1" gate="G$1" pin="BST"/>
+<wire x1="101.6" y1="86.36" x2="66.04" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="86.36" x2="66.04" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VS_6V" class="0">
 <segment>
-<wire x1="106.68" y1="73.66" x2="114.3" y2="73.66" width="0.1524" layer="91"/>
-<label x="114.3" y="73.66" size="1.778" layer="95" xref="yes"/>
+<pinref part="L1" gate="G$1" pin="2"/>
+<wire x1="127" y1="76.2" x2="132.08" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="132.08" y1="76.2" x2="147.32" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="76.2" x2="147.32" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="C1" gate="G$1" pin="1"/>
+<wire x1="132.08" y1="76.2" x2="132.08" y2="71.12" width="0.1524" layer="91"/>
+<junction x="132.08" y="76.2"/>
+<label x="152.4" y="76.2" size="1.778" layer="95"/>
+<wire x1="147.32" y1="76.2" x2="152.4" y2="76.2" width="0.1524" layer="91"/>
+<junction x="147.32" y="76.2"/>
+</segment>
+<segment>
+<wire x1="-7.62" y1="91.44" x2="5.08" y2="91.44" width="0.1524" layer="91"/>
+<label x="5.08" y="91.44" size="1.778" layer="95" xref="yes"/>
+<label x="-7.62" y="91.44" size="1.778" layer="95" align="bottom-right"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="FB"/>
+<wire x1="96.52" y1="68.58" x2="99.06" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="68.58" x2="99.06" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="60.96" x2="132.08" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="132.08" y1="60.96" x2="147.32" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="60.96" x2="147.32" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="C1" gate="G$1" pin="2"/>
+<wire x1="132.08" y1="63.5" x2="132.08" y2="60.96" width="0.1524" layer="91"/>
+<junction x="132.08" y="60.96"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+<wire x1="147.32" y1="60.96" x2="147.32" y2="55.88" width="0.1524" layer="91"/>
+<junction x="147.32" y="60.96"/>
+</segment>
+</net>
+<net name="EN" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="EN"/>
+<wire x1="66.04" y1="71.12" x2="63.5" y2="71.12" width="0.1524" layer="91"/>
+<label x="63.5" y="71.12" size="1.778" layer="95" align="bottom-right"/>
+</segment>
+<segment>
+<pinref part="S1" gate="G$1" pin="NC"/>
+<wire x1="20.32" y1="48.26" x2="20.32" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="53.34" x2="30.48" y2="53.34" width="0.1524" layer="91"/>
+<label x="30.48" y="53.34" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="0" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="EP"/>
+<wire x1="81.28" y1="55.88" x2="81.28" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="X_1" gate="G$1" pin="0"/>
+</segment>
+<segment>
+<pinref part="C2" gate="G$1" pin="2"/>
+<wire x1="50.8" y1="60.96" x2="50.8" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="X_2" gate="G$1" pin="0"/>
+</segment>
+<segment>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="147.32" y1="45.72" x2="147.32" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="X_3" gate="G$1" pin="0"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="GND"/>
+<wire x1="96.52" y1="73.66" x2="111.76" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="73.66" x2="111.76" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="X_4" gate="G$1" pin="0"/>
+</segment>
+<segment>
+<pinref part="S1" gate="G$1" pin="NO"/>
+<wire x1="2.54" y1="53.34" x2="15.24" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="53.34" x2="15.24" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="53.34" x2="2.54" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="X_5" gate="G$1" pin="0"/>
 </segment>
 </net>
 </nets>
@@ -8947,6 +9247,8 @@ Output: V_TH</text>
 <portref moduleinst="BATTERY_AND_BUCK" port="VS_9V"/>
 <wire x1="-172.72" y1="91.44" x2="-180.34" y2="91.44" width="0.1524" layer="91"/>
 <label x="-180.34" y="91.44" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="10.16" y="73.66" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="60.96" y="33.02" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -8979,6 +9281,11 @@ Since Version 8.4, EAGLE supports properties for SPICE simulation.
 Probes in schematics and SPICE mapping objects found in parts and library devices
 will not be understood with this version. Update EAGLE to the latest version
 for full support of SPICE simulation. 
+</note>
+<note version="9.0" severity="warning">
+Since Version 9.0, EAGLE supports the align property for labels. 
+Labels in schematic will not be understood with this version. Update EAGLE to the latest version 
+for full support of labels. 
 </note>
 </compatibility>
 </eagle>
