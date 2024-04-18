@@ -277,6 +277,14 @@ UsedLibrary="/Users/elonakhoshaba/Documents/EAGLE/libraries/TLV9101IDBVR.lbr"
 Type="Control Panel"
 Number=0
 
+[Win_2]
+Type="Text Editor"
+Number=1
+File="system.sch.rpt"
+CursorPos="5 0"
+Font="Artifakt Element Book,11,-1,5,50,0,0,0,0,0"
+
 [Desktop]
 Screen="1512 982"
 Window="Win_1"
+Window="Win_2"
