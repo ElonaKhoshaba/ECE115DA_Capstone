@@ -8414,7 +8414,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/744053003.pdf
 <wire x1="5.08" y1="2.54" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
 <text x="19.05" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
 <text x="19.05" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="NC" x="0" y="-2.54" length="middle" direction="nc"/>
+<pin name="NC" x="0" y="-2.54" length="middle"/>
 <pin name="COM" x="0" y="-5.08" length="middle"/>
 <pin name="NO" x="0" y="-7.62" length="middle"/>
 <pin name="MH1" x="0" y="0" length="middle"/>
@@ -8545,14 +8545,23 @@ Output: VS_6V</text>
 <label x="38.1" y="73.66" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
+<<<<<<< HEAD
+=======
 <pinref part="S1" gate="G$1" pin="COM"/>
 <wire x1="10.16" y1="50.8" x2="2.54" y2="50.8" width="0.1524" layer="91"/>
 <label x="2.54" y="50.8" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
+>>>>>>> 3f7687e022423bca89bcd14b0c557094808b9ab2
 <wire x1="-7.62" y1="99.06" x2="5.08" y2="99.06" width="0.1524" layer="91"/>
 <label x="5.08" y="99.06" size="1.778" layer="95"/>
 <label x="-7.62" y="99.06" size="1.778" layer="95" rot="MR0" xref="yes"/>
+</segment>
+<segment>
+<pinref part="S1" gate="G$1" pin="NC"/>
+<wire x1="20.32" y1="48.26" x2="20.32" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="53.34" x2="30.48" y2="53.34" width="0.1524" layer="91"/>
+<label x="30.48" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -8610,9 +8619,19 @@ Output: VS_6V</text>
 <label x="63.5" y="71.12" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 <segment>
+<<<<<<< HEAD
+<pinref part="S1" gate="G$1" pin="COM"/>
+<wire x1="17.78" y1="48.26" x2="17.78" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="60.96" x2="25.4" y2="60.96" width="0.1524" layer="91"/>
+<label x="25.4" y="60.96" size="1.778" layer="95"/>
+=======
 <pinref part="S1" gate="G$1" pin="NC"/>
 <wire x1="10.16" y1="48.26" x2="0" y2="48.26" width="0.1524" layer="91"/>
 <label x="-3.048" y="47.244" size="1.778" layer="95"/>
+<<<<<<< Updated upstream
+=======
+>>>>>>> 3f7687e022423bca89bcd14b0c557094808b9ab2
+>>>>>>> Stashed changes
 </segment>
 </net>
 <net name="0" class="0">
