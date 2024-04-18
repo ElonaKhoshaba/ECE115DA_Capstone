@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
 <eagle version="9.6.2">
@@ -9249,6 +9247,8 @@ Output: V_TH</text>
 <portref moduleinst="BATTERY_AND_BUCK" port="VS_9V"/>
 <wire x1="-172.72" y1="91.44" x2="-180.34" y2="91.44" width="0.1524" layer="91"/>
 <label x="-180.34" y="91.44" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="10.16" y="73.66" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="60.96" y="33.02" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -9289,4 +9289,3 @@ for full support of labels.
 </note>
 </compatibility>
 </eagle>
->>>>>>> de9cf68 (trying to fix push)
