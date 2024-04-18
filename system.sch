@@ -8452,6 +8452,211 @@ Source: &lt;a href="https://www.cuidevices.com/product/resource/slw-864547-5a-ra
 </deviceset>
 </devicesets>
 </library>
+<library name="Fuse_Custom">
+<packages>
+<package name="R0603" urn="urn:adsk.eagle:footprint:8082147/1">
+<description>&lt;b&gt;Chip RESISTOR, 0603 EIA (1608 Metric)&lt;/b&gt;</description>
+<wire x1="-0.432" y1="-0.356" x2="0.432" y2="-0.356" width="0.1524" layer="51"/>
+<wire x1="0.432" y1="0.356" x2="-0.432" y2="0.356" width="0.1524" layer="51"/>
+<wire x1="-1.5" y1="0.74" x2="1.5" y2="0.74" width="0.0508" layer="39"/>
+<wire x1="1.5" y1="0.74" x2="1.5" y2="-0.74" width="0.0508" layer="39"/>
+<wire x1="1.5" y1="-0.74" x2="-1.5" y2="-0.74" width="0.0508" layer="39"/>
+<wire x1="-1.5" y1="-0.74" x2="-1.5" y2="0.74" width="0.0508" layer="39"/>
+<smd name="1" x="-0.815" y="0" dx="0.87" dy="0.98" layer="1"/>
+<smd name="2" x="0.815" y="0" dx="0.87" dy="0.98" layer="1"/>
+<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
+<rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+</package>
+</packages>
+<symbols>
+<symbol name="FUSE">
+<wire x1="-5.08" y1="0" x2="-3.556" y2="1.524" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.524" x2="-2.54" y2="1.524" width="0.254" layer="94"/>
+<wire x1="0.889" y1="-1.4986" x2="2.4892" y2="0" width="0.254" layer="94"/>
+<wire x1="-3.5992" y1="1.4912" x2="-3.048" y2="1.7272" width="0.254" layer="94" curve="-46.337037" cap="flat"/>
+<wire x1="-3.048" y1="1.7272" x2="-2.496" y2="1.491" width="0.254" layer="94" curve="-46.403624" cap="flat"/>
+<wire x1="0.4572" y1="-1.778" x2="0.8965" y2="-1.4765" width="0.254" layer="94" curve="63.169357" cap="flat"/>
+<wire x1="-0.0178" y1="-1.508" x2="0.4572" y2="-1.7778" width="0.254" layer="94" curve="64.986119" cap="flat"/>
+<text x="-5.08" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-7.62" y="0" visible="off" length="short" direction="pas" function="dot" swaplevel="1"/>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" function="dot" swaplevel="1" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="FUSE0603" prefix="F1">
+<gates>
+<gate name="G$1" symbol="FUSE" x="-10.16" y="12.7"/>
+</gates>
+<devices>
+<device name="" package="R0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="FMMT593TC">
+<description>&lt;Bipolar (BJT) Transistor PNP 100 V 1 A 50MHz 500 mW Surface Mount SOT-23-3&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="SOT95P237X112-3N">
+<description>&lt;b&gt;SOT23 (Type DN)_2023&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.05" y="0.95" dx="1.25" dy="0.6" layer="1"/>
+<smd name="2" x="-1.05" y="-0.95" dx="1.25" dy="0.6" layer="1"/>
+<smd name="3" x="1.05" y="0" dx="1.25" dy="0.6" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.925" y1="1.77" x2="1.925" y2="1.77" width="0.05" layer="51"/>
+<wire x1="1.925" y1="1.77" x2="1.925" y2="-1.77" width="0.05" layer="51"/>
+<wire x1="1.925" y1="-1.77" x2="-1.925" y2="-1.77" width="0.05" layer="51"/>
+<wire x1="-1.925" y1="-1.77" x2="-1.925" y2="1.77" width="0.05" layer="51"/>
+<wire x1="-0.65" y1="1.46" x2="0.65" y2="1.46" width="0.1" layer="51"/>
+<wire x1="0.65" y1="1.46" x2="0.65" y2="-1.46" width="0.1" layer="51"/>
+<wire x1="0.65" y1="-1.46" x2="-0.65" y2="-1.46" width="0.1" layer="51"/>
+<wire x1="-0.65" y1="-1.46" x2="-0.65" y2="1.46" width="0.1" layer="51"/>
+<wire x1="-0.65" y1="0.51" x2="0.3" y2="1.46" width="0.1" layer="51"/>
+<wire x1="-0.075" y1="1.46" x2="0.075" y2="1.46" width="0.2" layer="21"/>
+<wire x1="0.075" y1="1.46" x2="0.075" y2="-1.46" width="0.2" layer="21"/>
+<wire x1="0.075" y1="-1.46" x2="-0.075" y2="-1.46" width="0.2" layer="21"/>
+<wire x1="-0.075" y1="-1.46" x2="-0.075" y2="1.46" width="0.2" layer="21"/>
+<wire x1="-1.675" y1="1.5" x2="-0.425" y2="1.5" width="0.2" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="FMMT593TC">
+<wire x1="7.62" y1="2.54" x2="7.62" y2="-2.54" width="0.508" layer="94"/>
+<wire x1="7.62" y1="1.27" x2="10.16" y2="3.81" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-1.27" x2="10.16" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-3.81" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="3.81" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
+<circle x="8.89" y="0" radius="4.016" width="0.254" layer="94"/>
+<text x="13.97" y="1.27" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="13.97" y="-1.27" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="B" x="0" y="0" visible="pad" length="short"/>
+<pin name="E" x="10.16" y="-7.62" visible="pad" length="short" rot="R90"/>
+<pin name="C" x="10.16" y="7.62" visible="pad" length="short" rot="R270"/>
+<polygon width="0.254" layer="94">
+<vertex x="9.652" y="-2.794"/>
+<vertex x="9.144" y="-3.302"/>
+<vertex x="8.636" y="-2.286"/>
+</polygon>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="FMMT593TC" prefix="Q">
+<description>&lt;b&gt;Bipolar (BJT) Transistor PNP 100 V 1 A 50MHz 500 mW Surface Mount SOT-23-3&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.diodes.com/assets/Datasheets/FMMT593.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="FMMT593TC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT95P237X112-3N">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="3"/>
+<connect gate="G$1" pin="E" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Bipolar (BJT) Transistor PNP 100 V 1 A 50MHz 500 mW Surface Mount SOT-23-3" constant="no"/>
+<attribute name="HEIGHT" value="1.12mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Diodes Incorporated" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="FMMT593TC" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="522-FMMT593TC" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/FMMT593TC?qs=Fd5IDHV0Wqzkyi9CrXqpkA%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="ZTP-148SRC1">
+<description>&lt;Infrared Detectors THERMOPILE IR,TO-46 PKG FOV 85&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="ZTP148SRC1">
+<description>&lt;b&gt;ZTP-148SRC1-5&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="1.27" drill="0.7" diameter="1.2"/>
+<pad name="2" x="0" y="-1.27" drill="0.7" diameter="1.2"/>
+<pad name="3" x="1.27" y="0" drill="0.7" diameter="1.2"/>
+<pad name="4" x="-1.27" y="0" drill="0.7" diameter="1.2"/>
+<text x="-0.45" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="-0.45" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="3.7" y1="3.7" x2="-4.6" y2="3.7" width="0.1" layer="51"/>
+<wire x1="-4.6" y1="3.7" x2="-4.6" y2="-3.7" width="0.1" layer="51"/>
+<wire x1="-4.6" y1="-3.7" x2="3.7" y2="-3.7" width="0.1" layer="51"/>
+<wire x1="3.7" y1="-3.7" x2="3.7" y2="3.7" width="0.1" layer="51"/>
+<wire x1="2.7" y1="0" x2="2.7" y2="0" width="0.2" layer="51"/>
+<wire x1="2.7" y1="0" x2="-2.7" y2="0" width="0.2" layer="51" curve="180"/>
+<wire x1="-2.7" y1="0" x2="-2.7" y2="0" width="0.2" layer="51"/>
+<wire x1="-2.7" y1="0" x2="2.7" y2="0" width="0.2" layer="51" curve="180"/>
+<wire x1="-2.2" y1="1.6" x2="-3.2" y2="2" width="0.2" layer="51"/>
+<wire x1="-3.2" y1="2" x2="-3.6" y2="1.2" width="0.2" layer="51"/>
+<wire x1="-3.6" y1="1.2" x2="-2.5" y2="0.8" width="0.2" layer="51"/>
+<wire x1="2.7" y1="0" x2="2.7" y2="0" width="0.1" layer="21"/>
+<wire x1="2.7" y1="0" x2="-2.7" y2="0" width="0.1" layer="21" curve="180"/>
+<wire x1="-2.7" y1="0" x2="-2.7" y2="0" width="0.1" layer="21"/>
+<wire x1="-2.7" y1="0" x2="2.7" y2="0" width="0.1" layer="21" curve="180"/>
+</package>
+</packages>
+<symbols>
+<symbol name="ZTP-148SRC1">
+<wire x1="5.08" y1="22.86" x2="45.72" y2="22.86" width="0.254" layer="94"/>
+<wire x1="45.72" y1="-17.78" x2="45.72" y2="22.86" width="0.254" layer="94"/>
+<wire x1="45.72" y1="-17.78" x2="5.08" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="5.08" y1="22.86" x2="5.08" y2="-17.78" width="0.254" layer="94"/>
+<text x="46.99" y="27.94" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="46.99" y="25.4" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="THERMISTOR_GND" x="25.4" y="27.94" length="middle" rot="R270"/>
+<pin name="THERMISTOR" x="25.4" y="-22.86" length="middle" rot="R90"/>
+<pin name="THERMOPILE_GND" x="50.8" y="0" length="middle" rot="R180"/>
+<pin name="THERMOPILE" x="0" y="0" length="middle"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ZTP-148SRC1" prefix="IC">
+<description>&lt;b&gt;Infrared Detectors THERMOPILE IR,TO-46 PKG FOV 85&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="ZTP-148SRC1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ZTP148SRC1">
+<connects>
+<connect gate="G$1" pin="THERMISTOR" pad="2"/>
+<connect gate="G$1" pin="THERMISTOR_GND" pad="1"/>
+<connect gate="G$1" pin="THERMOPILE" pad="4"/>
+<connect gate="G$1" pin="THERMOPILE_GND" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Infrared Detectors THERMOPILE IR,TO-46 PKG FOV 85" constant="no"/>
+<attribute name="HEIGHT" value="3mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Amphenol" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ZTP-148SRC1" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="527-ZTP-148SRC1" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Amphenol-Advanced-Sensors/ZTP-148SRC1?qs=sPbYRqrBIVmlB0PWHks6qA%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -8462,11 +8667,10 @@ Source: &lt;a href="https://www.cuidevices.com/product/resource/slw-864547-5a-ra
 </class>
 </classes>
 <modules>
-<module name="BATTERY_AND_BUCK" prefix="" dx="30.48" dy="20.32">
+<module name="BATTERY_AND_BUCK" prefix="" dx="50.8" dy="25.4">
 <ports>
-<port name="GND" side="bottom" coord="0" direction="io"/>
-<port name="VS_6V" side="right" coord="-5.08" direction="io"/>
-<port name="VS_9V" side="left" coord="5.08" direction="io"/>
+<port name="VS_6V" side="right" coord="0" direction="io"/>
+<port name="VS_9V" side="left" coord="0" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -8518,31 +8722,31 @@ Output: VS_6V</text>
 <attribute name="VALUE" x="51.816" y="61.849" size="1.778" layer="96"/>
 </instance>
 <instance part="S1" gate="G$1" x="22.86" y="48.26" smashed="yes" rot="R270">
-<attribute name="NAME" x="5.08" y="34.29" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-2.54" y="31.75" size="1.778" layer="96" align="center-left"/>
+<attribute name="NAME" x="9.906" y="25.146" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="9.906" y="27.94" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="R2" gate="G$1" x="147.32" y="50.8" smashed="yes" rot="R90">
 <attribute name="NAME" x="145.8214" y="46.99" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="150.622" y="46.99" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="X_1" gate="G$1" x="81.28" y="53.34" smashed="yes"/>
-<instance part="X_2" gate="G$1" x="50.8" y="53.34" smashed="yes"/>
+<instance part="X_2" gate="G$1" x="50.8" y="55.88" smashed="yes"/>
 <instance part="X_3" gate="G$1" x="147.32" y="43.18" smashed="yes"/>
-<instance part="X_4" gate="G$1" x="111.76" y="68.58" smashed="yes"/>
-<instance part="X_5" gate="G$1" x="2.54" y="50.8" smashed="yes"/>
+<instance part="X_4" gate="G$1" x="106.68" y="68.58" smashed="yes"/>
+<instance part="X_5" gate="G$1" x="5.08" y="50.8" smashed="yes"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="VS_9V" class="0">
 <segment>
-<wire x1="10.16" y1="73.66" x2="50.8" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="73.66" x2="50.8" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="VIN"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="50.8" y1="73.66" x2="66.04" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="73.66" x2="50.8" y2="68.58" width="0.1524" layer="91"/>
 <junction x="50.8" y="73.66"/>
-<label x="10.16" y="73.66" size="1.778" layer="95" align="bottom-right"/>
+<label x="40.64" y="73.66" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 <segment>
 <wire x1="-7.62" y1="99.06" x2="5.08" y2="99.06" width="0.1524" layer="91"/>
@@ -8553,7 +8757,7 @@ Output: VS_6V</text>
 <pinref part="S1" gate="G$1" pin="NC"/>
 <wire x1="20.32" y1="48.26" x2="20.32" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="53.34" x2="30.48" y2="53.34" width="0.1524" layer="91"/>
-<label x="30.48" y="53.34" size="1.778" layer="95"/>
+<label x="27.94" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -8569,10 +8773,11 @@ Output: VS_6V</text>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="C3" gate="G$1" pin="1"/>
 <pinref part="IC1" gate="G$1" pin="BST"/>
-<wire x1="101.6" y1="86.36" x2="66.04" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="86.36" x2="66.04" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="91.44" x2="66.04" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+<wire x1="101.6" y1="86.36" x2="101.6" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="91.44" x2="66.04" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VS_6V" class="0">
@@ -8620,9 +8825,9 @@ Output: VS_6V</text>
 </segment>
 <segment>
 <pinref part="S1" gate="G$1" pin="COM"/>
-<wire x1="17.78" y1="48.26" x2="17.78" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="60.96" x2="25.4" y2="60.96" width="0.1524" layer="91"/>
-<label x="25.4" y="60.96" size="1.778" layer="95"/>
+<wire x1="17.78" y1="48.26" x2="17.78" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="55.88" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
+<label x="25.4" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="0" class="0">
@@ -8633,7 +8838,7 @@ Output: VS_6V</text>
 </segment>
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="50.8" y1="60.96" x2="50.8" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="60.96" x2="50.8" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="X_2" gate="G$1" pin="0"/>
 </segment>
 <segment>
@@ -8643,15 +8848,15 @@ Output: VS_6V</text>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="GND"/>
-<wire x1="96.52" y1="73.66" x2="111.76" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="73.66" x2="111.76" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="73.66" x2="106.68" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="73.66" x2="106.68" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="X_4" gate="G$1" pin="0"/>
 </segment>
 <segment>
 <pinref part="S1" gate="G$1" pin="NO"/>
-<wire x1="2.54" y1="53.34" x2="15.24" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="53.34" x2="15.24" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="53.34" x2="15.24" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="53.34" x2="2.54" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="53.34" x2="5.08" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="X_5" gate="G$1" pin="0"/>
 </segment>
 </net>
@@ -8659,13 +8864,12 @@ Output: VS_6V</text>
 </sheet>
 </sheets>
 </module>
-<module name="LDO_AND_LEVEL_SHIFTER" prefix="" dx="30.48" dy="20.32">
+<module name="LDO_AND_LEVEL_SHIFTER" prefix="" dx="53.34" dy="43.18">
 <ports>
-<port name="VS_6V" side="left" coord="5.08" direction="io"/>
-<port name="V_BG" side="left" coord="-5.08" direction="io"/>
+<port name="VS_6V" side="left" coord="15.24" direction="io"/>
+<port name="V_BG" side="left" coord="0" direction="io"/>
 <port name="VS_5V" side="right" coord="5.08" direction="io"/>
 <port name="VS_2.5V" side="right" coord="-5.08" direction="io"/>
-<port name="GND" side="bottom" coord="0" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -8880,11 +9084,10 @@ Output: VS_2.5V</text>
 </sheet>
 </sheets>
 </module>
-<module name="BANDGAP_REF" prefix="" dx="30.48" dy="20.32">
+<module name="BANDGAP_REF" prefix="" dx="40.64" dy="20.32">
 <ports>
-<port name="VS_6V" side="left" coord="5.08" direction="io"/>
-<port name="V_BG" side="right" coord="5.08" direction="io"/>
-<port name="GND" side="bottom" coord="0" direction="io"/>
+<port name="VS_6V" side="left" coord="0" direction="io"/>
+<port name="V_BG" side="right" coord="0" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -9104,10 +9307,12 @@ Output: V_BG</text>
 </sheet>
 </sheets>
 </module>
-<module name="THERMOPILE" prefix="" dx="30.48" dy="20.32">
+<module name="THERMISTOR_THERMOPILE" prefix="" dx="55.88" dy="76.2">
 <ports>
-<port name="V_BG" side="left" coord="7.62" direction="io"/>
-<port name="VS_5V" side="left" coord="2.54" direction="io"/>
+<port name="VS_5V" side="left" coord="5.08" direction="io"/>
+<port name="V_BG" side="left" coord="27.94" direction="io"/>
+<port name="V_TH" side="right" coord="5.08" direction="io"/>
+<port name="VS_2.5V" side="left" coord="-5.08" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -9115,30 +9320,111 @@ Output: V_BG</text>
 <part name="X_1" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_2" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="IC1" library="TLV9101IDBVR" deviceset="TLV9101IDBVR" device=""/>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="2000000"/>
+<part name="Q1" library="FMMT593TC" deviceset="FMMT593TC" device=""/>
+<part name="IC2" library="ZTP-148SRC1" deviceset="ZTP-148SRC1" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="5.08" y="66.04" size="1.778" layer="91">Thermistor Circuit with Bandgap Current
-Input: V_BG, VS_5V
+<text x="-78.74" y="48.26" size="1.778" layer="91">Thermistor Circuit with Bandgap Current
+Input: VS_5V, V_BG
 Output: V_TH</text>
+<text x="-60.96" y="-15.24" size="1.778" layer="91">does 2.5V go here</text>
 </plain>
 <instances>
-<instance part="X_1" gate="G$1" x="35.56" y="45.72" smashed="yes"/>
-<instance part="X_2" gate="G$1" x="53.34" y="48.26" smashed="yes"/>
-<instance part="IC1" gate="G$1" x="33.02" y="35.56" smashed="yes">
-<attribute name="NAME" x="54.61" y="43.18" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="54.61" y="40.64" size="1.778" layer="96" align="center-left"/>
+<instance part="X_1" gate="G$1" x="-15.24" y="20.32" smashed="yes"/>
+<instance part="X_2" gate="G$1" x="-7.62" y="-43.18" smashed="yes"/>
+<instance part="IC1" gate="G$1" x="-27.94" y="27.94" smashed="yes" rot="MR0">
+<attribute name="NAME" x="-33.528" y="34.798" size="1.778" layer="95" rot="MR0" align="center-left"/>
+<attribute name="VALUE" x="-33.274" y="32.004" size="1.778" layer="96" rot="MR0" align="center-left"/>
+</instance>
+<instance part="R1" gate="G$1" x="-7.62" y="50.8" smashed="yes" rot="R90">
+<attribute name="NAME" x="-9.1186" y="46.99" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-4.318" y="46.99" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="Q1" gate="G$1" x="-17.78" y="27.94" smashed="yes" rot="MR180">
+<attribute name="NAME" x="-3.81" y="26.67" size="1.778" layer="95" rot="MR180" align="center-left"/>
+<attribute name="VALUE" x="-3.81" y="29.21" size="1.778" layer="96" rot="MR180" align="center-left"/>
+</instance>
+<instance part="IC2" gate="G$1" x="17.78" y="-12.7" smashed="yes" rot="R180">
+<attribute name="NAME" x="11.684" y="9.652" size="1.778" layer="95" rot="R180" align="center-left"/>
+<attribute name="VALUE" x="11.938" y="6.858" size="1.778" layer="96" rot="R180" align="center-left"/>
 </instance>
 </instances>
 <busses>
 </busses>
 <nets>
+<net name="0" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="THERMISTOR_GND"/>
+<wire x1="-7.62" y1="-40.64" x2="-7.62" y2="-43.18" width="0.1524" layer="91"/>
+<pinref part="X_2" gate="G$1" pin="0"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="V-"/>
+<wire x1="-27.94" y1="25.4" x2="-15.24" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="25.4" x2="-15.24" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="X_1" gate="G$1" pin="0"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="OUT"/>
+<pinref part="Q1" gate="G$1" pin="B"/>
+<wire x1="-27.94" y1="27.94" x2="-17.78" y2="27.94" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="V_TH" class="0">
+<segment>
+<pinref part="Q1" gate="G$1" pin="C"/>
+<wire x1="-7.62" y1="20.32" x2="-7.62" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="THERMISTOR"/>
+<wire x1="-7.62" y1="15.24" x2="-7.62" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="15.24" x2="5.08" y2="15.24" width="0.1524" layer="91"/>
+<junction x="-7.62" y="15.24"/>
+<label x="5.08" y="15.24" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="Q1" gate="G$1" pin="E"/>
+<wire x1="-7.62" y1="45.72" x2="-7.62" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="40.64" x2="-7.62" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="40.64" x2="-55.88" y2="40.64" width="0.1524" layer="91"/>
+<junction x="-7.62" y="40.64"/>
+<pinref part="IC1" gate="G$1" pin="IN-"/>
+<wire x1="-55.88" y1="40.64" x2="-55.88" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="-55.88" y1="27.94" x2="-53.34" y2="27.94" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="VS_5V" class="0">
+<segment>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="-7.62" y1="55.88" x2="-7.62" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="63.5" x2="-20.32" y2="63.5" width="0.1524" layer="91"/>
+<label x="-20.32" y="63.5" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="V+"/>
+<wire x1="-53.34" y1="25.4" x2="-71.12" y2="25.4" width="0.1524" layer="91"/>
+<label x="-71.12" y="25.4" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
 <net name="V_BG" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="IN+"/>
-<wire x1="33.02" y1="30.48" x2="17.78" y2="30.48" width="0.1524" layer="91"/>
-<label x="17.78" y="30.48" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-27.94" y1="22.86" x2="-22.86" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="22.86" x2="-22.86" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="15.24" x2="-71.12" y2="15.24" width="0.1524" layer="91"/>
+<label x="-71.12" y="15.24" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="VS_2.5V" class="0">
+<segment>
+<wire x1="-60.96" y1="-10.16" x2="-45.72" y2="-10.16" width="0.1524" layer="91"/>
+<label x="-60.96" y="-10.16" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -9147,108 +9433,111 @@ Output: V_TH</text>
 </module>
 </modules>
 <parts>
-<part name="X_7" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="J1" library="163-179PH-EX" deviceset="163-179PH-EX" device=""/>
 <part name="X_1" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
-<part name="X_2" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
-<part name="X_3" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
+<part name="FUSE" library="Fuse_Custom" deviceset="FUSE0603" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="-236.22" y="78.74" size="1.778" layer="91">Battery Jack Connector 5.5x2.1mm</text>
+<text x="-279.146" y="84.582" size="1.778" layer="91">Battery Jack Connector 5.5x2.1mm</text>
 </plain>
 <moduleinsts>
-<moduleinst name="BATTERY_AND_BUCK" module="BATTERY_AND_BUCK" x="-152.4" y="86.36">
-<attribute name="NAME" value="BATTERY_AND_BUCK" x="-152.4" y="86.36" size="2.032" layer="95" align="bottom-center"/>
+<moduleinst name="BATTERY_AND_BUCK" module="BATTERY_AND_BUCK" x="-241.3" y="63.5">
+<attribute name="NAME" value="BATTERY_AND_BUCK" x="-241.3" y="63.5" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="LDO_AND_LEVEL_SHIFTER" module="LDO_AND_LEVEL_SHIFTER" x="-35.56" y="86.36">
-<attribute name="NAME" value="LDO_AND_LEVEL_SHIFTER" x="-35.56" y="86.36" size="2.032" layer="95" align="bottom-center"/>
+<moduleinst name="LDO_AND_LEVEL_SHIFTER" module="LDO_AND_LEVEL_SHIFTER" x="-101.6" y="63.5">
+<attribute name="NAME" value="LDO_AND_LEVEL_SHIFTER" x="-101.6" y="63.5" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="BANDGAP_REF" module="BANDGAP_REF" x="-93.98" y="76.2">
-<attribute name="NAME" value="BANDGAP_REF" x="-93.98" y="76.2" size="2.032" layer="95" align="bottom-center"/>
+<moduleinst name="BANDGAP_REF" module="BANDGAP_REF" x="-175.26" y="63.5">
+<attribute name="NAME" value="BANDGAP_REF" x="-175.26" y="63.5" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="THERMOPILE1" module="THERMOPILE" x="-35.56" y="50.8">
-<attribute name="NAME" x="-35.56" y="50.8" size="2.032" layer="95" align="bottom-center"/>
+<moduleinst name="THERMISTOR_THERMOPILE" module="THERMISTOR_THERMOPILE" x="-22.86" y="63.5">
+<attribute name="NAME" x="-22.86" y="60.96" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
 </moduleinsts>
 <instances>
-<instance part="X_7" gate="G$1" x="-35.56" y="68.58" smashed="yes"/>
-<instance part="J1" gate="G$1" x="-233.68" y="93.98" smashed="yes">
-<attribute name="NAME" x="-229.87" y="83.82" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-229.87" y="86.36" size="1.778" layer="96" align="center-left"/>
+<instance part="J1" gate="G$1" x="-276.86" y="99.06" smashed="yes">
+<attribute name="NAME" x="-273.05" y="88.9" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-273.05" y="91.44" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="X_1" gate="G$1" x="-233.68" y="91.44" smashed="yes"/>
-<instance part="X_2" gate="G$1" x="-152.4" y="68.58" smashed="yes"/>
-<instance part="X_3" gate="G$1" x="-93.98" y="58.42" smashed="yes"/>
+<instance part="X_1" gate="G$1" x="-276.86" y="96.52" smashed="yes"/>
+<instance part="FUSE" gate="G$1" x="-243.84" y="96.52" smashed="yes">
+<attribute name="NAME" x="-248.92" y="99.06" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-248.92" y="92.71" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="0" class="0">
 <segment>
-<pinref part="X_7" gate="G$1" pin="0"/>
-<portref moduleinst="LDO_AND_LEVEL_SHIFTER" port="GND"/>
-<wire x1="-35.56" y1="71.12" x2="-35.56" y2="68.58" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="J1" gate="G$1" pin="C"/>
-<wire x1="-213.36" y1="93.98" x2="-208.28" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="-208.28" y1="93.98" x2="-208.28" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="-208.28" y1="99.06" x2="-233.68" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="-256.54" y1="99.06" x2="-251.46" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="-251.46" y1="99.06" x2="-251.46" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="-251.46" y1="104.14" x2="-276.86" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="B"/>
-<wire x1="-233.68" y1="99.06" x2="-233.68" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="-276.86" y1="104.14" x2="-276.86" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="X_1" gate="G$1" pin="0"/>
-<wire x1="-233.68" y1="93.98" x2="-233.68" y2="91.44" width="0.1524" layer="91"/>
-<junction x="-233.68" y="93.98"/>
-</segment>
-<segment>
-<pinref part="X_2" gate="G$1" pin="0"/>
-<portref moduleinst="BATTERY_AND_BUCK" port="GND"/>
-<wire x1="-152.4" y1="71.12" x2="-152.4" y2="68.58" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<portref moduleinst="BANDGAP_REF" port="GND"/>
-<wire x1="-93.98" y1="60.96" x2="-93.98" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="X_3" gate="G$1" pin="0"/>
-</segment>
-</net>
-<net name="N$1" class="0">
-<segment>
-<portref moduleinst="BATTERY_AND_BUCK" port="VS_6V"/>
-<wire x1="-132.08" y1="81.28" x2="-119.38" y2="81.28" width="0.1524" layer="91"/>
-<portref moduleinst="BANDGAP_REF" port="VS_6V"/>
-<wire x1="-119.38" y1="81.28" x2="-114.3" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="-119.38" y1="81.28" x2="-119.38" y2="91.44" width="0.1524" layer="91"/>
-<junction x="-119.38" y="81.28"/>
-<wire x1="-119.38" y1="91.44" x2="-55.88" y2="91.44" width="0.1524" layer="91"/>
-<portref moduleinst="LDO_AND_LEVEL_SHIFTER" port="VS_6V"/>
-</segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<portref moduleinst="BANDGAP_REF" port="V_BG"/>
-<portref moduleinst="LDO_AND_LEVEL_SHIFTER" port="V_BG"/>
-<wire x1="-73.66" y1="81.28" x2="-60.96" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="-60.96" y1="81.28" x2="-55.88" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="-60.96" y1="81.28" x2="-60.96" y2="58.42" width="0.1524" layer="91"/>
-<junction x="-60.96" y="81.28"/>
-<portref moduleinst="THERMOPILE1" port="V_BG"/>
-<wire x1="-60.96" y1="58.42" x2="-55.88" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="-276.86" y1="99.06" x2="-276.86" y2="96.52" width="0.1524" layer="91"/>
+<junction x="-276.86" y="99.06"/>
 </segment>
 </net>
 <net name="VS_9V" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="A"/>
-<wire x1="-213.36" y1="91.44" x2="-208.28" y2="91.44" width="0.1524" layer="91"/>
-<label x="-208.28" y="91.44" size="1.778" layer="95" xref="yes"/>
+<portref moduleinst="BATTERY_AND_BUCK" port="VS_9V"/>
+<wire x1="-271.78" y1="63.5" x2="-279.4" y2="63.5" width="0.1524" layer="91"/>
+<label x="-279.4" y="63.5" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<portref moduleinst="BATTERY_AND_BUCK" port="VS_9V"/>
-<wire x1="-172.72" y1="91.44" x2="-180.34" y2="91.44" width="0.1524" layer="91"/>
-<label x="-180.34" y="91.44" size="1.778" layer="95" rot="R180" xref="yes"/>
-<label x="10.16" y="73.66" size="1.778" layer="95" rot="R180" xref="yes"/>
-<label x="60.96" y="33.02" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="FUSE" gate="G$1" pin="2"/>
+<wire x1="-238.76" y1="96.52" x2="-231.14" y2="96.52" width="0.1524" layer="91"/>
+<label x="-231.14" y="96.52" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="A"/>
+<pinref part="FUSE" gate="G$1" pin="1"/>
+<wire x1="-256.54" y1="96.52" x2="-251.46" y2="96.52" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<portref moduleinst="BATTERY_AND_BUCK" port="VS_6V"/>
+<portref moduleinst="BANDGAP_REF" port="VS_6V"/>
+<wire x1="-210.82" y1="63.5" x2="-205.74" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="-205.74" y1="63.5" x2="-198.12" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="-205.74" y1="63.5" x2="-205.74" y2="78.74" width="0.1524" layer="91"/>
+<junction x="-205.74" y="63.5"/>
+<portref moduleinst="LDO_AND_LEVEL_SHIFTER" port="VS_6V"/>
+<wire x1="-205.74" y1="78.74" x2="-133.35" y2="78.74" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<portref moduleinst="BANDGAP_REF" port="V_BG"/>
+<portref moduleinst="LDO_AND_LEVEL_SHIFTER" port="V_BG"/>
+<wire x1="-149.86" y1="63.5" x2="-144.78" y2="63.5" width="0.1524" layer="91"/>
+<portref moduleinst="THERMISTOR_THERMOPILE" port="V_BG"/>
+<wire x1="-144.78" y1="63.5" x2="-133.35" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="-55.88" y1="91.44" x2="-144.78" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="-144.78" y1="91.44" x2="-144.78" y2="63.5" width="0.1524" layer="91"/>
+<junction x="-144.78" y="63.5"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<wire x1="-55.88" y1="68.58" x2="-69.85" y2="68.58" width="0.1524" layer="91"/>
+<portref moduleinst="LDO_AND_LEVEL_SHIFTER" port="VS_5V"/>
+<portref moduleinst="THERMISTOR_THERMOPILE" port="VS_5V"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<wire x1="-69.85" y1="58.42" x2="-55.88" y2="58.42" width="0.1524" layer="91"/>
+<portref moduleinst="THERMISTOR_THERMOPILE" port="VS_2.5V"/>
+<portref moduleinst="LDO_AND_LEVEL_SHIFTER" port="VS_2.5V"/>
 </segment>
 </net>
 </nets>
