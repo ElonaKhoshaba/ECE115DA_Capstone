@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -9857,7 +9857,6 @@ Output: V_BG</text>
 <text x="-78.74" y="48.26" size="1.778" layer="91">Thermistor Circuit with Bandgap Current
 Input: VS_5V, V_BG
 Output: V_TH</text>
-<text x="-60.96" y="-15.24" size="1.778" layer="91">does 2.5V go here</text>
 </plain>
 <instances>
 <instance part="X_1" gate="G$1" x="-15.24" y="20.32" smashed="yes"/>
@@ -9965,13 +9964,26 @@ Output: V_TH</text>
 </net>
 <net name="VS_2.5V" class="0">
 <segment>
-<wire x1="-60.96" y1="-10.16" x2="-45.72" y2="-10.16" width="0.1524" layer="91"/>
-<label x="-60.96" y="-10.16" size="1.778" layer="95" rot="R180"/>
+<wire x1="-60.96" y1="-12.7" x2="-33.02" y2="-12.7" width="0.1524" layer="91"/>
+<label x="-60.96" y="-12.7" size="1.778" layer="95" rot="R180"/>
+<pinref part="IC2" gate="G$1" pin="THERMOPILE_GND"/>
 </segment>
 <segment>
 <wire x1="-111.76" y1="35.56" x2="-99.06" y2="35.56" width="0.1524" layer="91"/>
 <label x="-111.76" y="35.56" size="1.778" layer="95" rot="R180" xref="yes"/>
 <label x="-99.06" y="35.56" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="V_SIG" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="THERMOPILE"/>
+<label x="50.8" y="-12.7" size="1.778" layer="95"/>
+<wire x1="17.78" y1="-12.7" x2="50.8" y2="-12.7" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="55.88" y1="12.7" x2="40.64" y2="12.7" width="0.1524" layer="91"/>
+<label x="55.88" y="12.7" size="1.778" layer="95" xref="yes"/>
+<label x="40.64" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -10011,8 +10023,8 @@ AVCC - This pin on the microcontroller provides power to the ADC circuitry on th
 <moduleinst name="BANDGAP_REF" module="BANDGAP_REF" x="-175.26" y="63.5">
 <attribute name="NAME" value="BANDGAP_REF" x="-175.26" y="63.5" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="THERMISTOR_THERMOPILE" module="THERMISTOR_THERMOPILE" x="12.7" y="63.5">
-<attribute name="NAME" x="12.7" y="60.96" size="2.032" layer="95" align="bottom-center"/>
+<moduleinst name="THERMISTOR_THERMOPILE" module="THERMISTOR_THERMOPILE" x="17.78" y="63.5">
+<attribute name="NAME" x="17.78" y="60.96" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
 </moduleinsts>
 <instances>
@@ -10111,21 +10123,21 @@ AVCC - This pin on the microcontroller provides power to the ADC circuitry on th
 <wire x1="-149.86" y1="63.5" x2="-144.78" y2="63.5" width="0.1524" layer="91"/>
 <portref moduleinst="THERMISTOR_THERMOPILE" port="V_BG"/>
 <wire x1="-144.78" y1="63.5" x2="-133.35" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="-20.32" y1="91.44" x2="-144.78" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="91.44" x2="-144.78" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="-144.78" y1="91.44" x2="-144.78" y2="63.5" width="0.1524" layer="91"/>
 <junction x="-144.78" y="63.5"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<wire x1="-69.85" y1="58.42" x2="-20.32" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="-69.85" y1="58.42" x2="-15.24" y2="58.42" width="0.1524" layer="91"/>
 <portref moduleinst="THERMISTOR_THERMOPILE" port="VS_2.5V"/>
 <portref moduleinst="LDO_AND_LEVEL_SHIFTER" port="VS_2.5V"/>
 </segment>
 </net>
 <net name="VS_5V" class="0">
 <segment>
-<wire x1="-20.32" y1="68.58" x2="-27.94" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="68.58" x2="-27.94" y2="68.58" width="0.1524" layer="91"/>
 <portref moduleinst="LDO_AND_LEVEL_SHIFTER" port="VS_5V"/>
 <portref moduleinst="THERMISTOR_THERMOPILE" port="VS_5V"/>
 <wire x1="-27.94" y1="68.58" x2="-50.8" y2="68.58" width="0.1524" layer="91"/>
