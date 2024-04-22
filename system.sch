@@ -10432,7 +10432,7 @@ Output: V_TH</text>
 <attribute name="NAME" x="22.225" y="39.116" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="27.051" y="39.116" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="X_1" gate="G$1" x="22.86" y="30.48" smashed="yes" rot="R270"/>
+<instance part="X_1" gate="G$1" x="22.86" y="17.78" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -10500,7 +10500,8 @@ Output: V_TH</text>
 <segment>
 <pinref part="IC1" gate="G$1" pin="V-"/>
 <pinref part="X_1" gate="G$1" pin="0"/>
-<wire x1="22.86" y1="30.48" x2="33.02" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="27.94" x2="33.02" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="27.94" x2="22.86" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
