@@ -11324,8 +11324,8 @@ Output: V_TH</text>
 <sheets>
 <sheet>
 <plain>
-<text x="50.8" y="27.94" size="1.778" layer="91">Instrumentation Amp with 500 gain</text>
-<text x="137.16" y="27.94" size="1.778" layer="91">Second order sallen key filter with 20Hz cutoff, no gain</text>
+<text x="50.8" y="30.48" size="1.778" layer="91">Instrumentation Amp with 500 gain</text>
+<text x="116.84" y="30.48" size="1.778" layer="91">Second order sallen key filter with 20Hz cutoff, no gain</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="45.72" y="55.88" smashed="yes">
@@ -11353,9 +11353,9 @@ Output: V_TH</text>
 <attribute name="NAME" x="120.65" y="44.6786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="120.65" y="47.498" size="1.778" layer="96"/>
 </instance>
-<instance part="R3" gate="G$1" x="106.68" y="50.8" smashed="yes">
-<attribute name="NAME" x="102.87" y="44.6786" size="1.778" layer="95"/>
-<attribute name="VALUE" x="102.87" y="47.498" size="1.778" layer="96"/>
+<instance part="R3" gate="G$1" x="101.6" y="50.8" smashed="yes">
+<attribute name="NAME" x="97.79" y="44.6786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="97.79" y="47.498" size="1.778" layer="96"/>
 </instance>
 <instance part="IC2" gate="G$1" x="134.62" y="55.88" smashed="yes">
 <attribute name="NAME" x="140.462" y="46.736" size="1.778" layer="95" align="center-left"/>
@@ -11462,12 +11462,12 @@ Output: V_TH</text>
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="111.76" y1="50.8" x2="116.84" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="50.8" x2="114.3" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="116.84" y1="50.8" x2="119.38" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="50.8" x2="116.84" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="68.58" x2="119.38" y2="68.58" width="0.1524" layer="91"/>
-<junction x="116.84" y="50.8"/>
+<wire x1="114.3" y1="50.8" x2="119.38" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="50.8" x2="114.3" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="68.58" x2="119.38" y2="68.58" width="0.1524" layer="91"/>
+<junction x="114.3" y="50.8"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -11485,7 +11485,7 @@ Output: V_TH</text>
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUTPUT"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="76.2" y1="50.8" x2="101.6" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="50.8" x2="96.52" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="V_TP" class="0">
@@ -11532,15 +11532,15 @@ Output: V_TH</text>
 </sheet>
 </sheets>
 </module>
-<module name="DUAL_SLOPE_ADC" prefix="" dx="53.34" dy="43.18">
+<module name="DUAL_SLOPE_ADC" prefix="" dx="63.5" dy="63.5">
 <ports>
-<port name="VS_5V" side="left" coord="2.54" direction="io"/>
-<port name="VS_1.5V" side="left" coord="-5.08" direction="io"/>
-<port name="V_BG" side="left" coord="-12.7" direction="io"/>
-<port name="V_SIG" side="left" coord="10.16" direction="io"/>
-<port name="ADC_EXT_INT" side="left" coord="-17.78" direction="io"/>
-<port name="RST_ADC" side="right" coord="-17.78" direction="io"/>
-<port name="V_TOGGLE" side="right" coord="-12.7" direction="io"/>
+<port name="VS_5V" side="left" coord="15.24" direction="io"/>
+<port name="VS_1.5V" side="left" coord="5.08" direction="io"/>
+<port name="V_BG" side="left" coord="-5.08" direction="io"/>
+<port name="V_SIG" side="left" coord="25.4" direction="io"/>
+<port name="RST_ADC" side="left" coord="-15.24" direction="io"/>
+<port name="V_TOGGLE" side="left" coord="-25.4" direction="io"/>
+<port name="ADC_EXT_INT" side="right" coord="0" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -11587,8 +11587,8 @@ This is the regular state of the switch and reset occurs at end of every ADC mea
 <instance part="X_2" gate="G$1" x="-68.58" y="0" smashed="yes"/>
 <instance part="X_3" gate="G$1" x="-68.58" y="25.4" smashed="yes"/>
 <instance part="IC3" gate="G$1" x="55.88" y="40.64" smashed="yes">
-<attribute name="NAME" x="77.47" y="48.26" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="77.47" y="45.72" size="1.778" layer="96" align="center-left"/>
+<attribute name="NAME" x="62.23" y="45.72" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="62.23" y="48.26" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="X_4" gate="G$1" x="38.1" y="43.18" smashed="yes"/>
 </instances>
@@ -11735,12 +11735,12 @@ This is the regular state of the switch and reset occurs at end of every ADC mea
 <wire x1="-15.24" y1="96.52" x2="2.54" y2="96.52" width="0.1524" layer="91"/>
 <label x="2.54" y="96.52" size="1.778" layer="95"/>
 <label x="-15.24" y="96.52" size="1.778" layer="95" rot="R180" xref="yes"/>
-<label x="-50.8" y="38.1" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="IN4"/>
 <wire x1="-40.64" y1="27.94" x2="-40.64" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="-40.64" y1="38.1" x2="-50.8" y2="38.1" width="0.1524" layer="91"/>
+<label x="-50.8" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -11811,6 +11811,12 @@ configured in the EICRA register of the MCU.
 - ADC_EXT_INT needs to be set to falling edge detection
 - V_TOGGLE needs to be a clock interrupt
 - RST_ADC needs to be high when Tin is saved into memory</text>
+<text x="-76.2" y="30.48" size="1.778" layer="91">PD2: input interrupt 
+PC1: output interrupt
+PC0: output interrupt</text>
+<text x="180.34" y="2.54" size="1.778" layer="91">ADC_EXT_INT: ADC External Interrupt
+output of comparator, 
+will go to MCU to trigger counting</text>
 </plain>
 <moduleinsts>
 <moduleinst name="BATTERY_AND_BUCK" module="BATTERY_AND_BUCK" x="-241.3" y="63.5">
@@ -11828,8 +11834,8 @@ configured in the EICRA register of the MCU.
 <moduleinst name="AMP_AND_FILTER" module="AMP_AND_FILTER" x="124.46" y="58.42">
 <attribute name="NAME" value="AMP_AND_FILTER" x="124.46" y="58.42" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="DUAL_SLOPE_ADC" module="DUAL_SLOPE_ADC" x="134.62" y="0">
-<attribute name="NAME" value="DUAL_SLOPE_ADC" x="134.62" y="0" size="2.032" layer="95" align="bottom-center"/>
+<moduleinst name="DUAL_SLOPE_ADC" module="DUAL_SLOPE_ADC" x="142.24" y="-7.62">
+<attribute name="NAME" value="DUAL_SLOPE_ADC" x="142.24" y="-7.62" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
 </moduleinsts>
 <instances>
@@ -11851,9 +11857,9 @@ configured in the EICRA register of the MCU.
 <attribute name="NAME" x="-37.0586" y="34.29" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-32.258" y="34.29" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R2" gate="G$1" x="-43.18" y="38.1" smashed="yes" rot="R90">
-<attribute name="NAME" x="-44.6786" y="34.29" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-39.878" y="34.29" size="1.778" layer="96" rot="R90"/>
+<instance part="R2" gate="G$1" x="-40.64" y="38.1" smashed="yes" rot="R90">
+<attribute name="NAME" x="-42.1386" y="34.29" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-37.338" y="34.29" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="U1" gate="A" x="-198.12" y="17.78" smashed="yes">
 <attribute name="NAME" x="-136.8044" y="26.8986" size="2.0828" layer="95" ratio="6" rot="SR0"/>
@@ -11932,7 +11938,7 @@ configured in the EICRA register of the MCU.
 <wire x1="-20.32" y1="91.44" x2="-144.78" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="-144.78" y1="91.44" x2="-144.78" y2="63.5" width="0.1524" layer="91"/>
 <junction x="-144.78" y="63.5"/>
-<wire x1="102.87" y1="-12.7" x2="-20.32" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="105.41" y1="-12.7" x2="-20.32" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="-20.32" y1="-12.7" x2="-20.32" y2="91.44" width="0.1524" layer="91"/>
 <junction x="-20.32" y="91.44"/>
 <portref moduleinst="DUAL_SLOPE_ADC" port="V_BG"/>
@@ -11951,20 +11957,20 @@ configured in the EICRA register of the MCU.
 <portref moduleinst="LDO_AND_VOLTAGE_REFS" port="VS_5V"/>
 <portref moduleinst="THERMISTOR_THERMOPILE" port="VS_5V"/>
 <wire x1="-27.94" y1="68.58" x2="-35.56" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="-35.56" y1="68.58" x2="-43.18" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="-43.18" y1="68.58" x2="-69.85" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="-35.56" y1="68.58" x2="-40.64" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="68.58" x2="-69.85" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="-27.94" y1="68.58" x2="-27.94" y2="10.16" width="0.1524" layer="91"/>
 <junction x="-27.94" y="68.58"/>
 <pinref part="J2" gate="G$1" pin="02"/>
 <label x="5.08" y="10.16" size="1.778" layer="95"/>
 <wire x1="-27.94" y1="10.16" x2="12.7" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="-43.18" y1="43.18" x2="-43.18" y2="68.58" width="0.1524" layer="91"/>
-<junction x="-43.18" y="68.58"/>
-<pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="-35.56" y1="43.18" x2="-35.56" y2="68.58" width="0.1524" layer="91"/>
-<junction x="-35.56" y="68.58"/>
+<wire x1="-40.64" y1="43.18" x2="-40.64" y2="68.58" width="0.1524" layer="91"/>
+<junction x="-40.64" y="68.58"/>
 <label x="-58.42" y="68.58" size="1.778" layer="95"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="-35.56" y1="68.58" x2="-35.56" y2="43.18" width="0.1524" layer="91"/>
+<junction x="-35.56" y="68.58"/>
 </segment>
 <segment>
 <wire x1="81.28" y1="58.42" x2="92.71" y2="58.42" width="0.1524" layer="91"/>
@@ -11973,8 +11979,8 @@ configured in the EICRA register of the MCU.
 </segment>
 <segment>
 <portref moduleinst="DUAL_SLOPE_ADC" port="VS_5V"/>
-<wire x1="102.87" y1="2.54" x2="78.74" y2="2.54" width="0.1524" layer="91"/>
-<label x="78.74" y="2.794" size="1.778" layer="95" rot="R180"/>
+<wire x1="105.41" y1="7.62" x2="93.98" y2="7.62" width="0.1524" layer="91"/>
+<label x="93.98" y="7.874" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -11993,23 +11999,12 @@ configured in the EICRA register of the MCU.
 <segment>
 <pinref part="J2" gate="G$1" pin="04"/>
 <label x="5.08" y="5.08" size="1.778" layer="95"/>
-<wire x1="-43.18" y1="5.08" x2="12.7" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="5.08" x2="12.7" y2="5.08" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="-43.18" y1="33.02" x2="-43.18" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="33.02" x2="-40.64" y2="5.08" width="0.1524" layer="91"/>
 <pinref part="U1" gate="A" pin="(ADC4/PTCY/SDA0)PC4"/>
-<wire x1="-68.58" y1="5.08" x2="-43.18" y2="5.08" width="0.1524" layer="91"/>
-<junction x="-43.18" y="5.08"/>
-</segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<wire x1="156.21" y1="58.42" x2="165.1" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="58.42" x2="165.1" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="27.94" x2="93.98" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="27.94" x2="93.98" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="10.16" x2="102.87" y2="10.16" width="0.1524" layer="91"/>
-<portref moduleinst="DUAL_SLOPE_ADC" port="V_SIG"/>
-<portref moduleinst="AMP_AND_FILTER" port="V_SIG"/>
+<wire x1="-68.58" y1="5.08" x2="-40.64" y2="5.08" width="0.1524" layer="91"/>
+<junction x="-40.64" y="5.08"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -12022,8 +12017,8 @@ configured in the EICRA register of the MCU.
 <net name="VS_1.5V" class="0">
 <segment>
 <portref moduleinst="DUAL_SLOPE_ADC" port="VS_1.5V"/>
-<wire x1="102.87" y1="-5.08" x2="78.74" y2="-5.08" width="0.1524" layer="91"/>
-<label x="78.994" y="-5.08" size="1.778" layer="95" rot="R180"/>
+<wire x1="105.41" y1="-2.54" x2="93.98" y2="-2.54" width="0.1524" layer="91"/>
+<label x="94.234" y="-2.54" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="VS_2.5V" class="0">
@@ -12046,7 +12041,12 @@ configured in the EICRA register of the MCU.
 <segment>
 <pinref part="U1" gate="A" pin="(PTCXY/INT0/OC3B/OC4B)PD2"/>
 <wire x1="-68.58" y1="17.78" x2="-58.42" y2="17.78" width="0.1524" layer="91"/>
-<label x="-63.5" y="17.78" size="1.778" layer="95"/>
+<label x="-58.42" y="17.78" size="1.778" layer="95"/>
+</segment>
+<segment>
+<portref moduleinst="DUAL_SLOPE_ADC" port="ADC_EXT_INT"/>
+<wire x1="179.07" y1="-7.62" x2="185.42" y2="-7.62" width="0.1524" layer="91"/>
+<label x="185.42" y="-7.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RST_ADC" class="0">
@@ -12055,12 +12055,33 @@ configured in the EICRA register of the MCU.
 <wire x1="-68.58" y1="-5.08" x2="-53.34" y2="-5.08" width="0.1524" layer="91"/>
 <label x="-53.34" y="-5.08" size="1.778" layer="95"/>
 </segment>
+<segment>
+<portref moduleinst="DUAL_SLOPE_ADC" port="RST_ADC"/>
+<wire x1="105.41" y1="-22.86" x2="91.44" y2="-22.86" width="0.1524" layer="91"/>
+<label x="91.44" y="-22.86" size="1.778" layer="95" rot="R180"/>
+</segment>
 </net>
 <net name="V_TOGGLE" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="(ADC1/PTCY/SCK1)PC1"/>
 <wire x1="-68.58" y1="-2.54" x2="-53.34" y2="-2.54" width="0.1524" layer="91"/>
 <label x="-53.34" y="-2.54" size="1.778" layer="95"/>
+</segment>
+<segment>
+<portref moduleinst="DUAL_SLOPE_ADC" port="V_TOGGLE"/>
+<wire x1="105.41" y1="-33.02" x2="91.44" y2="-33.02" width="0.1524" layer="91"/>
+<label x="91.44" y="-33.02" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<portref moduleinst="DUAL_SLOPE_ADC" port="V_SIG"/>
+<wire x1="105.41" y1="17.78" x2="93.98" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="156.21" y1="58.42" x2="165.1" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="58.42" x2="165.1" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="30.48" x2="93.98" y2="30.48" width="0.1524" layer="91"/>
+<portref moduleinst="AMP_AND_FILTER" port="V_SIG"/>
+<wire x1="93.98" y1="17.78" x2="93.98" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
