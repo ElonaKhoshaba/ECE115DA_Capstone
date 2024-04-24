@@ -10553,8 +10553,8 @@ Output: VS_6V</text>
 <part name="X_9" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="IC4" library="TLV9101IDBVR" deviceset="TLV9101IDBVR" device=""/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
-<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
-<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
+<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="5000"/>
+<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1500"/>
 <part name="X_10" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_11" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_12" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
@@ -10578,6 +10578,7 @@ Output: VS_2.5V</text>
 Inputs: VS_5V, V_BG
 Outputs: VS_1.5V
 Vout = (1 + R5/R6)*Vin</text>
+<text x="-78.74" y="17.78" size="1.778" layer="91">TODO: add backup LDO</text>
 </plain>
 <instances>
 <instance part="X_1" gate="G$1" x="-78.74" y="73.914" smashed="yes"/>
@@ -10640,9 +10641,9 @@ Vout = (1 + R5/R6)*Vin</text>
 <attribute name="NAME" x="26.416" y="-9.525" size="1.778" layer="95"/>
 <attribute name="VALUE" x="26.416" y="-14.351" size="1.778" layer="96"/>
 </instance>
-<instance part="R5" gate="G$1" x="76.2" y="-17.78" smashed="yes" rot="R180">
-<attribute name="NAME" x="80.01" y="-19.2786" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="80.01" y="-14.478" size="1.778" layer="96" rot="R180"/>
+<instance part="R5" gate="G$1" x="71.12" y="-17.78" smashed="yes" rot="R180">
+<attribute name="NAME" x="74.93" y="-19.2786" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="74.93" y="-14.478" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R6" gate="G$1" x="86.36" y="-25.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="84.8614" y="-29.21" size="1.778" layer="95" rot="R90"/>
@@ -10875,7 +10876,7 @@ Vout = (1 + R5/R6)*Vin</text>
 <pinref part="IC4" gate="G$1" pin="OUT"/>
 <wire x1="58.42" y1="-5.08" x2="50.8" y2="-5.08" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="71.12" y1="-17.78" x2="50.8" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="-17.78" x2="50.8" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="-17.78" x2="50.8" y2="-5.08" width="0.1524" layer="91"/>
 <label x="17.526" y="-4.572" size="1.778" layer="95" rot="R180"/>
 <wire x1="50.8" y1="-5.08" x2="25.4" y2="-5.08" width="0.1524" layer="91"/>
@@ -10899,7 +10900,7 @@ Vout = (1 + R5/R6)*Vin</text>
 <pinref part="R6" gate="G$1" pin="2"/>
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="86.36" y1="-17.78" x2="86.36" y2="-20.32" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="-17.78" x2="81.28" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="-17.78" x2="76.2" y2="-17.78" width="0.1524" layer="91"/>
 <junction x="86.36" y="-17.78"/>
 </segment>
 </net>
@@ -11565,6 +11566,7 @@ Output: V_TH</text>
 - When RST is high, S3A and D3 are shorted, allowing cap to discharge
 - When RST is low, S3B and D3 are shorted, and S3B is left open so there is no path for current to flow there. 
 This is the regular state of the switch and reset occurs at end of every ADC measuring cycle</text>
+<text x="60.96" y="30.48" size="1.778" layer="91">Comparator</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="20.32" y="10.16" smashed="yes">
@@ -11578,7 +11580,7 @@ This is the regular state of the switch and reset occurs at end of every ADC mea
 </instance>
 <instance part="R3" gate="G$1" x="-10.16" y="22.86" smashed="yes" rot="R180">
 <attribute name="NAME" x="-6.35" y="21.3614" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-11.43" y="26.162" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="-8.89" y="26.162" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="IC2" gate="G$1" x="-58.42" y="12.7" smashed="yes">
 <attribute name="NAME" x="-59.69" y="-7.62" size="1.778" layer="95" align="center-left"/>
@@ -11610,8 +11612,8 @@ This is the regular state of the switch and reset occurs at end of every ADC mea
 <pinref part="IC2" gate="G$1" pin="VDD"/>
 <wire x1="-30.48" y1="7.62" x2="-25.4" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="-25.4" y1="7.62" x2="-25.4" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="-25.4" y1="40.64" x2="-20.32" y2="40.64" width="0.1524" layer="91"/>
-<label x="-20.32" y="40.64" size="1.778" layer="95"/>
+<label x="-30.48" y="40.64" size="1.778" layer="95"/>
+<wire x1="-25.4" y1="40.64" x2="-30.48" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="G$1" pin="V+"/>
@@ -11682,25 +11684,6 @@ This is the regular state of the switch and reset occurs at end of every ADC mea
 </net>
 <net name="VS_1.5V" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="IN-"/>
-<wire x1="45.72" y1="10.16" x2="48.26" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="22.86" x2="48.26" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="22.86" x2="48.26" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="12.7" y1="20.32" x2="12.7" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="-5.08" y1="22.86" x2="0" y2="22.86" width="0.1524" layer="91"/>
-<junction x="12.7" y="22.86"/>
-<pinref part="IC2" gate="G$1" pin="D3"/>
-<wire x1="0" y1="22.86" x2="12.7" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="0" y1="22.86" x2="0" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="0" y1="2.54" x2="-30.48" y2="2.54" width="0.1524" layer="91"/>
-<junction x="0" y="22.86"/>
-<pinref part="IC3" gate="G$1" pin="IN+"/>
-<wire x1="12.7" y1="22.86" x2="12.7" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="35.56" x2="55.88" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <wire x1="-15.24" y1="71.12" x2="2.54" y2="71.12" width="0.1524" layer="91"/>
 <label x="2.54" y="71.12" size="1.778" layer="95"/>
 <label x="-15.24" y="71.12" size="1.778" layer="95" rot="R180" xref="yes"/>
@@ -11754,15 +11737,16 @@ This is the regular state of the switch and reset occurs at end of every ADC mea
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="S3A"/>
-<wire x1="-40.64" y1="-12.7" x2="7.62" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="-12.7" x2="7.62" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="-15.24" x2="7.62" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="OUT"/>
 <wire x1="7.62" y1="10.16" x2="12.7" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="12.7" y1="10.16" x2="20.32" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="10.16" x2="12.7" y2="12.7" width="0.1524" layer="91"/>
 <junction x="12.7" y="10.16"/>
+<pinref part="IC2" gate="G$1" pin="S3A"/>
+<wire x1="-40.64" y1="-12.7" x2="-40.64" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="-15.24" x2="7.62" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ADC_EXT_INT" class="0">
@@ -11777,6 +11761,28 @@ This is the regular state of the switch and reset occurs at end of every ADC mea
 <wire x1="-15.24" y1="66.04" x2="2.54" y2="66.04" width="0.1524" layer="91"/>
 <label x="-15.24" y="66.04" size="1.778" layer="95" align="bottom-right"/>
 <label x="2.54" y="66.04" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="D3"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="-5.08" y1="22.86" x2="0" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="0" y1="22.86" x2="0" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="0" y1="2.54" x2="-30.48" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="0" y1="22.86" x2="12.7" y2="22.86" width="0.1524" layer="91"/>
+<junction x="0" y="22.86"/>
+<pinref part="C1" gate="G$1" pin="1"/>
+<wire x1="12.7" y1="22.86" x2="12.7" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="22.86" x2="48.26" y2="10.16" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="IN-"/>
+<wire x1="45.72" y1="10.16" x2="48.26" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="22.86" x2="48.26" y2="22.86" width="0.1524" layer="91"/>
+<junction x="12.7" y="22.86"/>
+<wire x1="48.26" y1="22.86" x2="48.26" y2="35.56" width="0.1524" layer="91"/>
+<junction x="48.26" y="22.86"/>
+<pinref part="IC3" gate="G$1" pin="IN+"/>
+<wire x1="48.26" y1="35.56" x2="55.88" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -11794,6 +11800,11 @@ This is the regular state of the switch and reset occurs at end of every ADC mea
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="2000"/>
 <part name="U1" library="ATMEGA328PB_AU32A" deviceset="ATMEGA328PB-AU" device=""/>
 <part name="X_3" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
+<part name="X_4" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
+<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
+<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2"/>
+<part name="X_5" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
+<part name="X_6" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11805,7 +11816,7 @@ AVCC - This pin on the microcontroller provides power to the ADC circuitry on th
 
 1.1V - The microcontroller has an internal 1.1V reference voltage that can be used.</text>
 <text x="17.78" y="15.748" size="1.778" layer="91">OLED Display</text>
-<text x="-50.8" y="-25.4" size="1.778" layer="91">to ATmega ADC</text>
+<text x="0" y="-27.94" size="1.778" layer="91">to ATmega ADC</text>
 <text x="-111.76" y="-48.26" size="1.778" layer="91">V_TOGGLE, RST_ADC, ADC_EXT_INT pins will need to be 
 configured in the EICRA register of the MCU. 
 - ADC_EXT_INT needs to be set to falling edge detection
@@ -11817,6 +11828,8 @@ PC0: output interrupt</text>
 <text x="180.34" y="2.54" size="1.778" layer="91">ADC_EXT_INT: ADC External Interrupt
 output of comparator, 
 will go to MCU to trigger counting</text>
+<text x="-223.52" y="12.7" size="1.778" layer="91">Decoupling cap</text>
+<text x="-55.88" y="-25.4" size="1.778" layer="91">Decoupling cap</text>
 </plain>
 <moduleinsts>
 <moduleinst name="BATTERY_AND_BUCK" module="BATTERY_AND_BUCK" x="-241.3" y="63.5">
@@ -11854,18 +11867,29 @@ will go to MCU to trigger counting</text>
 </instance>
 <instance part="X_2" gate="G$1" x="-5.08" y="2.54" smashed="yes"/>
 <instance part="R1" gate="G$1" x="-35.56" y="38.1" smashed="yes" rot="R90">
-<attribute name="NAME" x="-37.0586" y="34.29" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-32.258" y="34.29" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="-31.9786" y="34.29" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-29.718" y="34.29" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R2" gate="G$1" x="-40.64" y="38.1" smashed="yes" rot="R90">
 <attribute name="NAME" x="-42.1386" y="34.29" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-37.338" y="34.29" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="-44.958" y="34.29" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="U1" gate="A" x="-198.12" y="17.78" smashed="yes">
 <attribute name="NAME" x="-136.8044" y="26.8986" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="-137.4394" y="24.3586" size="2.0828" layer="96" ratio="6" rot="SR0"/>
 </instance>
 <instance part="X_3" gate="G$1" x="-208.28" y="5.08" smashed="yes"/>
+<instance part="X_4" gate="G$1" x="-58.42" y="-12.7" smashed="yes"/>
+<instance part="C1" gate="G$1" x="-215.9" y="2.54" smashed="yes">
+<attribute name="NAME" x="-214.884" y="3.175" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-214.884" y="-1.651" size="1.778" layer="96"/>
+</instance>
+<instance part="C2" gate="G$1" x="-60.96" y="-22.86" smashed="yes">
+<attribute name="NAME" x="-59.944" y="-22.225" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-59.944" y="-27.051" size="1.778" layer="96"/>
+</instance>
+<instance part="X_5" gate="G$1" x="-215.9" y="-7.62" smashed="yes"/>
+<instance part="X_6" gate="G$1" x="-60.96" y="-30.48" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -11894,6 +11918,22 @@ will go to MCU to trigger counting</text>
 <wire x1="-195.58" y1="7.62" x2="-208.28" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="-208.28" y1="7.62" x2="-208.28" y2="5.08" width="0.1524" layer="91"/>
 <pinref part="X_3" gate="G$1" pin="0"/>
+</segment>
+<segment>
+<pinref part="U1" gate="A" pin="GND"/>
+<wire x1="-68.58" y1="-10.16" x2="-58.42" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="-58.42" y1="-10.16" x2="-58.42" y2="-12.7" width="0.1524" layer="91"/>
+<pinref part="X_4" gate="G$1" pin="0"/>
+</segment>
+<segment>
+<pinref part="C1" gate="G$1" pin="2"/>
+<wire x1="-215.9" y1="-2.54" x2="-215.9" y2="-7.62" width="0.1524" layer="91"/>
+<pinref part="X_5" gate="G$1" pin="0"/>
+</segment>
+<segment>
+<pinref part="C2" gate="G$1" pin="2"/>
+<pinref part="X_6" gate="G$1" pin="0"/>
+<wire x1="-60.96" y1="-27.94" x2="-60.96" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VS_9V" class="0">
@@ -11982,6 +12022,24 @@ will go to MCU to trigger counting</text>
 <wire x1="105.41" y1="7.62" x2="93.98" y2="7.62" width="0.1524" layer="91"/>
 <label x="93.98" y="7.874" size="1.778" layer="95" rot="R180"/>
 </segment>
+<segment>
+<pinref part="U1" gate="A" pin="VCC"/>
+<wire x1="-195.58" y1="10.16" x2="-215.9" y2="10.16" width="0.1524" layer="91"/>
+<label x="-228.6" y="10.16" size="1.778" layer="95" rot="R180"/>
+<pinref part="C1" gate="G$1" pin="1"/>
+<wire x1="-215.9" y1="10.16" x2="-228.6" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="-215.9" y1="5.08" x2="-215.9" y2="10.16" width="0.1524" layer="91"/>
+<junction x="-215.9" y="10.16"/>
+</segment>
+<segment>
+<pinref part="U1" gate="A" pin="AVCC"/>
+<wire x1="-68.58" y1="-17.78" x2="-60.96" y2="-17.78" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="-60.96" y1="-17.78" x2="-60.96" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="-17.78" x2="-50.8" y2="-17.78" width="0.1524" layer="91"/>
+<junction x="-60.96" y="-17.78"/>
+<label x="-50.8" y="-17.78" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SCL" class="0">
 <segment>
@@ -12033,8 +12091,8 @@ will go to MCU to trigger counting</text>
 <portref moduleinst="THERMISTOR_THERMOPILE" port="V_TH"/>
 <wire x1="50.8" y1="68.58" x2="58.42" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="68.58" x2="58.42" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="-22.86" x2="-53.34" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="-53.34" y1="-22.86" x2="-53.34" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="-22.86" x2="-15.24" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="-22.86" x2="-15.24" y2="-25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ADC_EXT_INT" class="0">

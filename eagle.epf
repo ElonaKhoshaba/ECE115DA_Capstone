@@ -863,6 +863,8 @@ UsedLibraryUrn="urn:adsk.eagle:library:197"
 UsedLibraryUrn="urn:adsk.eagle:library:198"
 UsedLibraryUrn="urn:adsk.eagle:library:199"
 UsedLibrary="capstone_libraries/TLV9021QDBVRQ1.lbr"
+UsedLibrary="/Users/elonakhoshaba/Documents/EAGLE/libraries/ADG1534BCPZ-REEL7.lbr"
+UsedLibrary="/Users/elonakhoshaba/Documents/EAGLE/libraries/TLV9021QDBVRQ1.lbr"
 
 [Win_1]
 Type="Control Panel"
@@ -872,7 +874,7 @@ Number=0
 Type="Schematic Editor"
 Number=1
 File="system.sch"
-View="-63.1374 -41.3255 71.8642 57.071"
+View="6.49594 -68.2718 234.517 30.6154"
 WireWidths=" 0.0762 0.1016 0.127 0.15 0.2 0.2032 0.254 0.3048 0.4064 0.508 0.6096 0.8128 1.016 1.27 2.54 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.2 0.25 0.3 0.35 0.4 0.45 0.5 0.55 0.65 0.7 0.75 0.8 0.85 0.9 1 0.6"
@@ -888,7 +890,7 @@ DimensionExtWidths=" 0.127 0.254 0.1 0.13 0.26 0"
 DimensionExtLengths=" 1.27 2.54 1 2 3 0"
 DimensionExtOffsets=" 1.27 2.54 1 2 3 0"
 SmdSizes=" 0.3048 0.1524 0.4064 0.2032 0.6096 0.3048 0.8128 0.4064 1.016 0.508 1.27 0.6604 1.4224 0.7112 1.6764 0.8128 1.778 0.9144 1.9304 0.9652 2.1844 1.0668 2.54 1.27 3.81 1.9304 5.08 2.54 6.4516 3.2512 1.27 0.635"
-WireBend=4
+WireBend=0
 WireBendSet=31
 WireCap=1
 MiterStyle=1
@@ -911,8 +913,8 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
-Views=" 1: -204.368 -14.319 -117.428 23.3847 1:LDO_AND_VOLTAGE_REFS -129.782 -35.7039 116.458 114.747 1:AMP_AND_FILTER -15.2118 11.8306 187.007 76.8978 1:DUAL_SLOPE_ADC -63.1374 -41.3255 71.8642 57.071"
-Sheet="1@DUAL_SLOPE_ADC"
+Views=" 1: 6.49594 -68.2718 234.517 30.6154 1:LDO_AND_VOLTAGE_REFS -129.859 -47.7139 149.765 123.135 1:THERMISTOR_THERMOPILE -135.335 -50.9817 71.3019 73.7149 1:AMP_AND_FILTER -19.8553 1.61452 203.813 73.5835 1:DUAL_SLOPE_ADC -110.592 -41.0869 108.963 118.937"
+Sheet="1"
 
 [Desktop]
 Screen="1512 982"
