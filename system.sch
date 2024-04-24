@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -8724,91 +8724,6 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="LM66200DRLR">
-<description>&lt;1.6-V to 5.5-V, 40-m, 2.5-A, low-IQ, dual ideal diode&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="SOTFL50P160X60-8N">
-<description>&lt;b&gt;DRL0008A&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-0.838" y="0.75" dx="0.475" dy="0.3" layer="1"/>
-<smd name="2" x="-0.838" y="0.25" dx="0.475" dy="0.3" layer="1"/>
-<smd name="3" x="-0.838" y="-0.25" dx="0.475" dy="0.3" layer="1"/>
-<smd name="4" x="-0.838" y="-0.75" dx="0.475" dy="0.3" layer="1"/>
-<smd name="5" x="0.838" y="-0.75" dx="0.475" dy="0.3" layer="1"/>
-<smd name="6" x="0.838" y="-0.25" dx="0.475" dy="0.3" layer="1"/>
-<smd name="7" x="0.838" y="0.25" dx="0.475" dy="0.3" layer="1"/>
-<smd name="8" x="0.838" y="0.75" dx="0.475" dy="0.3" layer="1"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-1.225" y1="1.25" x2="1.225" y2="1.25" width="0.05" layer="51"/>
-<wire x1="1.225" y1="1.25" x2="1.225" y2="-1.25" width="0.05" layer="51"/>
-<wire x1="1.225" y1="-1.25" x2="-1.225" y2="-1.25" width="0.05" layer="51"/>
-<wire x1="-1.225" y1="-1.25" x2="-1.225" y2="1.25" width="0.05" layer="51"/>
-<wire x1="-0.6" y1="1.05" x2="0.6" y2="1.05" width="0.1" layer="51"/>
-<wire x1="0.6" y1="1.05" x2="0.6" y2="-1.05" width="0.1" layer="51"/>
-<wire x1="0.6" y1="-1.05" x2="-0.6" y2="-1.05" width="0.1" layer="51"/>
-<wire x1="-0.6" y1="-1.05" x2="-0.6" y2="1.05" width="0.1" layer="51"/>
-<wire x1="-0.6" y1="0.55" x2="-0.1" y2="1.05" width="0.1" layer="51"/>
-<wire x1="-0.25" y1="1.05" x2="0.25" y2="1.05" width="0.2" layer="21"/>
-<wire x1="0.25" y1="1.05" x2="0.25" y2="-1.05" width="0.2" layer="21"/>
-<wire x1="0.25" y1="-1.05" x2="-0.25" y2="-1.05" width="0.2" layer="21"/>
-<wire x1="-0.25" y1="-1.05" x2="-0.25" y2="1.05" width="0.2" layer="21"/>
-<wire x1="-1.075" y1="1.15" x2="-0.6" y2="1.15" width="0.2" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="LM66200DRLR">
-<wire x1="5.08" y1="2.54" x2="27.94" y2="2.54" width="0.254" layer="94"/>
-<wire x1="27.94" y1="-10.16" x2="27.94" y2="2.54" width="0.254" layer="94"/>
-<wire x1="27.94" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
-<text x="29.21" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="29.21" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="GND_1" x="0" y="0" length="middle"/>
-<pin name="VOUT_1" x="0" y="-2.54" length="middle"/>
-<pin name="VIN1" x="0" y="-5.08" length="middle"/>
-<pin name="!ON" x="0" y="-7.62" length="middle"/>
-<pin name="GND_2" x="33.02" y="0" length="middle" rot="R180"/>
-<pin name="VIN2" x="33.02" y="-2.54" length="middle" rot="R180"/>
-<pin name="VOUT_2" x="33.02" y="-5.08" length="middle" rot="R180"/>
-<pin name="ST" x="33.02" y="-7.62" length="middle" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="LM66200DRLR" prefix="IC">
-<description>&lt;b&gt;1.6-V to 5.5-V, 40-m, 2.5-A, low-IQ, dual ideal diode&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://www.ti.com/lit/gpn/lm66200"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="LM66200DRLR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOTFL50P160X60-8N">
-<connects>
-<connect gate="G$1" pin="!ON" pad="4"/>
-<connect gate="G$1" pin="GND_1" pad="1"/>
-<connect gate="G$1" pin="GND_2" pad="5"/>
-<connect gate="G$1" pin="ST" pad="8"/>
-<connect gate="G$1" pin="VIN1" pad="3"/>
-<connect gate="G$1" pin="VIN2" pad="6"/>
-<connect gate="G$1" pin="VOUT_1" pad="2"/>
-<connect gate="G$1" pin="VOUT_2" pad="7"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="1.6-V to 5.5-V, 40-m, 2.5-A, low-IQ, dual ideal diode" constant="no"/>
-<attribute name="HEIGHT" value="0.6mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Texas Instruments" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="LM66200DRLR" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="595-LM66200DRLR" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM66200DRLR?qs=Rp5uXu7WBW90hnpZAkIOdQ%3D%3D" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="RS1-02-G">
 <packages>
 <package name="CONN_RS1-02-G_ADM">
@@ -10035,126 +9950,6 @@ Source: &lt;a href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&
 </deviceset>
 </devicesets>
 </library>
-<library name="ADG1534BCPZ-REEL7">
-<description>&lt;4.5  RON, 1.8 V Logic-Compatible Quad SPDT Switch&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="QFN50P400X400X80-21N">
-<description>&lt;b&gt;ADG1534BCPZ-REEL7&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-1.95" y="1" dx="0.85" dy="0.3" layer="1"/>
-<smd name="2" x="-1.95" y="0.5" dx="0.85" dy="0.3" layer="1"/>
-<smd name="3" x="-1.95" y="0" dx="0.85" dy="0.3" layer="1"/>
-<smd name="4" x="-1.95" y="-0.5" dx="0.85" dy="0.3" layer="1"/>
-<smd name="5" x="-1.95" y="-1" dx="0.85" dy="0.3" layer="1"/>
-<smd name="6" x="-1" y="-1.95" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="7" x="-0.5" y="-1.95" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="8" x="0" y="-1.95" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="9" x="0.5" y="-1.95" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="10" x="1" y="-1.95" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="11" x="1.95" y="-1" dx="0.85" dy="0.3" layer="1"/>
-<smd name="12" x="1.95" y="-0.5" dx="0.85" dy="0.3" layer="1"/>
-<smd name="13" x="1.95" y="0" dx="0.85" dy="0.3" layer="1"/>
-<smd name="14" x="1.95" y="0.5" dx="0.85" dy="0.3" layer="1"/>
-<smd name="15" x="1.95" y="1" dx="0.85" dy="0.3" layer="1"/>
-<smd name="16" x="1" y="1.95" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="17" x="0.5" y="1.95" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="18" x="0" y="1.95" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="19" x="-0.5" y="1.95" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="20" x="-1" y="1.95" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="21" x="0" y="0" dx="2.65" dy="2.65" layer="1" rot="R90"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-2.625" y1="2.625" x2="2.625" y2="2.625" width="0.05" layer="51"/>
-<wire x1="2.625" y1="2.625" x2="2.625" y2="-2.625" width="0.05" layer="51"/>
-<wire x1="2.625" y1="-2.625" x2="-2.625" y2="-2.625" width="0.05" layer="51"/>
-<wire x1="-2.625" y1="-2.625" x2="-2.625" y2="2.625" width="0.05" layer="51"/>
-<wire x1="-2" y1="2" x2="2" y2="2" width="0.1" layer="51"/>
-<wire x1="2" y1="2" x2="2" y2="-2" width="0.1" layer="51"/>
-<wire x1="2" y1="-2" x2="-2" y2="-2" width="0.1" layer="51"/>
-<wire x1="-2" y1="-2" x2="-2" y2="2" width="0.1" layer="51"/>
-<wire x1="-2" y1="1.5" x2="-1.5" y2="2" width="0.1" layer="51"/>
-<circle x="-2.375" y="1.75" radius="0.125" width="0.25" layer="25"/>
-</package>
-</packages>
-<symbols>
-<symbol name="ADG1534BCPZ-REEL7">
-<wire x1="5.08" y1="10.16" x2="22.86" y2="10.16" width="0.254" layer="94"/>
-<wire x1="22.86" y1="-20.32" x2="22.86" y2="10.16" width="0.254" layer="94"/>
-<wire x1="22.86" y1="-20.32" x2="5.08" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="5.08" y1="10.16" x2="5.08" y2="-20.32" width="0.254" layer="94"/>
-<text x="24.13" y="15.24" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="24.13" y="12.7" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="D1" x="0" y="0" length="middle"/>
-<pin name="S1B" x="0" y="-2.54" length="middle"/>
-<pin name="VSS" x="0" y="-5.08" length="middle"/>
-<pin name="GND" x="0" y="-7.62" length="middle"/>
-<pin name="S2B" x="0" y="-10.16" length="middle"/>
-<pin name="D2" x="7.62" y="-25.4" length="middle" rot="R90"/>
-<pin name="S2A" x="10.16" y="-25.4" length="middle" rot="R90"/>
-<pin name="IN2" x="12.7" y="-25.4" length="middle" rot="R90"/>
-<pin name="IN3" x="15.24" y="-25.4" length="middle" rot="R90"/>
-<pin name="S3A" x="17.78" y="-25.4" length="middle" rot="R90"/>
-<pin name="D4" x="27.94" y="0" length="middle" rot="R180"/>
-<pin name="S4B" x="27.94" y="-2.54" length="middle" rot="R180"/>
-<pin name="VDD" x="27.94" y="-5.08" length="middle" rot="R180"/>
-<pin name="S3B" x="27.94" y="-7.62" length="middle" rot="R180"/>
-<pin name="D3" x="27.94" y="-10.16" length="middle" rot="R180"/>
-<pin name="EP" x="7.62" y="15.24" length="middle" rot="R270"/>
-<pin name="S1A" x="10.16" y="15.24" length="middle" rot="R270"/>
-<pin name="IN1" x="12.7" y="15.24" length="middle" rot="R270"/>
-<pin name="!EN" x="15.24" y="15.24" length="middle" rot="R270"/>
-<pin name="IN4" x="17.78" y="15.24" length="middle" rot="R270"/>
-<pin name="S4A" x="20.32" y="15.24" length="middle" rot="R270"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="ADG1534BCPZ-REEL7" prefix="IC">
-<description>&lt;b&gt;4.5  RON, 1.8 V Logic-Compatible Quad SPDT Switch&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://www.analog.com/ADG1534/datasheet"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="ADG1534BCPZ-REEL7" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="QFN50P400X400X80-21N">
-<connects>
-<connect gate="G$1" pin="!EN" pad="18"/>
-<connect gate="G$1" pin="D1" pad="1"/>
-<connect gate="G$1" pin="D2" pad="6"/>
-<connect gate="G$1" pin="D3" pad="11"/>
-<connect gate="G$1" pin="D4" pad="15"/>
-<connect gate="G$1" pin="EP" pad="21"/>
-<connect gate="G$1" pin="GND" pad="4"/>
-<connect gate="G$1" pin="IN1" pad="19"/>
-<connect gate="G$1" pin="IN2" pad="8"/>
-<connect gate="G$1" pin="IN3" pad="9"/>
-<connect gate="G$1" pin="IN4" pad="17"/>
-<connect gate="G$1" pin="S1A" pad="20"/>
-<connect gate="G$1" pin="S1B" pad="2"/>
-<connect gate="G$1" pin="S2A" pad="7"/>
-<connect gate="G$1" pin="S2B" pad="5"/>
-<connect gate="G$1" pin="S3A" pad="10"/>
-<connect gate="G$1" pin="S3B" pad="12"/>
-<connect gate="G$1" pin="S4A" pad="16"/>
-<connect gate="G$1" pin="S4B" pad="14"/>
-<connect gate="G$1" pin="VDD" pad="13"/>
-<connect gate="G$1" pin="VSS" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="4.5  RON, 1.8 V Logic-Compatible Quad SPDT Switch" constant="no"/>
-<attribute name="HEIGHT" value="0.8mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Analog Devices" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ADG1534BCPZ-REEL7" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="584-ADG1534BCPZREEL7" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADG1534BCPZ-REEL7?qs=ST9lo4GX8V0qjQZb0F%2FOag%3D%3D" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="TLV9021QDBVRQ1">
 <description>&lt;Analog Comparators HIGH PERFORMANCE 5V OD SINGLE COMPARATOR&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
@@ -10224,6 +10019,169 @@ Source: &lt;a href="https://www.ti.com/lit/ds/symlink/tlv9021-q1.pdf?ts=17068501
 <attribute name="MANUFACTURER_PART_NUMBER" value="TLV9021QDBVRQ1" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="595-TLV9021QDBVRQ1" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV9021QDBVRQ1?qs=Z%252BL2brAPG1KR79adoYSPzQ%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="TMUX1119DBVR">
+<description>&lt;Analog Switch ICs 3-pA, 5-V, 2:1 (SPDT), 1-channel precision multiplexer&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="SOT95P280X145-6N">
+<description>&lt;b&gt;DBV0006A SOT-23 - 1.45 mm max height&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.25" y="0.95" dx="1.2" dy="0.6" layer="1"/>
+<smd name="2" x="-1.25" y="0" dx="1.2" dy="0.6" layer="1"/>
+<smd name="3" x="-1.25" y="-0.95" dx="1.2" dy="0.6" layer="1"/>
+<smd name="4" x="1.25" y="-0.95" dx="1.2" dy="0.6" layer="1"/>
+<smd name="5" x="1.25" y="0" dx="1.2" dy="0.6" layer="1"/>
+<smd name="6" x="1.25" y="0.95" dx="1.2" dy="0.6" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.1" y1="1.775" x2="2.1" y2="1.775" width="0.05" layer="51"/>
+<wire x1="2.1" y1="1.775" x2="2.1" y2="-1.775" width="0.05" layer="51"/>
+<wire x1="2.1" y1="-1.775" x2="-2.1" y2="-1.775" width="0.05" layer="51"/>
+<wire x1="-2.1" y1="-1.775" x2="-2.1" y2="1.775" width="0.05" layer="51"/>
+<wire x1="-0.8" y1="1.45" x2="0.8" y2="1.45" width="0.1" layer="51"/>
+<wire x1="0.8" y1="1.45" x2="0.8" y2="-1.45" width="0.1" layer="51"/>
+<wire x1="0.8" y1="-1.45" x2="-0.8" y2="-1.45" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="-1.45" x2="-0.8" y2="1.45" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="0.5" x2="0.15" y2="1.45" width="0.1" layer="51"/>
+<wire x1="-0.3" y1="1.45" x2="0.3" y2="1.45" width="0.2" layer="21"/>
+<wire x1="0.3" y1="1.45" x2="0.3" y2="-1.45" width="0.2" layer="21"/>
+<wire x1="0.3" y1="-1.45" x2="-0.3" y2="-1.45" width="0.2" layer="21"/>
+<wire x1="-0.3" y1="-1.45" x2="-0.3" y2="1.45" width="0.2" layer="21"/>
+<wire x1="-1.85" y1="1.6" x2="-0.65" y2="1.6" width="0.2" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="TMUX1119DBVR">
+<wire x1="5.08" y1="2.54" x2="20.32" y2="2.54" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-7.62" x2="20.32" y2="2.54" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<text x="21.59" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="21.59" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="SEL" x="0" y="0" length="middle"/>
+<pin name="VDD" x="0" y="-2.54" length="middle"/>
+<pin name="GND" x="0" y="-5.08" length="middle"/>
+<pin name="S2" x="25.4" y="0" length="middle" rot="R180"/>
+<pin name="D" x="25.4" y="-2.54" length="middle" rot="R180"/>
+<pin name="S1" x="25.4" y="-5.08" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TMUX1119DBVR" prefix="IC">
+<description>&lt;b&gt;Analog Switch ICs 3-pA, 5-V, 2:1 (SPDT), 1-channel precision multiplexer&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.ti.com/lit/gpn/TMUX1119"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="TMUX1119DBVR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT95P280X145-6N">
+<connects>
+<connect gate="G$1" pin="D" pad="5"/>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="S1" pad="4"/>
+<connect gate="G$1" pin="S2" pad="6"/>
+<connect gate="G$1" pin="SEL" pad="1"/>
+<connect gate="G$1" pin="VDD" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Analog Switch ICs 3-pA, 5-V, 2:1 (SPDT), 1-channel precision multiplexer" constant="no"/>
+<attribute name="HEIGHT" value="1.45mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TMUX1119DBVR" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-TMUX1119DBVR" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TMUX1119DBVR?qs=9r4v7xj2Lnn%2FqYCDWCSZ7w%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="TPS7B8650BQDDARQ1">
+<description>&lt;LDO Voltage Regulators Automotive 500-mA, 40-V, ultra-low-IQ, low-dropout (LDO) linear regulator with power good 8-SO PowerPAD -40 to 150&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="SOIC127P600X170-9N">
+<description>&lt;b&gt;TPS7B8650BQDDARQ1&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-2.712" y="1.905" dx="1.525" dy="0.65" layer="1"/>
+<smd name="2" x="-2.712" y="0.635" dx="1.525" dy="0.65" layer="1"/>
+<smd name="3" x="-2.712" y="-0.635" dx="1.525" dy="0.65" layer="1"/>
+<smd name="4" x="-2.712" y="-1.905" dx="1.525" dy="0.65" layer="1"/>
+<smd name="5" x="2.712" y="-1.905" dx="1.525" dy="0.65" layer="1"/>
+<smd name="6" x="2.712" y="-0.635" dx="1.525" dy="0.65" layer="1"/>
+<smd name="7" x="2.712" y="0.635" dx="1.525" dy="0.65" layer="1"/>
+<smd name="8" x="2.712" y="1.905" dx="1.525" dy="0.65" layer="1"/>
+<smd name="9" x="0" y="0" dx="3.4" dy="2.71" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-3.725" y1="2.75" x2="3.725" y2="2.75" width="0.05" layer="51"/>
+<wire x1="3.725" y1="2.75" x2="3.725" y2="-2.75" width="0.05" layer="51"/>
+<wire x1="3.725" y1="-2.75" x2="-3.725" y2="-2.75" width="0.05" layer="51"/>
+<wire x1="-3.725" y1="-2.75" x2="-3.725" y2="2.75" width="0.05" layer="51"/>
+<wire x1="-1.95" y1="2.45" x2="1.95" y2="2.45" width="0.1" layer="51"/>
+<wire x1="1.95" y1="2.45" x2="1.95" y2="-2.45" width="0.1" layer="51"/>
+<wire x1="1.95" y1="-2.45" x2="-1.95" y2="-2.45" width="0.1" layer="51"/>
+<wire x1="-1.95" y1="-2.45" x2="-1.95" y2="2.45" width="0.1" layer="51"/>
+<wire x1="-1.95" y1="1.18" x2="-0.68" y2="2.45" width="0.1" layer="51"/>
+<wire x1="-3.475" y1="2.58" x2="-1.95" y2="2.58" width="0.2" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="TPS7B8650BQDDARQ1">
+<wire x1="5.08" y1="2.54" x2="25.4" y2="2.54" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-15.24" x2="25.4" y2="2.54" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-15.24" x2="5.08" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-15.24" width="0.254" layer="94"/>
+<text x="26.67" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="26.67" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="OUT" x="0" y="0" length="middle"/>
+<pin name="FB/NC" x="0" y="-2.54" length="middle"/>
+<pin name="NC_1" x="0" y="-5.08" length="middle"/>
+<pin name="NC_2" x="0" y="-7.62" length="middle"/>
+<pin name="EP" x="15.24" y="-20.32" length="middle" rot="R90"/>
+<pin name="IN" x="30.48" y="0" length="middle" rot="R180"/>
+<pin name="EN" x="30.48" y="-2.54" length="middle" rot="R180"/>
+<pin name="NC_3" x="30.48" y="-5.08" length="middle" rot="R180"/>
+<pin name="GND" x="30.48" y="-7.62" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TPS7B8650BQDDARQ1" prefix="IC">
+<description>&lt;b&gt;LDO Voltage Regulators Automotive 500-mA, 40-V, ultra-low-IQ, low-dropout (LDO) linear regulator with power good 8-SO PowerPAD -40 to 150&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.ti.com/lit/gpn/tps7b86-q1?HQS=ti-null-null-sf-df-pf-sep-wwe&amp;DCM=yes?hkey=EF798316E3902B6ED9A73243A3159BB0"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="TPS7B8650BQDDARQ1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOIC127P600X170-9N">
+<connects>
+<connect gate="G$1" pin="EN" pad="7"/>
+<connect gate="G$1" pin="EP" pad="9"/>
+<connect gate="G$1" pin="FB/NC" pad="2"/>
+<connect gate="G$1" pin="GND" pad="5"/>
+<connect gate="G$1" pin="IN" pad="8"/>
+<connect gate="G$1" pin="NC_1" pad="3"/>
+<connect gate="G$1" pin="NC_2" pad="4"/>
+<connect gate="G$1" pin="NC_3" pad="6"/>
+<connect gate="G$1" pin="OUT" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="LDO Voltage Regulators Automotive 500-mA, 40-V, ultra-low-IQ, low-dropout (LDO) linear regulator with power good 8-SO PowerPAD -40 to 150" constant="no"/>
+<attribute name="HEIGHT" value="1.7mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TPS7B8650BQDDARQ1" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-PS7B8650BQDDARQ1" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS7B8650BQDDARQ1?qs=ulEaXIWI0c8l2EN1AjsVkA%3D%3D" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -10546,9 +10504,6 @@ Output: VS_6V</text>
 <part name="IC1" library="TLV9101IDBVR" deviceset="TLV9101IDBVR" device=""/>
 <part name="IC2" library="TLV9101IDBVR" deviceset="TLV9101IDBVR" device=""/>
 <part name="Q1" library="PBSS8110T_215" deviceset="PBSS8110T,215" device=""/>
-<part name="IC3" library="LM66200DRLR" deviceset="LM66200DRLR" device=""/>
-<part name="X_7" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
-<part name="X_8" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="J1" library="RS1-02-G" deviceset="RS1-02-G" device=""/>
 <part name="X_9" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="IC4" library="TLV9101IDBVR" deviceset="TLV9101IDBVR" device=""/>
@@ -10558,11 +10513,14 @@ Output: VS_6V</text>
 <part name="X_10" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_11" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_12" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
+<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
+<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0"/>
+<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="43.18" y="27.94" size="1.778" layer="91">To 5V Loads</text>
+<text x="25.4" y="63.5" size="1.778" layer="91">To 5V Loads</text>
 <text x="-68.58" y="91.44" size="1.778" layer="91">LDO
 Vout = Vref(1 + R1/R2)
 Input: VS_6V, V_BG
@@ -10571,9 +10529,8 @@ Output: VS_5V, VS_2.5V</text>
 Resistive divider with voltage follower
 Input: VS_5V
 Output: VS_2.5V</text>
-<text x="2.54" y="40.64" size="1.778" layer="91">Switch between AD2_5V and VS_5V</text>
-<text x="63.246" y="37.084" size="1.778" layer="91">Female Headers for AD2</text>
-<text x="2.54" y="43.18" size="1.778" layer="91">NOTE: Can delete and place 0 ohm resistors</text>
+<text x="2.54" y="43.18" size="1.778" layer="91">Switch between AD2_5V and VS_5V</text>
+<text x="-20.574" y="16.764" size="1.778" layer="91">Female Headers for AD2</text>
 <text x="35.56" y="0" size="1.778" layer="91">Non-inverting Amplifier
 Inputs: VS_5V, V_BG
 Outputs: VS_1.5V
@@ -10623,16 +10580,10 @@ Vout = (1 + R5/R6)*Vin</text>
 <attribute name="NAME" x="-11.43" y="69.85" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-11.43" y="67.31" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="IC3" gate="G$1" x="2.54" y="35.56" smashed="yes">
-<attribute name="NAME" x="8.128" y="22.098" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="8.382" y="24.13" size="1.778" layer="96" align="center-left"/>
+<instance part="J1" gate="A" x="-5.08" y="30.48" smashed="yes" rot="MR0">
+<attribute name="NAME" x="-10.0076" y="22.3266" size="2.0828" layer="95" ratio="6" rot="SMR0"/>
 </instance>
-<instance part="X_7" gate="G$1" x="0" y="25.4" smashed="yes"/>
-<instance part="X_8" gate="G$1" x="-10.16" y="27.94" smashed="yes"/>
-<instance part="J1" gate="A" x="68.58" y="33.02" smashed="yes">
-<attribute name="NAME" x="73.5076" y="24.8666" size="2.0828" layer="95" ratio="6" rot="SR0"/>
-</instance>
-<instance part="X_9" gate="G$1" x="63.5" y="27.94" smashed="yes"/>
+<instance part="X_9" gate="G$1" x="-2.54" y="22.86" smashed="yes"/>
 <instance part="IC4" gate="G$1" x="58.42" y="-5.08" smashed="yes">
 <attribute name="NAME" x="64.516" y="1.016" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="64.008" y="-1.27" size="1.778" layer="96" align="center-left"/>
@@ -10652,6 +10603,18 @@ Vout = (1 + R5/R6)*Vin</text>
 <instance part="X_10" gate="G$1" x="55.88" y="-12.7" smashed="yes"/>
 <instance part="X_11" gate="G$1" x="25.4" y="-17.78" smashed="yes"/>
 <instance part="X_12" gate="G$1" x="86.36" y="-33.02" smashed="yes"/>
+<instance part="C4" gate="G$1" x="-22.86" y="49.276" smashed="yes">
+<attribute name="NAME" x="-21.844" y="49.911" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-21.844" y="45.085" size="1.778" layer="96"/>
+</instance>
+<instance part="R7" gate="G$1" x="6.604" y="58.42" smashed="yes">
+<attribute name="NAME" x="2.794" y="59.9186" size="1.778" layer="95"/>
+<attribute name="VALUE" x="2.794" y="55.118" size="1.778" layer="96"/>
+</instance>
+<instance part="R8" gate="G$1" x="6.604" y="30.48" smashed="yes">
+<attribute name="NAME" x="2.794" y="31.9786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="2.794" y="27.178" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -10675,8 +10638,13 @@ Vout = (1 + R5/R6)*Vin</text>
 </segment>
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="-15.24" y1="44.196" x2="-15.24" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="44.196" x2="-15.24" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="X_4" gate="G$1" pin="0"/>
+<pinref part="C4" gate="G$1" pin="2"/>
+<wire x1="-15.24" y1="43.18" x2="-15.24" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="43.18" x2="-22.86" y2="44.196" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="43.18" x2="-15.24" y2="43.18" width="0.1524" layer="91"/>
+<junction x="-15.24" y="43.18"/>
 </segment>
 <segment>
 <pinref part="X_3" gate="G$1" pin="0"/>
@@ -10691,22 +10659,10 @@ Vout = (1 + R5/R6)*Vin</text>
 <pinref part="X_6" gate="G$1" pin="0"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="!ON"/>
-<wire x1="2.54" y1="27.94" x2="0" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="0" y1="27.94" x2="0" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="X_7" gate="G$1" pin="0"/>
-</segment>
-<segment>
-<pinref part="IC3" gate="G$1" pin="GND_1"/>
-<wire x1="2.54" y1="35.56" x2="-10.16" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="-10.16" y1="35.56" x2="-10.16" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="X_8" gate="G$1" pin="0"/>
-</segment>
-<segment>
 <pinref part="J1" gate="A" pin="2"/>
-<wire x1="68.58" y1="30.48" x2="63.5" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="27.94" x2="-2.54" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="X_9" gate="G$1" pin="0"/>
-<wire x1="63.5" y1="30.48" x2="63.5" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="27.94" x2="-2.54" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC4" gate="G$1" pin="V-"/>
@@ -10751,12 +10707,14 @@ Vout = (1 + R5/R6)*Vin</text>
 <junction x="-15.24" y="58.42"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="-15.24" y1="55.88" x2="-15.24" y2="51.816" width="0.1524" layer="91"/>
-<wire x1="-15.24" y1="55.88" x2="-26.416" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="55.88" x2="-22.86" y2="55.88" width="0.1524" layer="91"/>
 <junction x="-15.24" y="55.88"/>
-<wire x1="-15.24" y1="58.42" x2="0" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="0" y1="58.42" x2="0" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="VIN1"/>
-<wire x1="0" y1="30.48" x2="2.54" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="55.88" x2="-26.416" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="58.42" x2="1.524" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="C4" gate="G$1" pin="1"/>
+<wire x1="-22.86" y1="51.816" x2="-22.86" y2="55.88" width="0.1524" layer="91"/>
+<junction x="-22.86" y="55.88"/>
+<pinref part="R7" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
@@ -10775,21 +10733,19 @@ Vout = (1 + R5/R6)*Vin</text>
 <label x="-121.92" y="104.14" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="VOUT_1"/>
-<wire x1="2.54" y1="33.02" x2="-5.08" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="33.02" x2="-5.08" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="20.32" x2="40.64" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="20.32" x2="40.64" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="VOUT_2"/>
-<wire x1="40.64" y1="30.48" x2="35.56" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="30.48" x2="48.26" y2="30.48" width="0.1524" layer="91"/>
-<junction x="40.64" y="30.48"/>
-<label x="48.26" y="30.48" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="IC4" gate="G$1" pin="V+"/>
 <wire x1="83.82" y1="-7.62" x2="93.98" y2="-7.62" width="0.1524" layer="91"/>
 <label x="93.98" y="-7.62" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="11.684" y1="58.42" x2="17.78" y2="58.42" width="0.1524" layer="91"/>
+<label x="22.86" y="58.42" size="1.778" layer="95"/>
+<pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="17.78" y1="58.42" x2="22.86" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="11.684" y1="30.48" x2="17.78" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="30.48" x2="17.78" y2="58.42" width="0.1524" layer="91"/>
+<junction x="17.78" y="58.42"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -10864,13 +10820,6 @@ Vout = (1 + R5/R6)*Vin</text>
 <label x="-124.46" y="99.06" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="IC3" gate="G$1" pin="VIN2"/>
-<pinref part="J1" gate="A" pin="1"/>
-<wire x1="35.56" y1="33.02" x2="68.58" y2="33.02" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="VS_1.5V" class="0">
 <segment>
 <pinref part="IC4" gate="G$1" pin="OUT"/>
@@ -10902,6 +10851,13 @@ Vout = (1 + R5/R6)*Vin</text>
 <wire x1="86.36" y1="-17.78" x2="86.36" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="-17.78" x2="76.2" y2="-17.78" width="0.1524" layer="91"/>
 <junction x="86.36" y="-17.78"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="J1" gate="A" pin="1"/>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="-5.08" y1="30.48" x2="1.524" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -11546,27 +11502,31 @@ Output: V_TH</text>
 <variantdefs>
 </variantdefs>
 <groups>
-<schematic_group name="F"/>
+<schematic_group name="ADC_SWITCH"/>
+<schematic_group name="ADC_RST_SWITCH"/>
 </groups>
 <parts>
 <part name="IC1" library="TLV9101IDBVR" deviceset="TLV9101IDBVR" device=""/>
 <part name="X_1" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10nF"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="2500"/>
-<part name="IC2" library="ADG1534BCPZ-REEL7" deviceset="ADG1534BCPZ-REEL7" device=""/>
-<part name="X_2" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
-<part name="X_3" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="IC3" library="TLV9021QDBVRQ1" deviceset="TLV9021QDBVRQ1" device=""/>
 <part name="X_4" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
+<part name="IC4" library="TMUX1119DBVR" deviceset="TMUX1119DBVR" device=""/>
+<part name="IC5" library="TMUX1119DBVR" deviceset="TMUX1119DBVR" device=""/>
+<part name="X_5" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
+<part name="X_6" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="-83.82" y="-38.1" size="1.778" layer="91">RST Logic:
-- When RST is high, S3A and D3 are shorted, allowing cap to discharge
-- When RST is low, S3B and D3 are shorted, and S3B is left open so there is no path for current to flow there. 
+- When RST is high, S2 and D are shorted, allowing cap to discharge
+- When RST is low, S1 and D are shorted, and S1 is left open so there is no path for current to flow there. 
 This is the regular state of the switch and reset occurs at end of every ADC measuring cycle</text>
 <text x="60.96" y="30.48" size="1.778" layer="91">Comparator</text>
+<text x="-58.42" y="10.16" size="1.778" layer="91" grouprefs="ADC_SWITCH">V_TOGGLE = 1: V_SIG
+V_TOGGLE = 0: V_BG </text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="20.32" y="10.16" smashed="yes">
@@ -11582,17 +11542,21 @@ This is the regular state of the switch and reset occurs at end of every ADC mea
 <attribute name="NAME" x="-6.35" y="21.3614" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-8.89" y="26.162" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="IC2" gate="G$1" x="-58.42" y="12.7" smashed="yes">
-<attribute name="NAME" x="-59.69" y="-7.62" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-54.61" y="-10.16" size="1.778" layer="96" rot="R180" align="center-left"/>
-</instance>
-<instance part="X_2" gate="G$1" x="-68.58" y="0" smashed="yes"/>
-<instance part="X_3" gate="G$1" x="-68.58" y="25.4" smashed="yes"/>
 <instance part="IC3" gate="G$1" x="55.88" y="40.64" smashed="yes">
 <attribute name="NAME" x="62.23" y="45.72" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="62.23" y="48.26" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="X_4" gate="G$1" x="38.1" y="43.18" smashed="yes"/>
+<instance part="IC4" gate="G$1" x="-35.56" y="-12.7" smashed="yes" grouprefs="ADC_RST_SWITCH">
+<attribute name="NAME" x="-26.67" y="-5.08" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-29.21" y="-7.62" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="IC5" gate="G$1" x="-60.96" y="25.4" smashed="yes" grouprefs="ADC_SWITCH">
+<attribute name="NAME" x="-52.07" y="33.02" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-57.15" y="30.48" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="X_5" gate="G$1" x="-66.04" y="15.24" smashed="yes" grouprefs="ADC_SWITCH"/>
+<instance part="X_6" gate="G$1" x="-40.64" y="-20.32" smashed="yes" grouprefs="ADC_RST_SWITCH"/>
 </instances>
 <busses>
 </busses>
@@ -11609,16 +11573,19 @@ This is the regular state of the switch and reset occurs at end of every ADC mea
 <wire x1="45.72" y1="7.62" x2="58.42" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="VDD"/>
-<wire x1="-30.48" y1="7.62" x2="-25.4" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="-25.4" y1="7.62" x2="-25.4" y2="40.64" width="0.1524" layer="91"/>
-<label x="-30.48" y="40.64" size="1.778" layer="95"/>
-<wire x1="-25.4" y1="40.64" x2="-30.48" y2="40.64" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="IC3" gate="G$1" pin="V+"/>
 <wire x1="81.28" y1="38.1" x2="93.98" y2="38.1" width="0.1524" layer="91"/>
 <label x="93.98" y="38.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="VDD"/>
+<wire x1="-60.96" y1="22.86" x2="-68.58" y2="22.86" width="0.1524" layer="91" grouprefs="ADC_SWITCH"/>
+<label x="-68.58" y="22.86" size="1.778" layer="95" align="bottom-right" grouprefs="ADC_SWITCH"/>
+</segment>
+<segment>
+<pinref part="IC4" gate="G$1" pin="VDD"/>
+<wire x1="-35.56" y1="-15.24" x2="-43.18" y2="-15.24" width="0.1524" layer="91" grouprefs="ADC_RST_SWITCH"/>
+<label x="-43.18" y="-15.24" size="1.778" layer="95" align="bottom-right" grouprefs="ADC_RST_SWITCH"/>
 </segment>
 </net>
 <net name="V_BG" class="0">
@@ -11628,9 +11595,9 @@ This is the regular state of the switch and reset occurs at end of every ADC mea
 <label x="-15.24" y="81.28" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="S4B"/>
-<wire x1="-30.48" y1="10.16" x2="-20.32" y2="10.16" width="0.1524" layer="91"/>
-<label x="-20.828" y="10.16" size="1.778" layer="95"/>
+<pinref part="IC5" gate="G$1" pin="S1"/>
+<wire x1="-35.56" y1="20.32" x2="-30.48" y2="20.32" width="0.1524" layer="91" grouprefs="ADC_SWITCH"/>
+<label x="-30.48" y="20.32" size="1.778" layer="95" grouprefs="ADC_SWITCH"/>
 </segment>
 </net>
 <net name="V_SIG" class="0">
@@ -11640,10 +11607,9 @@ This is the regular state of the switch and reset occurs at end of every ADC mea
 <label x="-15.24" y="76.2" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="S4A"/>
-<wire x1="-38.1" y1="27.94" x2="-38.1" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="-38.1" y1="45.72" x2="-50.8" y2="45.72" width="0.1524" layer="91"/>
-<label x="-50.8" y="45.72" size="1.778" layer="95"/>
+<pinref part="IC5" gate="G$1" pin="S2"/>
+<wire x1="-35.56" y1="25.4" x2="-30.48" y2="25.4" width="0.1524" layer="91" grouprefs="ADC_SWITCH"/>
+<label x="-30.48" y="25.4" size="1.778" layer="95" grouprefs="ADC_SWITCH"/>
 </segment>
 </net>
 <net name="0" class="0">
@@ -11654,32 +11620,24 @@ This is the regular state of the switch and reset occurs at end of every ADC mea
 <wire x1="12.7" y1="7.62" x2="12.7" y2="-2.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="X_2" gate="G$1" pin="0"/>
-<wire x1="-68.58" y1="0" x2="-68.58" y2="7.62" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="VSS"/>
-<wire x1="-68.58" y1="7.62" x2="-58.42" y2="7.62" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="GND"/>
-<wire x1="-58.42" y1="5.08" x2="-58.42" y2="7.62" width="0.1524" layer="91"/>
-<junction x="-58.42" y="7.62"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="!EN"/>
-<wire x1="-43.18" y1="27.94" x2="-43.18" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="-43.18" y1="30.48" x2="-50.8" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="-50.8" y1="30.48" x2="-68.58" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="-68.58" y1="30.48" x2="-68.58" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="X_3" gate="G$1" pin="0"/>
-<pinref part="IC2" gate="G$1" pin="EP"/>
-<wire x1="-50.8" y1="27.94" x2="-50.8" y2="30.48" width="0.1524" layer="91"/>
-<junction x="-50.8" y="30.48"/>
-</segment>
-<segment>
 <pinref part="IC3" gate="G$1" pin="V-"/>
 <wire x1="55.88" y1="38.1" x2="43.18" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="38.1" x2="43.18" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="45.72" x2="38.1" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="45.72" x2="38.1" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="X_4" gate="G$1" pin="0"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="GND"/>
+<wire x1="-60.96" y1="20.32" x2="-66.04" y2="20.32" width="0.1524" layer="91" grouprefs="ADC_SWITCH"/>
+<pinref part="X_5" gate="G$1" pin="0"/>
+<wire x1="-66.04" y1="15.24" x2="-66.04" y2="20.32" width="0.1524" layer="91" grouprefs="ADC_SWITCH"/>
+</segment>
+<segment>
+<pinref part="IC4" gate="G$1" pin="GND"/>
+<wire x1="-35.56" y1="-17.78" x2="-40.64" y2="-17.78" width="0.1524" layer="91" grouprefs="ADC_RST_SWITCH"/>
+<wire x1="-40.64" y1="-17.78" x2="-40.64" y2="-20.32" width="0.1524" layer="91" grouprefs="ADC_RST_SWITCH"/>
+<pinref part="X_6" gate="G$1" pin="0"/>
 </segment>
 </net>
 <net name="VS_1.5V" class="0">
@@ -11707,10 +11665,9 @@ This is the regular state of the switch and reset occurs at end of every ADC mea
 <label x="-15.24" y="91.44" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="IN3"/>
-<wire x1="-43.18" y1="-12.7" x2="-43.18" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="-43.18" y1="-22.86" x2="-33.02" y2="-22.86" width="0.1524" layer="91"/>
-<label x="-33.02" y="-22.86" size="1.778" layer="95"/>
+<pinref part="IC4" gate="G$1" pin="SEL"/>
+<wire x1="-35.56" y1="-12.7" x2="-43.18" y2="-12.7" width="0.1524" layer="91" grouprefs="ADC_RST_SWITCH"/>
+<label x="-43.18" y="-12.7" size="1.778" layer="95" align="bottom-right" grouprefs="ADC_RST_SWITCH"/>
 </segment>
 </net>
 <net name="V_TOGGLE" class="0">
@@ -11720,33 +11677,9 @@ This is the regular state of the switch and reset occurs at end of every ADC mea
 <label x="-15.24" y="96.52" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="IN4"/>
-<wire x1="-40.64" y1="27.94" x2="-40.64" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="-40.64" y1="38.1" x2="-50.8" y2="38.1" width="0.1524" layer="91"/>
-<label x="-50.8" y="38.1" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="IC2" gate="G$1" pin="D4"/>
-<wire x1="-30.48" y1="12.7" x2="-17.78" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="-15.24" y1="22.86" x2="-17.78" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="-17.78" y1="22.86" x2="-17.78" y2="12.7" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<wire x1="7.62" y1="-15.24" x2="7.62" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="OUT"/>
-<wire x1="7.62" y1="10.16" x2="12.7" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="12.7" y1="10.16" x2="20.32" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="10.16" x2="12.7" y2="12.7" width="0.1524" layer="91"/>
-<junction x="12.7" y="10.16"/>
-<pinref part="IC2" gate="G$1" pin="S3A"/>
-<wire x1="-40.64" y1="-12.7" x2="-40.64" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="-40.64" y1="-15.24" x2="7.62" y2="-15.24" width="0.1524" layer="91"/>
+<pinref part="IC5" gate="G$1" pin="SEL"/>
+<wire x1="-60.96" y1="25.4" x2="-68.58" y2="25.4" width="0.1524" layer="91" grouprefs="ADC_SWITCH"/>
+<label x="-68.58" y="25.4" size="1.778" layer="95" align="bottom-right" grouprefs="ADC_SWITCH"/>
 </segment>
 </net>
 <net name="ADC_EXT_INT" class="0">
@@ -11765,14 +11698,10 @@ This is the regular state of the switch and reset occurs at end of every ADC mea
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="D3"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="-5.08" y1="22.86" x2="0" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="0" y1="22.86" x2="0" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="0" y1="2.54" x2="-30.48" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="0" y1="22.86" x2="12.7" y2="22.86" width="0.1524" layer="91"/>
-<junction x="0" y="22.86"/>
+<wire x1="-5.08" y1="22.86" x2="2.54" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="1"/>
+<wire x1="2.54" y1="22.86" x2="12.7" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="22.86" x2="12.7" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="22.86" x2="48.26" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="IN-"/>
@@ -11783,6 +11712,30 @@ This is the regular state of the switch and reset occurs at end of every ADC mea
 <junction x="48.26" y="22.86"/>
 <pinref part="IC3" gate="G$1" pin="IN+"/>
 <wire x1="48.26" y1="35.56" x2="55.88" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="IC4" gate="G$1" pin="D"/>
+<wire x1="-10.16" y1="-15.24" x2="2.54" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="-15.24" x2="2.54" y2="22.86" width="0.1524" layer="91"/>
+<junction x="2.54" y="22.86"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="C1" gate="G$1" pin="2"/>
+<pinref part="IC1" gate="G$1" pin="OUT"/>
+<wire x1="12.7" y1="10.16" x2="20.32" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="10.16" x2="12.7" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="IC4" gate="G$1" pin="S2"/>
+<wire x1="-10.16" y1="-12.7" x2="7.62" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="-12.7" x2="7.62" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="10.16" x2="12.7" y2="10.16" width="0.1524" layer="91"/>
+<junction x="12.7" y="10.16"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="IC5" gate="G$1" pin="D"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="-35.56" y1="22.86" x2="-15.24" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -11805,6 +11758,19 @@ This is the regular state of the switch and reset occurs at end of every ADC mea
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2"/>
 <part name="X_5" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_6" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0"/>
+<part name="IC1" library="TPS7B8650BQDDARQ1" deviceset="TPS7B8650BQDDARQ1" device=""/>
+<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0"/>
+<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
+<part name="X_7" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
+<part name="X_8" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
+<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="22uF"/>
+<part name="X_9" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
+<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="22uF"/>
+<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0"/>
+<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0"/>
+<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0"/>
+<part name="X_10" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11890,6 +11856,46 @@ will go to MCU to trigger counting</text>
 </instance>
 <instance part="X_5" gate="G$1" x="-215.9" y="-7.62" smashed="yes"/>
 <instance part="X_6" gate="G$1" x="-60.96" y="-30.48" smashed="yes"/>
+<instance part="R3" gate="G$1" x="-172.72" y="78.74" smashed="yes">
+<attribute name="NAME" x="-173.99" y="80.2386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-176.53" y="80.518" size="1.778" layer="96"/>
+</instance>
+<instance part="IC1" gate="G$1" x="-116.84" y="132.08" smashed="yes" rot="MR0">
+<attribute name="NAME" x="-143.51" y="139.7" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-143.51" y="137.16" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="R4" gate="G$1" x="-185.42" y="132.08" smashed="yes">
+<attribute name="NAME" x="-186.69" y="133.5786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-189.23" y="133.858" size="1.778" layer="96"/>
+</instance>
+<instance part="C3" gate="G$1" x="-167.64" y="127" smashed="yes">
+<attribute name="NAME" x="-166.624" y="127.635" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-166.624" y="122.809" size="1.778" layer="96"/>
+</instance>
+<instance part="X_7" gate="G$1" x="-167.64" y="116.84" smashed="yes"/>
+<instance part="X_8" gate="G$1" x="-139.7" y="109.22" smashed="yes"/>
+<instance part="C4" gate="G$1" x="-91.44" y="127" smashed="yes">
+<attribute name="NAME" x="-90.424" y="127.635" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-90.424" y="122.809" size="1.778" layer="96"/>
+</instance>
+<instance part="X_9" gate="G$1" x="-91.44" y="119.38" smashed="yes"/>
+<instance part="C5" gate="G$1" x="-157.48" y="127" smashed="yes">
+<attribute name="NAME" x="-156.464" y="127.635" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-156.464" y="122.809" size="1.778" layer="96"/>
+</instance>
+<instance part="R5" gate="G$1" x="-48.26" y="68.58" smashed="yes">
+<attribute name="NAME" x="-49.53" y="70.0786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-52.07" y="70.358" size="1.778" layer="96"/>
+</instance>
+<instance part="R6" gate="G$1" x="-104.14" y="124.46" smashed="yes" rot="R90">
+<attribute name="NAME" x="-105.6386" y="123.19" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-105.918" y="120.65" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R7" gate="G$1" x="-104.14" y="111.76" smashed="yes" rot="R90">
+<attribute name="NAME" x="-105.6386" y="110.49" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-105.918" y="107.95" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="X_10" gate="G$1" x="-104.14" y="104.14" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -11935,6 +11941,36 @@ will go to MCU to trigger counting</text>
 <pinref part="X_6" gate="G$1" pin="0"/>
 <wire x1="-60.96" y1="-27.94" x2="-60.96" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="C3" gate="G$1" pin="2"/>
+<pinref part="X_7" gate="G$1" pin="0"/>
+<wire x1="-167.64" y1="121.92" x2="-167.64" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="C5" gate="G$1" pin="2"/>
+<wire x1="-167.64" y1="119.38" x2="-167.64" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="-157.48" y1="121.92" x2="-157.48" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="-157.48" y1="119.38" x2="-167.64" y2="119.38" width="0.1524" layer="91"/>
+<junction x="-167.64" y="119.38"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="GND"/>
+<wire x1="-147.32" y1="124.46" x2="-147.32" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="EP"/>
+<wire x1="-147.32" y1="111.76" x2="-139.7" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="-139.7" y1="111.76" x2="-132.08" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="-139.7" y1="111.76" x2="-139.7" y2="109.22" width="0.1524" layer="91"/>
+<junction x="-139.7" y="111.76"/>
+<pinref part="X_8" gate="G$1" pin="0"/>
+</segment>
+<segment>
+<pinref part="C4" gate="G$1" pin="2"/>
+<wire x1="-91.44" y1="121.92" x2="-91.44" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="X_9" gate="G$1" pin="0"/>
+</segment>
+<segment>
+<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="-104.14" y1="106.68" x2="-104.14" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="X_10" gate="G$1" pin="0"/>
+</segment>
 </net>
 <net name="VS_9V" class="0">
 <segment>
@@ -11960,11 +11996,15 @@ will go to MCU to trigger counting</text>
 <portref moduleinst="BATTERY_AND_BUCK" port="VS_6V"/>
 <wire x1="-210.82" y1="63.5" x2="-205.74" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="-205.74" y1="63.5" x2="-205.74" y2="78.74" width="0.1524" layer="91"/>
-<portref moduleinst="LDO_AND_VOLTAGE_REFS" port="VS_6V"/>
-<wire x1="-205.74" y1="78.74" x2="-133.35" y2="78.74" width="0.1524" layer="91"/>
 <portref moduleinst="BANDGAP_REF" port="VS_6V"/>
 <wire x1="-205.74" y1="63.5" x2="-200.66" y2="63.5" width="0.1524" layer="91"/>
 <junction x="-205.74" y="63.5"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="-205.74" y1="78.74" x2="-177.8" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="-205.74" y1="78.74" x2="-205.74" y2="132.08" width="0.1524" layer="91"/>
+<junction x="-205.74" y="78.74"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="-205.74" y1="132.08" x2="-190.5" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -11994,11 +12034,9 @@ will go to MCU to trigger counting</text>
 <net name="VS_5V" class="0">
 <segment>
 <wire x1="-15.24" y1="68.58" x2="-27.94" y2="68.58" width="0.1524" layer="91"/>
-<portref moduleinst="LDO_AND_VOLTAGE_REFS" port="VS_5V"/>
 <portref moduleinst="THERMISTOR_THERMOPILE" port="VS_5V"/>
 <wire x1="-27.94" y1="68.58" x2="-35.56" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="-35.56" y1="68.58" x2="-40.64" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="-40.64" y1="68.58" x2="-69.85" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="-27.94" y1="68.58" x2="-27.94" y2="10.16" width="0.1524" layer="91"/>
 <junction x="-27.94" y="68.58"/>
 <pinref part="J2" gate="G$1" pin="02"/>
@@ -12007,10 +12045,11 @@ will go to MCU to trigger counting</text>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="-40.64" y1="43.18" x2="-40.64" y2="68.58" width="0.1524" layer="91"/>
 <junction x="-40.64" y="68.58"/>
-<label x="-58.42" y="68.58" size="1.778" layer="95"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="-35.56" y1="68.58" x2="-35.56" y2="43.18" width="0.1524" layer="91"/>
 <junction x="-35.56" y="68.58"/>
+<wire x1="-40.64" y1="68.58" x2="-43.18" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="R5" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="81.28" y1="58.42" x2="92.71" y2="58.42" width="0.1524" layer="91"/>
@@ -12039,6 +12078,25 @@ will go to MCU to trigger counting</text>
 <wire x1="-60.96" y1="-17.78" x2="-50.8" y2="-17.78" width="0.1524" layer="91"/>
 <junction x="-60.96" y="-17.78"/>
 <label x="-50.8" y="-17.78" size="1.778" layer="95"/>
+</segment>
+<segment>
+<portref moduleinst="LDO_AND_VOLTAGE_REFS" port="VS_5V"/>
+<pinref part="C4" gate="G$1" pin="1"/>
+<wire x1="-91.44" y1="129.54" x2="-91.44" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="OUT"/>
+<wire x1="-116.84" y1="132.08" x2="-104.14" y2="132.08" width="0.1524" layer="91"/>
+<junction x="-91.44" y="132.08"/>
+<wire x1="-104.14" y1="132.08" x2="-91.44" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="-91.44" y1="132.08" x2="-63.5" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="132.08" x2="-63.5" y2="68.58" width="0.1524" layer="91"/>
+<junction x="-63.5" y="68.58"/>
+<wire x1="-53.34" y1="68.58" x2="-63.5" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="68.58" x2="-69.85" y2="68.58" width="0.1524" layer="91"/>
+<label x="-60.96" y="68.58" size="1.778" layer="95"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="-104.14" y1="132.08" x2="-104.14" y2="129.54" width="0.1524" layer="91"/>
+<junction x="-104.14" y="132.08"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -12142,6 +12200,43 @@ will go to MCU to trigger counting</text>
 <wire x1="93.98" y1="17.78" x2="93.98" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$2" class="0">
+<segment>
+<portref moduleinst="LDO_AND_VOLTAGE_REFS" port="VS_6V"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="-167.64" y1="78.74" x2="-133.35" y2="78.74" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="IC1" gate="G$1" pin="IN"/>
+<wire x1="-180.34" y1="132.08" x2="-167.64" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+<wire x1="-167.64" y1="132.08" x2="-157.48" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="-157.48" y1="132.08" x2="-147.32" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="-167.64" y1="129.54" x2="-167.64" y2="132.08" width="0.1524" layer="91"/>
+<junction x="-167.64" y="132.08"/>
+<pinref part="IC1" gate="G$1" pin="EN"/>
+<wire x1="-147.32" y1="129.54" x2="-147.32" y2="132.08" width="0.1524" layer="91"/>
+<junction x="-147.32" y="132.08"/>
+<pinref part="C5" gate="G$1" pin="1"/>
+<wire x1="-157.48" y1="129.54" x2="-157.48" y2="132.08" width="0.1524" layer="91"/>
+<junction x="-157.48" y="132.08"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="FB/NC"/>
+<wire x1="-116.84" y1="129.54" x2="-109.22" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="-109.22" y1="129.54" x2="-109.22" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="-109.22" y1="119.38" x2="-104.14" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="-104.14" y1="119.38" x2="-104.14" y2="116.84" width="0.1524" layer="91"/>
+<junction x="-104.14" y="119.38"/>
+<pinref part="R7" gate="G$1" pin="2"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
@@ -12166,6 +12261,11 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
+</note>
+<note version="9.5" severity="warning">
+Since Version 9.5, EAGLE supports persistent groups with
+schematics, and board files. Those persistent groups
+will not be understood (or retained) with this version.
 </note>
 <note version="8.4" severity="warning">
 Since Version 8.4, EAGLE supports properties for SPICE simulation. 
