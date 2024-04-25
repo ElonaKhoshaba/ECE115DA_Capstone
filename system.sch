@@ -12554,8 +12554,8 @@ Output: VS_6V</text>
 <attribute name="VALUE" x="73.66" y="80.264" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="L1" gate="G$1" x="106.68" y="76.2" smashed="yes">
-<attribute name="NAME" x="120.65" y="82.55" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="120.65" y="80.01" size="1.778" layer="96" align="center-left"/>
+<attribute name="NAME" x="115.316" y="74.93" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="114.3" y="78.74" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="C3" gate="G$1" x="101.6" y="83.82" smashed="yes">
 <attribute name="NAME" x="102.616" y="84.455" size="1.778" layer="95"/>
