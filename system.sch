@@ -14087,7 +14087,6 @@ V_TOGGLE = 0: V_BG </text>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0"/>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0"/>
 <part name="X_10" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
-<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0"/>
 <part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0"/>
 <part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0"/>
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0"/>
@@ -14223,10 +14222,6 @@ R_L smol </text>
 <attribute name="VALUE" x="-105.918" y="107.95" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="X_10" gate="G$1" x="-104.14" y="104.14" smashed="yes"/>
-<instance part="R8" gate="G$1" x="-60.96" y="0" smashed="yes">
-<attribute name="NAME" x="-64.262" y="1.2446" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-64.008" y="-2.032" size="1.778" layer="96"/>
-</instance>
 <instance part="R9" gate="G$1" x="93.98" y="7.62" smashed="yes">
 <attribute name="NAME" x="90.17" y="9.1186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="90.17" y="4.318" size="1.778" layer="96"/>
@@ -14596,20 +14591,6 @@ R_L smol </text>
 <wire x1="-104.14" y1="119.38" x2="-104.14" y2="116.84" width="0.1524" layer="91"/>
 <junction x="-104.14" y="119.38"/>
 <pinref part="R7" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="R8" gate="G$1" pin="1"/>
-<pinref part="U1" gate="A" pin="(ADC2/PTCY)PC2"/>
-<wire x1="-66.04" y1="0" x2="-68.58" y2="0" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="V_SIG" class="0">
-<segment>
-<pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="-55.88" y1="0" x2="-38.1" y2="0" width="0.1524" layer="91"/>
-<label x="-38.1" y="0" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$12" class="0">
