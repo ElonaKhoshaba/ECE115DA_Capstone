@@ -12797,6 +12797,7 @@ Output: VS_6V</text>
 <port name="V_BG" side="left" coord="0" direction="io"/>
 <port name="VS_5V" side="right" coord="5.08" direction="io"/>
 <port name="VS_2.5V" side="right" coord="-5.08" direction="io"/>
+<port name="VS_1.5V" side="right" coord="-15.24" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -13012,23 +13013,6 @@ Vout = (1 + R5/R6)*Vin</text>
 </net>
 <net name="VS_5V" class="0">
 <segment>
-<pinref part="Q1" gate="G$1" pin="E"/>
-<wire x1="-15.24" y1="60.96" x2="-15.24" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="-15.24" y1="58.42" x2="-15.24" y2="55.88" width="0.1524" layer="91"/>
-<junction x="-15.24" y="58.42"/>
-<pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="-15.24" y1="55.88" x2="-15.24" y2="51.816" width="0.1524" layer="91"/>
-<wire x1="-15.24" y1="55.88" x2="-22.86" y2="55.88" width="0.1524" layer="91"/>
-<junction x="-15.24" y="55.88"/>
-<wire x1="-22.86" y1="55.88" x2="-26.416" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="-15.24" y1="58.42" x2="1.524" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="-22.86" y1="51.816" x2="-22.86" y2="55.88" width="0.1524" layer="91"/>
-<junction x="-22.86" y="55.88"/>
-<pinref part="R7" gate="G$1" pin="1"/>
-</segment>
-<segment>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="58.42" y1="76.2" x2="58.42" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="83.82" x2="50.8" y2="83.82" width="0.1524" layer="91"/>
@@ -13050,13 +13034,13 @@ Vout = (1 + R5/R6)*Vin</text>
 <label x="93.98" y="-7.62" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="11.684" y1="58.42" x2="17.78" y2="58.42" width="0.1524" layer="91"/>
 <label x="22.86" y="58.42" size="1.778" layer="95"/>
 <pinref part="R8" gate="G$1" pin="2"/>
 <wire x1="17.78" y1="58.42" x2="22.86" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="11.684" y1="30.48" x2="17.78" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="30.48" x2="17.78" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="17.78" y1="58.42" x2="11.684" y2="58.42" width="0.1524" layer="91"/>
 <junction x="17.78" y="58.42"/>
 </segment>
 </net>
@@ -13170,6 +13154,25 @@ Vout = (1 + R5/R6)*Vin</text>
 <pinref part="J1" gate="A" pin="1"/>
 <pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="-5.08" y1="30.48" x2="1.524" y2="30.48" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="1.524" y1="58.42" x2="-15.24" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="Q1" gate="G$1" pin="E"/>
+<wire x1="-15.24" y1="58.42" x2="-15.24" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="-15.24" y1="58.42" x2="-15.24" y2="55.88" width="0.1524" layer="91"/>
+<junction x="-15.24" y="58.42"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="-15.24" y1="55.88" x2="-15.24" y2="51.816" width="0.1524" layer="91"/>
+<wire x1="-26.416" y1="55.88" x2="-22.86" y2="55.88" width="0.1524" layer="91"/>
+<junction x="-15.24" y="55.88"/>
+<wire x1="-22.86" y1="55.88" x2="-15.24" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="55.88" x2="-22.86" y2="51.816" width="0.1524" layer="91"/>
+<junction x="-22.86" y="55.88"/>
+<pinref part="C4" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
@@ -13588,7 +13591,6 @@ Output: V_TH</text>
 <part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10000"/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10000"/>
-<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF"/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100"/>
 </parts>
 <sheets>
@@ -13633,10 +13635,6 @@ Output: V_TH</text>
 <instance part="R5" gate="G$1" x="124.46" y="50.8" smashed="yes">
 <attribute name="NAME" x="120.65" y="52.2986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="120.65" y="47.498" size="1.778" layer="96"/>
-</instance>
-<instance part="C2" gate="G$1" x="63.5" y="-35.56" smashed="yes" rot="R90">
-<attribute name="NAME" x="62.865" y="-34.544" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="67.691" y="-34.544" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R1" gate="G$1" x="60.96" y="63.5" smashed="yes">
 <attribute name="NAME" x="57.15" y="64.9986" size="1.778" layer="95"/>
@@ -14380,13 +14378,6 @@ R_L smol </text>
 <portref moduleinst="DUAL_SLOPE_ADC" port="V_BG"/>
 </segment>
 </net>
-<net name="N$4" class="0">
-<segment>
-<wire x1="-69.85" y1="58.42" x2="-15.24" y2="58.42" width="0.1524" layer="91"/>
-<portref moduleinst="THERMISTOR_THERMOPILE" port="VS_2.5V"/>
-<portref moduleinst="LDO_AND_VOLTAGE_REFS" port="VS_2.5V"/>
-</segment>
-</net>
 <net name="VS_5V" class="0">
 <segment>
 <wire x1="-15.24" y1="68.58" x2="-27.94" y2="68.58" width="0.1524" layer="91"/>
@@ -14425,15 +14416,6 @@ R_L smol </text>
 <wire x1="-215.9" y1="10.16" x2="-228.6" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="-215.9" y1="5.08" x2="-215.9" y2="10.16" width="0.1524" layer="91"/>
 <junction x="-215.9" y="10.16"/>
-</segment>
-<segment>
-<pinref part="U1" gate="A" pin="AVCC"/>
-<wire x1="-68.58" y1="-17.78" x2="-60.96" y2="-17.78" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="-60.96" y1="-17.78" x2="-60.96" y2="-20.32" width="0.1524" layer="91"/>
-<pinref part="L1" gate="G$1" pin="1"/>
-<wire x1="-60.96" y1="-17.78" x2="-58.42" y2="-17.78" width="0.1524" layer="91"/>
-<junction x="-60.96" y="-17.78"/>
 </segment>
 <segment>
 <portref moduleinst="LDO_AND_VOLTAGE_REFS" port="VS_5V"/>
@@ -14498,12 +14480,23 @@ R_L smol </text>
 <wire x1="88.9" y1="-2.54" x2="81.28" y2="-2.54" width="0.1524" layer="91"/>
 <pinref part="R10" gate="G$1" pin="1"/>
 </segment>
+<segment>
+<portref moduleinst="LDO_AND_VOLTAGE_REFS" port="VS_1.5V"/>
+<wire x1="-69.85" y1="48.26" x2="-60.96" y2="48.26" width="0.1524" layer="91"/>
+<label x="-60.96" y="48.26" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="VS_2.5V" class="0">
 <segment>
 <portref moduleinst="AMP_AND_FILTER" port="VS_2.5V"/>
 <wire x1="92.71" y1="66.04" x2="81.28" y2="66.04" width="0.1524" layer="91"/>
 <label x="81.28" y="66.04" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<wire x1="-69.85" y1="58.42" x2="-15.24" y2="58.42" width="0.1524" layer="91"/>
+<portref moduleinst="THERMISTOR_THERMOPILE" port="VS_2.5V"/>
+<portref moduleinst="LDO_AND_VOLTAGE_REFS" port="VS_2.5V"/>
+<label x="-60.96" y="58.42" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="ADC_EXT_INT" class="0">
@@ -14646,9 +14639,26 @@ R_L smol </text>
 <label x="-66.04" y="-15.24" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="L1" gate="G$1" pin="1"/>
+<pinref part="U1" gate="A" pin="AVCC"/>
+<wire x1="-58.42" y1="-17.78" x2="-60.96" y2="-17.78" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="-60.96" y1="-17.78" x2="-68.58" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="-17.78" x2="-60.96" y2="-20.32" width="0.1524" layer="91"/>
+<junction x="-60.96" y="-17.78"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,-195.58,10.16,U1,VCC,VS_5V,,,"/>
+<approved hash="104,1,-195.58,7.62,U1,GND_2,0,,,"/>
+<approved hash="104,1,-68.58,-17.78,U1,AVCC,N$4,,,"/>
+<approved hash="104,1,-68.58,-10.16,U1,GND,0,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
