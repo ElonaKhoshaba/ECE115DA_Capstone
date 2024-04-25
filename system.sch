@@ -14093,8 +14093,9 @@ V_TOGGLE = 0: V_BG </text>
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0"/>
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
 <part name="X_4" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
-<part name="L1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="L-US" device="IR-4" package3d_urn="urn:adsk.eagle:package:23516/1"/>
+<part name="L1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="L-US" device="IR-4" package3d_urn="urn:adsk.eagle:package:23516/1" value="10uH"/>
 <part name="X_11" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
+<part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0"/>
 </parts>
 <sheets>
 <sheet>
@@ -14106,7 +14107,6 @@ AVCC - This pin on the microcontroller provides power to the ADC circuitry on th
 
 1.1V - The microcontroller has an internal 1.1V reference voltage that can be used.</text>
 <text x="17.78" y="15.748" size="1.778" layer="91">OLED Display</text>
-<text x="0" y="-27.94" size="1.778" layer="91">to ATmega ADC</text>
 <text x="-154.94" y="-48.26" size="1.778" layer="91">V_TOGGLE, RST_ADC, ADC_EXT_INT pins will need to be 
 configured in the EICRA register of the MCU. 
 - ADC_EXT_INT needs to be set to falling edge detection
@@ -14224,8 +14224,8 @@ R_L smol </text>
 </instance>
 <instance part="X_10" gate="G$1" x="-104.14" y="104.14" smashed="yes"/>
 <instance part="R8" gate="G$1" x="-60.96" y="0" smashed="yes">
-<attribute name="NAME" x="-64.77" y="1.4986" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-57.15" y="1.778" size="1.778" layer="96"/>
+<attribute name="NAME" x="-64.262" y="1.2446" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-64.008" y="-2.032" size="1.778" layer="96"/>
 </instance>
 <instance part="R9" gate="G$1" x="93.98" y="7.62" smashed="yes">
 <attribute name="NAME" x="90.17" y="9.1186" size="1.778" layer="95"/>
@@ -14249,6 +14249,10 @@ R_L smol </text>
 <attribute name="VALUE" x="-45.72" y="-13.97" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="X_11" gate="G$1" x="-60.96" y="-10.16" smashed="yes" rot="R90"/>
+<instance part="R12" gate="G$1" x="177.8" y="58.42" smashed="yes">
+<attribute name="NAME" x="173.99" y="59.9186" size="1.778" layer="95"/>
+<attribute name="VALUE" x="173.99" y="55.118" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -14507,15 +14511,6 @@ R_L smol </text>
 <label x="81.28" y="66.04" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="N$8" class="0">
-<segment>
-<portref moduleinst="THERMISTOR_THERMOPILE" port="V_TH"/>
-<wire x1="50.8" y1="68.58" x2="58.42" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="68.58" x2="58.42" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="-22.86" x2="-15.24" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="-15.24" y1="-22.86" x2="-15.24" y2="-25.4" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="ADC_EXT_INT" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="(PTCXY/INT0/OC3B/OC4B)PD2"/>
@@ -14561,6 +14556,9 @@ R_L smol </text>
 <wire x1="165.1" y1="30.48" x2="93.98" y2="30.48" width="0.1524" layer="91"/>
 <portref moduleinst="AMP_AND_FILTER" port="V_SIG"/>
 <wire x1="93.98" y1="17.78" x2="93.98" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="58.42" x2="172.72" y2="58.42" width="0.1524" layer="91"/>
+<junction x="165.1" y="58.42"/>
+<pinref part="R12" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -14641,6 +14639,30 @@ R_L smol </text>
 <wire x1="-68.58" y1="-12.7" x2="-33.02" y2="-12.7" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="1"/>
 <wire x1="-33.02" y1="-12.7" x2="-33.02" y2="-15.24" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="V_TH" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="(ADC3/PTCY)PC3"/>
+<wire x1="-68.58" y1="2.54" x2="-48.26" y2="2.54" width="0.1524" layer="91"/>
+<label x="-48.26" y="2.54" size="1.778" layer="95"/>
+</segment>
+<segment>
+<portref moduleinst="THERMISTOR_THERMOPILE" port="V_TH"/>
+<wire x1="50.8" y1="68.58" x2="58.42" y2="68.58" width="0.1524" layer="91"/>
+<label x="58.42" y="68.58" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="V_SIG_ADC" class="0">
+<segment>
+<pinref part="R12" gate="G$1" pin="2"/>
+<wire x1="182.88" y1="58.42" x2="187.96" y2="58.42" width="0.1524" layer="91"/>
+<label x="187.96" y="58.42" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="A" pin="(ADC6/PTCY/ICP3/!SS1)PE2"/>
+<wire x1="-68.58" y1="-15.24" x2="-66.04" y2="-15.24" width="0.1524" layer="91"/>
+<label x="-66.04" y="-15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
