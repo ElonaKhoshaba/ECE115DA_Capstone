@@ -11893,6 +11893,10 @@ V_TOGGLE = 0: V_BG </text>
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0"/>
 <part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0"/>
 <part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0"/>
+<part name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0"/>
+<part name="J3" library="RS1-02-G" deviceset="RS1-02-G" device=""/>
+<part name="X_18" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
+<part name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0"/>
 </parts>
 <sheets>
 <sheet>
@@ -11917,10 +11921,6 @@ output of comparator,
 will go to MCU to trigger counting</text>
 <text x="-299.72" y="-71.12" size="1.778" layer="91">Decoupling cap</text>
 <text x="-154.94" y="-111.76" size="1.778" layer="91">Decoupling cap</text>
-<text x="-109.22" y="-127" size="1.778" layer="91">TODO:
-
-Add proper footprint for inductor
-R_L smol </text>
 <text x="-45.72" y="160.02" size="1.778" layer="91">Level Shifter
 Resistive divider with voltage follower
 Input: VS_5V
@@ -11934,6 +11934,7 @@ Vout = (1 + R5/R6)*Vin</text>
 <text x="-266.7" y="-114.3" size="1.778" layer="91">V_SIG_ADC: backup to connect thermopile to ADC</text>
 <text x="-39.37" y="-64.262" size="1.778" layer="91">Output</text>
 <text x="78.74" y="-83.82" size="1.778" layer="91">RST_ADC and V_TOGGLE from MCU</text>
+<text x="-200.66" y="30.48" size="1.778" layer="91">AD2 Backup BG Voltage</text>
 </plain>
 <moduleinsts>
 <moduleinst name="BATTERY_AND_BUCK" module="BATTERY_AND_BUCK" x="-302.26" y="63.5">
@@ -11942,8 +11943,8 @@ Vout = (1 + R5/R6)*Vin</text>
 <moduleinst name="LDO_AND_VOLTAGE_REFS" module="LDO_AND_VOLTAGE_REFS" x="-119.38" y="63.5">
 <attribute name="NAME" value="LDO_AND_VOLTAGE_REFS" x="-119.38" y="63.5" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="BANDGAP_REF" module="BANDGAP_REF" x="-203.2" y="63.5">
-<attribute name="NAME" value="BANDGAP_REF" x="-203.2" y="63.5" size="2.032" layer="95" align="bottom-center"/>
+<moduleinst name="BANDGAP_REF" module="BANDGAP_REF" x="-210.82" y="63.5">
+<attribute name="NAME" value="BANDGAP_REF" x="-210.82" y="63.5" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
 <moduleinst name="THERMISTOR_THERMOPILE" module="THERMISTOR_THERMOPILE" x="58.42" y="63.5">
 <attribute name="NAME" x="58.42" y="60.96" size="2.032" layer="95" align="bottom-center"/>
@@ -12117,6 +12118,18 @@ Vout = (1 + R5/R6)*Vin</text>
 <attribute name="NAME" x="52.07" y="-44.6786" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="52.07" y="-39.878" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="R22" gate="G$1" x="-175.26" y="63.5" smashed="yes">
+<attribute name="NAME" x="-176.53" y="64.9986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-179.07" y="65.278" size="1.778" layer="96"/>
+</instance>
+<instance part="J3" gate="A" x="-172.72" y="40.64" smashed="yes" rot="R180">
+<attribute name="NAME" x="-179.4256" y="35.3314" size="2.0828" layer="95" ratio="6" rot="SR180"/>
+</instance>
+<instance part="X_18" gate="G$1" x="-167.64" y="35.56" smashed="yes"/>
+<instance part="R23" gate="G$1" x="-167.64" y="53.34" smashed="yes" rot="R90">
+<attribute name="NAME" x="-169.1386" y="52.07" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-169.418" y="49.53" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -12223,6 +12236,12 @@ Vout = (1 + R5/R6)*Vin</text>
 <wire x1="96.52" y1="127" x2="96.52" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="X_17" gate="G$1" pin="0"/>
 </segment>
+<segment>
+<pinref part="J3" gate="A" pin="1"/>
+<wire x1="-172.72" y1="40.64" x2="-167.64" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="-167.64" y1="40.64" x2="-167.64" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="X_18" gate="G$1" pin="0"/>
+</segment>
 </net>
 <net name="VS_9V" class="0">
 <segment>
@@ -12249,7 +12268,7 @@ Vout = (1 + R5/R6)*Vin</text>
 <wire x1="-271.78" y1="63.5" x2="-243.84" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="-243.84" y1="63.5" x2="-243.84" y2="78.74" width="0.1524" layer="91"/>
 <portref moduleinst="BANDGAP_REF" port="VS_6V"/>
-<wire x1="-243.84" y1="63.5" x2="-228.6" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="-243.84" y1="63.5" x2="-236.22" y2="63.5" width="0.1524" layer="91"/>
 <junction x="-243.84" y="63.5"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="-243.84" y1="78.74" x2="-175.26" y2="78.74" width="0.1524" layer="91"/>
@@ -12579,9 +12598,13 @@ Vout = (1 + R5/R6)*Vin</text>
 </segment>
 <segment>
 <portref moduleinst="LDO_AND_VOLTAGE_REFS" port="V_BG"/>
-<portref moduleinst="BANDGAP_REF" port="V_BG"/>
-<label x="-175.26" y="63.5" size="1.778" layer="95"/>
-<wire x1="-157.48" y1="63.5" x2="-177.8" y2="63.5" width="0.1524" layer="91"/>
+<label x="-165.1" y="63.5" size="1.778" layer="95"/>
+<wire x1="-157.48" y1="63.5" x2="-167.64" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="R22" gate="G$1" pin="2"/>
+<pinref part="R23" gate="G$1" pin="2"/>
+<wire x1="-167.64" y1="63.5" x2="-170.18" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="-167.64" y1="58.42" x2="-167.64" y2="63.5" width="0.1524" layer="91"/>
+<junction x="-167.64" y="63.5"/>
 </segment>
 <segment>
 <portref moduleinst="THERMISTOR_THERMOPILE" port="V_BG"/>
@@ -12702,6 +12725,21 @@ Vout = (1 + R5/R6)*Vin</text>
 <pinref part="R17" gate="G$1" pin="2"/>
 <wire x1="43.18" y1="-53.34" x2="30.48" y2="-53.34" width="0.1524" layer="91"/>
 <portref moduleinst="DUAL_SLOPE_ADC" port="VS_5V_OUT"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<portref moduleinst="BANDGAP_REF" port="V_BG"/>
+<pinref part="R22" gate="G$1" pin="1"/>
+<wire x1="-180.34" y1="63.5" x2="-185.42" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="J3" gate="A" pin="2"/>
+<wire x1="-172.72" y1="43.18" x2="-167.64" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="R23" gate="G$1" pin="1"/>
+<wire x1="-167.64" y1="43.18" x2="-167.64" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
