@@ -13185,6 +13185,15 @@ V_TOGGLE = 0: V_BG </text>
 <part name="TP9" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="PAD1-13" package3d_urn="urn:adsk.eagle:package:27946/1"/>
 <part name="TP10" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="PAD1-13" package3d_urn="urn:adsk.eagle:package:27946/1"/>
 <part name="TP11" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="PAD1-13" package3d_urn="urn:adsk.eagle:package:27946/1"/>
+<part name="TP8" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="PAD1-13" package3d_urn="urn:adsk.eagle:package:27946/1"/>
+<part name="TP12" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="PAD1-13" package3d_urn="urn:adsk.eagle:package:27946/1"/>
+<part name="TP13" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="PAD1-13" package3d_urn="urn:adsk.eagle:package:27946/1"/>
+<part name="TP14" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="PAD1-13" package3d_urn="urn:adsk.eagle:package:27946/1"/>
+<part name="TP15" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="PAD1-13" package3d_urn="urn:adsk.eagle:package:27946/1"/>
+<part name="TP16" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="PAD1-13" package3d_urn="urn:adsk.eagle:package:27946/1"/>
+<part name="TP17" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="PAD1-13" package3d_urn="urn:adsk.eagle:package:27946/1"/>
+<part name="TP18" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="PAD1-13" package3d_urn="urn:adsk.eagle:package:27946/1"/>
+<part name="TP19" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="PAD1-13" package3d_urn="urn:adsk.eagle:package:27946/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -13224,6 +13233,7 @@ Vout = (1 + R5/R6)*Vin</text>
 <text x="78.74" y="-83.82" size="1.778" layer="91">RST_ADC and V_TOGGLE from MCU</text>
 <text x="-200.66" y="30.48" size="1.778" layer="91">AD2 Backup BG Voltage</text>
 <text x="-325.12" y="-43.18" size="1.778" layer="91">Programming pins for MCU</text>
+<text x="-195.58" y="10.16" size="1.778" layer="91">Testpoints</text>
 </plain>
 <moduleinsts>
 <moduleinst name="BATTERY_AND_BUCK" module="BATTERY_AND_BUCK" x="-302.26" y="63.5">
@@ -13486,6 +13496,42 @@ Vout = (1 + R5/R6)*Vin</text>
 <attribute name="NAME" x="-201.93" y="-41.91" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="-201.93" y="-44.45" size="1.778" layer="97" rot="R270"/>
 </instance>
+<instance part="TP8" gate="G$1" x="-167.64" y="2.54" smashed="yes" rot="R270">
+<attribute name="NAME" x="-168.91" y="3.81" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="-168.91" y="1.27" size="1.778" layer="97" rot="R270"/>
+</instance>
+<instance part="TP12" gate="G$1" x="-167.64" y="-2.54" smashed="yes" rot="R270">
+<attribute name="NAME" x="-168.91" y="-1.27" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="-168.91" y="-3.81" size="1.778" layer="97" rot="R270"/>
+</instance>
+<instance part="TP13" gate="G$1" x="-167.64" y="-7.62" smashed="yes" rot="R270">
+<attribute name="NAME" x="-168.91" y="-6.35" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="-168.91" y="-8.89" size="1.778" layer="97" rot="R270"/>
+</instance>
+<instance part="TP14" gate="G$1" x="-167.64" y="-12.7" smashed="yes" rot="R270">
+<attribute name="NAME" x="-168.91" y="-11.43" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="-168.91" y="-13.97" size="1.778" layer="97" rot="R270"/>
+</instance>
+<instance part="TP15" gate="G$1" x="-167.64" y="-17.78" smashed="yes" rot="R270">
+<attribute name="NAME" x="-168.91" y="-16.51" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="-168.91" y="-19.05" size="1.778" layer="97" rot="R270"/>
+</instance>
+<instance part="TP16" gate="G$1" x="-167.64" y="-22.86" smashed="yes" rot="R270">
+<attribute name="NAME" x="-168.91" y="-21.59" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="-168.91" y="-24.13" size="1.778" layer="97" rot="R270"/>
+</instance>
+<instance part="TP17" gate="G$1" x="-167.64" y="-27.94" smashed="yes" rot="R270">
+<attribute name="NAME" x="-168.91" y="-26.67" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="-168.91" y="-29.21" size="1.778" layer="97" rot="R270"/>
+</instance>
+<instance part="TP18" gate="G$1" x="-167.64" y="-33.02" smashed="yes" rot="R270">
+<attribute name="NAME" x="-168.91" y="-31.75" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="-168.91" y="-34.29" size="1.778" layer="97" rot="R270"/>
+</instance>
+<instance part="TP19" gate="G$1" x="-167.64" y="-38.1" smashed="yes" rot="R270">
+<attribute name="NAME" x="-168.91" y="-36.83" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="-168.91" y="-39.37" size="1.778" layer="97" rot="R270"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -13684,6 +13730,11 @@ Vout = (1 + R5/R6)*Vin</text>
 <wire x1="-353.06" y1="-76.2" x2="-345.44" y2="-76.2" width="0.1524" layer="91" grouprefs="OLED"/>
 <label x="-345.44" y="-76.2" size="1.778" layer="95" rot="MR180" grouprefs="OLED"/>
 </segment>
+<segment>
+<pinref part="TP18" gate="G$1" pin="TP"/>
+<wire x1="-170.18" y1="-33.02" x2="-175.26" y2="-33.02" width="0.1524" layer="91"/>
+<label x="-175.26" y="-33.02" size="1.778" layer="95" rot="R180"/>
+</segment>
 </net>
 <net name="SDA" class="0">
 <segment>
@@ -13699,6 +13750,11 @@ Vout = (1 + R5/R6)*Vin</text>
 <pinref part="J1" gate="G$1" pin="04"/>
 <wire x1="-353.06" y1="-78.74" x2="-345.44" y2="-78.74" width="0.1524" layer="91" grouprefs="OLED"/>
 <label x="-345.44" y="-78.74" size="1.778" layer="95" rot="MR180" grouprefs="OLED"/>
+</segment>
+<segment>
+<pinref part="TP19" gate="G$1" pin="TP"/>
+<wire x1="-170.18" y1="-38.1" x2="-175.26" y2="-38.1" width="0.1524" layer="91"/>
+<label x="-175.26" y="-38.1" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="VS_1.5V" class="0">
@@ -13725,6 +13781,11 @@ Vout = (1 + R5/R6)*Vin</text>
 <label x="-78.74" y="-66.04" size="1.778" layer="95"/>
 <pinref part="R12" gate="G$1" pin="2"/>
 </segment>
+<segment>
+<pinref part="TP11" gate="G$1" pin="TP"/>
+<wire x1="-203.2" y1="-43.18" x2="-208.28" y2="-43.18" width="0.1524" layer="91"/>
+<label x="-208.28" y="-43.18" size="1.778" layer="95" rot="R180"/>
+</segment>
 </net>
 <net name="RST_ADC" class="0">
 <segment>
@@ -13737,6 +13798,11 @@ Vout = (1 + R5/R6)*Vin</text>
 <wire x1="30.48" y1="-83.82" x2="63.5" y2="-83.82" width="0.1524" layer="91"/>
 <label x="63.5" y="-83.82" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="TP10" gate="G$1" pin="TP"/>
+<wire x1="-203.2" y1="-38.1" x2="-208.28" y2="-38.1" width="0.1524" layer="91"/>
+<label x="-208.28" y="-38.1" size="1.778" layer="95" rot="R180"/>
+</segment>
 </net>
 <net name="V_TOGGLE" class="0">
 <segment>
@@ -13748,6 +13814,11 @@ Vout = (1 + R5/R6)*Vin</text>
 <portref moduleinst="DUAL_SLOPE_ADC" port="V_TOGGLE"/>
 <wire x1="30.48" y1="-93.98" x2="63.5" y2="-93.98" width="0.1524" layer="91"/>
 <label x="63.5" y="-93.98" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="TP8" gate="G$1" pin="TP"/>
+<wire x1="-170.18" y1="2.54" x2="-175.26" y2="2.54" width="0.1524" layer="91"/>
+<label x="-175.26" y="2.54" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -14023,6 +14094,11 @@ Vout = (1 + R5/R6)*Vin</text>
 <wire x1="30.48" y1="-73.66" x2="63.5" y2="-73.66" width="0.1524" layer="91"/>
 <label x="63.5" y="-73.66" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="TP6" gate="G$1" pin="TP"/>
+<wire x1="-203.2" y1="-22.86" x2="-208.28" y2="-22.86" width="0.1524" layer="91"/>
+<label x="-208.28" y="-22.86" size="1.778" layer="95" rot="R180"/>
+</segment>
 </net>
 <net name="VS_1.5V_BACKUP" class="0">
 <segment>
@@ -14093,6 +14169,11 @@ Vout = (1 + R5/R6)*Vin</text>
 <junction x="58.42" y="-43.18"/>
 <junction x="58.42" y="-2.54"/>
 </segment>
+<segment>
+<pinref part="TP9" gate="G$1" pin="TP"/>
+<wire x1="-203.2" y1="-33.02" x2="-208.28" y2="-33.02" width="0.1524" layer="91"/>
+<label x="-208.28" y="-33.02" size="1.778" layer="95" rot="R180"/>
+</segment>
 </net>
 <net name="N$1" class="0">
 <segment>
@@ -14116,6 +14197,11 @@ Vout = (1 + R5/R6)*Vin</text>
 <wire x1="109.22" y1="50.8" x2="116.84" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="25.4" x2="109.22" y2="50.8" width="0.1524" layer="91"/>
 <junction x="109.22" y="50.8"/>
+</segment>
+<segment>
+<pinref part="TP7" gate="G$1" pin="TP"/>
+<wire x1="-203.2" y1="-27.94" x2="-208.28" y2="-27.94" width="0.1524" layer="91"/>
+<label x="-208.28" y="-27.94" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -14191,6 +14277,11 @@ Vout = (1 + R5/R6)*Vin</text>
 <wire x1="-299.72" y1="-101.6" x2="-299.72" y2="-111.76" width="0.1524" layer="91"/>
 <wire x1="-299.72" y1="-111.76" x2="-297.18" y2="-111.76" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="TP16" gate="G$1" pin="TP"/>
+<wire x1="-170.18" y1="-22.86" x2="-175.26" y2="-22.86" width="0.1524" layer="91"/>
+<label x="-175.26" y="-22.86" size="1.778" layer="95" rot="R180"/>
+</segment>
 </net>
 <net name="N$12" class="0">
 <segment>
@@ -14223,6 +14314,11 @@ Vout = (1 + R5/R6)*Vin</text>
 <wire x1="-309.88" y1="-38.1" x2="-304.8" y2="-38.1" width="0.1524" layer="91"/>
 <label x="-304.8" y="-38.1" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="TP15" gate="G$1" pin="TP"/>
+<wire x1="-170.18" y1="-17.78" x2="-175.26" y2="-17.78" width="0.1524" layer="91"/>
+<label x="-175.26" y="-17.78" size="1.778" layer="95" rot="R180"/>
+</segment>
 </net>
 <net name="MOSI_MCU" class="0">
 <segment>
@@ -14235,6 +14331,11 @@ Vout = (1 + R5/R6)*Vin</text>
 <wire x1="-309.88" y1="-35.56" x2="-304.8" y2="-35.56" width="0.1524" layer="91"/>
 <label x="-304.8" y="-35.56" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="TP14" gate="G$1" pin="TP"/>
+<wire x1="-170.18" y1="-12.7" x2="-175.26" y2="-12.7" width="0.1524" layer="91"/>
+<label x="-175.26" y="-12.7" size="1.778" layer="95" rot="R180"/>
+</segment>
 </net>
 <net name="MISO_MCU" class="0">
 <segment>
@@ -14246,6 +14347,11 @@ Vout = (1 + R5/R6)*Vin</text>
 <pinref part="SV1" gate="1" pin="3"/>
 <wire x1="-309.88" y1="-33.02" x2="-304.8" y2="-33.02" width="0.1524" layer="91"/>
 <label x="-304.8" y="-33.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="TP13" gate="G$1" pin="TP"/>
+<wire x1="-170.18" y1="-7.62" x2="-175.26" y2="-7.62" width="0.1524" layer="91"/>
+<label x="-175.26" y="-7.62" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="SCK_MCU" class="0">
@@ -14260,35 +14366,17 @@ Vout = (1 + R5/R6)*Vin</text>
 <wire x1="-309.88" y1="-30.48" x2="-304.8" y2="-30.48" width="0.1524" layer="91"/>
 <label x="-304.8" y="-30.48" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="N$22" class="0">
 <segment>
-<pinref part="TP6" gate="G$1" pin="TP"/>
-<wire x1="-203.2" y1="-22.86" x2="-208.28" y2="-22.86" width="0.1524" layer="91"/>
+<pinref part="TP12" gate="G$1" pin="TP"/>
+<wire x1="-170.18" y1="-2.54" x2="-175.26" y2="-2.54" width="0.1524" layer="91"/>
+<label x="-175.26" y="-2.54" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="N$23" class="0">
+<net name="PC_MCU_RST" class="0">
 <segment>
-<pinref part="TP7" gate="G$1" pin="TP"/>
-<wire x1="-203.2" y1="-27.94" x2="-208.28" y2="-27.94" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$24" class="0">
-<segment>
-<pinref part="TP9" gate="G$1" pin="TP"/>
-<wire x1="-203.2" y1="-33.02" x2="-208.28" y2="-33.02" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$25" class="0">
-<segment>
-<pinref part="TP10" gate="G$1" pin="TP"/>
-<wire x1="-203.2" y1="-38.1" x2="-208.28" y2="-38.1" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$26" class="0">
-<segment>
-<pinref part="TP11" gate="G$1" pin="TP"/>
-<wire x1="-203.2" y1="-43.18" x2="-208.28" y2="-43.18" width="0.1524" layer="91"/>
+<pinref part="TP17" gate="G$1" pin="TP"/>
+<wire x1="-170.18" y1="-27.94" x2="-175.26" y2="-27.94" width="0.1524" layer="91"/>
+<label x="-175.26" y="-27.94" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 </nets>
