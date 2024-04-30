@@ -8228,11 +8228,11 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="163-179PH-EX">
+<library name="163-179PH-EX" urn="urn:adsk.eagle:library:44121891">
 <description>&lt;DC Power Connectors PCB 2.1MM&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
 <packages>
-<package name="163179PHEX">
+<package name="163179PHEX" urn="urn:adsk.eagle:footprint:44121892/1" library_version="1" library_locally_modified="yes">
 <description>&lt;b&gt;163-179PH-EX&lt;/b&gt;&lt;br&gt;
 </description>
 <pad name="A" x="5.15" y="1.365" drill="3.6401" diameter="5.46"/>
@@ -8262,8 +8262,17 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <wire x1="8.45" y1="1.265" x2="8.45" y2="1.465" width="0.2" layer="21" curve="-180"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="163179PHEX" urn="urn:adsk.eagle:package:44121894/2" type="model" library_version="1" library_locally_modified="yes">
+<description>&lt;b&gt;163-179PH-EX&lt;/b&gt;&lt;br&gt;
+</description>
+<packageinstances>
+<packageinstance name="163179PHEX"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
-<symbol name="163-179PH-EX">
+<symbol name="163-179PH-EX" urn="urn:adsk.eagle:symbol:44121893/1" library_version="1" library_locally_modified="yes">
 <wire x1="5.08" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
 <wire x1="15.24" y1="-5.08" x2="15.24" y2="2.54" width="0.254" layer="94"/>
 <wire x1="15.24" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
@@ -8276,7 +8285,7 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="163-179PH-EX" prefix="J">
+<deviceset name="163-179PH-EX" urn="urn:adsk.eagle:component:44121895/1" locally_modified="yes" prefix="J" library_version="1" library_locally_modified="yes">
 <description>&lt;b&gt;DC Power Connectors PCB 2.1MM&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/163-179PH-EX.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -8289,6 +8298,9 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/163-179PH-EX.
 <connect gate="G$1" pin="B" pad="B"/>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:44121894/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="DC Power Connectors PCB 2.1MM" constant="no"/>
@@ -13109,7 +13121,7 @@ V_TOGGLE = 0: V_BG </text>
 <schematic_group name="OLED"/>
 </groups>
 <parts>
-<part name="J2" library="163-179PH-EX" deviceset="163-179PH-EX" device=""/>
+<part name="J2" library="163-179PH-EX" library_urn="urn:adsk.eagle:library:44121891" deviceset="163-179PH-EX" device="" package3d_urn="urn:adsk.eagle:package:44121894/2"/>
 <part name="X_1" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="F11" library="Fuse_Custom" deviceset="FUSE0603" device=""/>
 <part name="J1" library="TSW-104-07-F-S" deviceset="TSW-104-07-F-S" device=""/>
