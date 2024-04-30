@@ -13186,7 +13186,7 @@ V_TOGGLE = 0: V_BG </text>
 <part name="X_21" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="20000"/>
 <part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF"/>
-<part name="SV1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA04-1" device="" package3d_urn="urn:adsk.eagle:package:8337/1"/>
+<part name="SV1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA04-1" device="" package3d_urn="urn:adsk.eagle:package:8337/1" value="programming pins"/>
 <part name="TP1" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="PAD1-13" package3d_urn="urn:adsk.eagle:package:27946/1"/>
 <part name="TP2" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="PAD1-13" package3d_urn="urn:adsk.eagle:package:27946/1"/>
 <part name="TP3" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="PAD1-13" package3d_urn="urn:adsk.eagle:package:27946/1"/>
@@ -13465,7 +13465,7 @@ Vout = (1 + R5/R6)*Vin</text>
 <attribute name="VALUE" x="-298.704" y="-82.931" size="1.778" layer="96"/>
 </instance>
 <instance part="SV1" gate="1" x="-317.5" y="-33.02" smashed="yes">
-<attribute name="VALUE" x="-318.77" y="-43.18" size="1.778" layer="96"/>
+<attribute name="VALUE" x="-324.104" y="-24.638" size="1.778" layer="96"/>
 <attribute name="NAME" x="-318.77" y="-27.178" size="1.778" layer="95"/>
 </instance>
 <instance part="TP1" gate="G$1" x="-200.66" y="2.54" smashed="yes" rot="R270">
@@ -14279,13 +14279,17 @@ Vout = (1 + R5/R6)*Vin</text>
 <wire x1="-144.78" y1="-73.66" x2="-137.16" y2="-73.66" width="0.1524" layer="91"/>
 <label x="-137.16" y="-73.66" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="TP17" gate="G$1" pin="TP"/>
+<wire x1="-170.18" y1="-27.94" x2="-175.26" y2="-27.94" width="0.1524" layer="91"/>
+<label x="-175.26" y="-27.94" size="1.778" layer="95" rot="R180"/>
+</segment>
 </net>
 <net name="PB_START" class="0">
 <segment>
 <pinref part="SW1" gate="G$1" pin="3"/>
 <wire x1="-304.8" y1="-101.6" x2="-299.72" y2="-101.6" width="0.1524" layer="91"/>
 <label x="-297.18" y="-111.76" size="1.778" layer="95"/>
-<label x="-274.32" y="-93.98" size="1.778" layer="95" align="bottom-right"/>
 <wire x1="-299.72" y1="-101.6" x2="-299.72" y2="-111.76" width="0.1524" layer="91"/>
 <wire x1="-299.72" y1="-111.76" x2="-297.18" y2="-111.76" width="0.1524" layer="91"/>
 </segment>
@@ -14294,25 +14298,10 @@ Vout = (1 + R5/R6)*Vin</text>
 <wire x1="-170.18" y1="-22.86" x2="-175.26" y2="-22.86" width="0.1524" layer="91"/>
 <label x="-175.26" y="-22.86" size="1.778" layer="95" rot="R180"/>
 </segment>
-</net>
-<net name="N$12" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="(ICP1/CLKO/PTCXY)PB0"/>
 <wire x1="-271.78" y1="-93.98" x2="-274.32" y2="-93.98" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="PB_MISC1" class="0">
-<segment>
-<pinref part="SW2" gate="G$1" pin="3"/>
-<wire x1="-304.8" y1="-119.38" x2="-297.18" y2="-119.38" width="0.1524" layer="91"/>
-<label x="-297.18" y="-119.38" size="1.778" layer="95"/>
-<label x="-274.32" y="-96.52" size="1.778" layer="95" align="bottom-right"/>
-</segment>
-</net>
-<net name="N$13" class="0">
-<segment>
-<pinref part="U1" gate="A" pin="(OC1A/PTCXY)PB1"/>
-<wire x1="-271.78" y1="-96.52" x2="-274.32" y2="-96.52" width="0.1524" layer="91"/>
+<label x="-274.32" y="-93.98" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="CS_MCU" class="0">
@@ -14384,11 +14373,16 @@ Vout = (1 + R5/R6)*Vin</text>
 <label x="-175.26" y="-2.54" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="PC_MCU_RST" class="0">
+<net name="PB_MISC1" class="0">
 <segment>
-<pinref part="TP17" gate="G$1" pin="TP"/>
-<wire x1="-170.18" y1="-27.94" x2="-175.26" y2="-27.94" width="0.1524" layer="91"/>
-<label x="-175.26" y="-27.94" size="1.778" layer="95" rot="R180"/>
+<pinref part="SW2" gate="G$1" pin="3"/>
+<wire x1="-304.8" y1="-119.38" x2="-297.18" y2="-119.38" width="0.1524" layer="91"/>
+<label x="-297.18" y="-119.38" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="A" pin="(OC1A/PTCXY)PB1"/>
+<wire x1="-271.78" y1="-96.52" x2="-274.32" y2="-96.52" width="0.1524" layer="91"/>
+<label x="-274.32" y="-96.52" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 </nets>
