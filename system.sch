@@ -11734,7 +11734,7 @@ Output: VS_6V</text>
 <label x="25.4" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="0" class="0">
+<net name="GND" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="EP"/>
 <wire x1="81.28" y1="55.88" x2="81.28" y2="53.34" width="0.1524" layer="91"/>
@@ -11783,6 +11783,7 @@ Output: VS_6V</text>
 <wire x1="111.76" y1="35.56" x2="111.76" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="33.02" x2="106.68" y2="33.02" width="0.1524" layer="91"/>
 <junction x="106.68" y="33.02"/>
+<label x="111.76" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -11862,6 +11863,8 @@ Output: VS_6V</text>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0"/>
 <part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0"/>
+<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
+<part name="X_7" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11960,11 +11963,16 @@ Vout = (1 + R5/R6)*Vin</text>
 <attribute name="NAME" x="2.794" y="31.9786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="2.794" y="27.178" size="1.778" layer="96"/>
 </instance>
+<instance part="C5" gate="G$1" x="106.68" y="60.96" smashed="yes">
+<attribute name="NAME" x="107.696" y="61.595" size="1.778" layer="95"/>
+<attribute name="VALUE" x="107.696" y="56.769" size="1.778" layer="96"/>
+</instance>
+<instance part="X_7" gate="G$1" x="106.68" y="50.8" smashed="yes"/>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="0" class="0">
+<net name="GND" class="0">
 <segment>
 <wire x1="-73.66" y1="76.2" x2="-78.74" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="-78.74" y1="76.2" x2="-78.74" y2="73.914" width="0.1524" layer="91"/>
@@ -12008,6 +12016,7 @@ Vout = (1 + R5/R6)*Vin</text>
 <wire x1="-5.08" y1="27.94" x2="-2.54" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="X_9" gate="G$1" pin="0"/>
 <wire x1="-2.54" y1="27.94" x2="-2.54" y2="22.86" width="0.1524" layer="91"/>
+<label x="-2.54" y="22.86" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC4" gate="G$1" pin="V-"/>
@@ -12138,9 +12147,13 @@ Vout = (1 + R5/R6)*Vin</text>
 <wire x1="104.14" y1="76.2" x2="104.14" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="IN-"/>
 <wire x1="104.14" y1="68.58" x2="101.6" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="68.58" x2="109.22" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="68.58" x2="106.68" y2="68.58" width="0.1524" layer="91"/>
 <junction x="104.14" y="68.58"/>
 <label x="109.22" y="68.58" size="1.778" layer="95"/>
+<pinref part="C5" gate="G$1" pin="1"/>
+<wire x1="106.68" y1="68.58" x2="109.22" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="63.5" x2="106.68" y2="68.58" width="0.1524" layer="91"/>
+<junction x="106.68" y="68.58"/>
 </segment>
 <segment>
 <wire x1="-101.6" y1="99.06" x2="-114.3" y2="99.06" width="0.1524" layer="91"/>
@@ -12205,6 +12218,13 @@ Vout = (1 + R5/R6)*Vin</text>
 <wire x1="-22.86" y1="55.88" x2="-22.86" y2="51.816" width="0.1524" layer="91"/>
 <junction x="-22.86" y="55.88"/>
 <pinref part="C4" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="0" class="0">
+<segment>
+<pinref part="C5" gate="G$1" pin="2"/>
+<wire x1="106.68" y1="55.88" x2="106.68" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="X_7" gate="G$1" pin="0"/>
 </segment>
 </net>
 </nets>
@@ -12340,7 +12360,7 @@ Output: V_BG</text>
 <wire x1="78.74" y1="43.18" x2="78.74" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="0" class="0">
+<net name="GND" class="0">
 <segment>
 <pinref part="Q1" gate="G$1" pin="E3"/>
 <wire x1="15.24" y1="73.66" x2="10.16" y2="73.66" width="0.1524" layer="91"/>
@@ -12367,6 +12387,7 @@ Output: V_BG</text>
 <wire x1="45.72" y1="7.62" x2="55.88" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="7.62" x2="55.88" y2="2.54" width="0.1524" layer="91"/>
 <junction x="55.88" y="2.54"/>
+<label x="55.88" y="2.54" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="V-"/>
@@ -12492,7 +12513,7 @@ Output: V_TH</text>
 <busses>
 </busses>
 <nets>
-<net name="0" class="0">
+<net name="GND" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="THERMISTOR_GND"/>
 <wire x1="-7.62" y1="-40.64" x2="-7.62" y2="-43.18" width="0.1524" layer="91"/>
@@ -12503,6 +12524,7 @@ Output: V_TH</text>
 <wire x1="-27.94" y1="25.4" x2="-15.24" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="25.4" x2="-15.24" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="X_1" gate="G$1" pin="0"/>
+<label x="-15.24" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -12676,12 +12698,13 @@ Output: V_TH</text>
 <busses>
 </busses>
 <nets>
-<net name="0" class="0">
+<net name="GND" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="-VS"/>
 <wire x1="45.72" y1="48.26" x2="43.18" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="48.26" x2="43.18" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="X_1" gate="G$1" pin="0"/>
+<label x="43.18" y="38.1" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="X_3" gate="G$1" pin="0"/>
@@ -12943,7 +12966,7 @@ V_TOGGLE = 0: V_BG </text>
 <label x="-30.48" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="0" class="0">
+<net name="GND" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="V-"/>
 <pinref part="X_1" gate="G$1" pin="0"/>
@@ -12961,6 +12984,7 @@ V_TOGGLE = 0: V_BG </text>
 <wire x1="-35.56" y1="-17.78" x2="-40.64" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="-40.64" y1="-17.78" x2="-40.64" y2="-20.32" width="0.1524" layer="91"/>
 <pinref part="X_6" gate="G$1" pin="0"/>
+<label x="-40.64" y="-20.32" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
@@ -13548,7 +13572,7 @@ Vout = (1 + R5/R6)*Vin</text>
 <busses>
 </busses>
 <nets>
-<net name="0" class="0">
+<net name="GND" class="0">
 <segment>
 <pinref part="J2" gate="G$1" pin="C"/>
 <wire x1="-299.72" y1="99.06" x2="-294.64" y2="99.06" width="0.1524" layer="91"/>
@@ -13658,6 +13682,7 @@ Vout = (1 + R5/R6)*Vin</text>
 <wire x1="-172.72" y1="40.64" x2="-167.64" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="-167.64" y1="40.64" x2="-167.64" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="X_18" gate="G$1" pin="0"/>
+<label x="-167.64" y="38.1" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="SW1" gate="G$1" pin="1"/>
