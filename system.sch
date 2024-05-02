@@ -14616,6 +14616,79 @@ chip</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="ABL-16.000MHZ-B2">
+<description>&lt;ABRACON - ABL-16.000MHZ-B2 - CRYSTAL&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="ABL">
+<description>&lt;b&gt;ABL&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="0" drill="0.657" diameter="1.205" shape="square"/>
+<pad name="2" x="4.88" y="0" drill="0.657" diameter="1.205"/>
+<text x="2.44" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="2.44" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-4.31" y1="3.5" x2="9.19" y2="3.5" width="0.1" layer="51"/>
+<wire x1="9.19" y1="3.5" x2="9.19" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="9.19" y1="-3.5" x2="-4.31" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="-4.31" y1="-3.5" x2="-4.31" y2="3.5" width="0.1" layer="51"/>
+<wire x1="-0.81" y1="2.5" x2="-0.81" y2="2.5" width="0.1" layer="51"/>
+<wire x1="-0.81" y1="2.5" x2="-0.81" y2="-2.5" width="0.1" layer="51" curve="180"/>
+<wire x1="-0.81" y1="-2.5" x2="5.69" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="5.69" y1="-2.5" x2="5.69" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="5.69" y1="-2.5" x2="5.69" y2="2.5" width="0.1" layer="51" curve="180"/>
+<wire x1="5.69" y1="2.5" x2="-0.81" y2="2.5" width="0.1" layer="51"/>
+<wire x1="-0.81" y1="2.5" x2="-0.81" y2="2.5" width="0.2" layer="21"/>
+<wire x1="-0.81" y1="2.5" x2="-0.81" y2="-2.5" width="0.2" layer="21" curve="180"/>
+<wire x1="-0.81" y1="-2.5" x2="5.69" y2="-2.5" width="0.2" layer="21"/>
+<wire x1="5.69" y1="-2.5" x2="5.69" y2="-2.5" width="0.2" layer="21"/>
+<wire x1="5.69" y1="-2.5" x2="5.69" y2="2.5" width="0.2" layer="21" curve="180"/>
+<wire x1="5.69" y1="2.5" x2="-0.81" y2="2.5" width="0.2" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="ABL-16.000MHZ-B2">
+<wire x1="3.048" y1="2.54" x2="3.048" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="7.112" y1="2.54" x2="7.112" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="4.064" y1="3.556" x2="4.064" y2="-3.556" width="0.254" layer="94"/>
+<wire x1="6.096" y1="-3.556" x2="4.064" y2="-3.556" width="0.254" layer="94"/>
+<wire x1="6.096" y1="-3.556" x2="6.096" y2="3.556" width="0.254" layer="94"/>
+<wire x1="4.064" y1="3.556" x2="6.096" y2="3.556" width="0.254" layer="94"/>
+<wire x1="7.112" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="3.048" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<text x="8.89" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="8.89" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" visible="pad" length="short"/>
+<pin name="2" x="10.16" y="0" visible="pad" length="short" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ABL-16.000MHZ-B2" prefix="Y">
+<description>&lt;b&gt;ABRACON - ABL-16.000MHZ-B2 - CRYSTAL&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://abracon.com/Resonators/ABL.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="ABL-16.000MHZ-B2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ABL">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="ABRACON - ABL-16.000MHZ-B2 - CRYSTAL" constant="no"/>
+<attribute name="HEIGHT" value="mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="ABRACON" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ABL-16.000MHZ-B2" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="815-ABL-16-B2" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ABRACON/ABL-16.000MHZ-B2?qs=A7YjigRBFZlH19Ss3q%252BAbA%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -16406,6 +16479,10 @@ V_TOGGLE = 0: V_BG </text>
 <part name="X_26" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_27" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_28" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
+<part name="Y1" library="ABL-16.000MHZ-B2" deviceset="ABL-16.000MHZ-B2" device=""/>
+<part name="X_29" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
+<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="22pF"/>
+<part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="22pF"/>
 </parts>
 <sheets>
 <sheet>
@@ -16446,6 +16523,7 @@ Vout = (1 + R5/R6)*Vin</text>
 <text x="-200.66" y="30.48" size="1.778" layer="91">AD2 Backup BG Voltage</text>
 <text x="-325.12" y="-43.18" size="1.778" layer="91">Programming pins for MCU</text>
 <text x="-195.58" y="10.16" size="1.778" layer="91">Testpoints</text>
+<text x="-388.62" y="-139.7" size="1.778" layer="91">External CLK circuit</text>
 </plain>
 <moduleinsts>
 <moduleinst name="BATTERY_AND_BUCK" module="BATTERY_AND_BUCK" x="-302.26" y="63.5">
@@ -16739,6 +16817,19 @@ Vout = (1 + R5/R6)*Vin</text>
 <instance part="X_26" gate="G$1" x="68.58" y="33.02" smashed="yes"/>
 <instance part="X_27" gate="G$1" x="2.54" y="-33.02" smashed="yes"/>
 <instance part="X_28" gate="G$1" x="-7.62" y="-109.22" smashed="yes"/>
+<instance part="Y1" gate="G$1" x="-373.38" y="-109.22" smashed="yes" rot="R270">
+<attribute name="NAME" x="-372.11" y="-118.11" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-387.35" y="-110.49" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="X_29" gate="G$1" x="-388.62" y="-132.08" smashed="yes"/>
+<instance part="C9" gate="G$1" x="-381" y="-101.6" smashed="yes" rot="R90">
+<attribute name="NAME" x="-381.635" y="-100.584" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="-379.349" y="-103.124" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="C10" gate="G$1" x="-381" y="-124.46" smashed="yes" rot="R90">
+<attribute name="NAME" x="-381.635" y="-123.444" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-379.349" y="-125.984" size="1.778" layer="96" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -17595,6 +17686,52 @@ Vout = (1 + R5/R6)*Vin</text>
 <wire x1="-325.12" y1="-137.16" x2="-332.74" y2="-137.16" width="0.1524" layer="91"/>
 <pinref part="X_21" gate="G$1" pin="0"/>
 <wire x1="-332.74" y1="-137.16" x2="-332.74" y2="-139.7" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="X_29" gate="G$1" pin="0"/>
+<wire x1="-388.62" y1="-132.08" x2="-388.62" y2="-124.46" width="0.1524" layer="91"/>
+<pinref part="C9" gate="G$1" pin="1"/>
+<wire x1="-388.62" y1="-124.46" x2="-388.62" y2="-101.6" width="0.1524" layer="91"/>
+<wire x1="-388.62" y1="-101.6" x2="-383.54" y2="-101.6" width="0.1524" layer="91"/>
+<pinref part="C10" gate="G$1" pin="1"/>
+<wire x1="-383.54" y1="-124.46" x2="-388.62" y2="-124.46" width="0.1524" layer="91"/>
+<junction x="-388.62" y="-124.46"/>
+</segment>
+</net>
+<net name="EXT_CLK_1" class="0">
+<segment>
+<pinref part="C9" gate="G$1" pin="2"/>
+<wire x1="-375.92" y1="-101.6" x2="-373.38" y2="-101.6" width="0.1524" layer="91"/>
+<pinref part="Y1" gate="G$1" pin="1"/>
+<wire x1="-373.38" y1="-101.6" x2="-373.38" y2="-109.22" width="0.1524" layer="91"/>
+<wire x1="-373.38" y1="-101.6" x2="-363.22" y2="-101.6" width="0.1524" layer="91"/>
+<junction x="-373.38" y="-101.6"/>
+<wire x1="-363.22" y1="-101.6" x2="-363.22" y2="-111.76" width="0.1524" layer="91"/>
+<wire x1="-363.22" y1="-111.76" x2="-358.14" y2="-111.76" width="0.1524" layer="91"/>
+<label x="-358.14" y="-111.76" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="A" pin="(XTAL1/TOSC1)PB6"/>
+<wire x1="-271.78" y1="-81.28" x2="-274.32" y2="-81.28" width="0.1524" layer="91"/>
+<label x="-274.32" y="-81.28" size="1.778" layer="95" rot="MR0"/>
+</segment>
+</net>
+<net name="EXT_CLK_2" class="0">
+<segment>
+<pinref part="Y1" gate="G$1" pin="2"/>
+<wire x1="-373.38" y1="-119.38" x2="-373.38" y2="-124.46" width="0.1524" layer="91"/>
+<pinref part="C10" gate="G$1" pin="2"/>
+<wire x1="-373.38" y1="-124.46" x2="-375.92" y2="-124.46" width="0.1524" layer="91"/>
+<wire x1="-373.38" y1="-124.46" x2="-363.22" y2="-124.46" width="0.1524" layer="91"/>
+<junction x="-373.38" y="-124.46"/>
+<wire x1="-363.22" y1="-124.46" x2="-363.22" y2="-116.84" width="0.1524" layer="91"/>
+<wire x1="-363.22" y1="-116.84" x2="-358.14" y2="-116.84" width="0.1524" layer="91"/>
+<label x="-358.14" y="-116.84" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="A" pin="(XTAL2/TOSC2)PB7"/>
+<wire x1="-271.78" y1="-83.82" x2="-274.32" y2="-83.82" width="0.1524" layer="91"/>
+<label x="-274.32" y="-83.82" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 </nets>
