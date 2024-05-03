@@ -15003,8 +15003,8 @@ Output: VS_6V</text>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
 <part name="X_3" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_4" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
-<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="2000000"/>
-<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="2000000"/>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="2M"/>
+<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="2M"/>
 <part name="X_5" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_6" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="IC1" library="TLV9101IDBVR" deviceset="TLV9101IDBVR" device=""/>
@@ -15014,8 +15014,8 @@ Output: VS_6V</text>
 <part name="X_9" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="IC3" library="TLV9101IDBVR" deviceset="TLV9101IDBVR" device=""/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
-<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="560000"/>
-<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="240000"/>
+<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="560k"/>
+<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="240k"/>
 <part name="X_10" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_11" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_12" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
@@ -15066,11 +15066,11 @@ Outputs: VS_1.5V</text>
 <instance part="X_4" gate="G$1" x="-15.24" y="40.64" smashed="yes"/>
 <instance part="R3" gate="G$1" x="58.42" y="71.12" smashed="yes" rot="R90">
 <attribute name="NAME" x="56.9214" y="67.31" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="61.722" y="67.31" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="61.722" y="69.85" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R4" gate="G$1" x="58.42" y="55.88" smashed="yes" rot="R90">
 <attribute name="NAME" x="56.9214" y="52.07" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="61.722" y="52.07" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="61.722" y="54.61" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="X_5" gate="G$1" x="58.42" y="48.26" smashed="yes"/>
 <instance part="X_6" gate="G$1" x="73.66" y="58.42" smashed="yes"/>
@@ -15400,7 +15400,7 @@ Outputs: VS_1.5V</text>
 </variantdefs>
 <parts>
 <part name="Q1" library="300S14-U" deviceset="300S14-U" device=""/>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="40000"/>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="40k"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1800"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1800"/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100"/>
@@ -15641,7 +15641,7 @@ Output: V_BG</text>
 <part name="X_1" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_2" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="IC1" library="TLV9101IDBVR" deviceset="TLV9101IDBVR" device=""/>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="2000000"/>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="2M"/>
 <part name="Q1" library="FMMT593TC" deviceset="FMMT593TC" device=""/>
 <part name="IC2" library="ZTP-148SRC1" deviceset="ZTP-148SRC1" device=""/>
 <part name="C1" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:8118584/1" value="1uF"/>
@@ -15854,8 +15854,8 @@ Output: V_TH</text>
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10nF"/>
 <part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
 <part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
-<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10000"/>
-<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10000"/>
+<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
+<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100"/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
 <part name="X_5" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
@@ -15899,7 +15899,7 @@ Output: V_TH</text>
 </instance>
 <instance part="R4" gate="G$1" x="104.14" y="50.8" smashed="yes">
 <attribute name="NAME" x="100.33" y="52.2986" size="1.778" layer="95"/>
-<attribute name="VALUE" x="100.33" y="47.498" size="1.778" layer="96"/>
+<attribute name="VALUE" x="105.41" y="47.498" size="1.778" layer="96"/>
 </instance>
 <instance part="R5" gate="G$1" x="124.46" y="50.8" smashed="yes">
 <attribute name="NAME" x="120.65" y="52.2986" size="1.778" layer="95"/>
@@ -16128,7 +16128,7 @@ Output: V_TH</text>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
 <part name="X_2" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_3" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
-<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10000"/>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
 </parts>
 <sheets>
 <sheet>
@@ -16426,8 +16426,8 @@ V_TOGGLE = 0: V_BG </text>
 <part name="L1" library="SRP1038CC-100M" deviceset="SRP1038CC-100M" device="" value="10uH"/>
 <part name="X_12" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0"/>
-<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="2000000"/>
-<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="2000000"/>
+<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="2M"/>
+<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="2M"/>
 <part name="X_13" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_14" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="IC2" library="TLV9101IDBVR" deviceset="TLV9101IDBVR" device=""/>
@@ -16453,7 +16453,7 @@ V_TOGGLE = 0: V_BG </text>
 <part name="X_19" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_20" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_21" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
-<part name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100000"/>
+<part name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100k"/>
 <part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF"/>
 <part name="SV1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA04-1" device="" package3d_urn="urn:adsk.eagle:package:8337/1" value="programming pins"/>
 <part name="TP1" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="PAD1-13" package3d_urn="urn:adsk.eagle:package:27946/1"/>
@@ -16483,6 +16483,12 @@ V_TOGGLE = 0: V_BG </text>
 <part name="X_29" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="22pF"/>
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="22pF"/>
+<part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
+<part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
+<part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
+<part name="X_30" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
+<part name="X_31" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
+<part name="X_32" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -16610,9 +16616,9 @@ Vout = (1 + R5/R6)*Vin</text>
 <attribute name="NAME" x="-194.564" y="137.795" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-194.564" y="132.969" size="1.778" layer="96"/>
 </instance>
-<instance part="R9" gate="G$1" x="-55.88" y="93.98" smashed="yes">
-<attribute name="NAME" x="-57.15" y="95.4786" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-59.69" y="95.758" size="1.778" layer="96"/>
+<instance part="R9" gate="G$1" x="-60.96" y="93.98" smashed="yes">
+<attribute name="NAME" x="-62.23" y="95.4786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-64.77" y="95.758" size="1.778" layer="96"/>
 </instance>
 <instance part="R3" gate="G$1" x="-142.24" y="134.62" smashed="yes" rot="R90">
 <attribute name="NAME" x="-143.7386" y="133.35" size="1.778" layer="95" rot="R90"/>
@@ -16668,9 +16674,9 @@ Vout = (1 + R5/R6)*Vin</text>
 <attribute name="NAME" x="-42.418" y="151.13" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-42.926" y="148.59" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="R10" gate="G$1" x="-55.88" y="63.5" smashed="yes">
-<attribute name="NAME" x="-57.15" y="64.9986" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-59.69" y="65.278" size="1.778" layer="96"/>
+<instance part="R10" gate="G$1" x="-60.96" y="63.5" smashed="yes">
+<attribute name="NAME" x="-62.23" y="64.9986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-64.77" y="65.278" size="1.778" layer="96"/>
 </instance>
 <instance part="R14" gate="G$1" x="-45.72" y="73.66" smashed="yes" rot="R90">
 <attribute name="NAME" x="-47.2186" y="72.39" size="1.778" layer="95" rot="R90"/>
@@ -16695,9 +16701,9 @@ Vout = (1 + R5/R6)*Vin</text>
 <instance part="X_15" gate="G$1" x="66.04" y="144.78" smashed="yes"/>
 <instance part="X_16" gate="G$1" x="35.56" y="139.7" smashed="yes"/>
 <instance part="X_17" gate="G$1" x="96.52" y="124.46" smashed="yes"/>
-<instance part="R11" gate="G$1" x="-55.88" y="33.02" smashed="yes">
-<attribute name="NAME" x="-57.15" y="34.5186" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-59.69" y="34.798" size="1.778" layer="96"/>
+<instance part="R11" gate="G$1" x="-60.96" y="33.02" smashed="yes">
+<attribute name="NAME" x="-62.23" y="34.5186" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-64.77" y="34.798" size="1.778" layer="96"/>
 </instance>
 <instance part="R15" gate="G$1" x="-45.72" y="40.64" smashed="yes" rot="R90">
 <attribute name="NAME" x="-47.2186" y="39.37" size="1.778" layer="95" rot="R90"/>
@@ -16830,6 +16836,21 @@ Vout = (1 + R5/R6)*Vin</text>
 <attribute name="NAME" x="-381.635" y="-123.444" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-379.349" y="-125.984" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="C11" gate="G$1" x="-53.34" y="88.9" smashed="yes">
+<attribute name="NAME" x="-52.324" y="89.535" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-52.324" y="84.709" size="1.778" layer="96"/>
+</instance>
+<instance part="C12" gate="G$1" x="-53.34" y="58.42" smashed="yes">
+<attribute name="NAME" x="-52.324" y="59.055" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-52.324" y="54.229" size="1.778" layer="96"/>
+</instance>
+<instance part="C13" gate="G$1" x="-53.34" y="27.94" smashed="yes">
+<attribute name="NAME" x="-52.324" y="28.575" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-52.324" y="23.749" size="1.778" layer="96"/>
+</instance>
+<instance part="X_30" gate="G$1" x="-53.34" y="81.28" smashed="yes"/>
+<instance part="X_31" gate="G$1" x="-53.34" y="50.8" smashed="yes"/>
+<instance part="X_32" gate="G$1" x="-53.34" y="20.32" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -16879,8 +16900,8 @@ Vout = (1 + R5/R6)*Vin</text>
 <segment>
 <portref moduleinst="LDO_AND_VOLTAGE_REFS" port="VS_5V"/>
 <pinref part="R9" gate="G$1" pin="1"/>
-<wire x1="-60.96" y1="93.98" x2="-81.28" y2="93.98" width="0.1524" layer="91"/>
-<label x="-71.12" y="93.98" size="1.778" layer="95"/>
+<wire x1="-66.04" y1="93.98" x2="-81.28" y2="93.98" width="0.1524" layer="91"/>
+<label x="-76.2" y="93.98" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -16923,16 +16944,16 @@ Vout = (1 + R5/R6)*Vin</text>
 <net name="VS_1.5V" class="0">
 <segment>
 <portref moduleinst="LDO_AND_VOLTAGE_REFS" port="VS_1.5V"/>
-<wire x1="-81.28" y1="33.02" x2="-60.96" y2="33.02" width="0.1524" layer="91"/>
-<label x="-71.12" y="33.02" size="1.778" layer="95"/>
+<wire x1="-81.28" y1="33.02" x2="-66.04" y2="33.02" width="0.1524" layer="91"/>
+<label x="-78.74" y="33.02" size="1.778" layer="95"/>
 <pinref part="R11" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="VS_2.5V" class="0">
 <segment>
 <portref moduleinst="LDO_AND_VOLTAGE_REFS" port="VS_2.5V"/>
-<wire x1="-81.28" y1="63.5" x2="-60.96" y2="63.5" width="0.1524" layer="91"/>
-<label x="-71.12" y="63.5" size="1.778" layer="95"/>
+<wire x1="-81.28" y1="63.5" x2="-66.04" y2="63.5" width="0.1524" layer="91"/>
+<label x="-78.74" y="63.5" size="1.778" layer="95"/>
 <pinref part="R10" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -17122,8 +17143,8 @@ Vout = (1 + R5/R6)*Vin</text>
 </segment>
 <segment>
 <pinref part="R14" gate="G$1" pin="2"/>
-<wire x1="-45.72" y1="78.74" x2="-45.72" y2="83.82" width="0.1524" layer="91"/>
-<label x="-45.72" y="83.82" size="1.778" layer="95"/>
+<wire x1="-45.72" y1="78.74" x2="-45.72" y2="81.28" width="0.1524" layer="91"/>
+<label x="-45.72" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -17140,12 +17161,16 @@ Vout = (1 + R5/R6)*Vin</text>
 <net name="VS_5V_OUT" class="0">
 <segment>
 <pinref part="R9" gate="G$1" pin="2"/>
-<label x="-33.02" y="93.98" size="1.778" layer="95"/>
+<label x="-15.24" y="93.98" size="1.778" layer="95"/>
 <pinref part="R13" gate="G$1" pin="1"/>
-<wire x1="-45.72" y1="93.98" x2="-50.8" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="-45.72" y1="93.98" x2="-53.34" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="-53.34" y1="93.98" x2="-55.88" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="-45.72" y1="96.52" x2="-45.72" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="-45.72" y1="93.98" x2="-33.02" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="-45.72" y1="93.98" x2="-15.24" y2="93.98" width="0.1524" layer="91"/>
 <junction x="-45.72" y="93.98"/>
+<pinref part="C11" gate="G$1" pin="1"/>
+<wire x1="-53.34" y1="91.44" x2="-53.34" y2="93.98" width="0.1524" layer="91"/>
+<junction x="-53.34" y="93.98"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="02"/>
@@ -17208,12 +17233,16 @@ Vout = (1 + R5/R6)*Vin</text>
 <net name="VS_2.5V_OUT" class="0">
 <segment>
 <pinref part="R10" gate="G$1" pin="2"/>
-<wire x1="-50.8" y1="63.5" x2="-45.72" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="-55.88" y1="63.5" x2="-53.34" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="R14" gate="G$1" pin="1"/>
+<wire x1="-53.34" y1="63.5" x2="-45.72" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="-45.72" y1="68.58" x2="-45.72" y2="63.5" width="0.1524" layer="91"/>
 <label x="-33.02" y="63.5" size="1.778" layer="95"/>
 <wire x1="-45.72" y1="63.5" x2="-33.02" y2="63.5" width="0.1524" layer="91"/>
 <junction x="-45.72" y="63.5"/>
+<pinref part="C12" gate="G$1" pin="1"/>
+<wire x1="-53.34" y1="63.5" x2="-53.34" y2="60.96" width="0.1524" layer="91"/>
+<junction x="-53.34" y="63.5"/>
 </segment>
 <segment>
 <label x="-53.34" y="5.08" size="1.778" layer="95" rot="R180"/>
@@ -17298,13 +17327,17 @@ Vout = (1 + R5/R6)*Vin</text>
 </net>
 <net name="VS_1.5V_OUT" class="0">
 <segment>
-<pinref part="R11" gate="G$1" pin="2"/>
-<wire x1="-50.8" y1="33.02" x2="-45.72" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="R15" gate="G$1" pin="1"/>
 <wire x1="-45.72" y1="35.56" x2="-45.72" y2="33.02" width="0.1524" layer="91"/>
-<junction x="-45.72" y="33.02"/>
 <wire x1="-45.72" y1="33.02" x2="-33.02" y2="33.02" width="0.1524" layer="91"/>
 <label x="-33.02" y="33.02" size="1.778" layer="95"/>
+<pinref part="R11" gate="G$1" pin="2"/>
+<wire x1="-55.88" y1="33.02" x2="-53.34" y2="33.02" width="0.1524" layer="91"/>
+<junction x="-45.72" y="33.02"/>
+<pinref part="C13" gate="G$1" pin="1"/>
+<wire x1="-53.34" y1="33.02" x2="-45.72" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="-53.34" y1="30.48" x2="-53.34" y2="33.02" width="0.1524" layer="91"/>
+<junction x="-53.34" y="33.02"/>
 </segment>
 <segment>
 <pinref part="R18" gate="G$1" pin="2"/>
@@ -17696,6 +17729,21 @@ Vout = (1 + R5/R6)*Vin</text>
 <pinref part="C10" gate="G$1" pin="1"/>
 <wire x1="-383.54" y1="-124.46" x2="-388.62" y2="-124.46" width="0.1524" layer="91"/>
 <junction x="-388.62" y="-124.46"/>
+</segment>
+<segment>
+<pinref part="C11" gate="G$1" pin="2"/>
+<wire x1="-53.34" y1="83.82" x2="-53.34" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="X_30" gate="G$1" pin="0"/>
+</segment>
+<segment>
+<pinref part="C12" gate="G$1" pin="2"/>
+<wire x1="-53.34" y1="53.34" x2="-53.34" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="X_31" gate="G$1" pin="0"/>
+</segment>
+<segment>
+<pinref part="C13" gate="G$1" pin="2"/>
+<wire x1="-53.34" y1="22.86" x2="-53.34" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="X_32" gate="G$1" pin="0"/>
 </segment>
 </net>
 <net name="EXT_CLK_1" class="0">
