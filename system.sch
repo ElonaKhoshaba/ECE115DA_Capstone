@@ -16500,23 +16500,23 @@ Vout = (1 + R5/R6)*Vin</text>
 <text x="-388.62" y="-139.7" size="1.778" layer="91">External CLK circuit</text>
 </plain>
 <moduleinsts>
-<moduleinst name="BATTERY_AND_BUCK" module="BATTERY_AND_BUCK" x="-302.26" y="63.5">
-<attribute name="NAME" value="BATTERY_AND_BUCK" x="-302.26" y="63.5" size="2.032" layer="95" align="bottom-center"/>
+<moduleinst name="BUCK" module="BATTERY_AND_BUCK" x="-302.26" y="63.5">
+<attribute name="NAME" value="BUCK" x="-302.26" y="63.5" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="LDO_AND_VOLTAGE_REFS" module="LDO_AND_VOLTAGE_REFS" x="-119.38" y="63.5">
-<attribute name="NAME" value="LDO_AND_VOLTAGE_REFS" x="-119.38" y="63.5" size="2.032" layer="95" align="bottom-center"/>
+<moduleinst name="LDO" module="LDO_AND_VOLTAGE_REFS" x="-119.38" y="63.5">
+<attribute name="NAME" value="LDO" x="-119.38" y="63.5" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="BANDGAP_REF" module="BANDGAP_REF" x="-210.82" y="63.5">
-<attribute name="NAME" value="BANDGAP_REF" x="-210.82" y="63.5" size="2.032" layer="95" align="bottom-center"/>
+<moduleinst name="BG" module="BANDGAP_REF" x="-210.82" y="63.5">
+<attribute name="NAME" value="BG" x="-210.82" y="63.5" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="THERMISTOR_THERMOPILE" module="THERMISTOR_THERMOPILE" x="58.42" y="63.5">
-<attribute name="NAME" x="58.42" y="60.96" size="2.032" layer="95" align="bottom-center"/>
+<moduleinst name="TT" module="THERMISTOR_THERMOPILE" x="58.42" y="63.5">
+<attribute name="NAME" value="TT" x="58.42" y="60.96" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="AMP_AND_FILTER" module="AMP_AND_FILTER" x="-5.08" y="-2.54">
-<attribute name="NAME" value="AMP_AND_FILTER" x="-5.08" y="-2.54" size="2.032" layer="95" align="bottom-center"/>
+<moduleinst name="AF" module="AMP_AND_FILTER" x="-5.08" y="-2.54">
+<attribute name="NAME" value="AF" x="-5.08" y="-2.54" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="DUAL_SLOPE_ADC" module="DUAL_SLOPE_ADC" x="-7.62" y="-68.58" rot="MR0">
-<attribute name="NAME" value="DUAL_SLOPE_ADC" x="-7.62" y="-68.58" size="2.032" layer="95" rot="MR0" align="bottom-center"/>
+<moduleinst name="ADC" module="DUAL_SLOPE_ADC" x="-7.62" y="-68.58" rot="MR0">
+<attribute name="NAME" value="ADC" x="-7.62" y="-68.58" size="2.032" layer="95" rot="MR0" align="bottom-center"/>
 </moduleinst>
 </moduleinsts>
 <instances>
@@ -16825,7 +16825,7 @@ Vout = (1 + R5/R6)*Vin</text>
 <nets>
 <net name="VS_9V" class="0">
 <segment>
-<portref moduleinst="BATTERY_AND_BUCK" port="VS_9V"/>
+<portref moduleinst="BUCK" port="VS_9V"/>
 <wire x1="-332.74" y1="63.5" x2="-340.36" y2="63.5" width="0.1524" layer="91"/>
 <label x="-340.36" y="63.5" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -16844,10 +16844,10 @@ Vout = (1 + R5/R6)*Vin</text>
 </net>
 <net name="VS_6V" class="0">
 <segment>
-<portref moduleinst="BATTERY_AND_BUCK" port="VS_6V"/>
+<portref moduleinst="BUCK" port="VS_6V"/>
 <wire x1="-271.78" y1="63.5" x2="-243.84" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="-243.84" y1="63.5" x2="-243.84" y2="78.74" width="0.1524" layer="91"/>
-<portref moduleinst="BANDGAP_REF" port="VS_6V"/>
+<portref moduleinst="BG" port="VS_6V"/>
 <wire x1="-243.84" y1="63.5" x2="-236.22" y2="63.5" width="0.1524" layer="91"/>
 <junction x="-243.84" y="63.5"/>
 <pinref part="R2" gate="G$1" pin="1"/>
@@ -16866,7 +16866,7 @@ Vout = (1 + R5/R6)*Vin</text>
 </net>
 <net name="VS_5V" class="0">
 <segment>
-<portref moduleinst="LDO_AND_VOLTAGE_REFS" port="VS_5V"/>
+<portref moduleinst="LDO" port="VS_5V"/>
 <pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="-66.04" y1="93.98" x2="-81.28" y2="93.98" width="0.1524" layer="91"/>
 <label x="-76.2" y="93.98" size="1.778" layer="95"/>
@@ -16911,7 +16911,7 @@ Vout = (1 + R5/R6)*Vin</text>
 </net>
 <net name="VS_1.5V" class="0">
 <segment>
-<portref moduleinst="LDO_AND_VOLTAGE_REFS" port="VS_1.5V"/>
+<portref moduleinst="LDO" port="VS_1.5V"/>
 <wire x1="-81.28" y1="33.02" x2="-66.04" y2="33.02" width="0.1524" layer="91"/>
 <label x="-78.74" y="33.02" size="1.778" layer="95"/>
 <pinref part="R11" gate="G$1" pin="1"/>
@@ -16919,7 +16919,7 @@ Vout = (1 + R5/R6)*Vin</text>
 </net>
 <net name="VS_2.5V" class="0">
 <segment>
-<portref moduleinst="LDO_AND_VOLTAGE_REFS" port="VS_2.5V"/>
+<portref moduleinst="LDO" port="VS_2.5V"/>
 <wire x1="-81.28" y1="63.5" x2="-66.04" y2="63.5" width="0.1524" layer="91"/>
 <label x="-78.74" y="63.5" size="1.778" layer="95"/>
 <pinref part="R10" gate="G$1" pin="1"/>
@@ -16946,7 +16946,7 @@ Vout = (1 + R5/R6)*Vin</text>
 <label x="-134.62" y="-88.9" size="1.778" layer="95"/>
 </segment>
 <segment>
-<portref moduleinst="DUAL_SLOPE_ADC" port="RST_ADC"/>
+<portref moduleinst="ADC" port="RST_ADC"/>
 <wire x1="30.48" y1="-83.82" x2="63.5" y2="-83.82" width="0.1524" layer="91"/>
 <label x="63.5" y="-83.82" size="1.778" layer="95"/>
 </segment>
@@ -16963,7 +16963,7 @@ Vout = (1 + R5/R6)*Vin</text>
 <label x="-134.62" y="-86.36" size="1.778" layer="95"/>
 </segment>
 <segment>
-<portref moduleinst="DUAL_SLOPE_ADC" port="V_TOGGLE"/>
+<portref moduleinst="ADC" port="V_TOGGLE"/>
 <wire x1="30.48" y1="-93.98" x2="63.5" y2="-93.98" width="0.1524" layer="91"/>
 <label x="63.5" y="-93.98" size="1.778" layer="95"/>
 </segment>
@@ -17007,7 +17007,7 @@ Vout = (1 + R5/R6)*Vin</text>
 </net>
 <net name="N$14" class="0">
 <segment>
-<portref moduleinst="DUAL_SLOPE_ADC" port="ADC_EXT_INT"/>
+<portref moduleinst="ADC" port="ADC_EXT_INT"/>
 <pinref part="R12" gate="G$1" pin="1"/>
 <wire x1="-45.72" y1="-66.04" x2="-50.8" y2="-66.04" width="0.1524" layer="91"/>
 </segment>
@@ -17027,7 +17027,7 @@ Vout = (1 + R5/R6)*Vin</text>
 <label x="-134.62" y="-81.28" size="1.778" layer="95"/>
 </segment>
 <segment>
-<portref moduleinst="THERMISTOR_THERMOPILE" port="V_TH"/>
+<portref moduleinst="TT" port="V_TH"/>
 <wire x1="106.68" y1="68.58" x2="116.84" y2="68.58" width="0.1524" layer="91"/>
 <label x="116.84" y="68.58" size="1.778" layer="95"/>
 </segment>
@@ -17173,11 +17173,11 @@ Vout = (1 + R5/R6)*Vin</text>
 </segment>
 <segment>
 <label x="-53.34" y="-2.54" size="1.778" layer="95" rot="R180"/>
-<portref moduleinst="AMP_AND_FILTER" port="VS_5V_OUT"/>
+<portref moduleinst="AF" port="VS_5V_OUT"/>
 <wire x1="-36.83" y1="-2.54" x2="-53.34" y2="-2.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<portref moduleinst="THERMISTOR_THERMOPILE" port="VS_5V_OUT"/>
+<portref moduleinst="TT" port="VS_5V_OUT"/>
 <wire x1="10.16" y1="63.5" x2="0" y2="63.5" width="0.1524" layer="91"/>
 <label x="0" y="63.5" size="1.778" layer="95" rot="R180"/>
 </segment>
@@ -17214,11 +17214,11 @@ Vout = (1 + R5/R6)*Vin</text>
 </segment>
 <segment>
 <label x="-53.34" y="5.08" size="1.778" layer="95" rot="R180"/>
-<portref moduleinst="AMP_AND_FILTER" port="VS_2.5V_OUT"/>
+<portref moduleinst="AF" port="VS_2.5V_OUT"/>
 <wire x1="-36.83" y1="5.08" x2="-53.34" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<portref moduleinst="THERMISTOR_THERMOPILE" port="VS_2.5V_OUT"/>
+<portref moduleinst="TT" port="VS_2.5V_OUT"/>
 <wire x1="10.16" y1="48.26" x2="0" y2="48.26" width="0.1524" layer="91"/>
 <label x="0" y="48.26" size="1.778" layer="95" rot="R180"/>
 </segment>
@@ -17235,7 +17235,7 @@ Vout = (1 + R5/R6)*Vin</text>
 <label x="48.26" y="147.828" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<portref moduleinst="LDO_AND_VOLTAGE_REFS" port="V_BG"/>
+<portref moduleinst="LDO" port="V_BG"/>
 <label x="-165.1" y="63.5" size="1.778" layer="95"/>
 <wire x1="-157.48" y1="63.5" x2="-167.64" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="R22" gate="G$1" pin="2"/>
@@ -17245,12 +17245,12 @@ Vout = (1 + R5/R6)*Vin</text>
 <junction x="-167.64" y="63.5"/>
 </segment>
 <segment>
-<portref moduleinst="THERMISTOR_THERMOPILE" port="V_BG"/>
+<portref moduleinst="TT" port="V_BG"/>
 <wire x1="10.16" y1="76.2" x2="0" y2="76.2" width="0.1524" layer="91"/>
 <label x="0" y="76.2" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<portref moduleinst="DUAL_SLOPE_ADC" port="V_BG"/>
+<portref moduleinst="ADC" port="V_BG"/>
 <wire x1="30.48" y1="-73.66" x2="63.5" y2="-73.66" width="0.1524" layer="91"/>
 <label x="63.5" y="-73.66" size="1.778" layer="95"/>
 </segment>
@@ -17326,7 +17326,7 @@ Vout = (1 + R5/R6)*Vin</text>
 <pinref part="R19" gate="G$1" pin="1"/>
 <wire x1="58.42" y1="-43.18" x2="63.5" y2="-43.18" width="0.1524" layer="91"/>
 <wire x1="26.67" y1="-2.54" x2="58.42" y2="-2.54" width="0.1524" layer="91"/>
-<portref moduleinst="AMP_AND_FILTER" port="V_SIG"/>
+<portref moduleinst="AF" port="V_SIG"/>
 <label x="30.48" y="-2.54" size="1.778" layer="95"/>
 <wire x1="58.42" y1="-2.54" x2="71.12" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="-43.18" x2="58.42" y2="-2.54" width="0.1524" layer="91"/>
@@ -17342,20 +17342,20 @@ Vout = (1 + R5/R6)*Vin</text>
 <net name="N$1" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
-<portref moduleinst="LDO_AND_VOLTAGE_REFS" port="VS_6V"/>
+<portref moduleinst="LDO" port="VS_6V"/>
 <wire x1="-165.1" y1="78.74" x2="-157.48" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="V_TP" class="0">
 <segment>
-<portref moduleinst="AMP_AND_FILTER" port="V_TP"/>
+<portref moduleinst="AF" port="V_TP"/>
 <wire x1="-36.83" y1="-10.16" x2="-40.64" y2="-10.16" width="0.1524" layer="91"/>
 <label x="-53.34" y="-10.16" size="1.778" layer="95" rot="R180"/>
 <wire x1="-40.64" y1="-10.16" x2="-53.34" y2="-10.16" width="0.1524" layer="91"/>
 <wire x1="-40.64" y1="-10.16" x2="-40.64" y2="25.4" width="0.1524" layer="91"/>
 <junction x="-40.64" y="-10.16"/>
 <wire x1="-40.64" y1="25.4" x2="109.22" y2="25.4" width="0.1524" layer="91"/>
-<portref moduleinst="THERMISTOR_THERMOPILE" port="V_TP"/>
+<portref moduleinst="TT" port="V_TP"/>
 <wire x1="106.68" y1="50.8" x2="109.22" y2="50.8" width="0.1524" layer="91"/>
 <label x="116.84" y="50.8" size="1.778" layer="95"/>
 <wire x1="109.22" y1="50.8" x2="116.84" y2="50.8" width="0.1524" layer="91"/>
@@ -17371,7 +17371,7 @@ Vout = (1 + R5/R6)*Vin</text>
 <net name="N$2" class="0">
 <segment>
 <pinref part="R16" gate="G$1" pin="2"/>
-<portref moduleinst="DUAL_SLOPE_ADC" port="V_SIG"/>
+<portref moduleinst="ADC" port="V_SIG"/>
 <wire x1="30.48" y1="-43.18" x2="43.18" y2="-43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -17379,19 +17379,19 @@ Vout = (1 + R5/R6)*Vin</text>
 <segment>
 <pinref part="R18" gate="G$1" pin="1"/>
 <wire x1="43.18" y1="-63.5" x2="30.48" y2="-63.5" width="0.1524" layer="91"/>
-<portref moduleinst="DUAL_SLOPE_ADC" port="VS_1.5V_OUT"/>
+<portref moduleinst="ADC" port="VS_1.5V_OUT"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
 <pinref part="R17" gate="G$1" pin="2"/>
 <wire x1="43.18" y1="-53.34" x2="30.48" y2="-53.34" width="0.1524" layer="91"/>
-<portref moduleinst="DUAL_SLOPE_ADC" port="VS_5V_OUT"/>
+<portref moduleinst="ADC" port="VS_5V_OUT"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
-<portref moduleinst="BANDGAP_REF" port="V_BG"/>
+<portref moduleinst="BG" port="V_BG"/>
 <pinref part="R22" gate="G$1" pin="1"/>
 <wire x1="-180.34" y1="63.5" x2="-185.42" y2="63.5" width="0.1524" layer="91"/>
 </segment>
@@ -17538,33 +17538,33 @@ Vout = (1 + R5/R6)*Vin</text>
 <pinref part="X_10" gate="G$1" pin="0"/>
 </segment>
 <segment>
-<portref moduleinst="THERMISTOR_THERMOPILE" port="0"/>
+<portref moduleinst="TT" port="0"/>
 <wire x1="68.58" y1="33.02" x2="68.58" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="X_26" gate="G$1" pin="0"/>
 </segment>
 <segment>
-<portref moduleinst="AMP_AND_FILTER" port="0"/>
+<portref moduleinst="AF" port="0"/>
 <pinref part="X_27" gate="G$1" pin="0"/>
 <wire x1="2.54" y1="-29.21" x2="2.54" y2="-33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="X_22" gate="G$1" pin="0"/>
-<portref moduleinst="BATTERY_AND_BUCK" port="0"/>
+<portref moduleinst="BUCK" port="0"/>
 <wire x1="-294.64" y1="45.72" x2="-294.64" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="X_23" gate="G$1" pin="0"/>
-<portref moduleinst="BANDGAP_REF" port="0"/>
+<portref moduleinst="BG" port="0"/>
 <wire x1="-205.74" y1="48.26" x2="-205.74" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="X_25" gate="G$1" pin="0"/>
-<portref moduleinst="LDO_AND_VOLTAGE_REFS" port="0"/>
+<portref moduleinst="LDO" port="0"/>
 <wire x1="-109.22" y1="17.78" x2="-109.22" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="-7.62" y1="-104.14" x2="-7.62" y2="-105.41" width="0.1524" layer="91"/>
-<portref moduleinst="DUAL_SLOPE_ADC" port="0"/>
+<portref moduleinst="ADC" port="0"/>
 <pinref part="X_28" gate="G$1" pin="0"/>
 <wire x1="-7.62" y1="-109.22" x2="-7.62" y2="-105.41" width="0.1524" layer="91"/>
 </segment>
