@@ -16411,7 +16411,7 @@ V_TOGGLE = 0: V_BG </text>
 </modules>
 <groups>
 <schematic_group name="OLED"/>
-<schematic_group name="GND"/>
+<schematic_group name="0"/>
 </groups>
 <parts>
 <part name="J2" library="163-179PH-EX" library_urn="urn:adsk.eagle:library:44121891" deviceset="163-179PH-EX" device="" package3d_urn="urn:adsk.eagle:package:44121894/2"/>
@@ -16768,7 +16768,7 @@ will go to MCU to trigger counting</text>
 <attribute name="NAME" x="-168.91" y="-36.83" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="-168.91" y="-39.37" size="1.778" layer="97" rot="R270"/>
 </instance>
-<instance part="X_24" gate="G$1" x="-279.4" y="119.38" smashed="yes" grouprefs="GND"/>
+<instance part="X_24" gate="G$1" x="-279.4" y="119.38" smashed="yes" grouprefs="0"/>
 <instance part="Y1" gate="G$1" x="-373.38" y="-109.22" smashed="yes" rot="R270">
 <attribute name="NAME" x="-372.11" y="-118.11" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-387.35" y="-110.49" size="1.778" layer="96" align="center-left"/>
@@ -17406,10 +17406,10 @@ will go to MCU to trigger counting</text>
 </net>
 <net name="0" class="0">
 <segment>
-<wire x1="-279.4" y1="124.46" x2="-264.16" y2="124.46" width="0.1524" layer="91" grouprefs="GND"/>
-<label x="-264.16" y="124.46" size="1.778" layer="95" grouprefs="GND"/>
+<wire x1="-279.4" y1="124.46" x2="-264.16" y2="124.46" width="0.1524" layer="91" grouprefs="0"/>
+<label x="-264.16" y="124.46" size="1.778" layer="95" grouprefs="0"/>
 <pinref part="X_24" gate="G$1" pin="0"/>
-<wire x1="-279.4" y1="124.46" x2="-279.4" y2="119.38" width="0.1524" layer="91" grouprefs="GND"/>
+<wire x1="-279.4" y1="124.46" x2="-279.4" y2="119.38" width="0.1524" layer="91" grouprefs="0"/>
 </segment>
 <segment>
 <pinref part="C5" gate="G$1" pin="2"/>
