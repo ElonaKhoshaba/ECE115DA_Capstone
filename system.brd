@@ -3318,6 +3318,18 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="-132.588" y="-45.72" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-133.223" y="-47.625" size="1.27" layer="27"/>
 </element>
+<element name="BUCK:SW_NODE" library="testpad" library_urn="urn:adsk.eagle:library:385" package="P1-13" package3d_urn="urn:adsk.eagle:package:27946/1" value="TPPAD1-13" x="-132.588" y="-51.435" smashed="yes">
+<attribute name="NAME" x="-133.604" y="-50.165" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="12" x="-132.588" y="-51.435" size="1.778" layer="27" display="off"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="-133.858" y="-53.975" size="1" layer="37"/>
+<attribute name="VALUE" x="-132.588" y="-51.435" size="0.0254" layer="27"/>
+</element>
+<element name="ACC_TP" library="testpad" library_urn="urn:adsk.eagle:library:385" package="P1-13" package3d_urn="urn:adsk.eagle:package:27946/1" value="TPPAD1-13" x="-132.588" y="-56.007" smashed="yes">
+<attribute name="NAME" x="-133.604" y="-54.737" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="12" x="-132.588" y="-56.007" size="1.778" layer="27" display="off"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="-133.858" y="-58.547" size="1" layer="37"/>
+<attribute name="VALUE" x="-132.588" y="-56.007" size="0.0254" layer="27"/>
+</element>
 </elements>
 <signals>
 <signal name="VS_9V">
@@ -3478,8 +3490,10 @@ design rules under a new name.</description>
 <contactref element="U1" pad="18"/>
 <contactref element="C4" pad="1"/>
 <contactref element="L1" pad="1"/>
+<contactref element="ACC_TP" pad="TP"/>
+<wire x1="-11.371" y1="28.861" x2="-132.588" y2="-56.007" width="0" layer="19" extent="1-1"/>
+<wire x1="-24.82" y1="177.8" x2="-11.371" y2="28.861" width="0" layer="19" extent="1-1"/>
 <wire x1="-116.42" y1="196.85" x2="-24.82" y2="177.8" width="0" layer="19" extent="1-1"/>
-<wire x1="-11.371" y1="28.861" x2="-24.82" y2="177.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VS_5V_BACKUP">
 <contactref element="IC1" pad="1"/>
@@ -3867,7 +3881,9 @@ design rules under a new name.</description>
 <wire x1="24.344984375" y1="60.258015625" x2="24.345" y2="61.147" width="0.254" layer="1"/>
 <wire x1="24.405" y1="60.198" x2="31.623" y2="60.198" width="0.508" layer="1"/>
 <via x="24.345" y="61.147" extent="1-16" drill="0.35"/>
-<wire x1="31.623" y1="60.198" x2="30.607" y2="60.293" width="0" layer="19" extent="1-1"/>
+<contactref element="BUCK:SW_NODE" pad="TP"/>
+<wire x1="23.202" y1="61.341" x2="-132.588" y2="-51.435" width="0" layer="19" extent="16-16"/>
+<wire x1="30.607" y1="60.293" x2="31.623" y2="60.198" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BUCK:N$3">
 <contactref element="BUCK:IC1" pad="1"/>

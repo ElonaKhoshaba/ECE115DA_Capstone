@@ -14729,6 +14729,7 @@ Source: &lt;a href="https://abracon.com/Resonators/ABL.pdf"&gt; Datasheet &lt;/a
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="3.3nF"/>
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="22pF"/>
 <part name="X_8" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
+<part name="SW_NODE" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="PAD1-13" package3d_urn="urn:adsk.eagle:package:27946/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -14798,6 +14799,10 @@ Output: VS_6V</text>
 <attribute name="VALUE" x="112.776" y="36.449" size="1.778" layer="96"/>
 </instance>
 <instance part="X_8" gate="G$1" x="106.68" y="30.48" smashed="yes"/>
+<instance part="SW_NODE" gate="G$1" x="106.68" y="93.98" smashed="yes">
+<attribute name="NAME" x="105.41" y="92.71" size="1.778" layer="95" rot="R90"/>
+<attribute name="TP_SIGNAL_NAME" x="107.95" y="92.71" size="1.778" layer="97"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -14831,8 +14836,11 @@ Output: VS_6V</text>
 <wire x1="96.52" y1="76.2" x2="101.6" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="76.2" x2="101.6" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="L1" gate="G$1" pin="1"/>
-<wire x1="101.6" y1="76.2" x2="106.68" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="76.2" x2="104.14" y2="76.2" width="0.1524" layer="91"/>
 <junction x="101.6" y="76.2"/>
+<pinref part="SW_NODE" gate="G$1" pin="TP"/>
+<wire x1="104.14" y1="76.2" x2="106.68" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="76.2" x2="106.68" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -16497,6 +16505,7 @@ V_TOGGLE = 0: V_BG </text>
 <part name="X_16" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_17" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_22" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
+<part name="ACC_TP" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="PAD1-13" package3d_urn="urn:adsk.eagle:package:27946/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -16803,6 +16812,10 @@ will go to MCU to trigger counting</text>
 <instance part="X_16" gate="G$1" x="-302.26" y="43.18" smashed="yes"/>
 <instance part="X_17" gate="G$1" x="-210.82" y="45.72" smashed="yes"/>
 <instance part="X_22" gate="G$1" x="-119.38" y="12.7" smashed="yes"/>
+<instance part="ACC_TP" gate="G$1" x="-142.24" y="-129.54" smashed="yes" rot="R180">
+<attribute name="NAME" x="-140.97" y="-128.27" size="1.778" layer="95" rot="R270"/>
+<attribute name="TP_SIGNAL_NAME" x="-143.51" y="-128.27" size="1.778" layer="97" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -17022,10 +17035,14 @@ will go to MCU to trigger counting</text>
 <pinref part="U1" gate="A" pin="AVCC"/>
 <wire x1="-134.62" y1="-101.6" x2="-137.16" y2="-101.6" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="-137.16" y1="-101.6" x2="-144.78" y2="-101.6" width="0.1524" layer="91"/>
 <wire x1="-137.16" y1="-101.6" x2="-137.16" y2="-104.14" width="0.1524" layer="91"/>
 <junction x="-137.16" y="-101.6"/>
 <pinref part="L1" gate="G$1" pin="1"/>
+<wire x1="-137.16" y1="-101.6" x2="-142.24" y2="-101.6" width="0.1524" layer="91"/>
+<pinref part="ACC_TP" gate="G$1" pin="TP"/>
+<wire x1="-142.24" y1="-101.6" x2="-144.78" y2="-101.6" width="0.1524" layer="91"/>
+<wire x1="-142.24" y1="-127" x2="-142.24" y2="-101.6" width="0.1524" layer="91"/>
+<junction x="-142.24" y="-101.6"/>
 </segment>
 </net>
 <net name="VS_5V_BACKUP" class="0">
