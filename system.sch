@@ -17461,12 +17461,6 @@ Vout = (1 + R5/R6)*Vin</text>
 <wire x1="-109.22" y1="17.78" x2="-109.22" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="-7.62" y1="-104.14" x2="-7.62" y2="-105.41" width="0.1524" layer="91"/>
-<portref moduleinst="ADC" port="0"/>
-<pinref part="X_28" gate="G$1" pin="0"/>
-<wire x1="-7.62" y1="-109.22" x2="-7.62" y2="-105.41" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="J2" gate="G$1" pin="C"/>
 <wire x1="-299.72" y1="99.06" x2="-294.64" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="-294.64" y1="99.06" x2="-294.64" y2="104.14" width="0.1524" layer="91"/>
@@ -17583,6 +17577,10 @@ Vout = (1 + R5/R6)*Vin</text>
 <pinref part="C13" gate="G$1" pin="2"/>
 <wire x1="-53.34" y1="22.86" x2="-53.34" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="X_32" gate="G$1" pin="0"/>
+</segment>
+<segment>
+<pinref part="X_28" gate="G$1" pin="0"/>
+<wire x1="-7.62" y1="-104.14" x2="-7.62" y2="-109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="EXT_CLK_1" class="0">
