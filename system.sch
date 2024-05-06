@@ -14729,7 +14729,6 @@ Source: &lt;a href="https://abracon.com/Resonators/ABL.pdf"&gt; Datasheet &lt;/a
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="3.3nF"/>
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="22pF"/>
 <part name="X_8" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
-<part name="SW_NODE" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="PAD1-13" package3d_urn="urn:adsk.eagle:package:27946/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -14799,10 +14798,6 @@ Output: VS_6V</text>
 <attribute name="VALUE" x="112.776" y="36.449" size="1.778" layer="96"/>
 </instance>
 <instance part="X_8" gate="G$1" x="106.68" y="30.48" smashed="yes"/>
-<instance part="SW_NODE" gate="G$1" x="106.68" y="93.98" smashed="yes">
-<attribute name="NAME" x="105.41" y="92.71" size="1.778" layer="95" rot="R90"/>
-<attribute name="TP_SIGNAL_NAME" x="107.95" y="92.71" size="1.778" layer="97"/>
-</instance>
 </instances>
 <busses>
 </busses>
@@ -14836,11 +14831,8 @@ Output: VS_6V</text>
 <wire x1="96.52" y1="76.2" x2="101.6" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="76.2" x2="101.6" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="L1" gate="G$1" pin="1"/>
-<wire x1="101.6" y1="76.2" x2="104.14" y2="76.2" width="0.1524" layer="91"/>
 <junction x="101.6" y="76.2"/>
-<pinref part="SW_NODE" gate="G$1" pin="TP"/>
-<wire x1="104.14" y1="76.2" x2="106.68" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="76.2" x2="106.68" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="76.2" x2="106.68" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -15385,38 +15377,38 @@ Outputs: VS_1.5V</text>
 <label x="-124.46" y="99.06" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="33.02" y1="2.54" x2="33.02" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="10.16" x2="101.6" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="10.16" x2="101.6" y2="-7.62" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="V+"/>
-<wire x1="101.6" y1="-7.62" x2="83.82" y2="-7.62" width="0.1524" layer="91"/>
-<pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="20.32" y1="10.16" x2="33.02" y2="10.16" width="0.1524" layer="91"/>
-<junction x="33.02" y="10.16"/>
-<pinref part="R10" gate="G$1" pin="2"/>
-<wire x1="20.32" y1="2.54" x2="33.02" y2="2.54" width="0.1524" layer="91"/>
-<junction x="33.02" y="2.54"/>
-</segment>
-</net>
 <net name="N$7" class="0">
 <segment>
+<pinref part="R11" gate="G$1" pin="2"/>
 <pinref part="R12" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="83.82" x2="50.8" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="83.82" x2="50.8" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="R11" gate="G$1" pin="2"/>
 <wire x1="50.8" y1="76.2" x2="45.72" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="83.82" x2="58.42" y2="83.82" width="0.1524" layer="91"/>
-<junction x="50.8" y="83.82"/>
-<wire x1="58.42" y1="83.82" x2="119.38" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="83.82" x2="119.38" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="V+"/>
-<wire x1="119.38" y1="66.04" x2="101.6" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="58.42" y1="76.2" x2="58.42" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="83.82" x2="58.42" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="83.82" x2="58.42" y2="76.2" width="0.1524" layer="91"/>
+<junction x="50.8" y="83.82"/>
+<wire x1="58.42" y1="83.82" x2="109.22" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="83.82" x2="109.22" y2="66.04" width="0.1524" layer="91"/>
 <junction x="58.42" y="83.82"/>
+<pinref part="IC2" gate="G$1" pin="V+"/>
+<wire x1="109.22" y1="66.04" x2="101.6" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="R10" gate="G$1" pin="2"/>
+<wire x1="20.32" y1="2.54" x2="33.02" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="R9" gate="G$1" pin="2"/>
+<wire x1="20.32" y1="10.16" x2="33.02" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="10.16" x2="33.02" y2="2.54" width="0.1524" layer="91"/>
+<junction x="33.02" y="2.54"/>
+<wire x1="33.02" y1="10.16" x2="88.9" y2="10.16" width="0.1524" layer="91"/>
+<junction x="33.02" y="10.16"/>
+<pinref part="IC3" gate="G$1" pin="V+"/>
+<wire x1="88.9" y1="10.16" x2="88.9" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="-7.62" x2="83.82" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -16505,7 +16497,6 @@ V_TOGGLE = 0: V_BG </text>
 <part name="X_16" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_17" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_22" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
-<part name="ACC_TP" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="PAD1-13" package3d_urn="urn:adsk.eagle:package:27946/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -16812,10 +16803,6 @@ will go to MCU to trigger counting</text>
 <instance part="X_16" gate="G$1" x="-302.26" y="43.18" smashed="yes"/>
 <instance part="X_17" gate="G$1" x="-210.82" y="45.72" smashed="yes"/>
 <instance part="X_22" gate="G$1" x="-119.38" y="12.7" smashed="yes"/>
-<instance part="ACC_TP" gate="G$1" x="-142.24" y="-129.54" smashed="yes" rot="R180">
-<attribute name="NAME" x="-140.97" y="-128.27" size="1.778" layer="95" rot="R270"/>
-<attribute name="TP_SIGNAL_NAME" x="-143.51" y="-128.27" size="1.778" layer="97" rot="R180"/>
-</instance>
 </instances>
 <busses>
 </busses>
@@ -17039,7 +17026,6 @@ will go to MCU to trigger counting</text>
 <junction x="-137.16" y="-101.6"/>
 <pinref part="L1" gate="G$1" pin="1"/>
 <wire x1="-137.16" y1="-101.6" x2="-142.24" y2="-101.6" width="0.1524" layer="91"/>
-<pinref part="ACC_TP" gate="G$1" pin="TP"/>
 <wire x1="-142.24" y1="-101.6" x2="-144.78" y2="-101.6" width="0.1524" layer="91"/>
 <wire x1="-142.24" y1="-127" x2="-142.24" y2="-101.6" width="0.1524" layer="91"/>
 <junction x="-142.24" y="-101.6"/>
