@@ -7962,11 +7962,11 @@ Source: AVX .. aphvc.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="TLV9101IDBVR">
+<library name="TLV9101IDBVR" urn="urn:adsk.eagle:library:44173754">
 <description>&lt;Single 1MHz, 16-V rail-to-rail input/output, low-offset voltage, low-power op amp&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
 <packages>
-<package name="SOT95P280X145-5N">
+<package name="SOT95P280X145-5N" urn="urn:adsk.eagle:footprint:44173755/1" library_version="1" library_locally_modified="yes">
 <description>&lt;b&gt;DBV0005A_a&lt;/b&gt;&lt;br&gt;
 </description>
 <smd name="1" x="-1.25" y="0.95" dx="1.2" dy="0.6" layer="1"/>
@@ -7992,8 +7992,17 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="-1.85" y1="1.5" x2="-0.65" y2="1.5" width="0.2" layer="21"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="SOT95P280X145-5N" urn="urn:adsk.eagle:package:44173757/2" type="model" library_version="1" library_locally_modified="yes">
+<description>&lt;b&gt;DBV0005A_a&lt;/b&gt;&lt;br&gt;
+</description>
+<packageinstances>
+<packageinstance name="SOT95P280X145-5N"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
-<symbol name="TLV9101IDBVR">
+<symbol name="TLV9101IDBVR" urn="urn:adsk.eagle:symbol:44173756/1" library_version="1" library_locally_modified="yes">
 <wire x1="5.08" y1="2.54" x2="20.32" y2="2.54" width="0.254" layer="94"/>
 <wire x1="20.32" y1="-7.62" x2="20.32" y2="2.54" width="0.254" layer="94"/>
 <wire x1="20.32" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
@@ -8008,7 +8017,7 @@ Source: AVX .. aphvc.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="TLV9101IDBVR" prefix="IC">
+<deviceset name="TLV9101IDBVR" urn="urn:adsk.eagle:component:44173758/1" locally_modified="yes" prefix="IC" library_version="1" library_locally_modified="yes">
 <description>&lt;b&gt;Single 1MHz, 16-V rail-to-rail input/output, low-offset voltage, low-power op amp&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tlv9101.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -8023,6 +8032,9 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tlv9101.pdf"&gt; Datasheet 
 <connect gate="G$1" pin="V+" pad="5"/>
 <connect gate="G$1" pin="V-" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:44173757/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="Single 1MHz, 16-V rail-to-rail input/output, low-offset voltage, low-power op amp" constant="no"/>
@@ -8038,11 +8050,11 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tlv9101.pdf"&gt; Datasheet 
 </deviceset>
 </devicesets>
 </library>
-<library name="PBSS8110T_215">
+<library name="PBSS8110T_215" urn="urn:adsk.eagle:library:44173507">
 <description>&lt;PBSS8110T - 100 V, 1 A NPN low VCEsat (BISS) transistor&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
 <packages>
-<package name="SOT95P230X110-3N">
+<package name="SOT95P230X110-3N" urn="urn:adsk.eagle:footprint:44173508/1" library_version="1" library_locally_modified="yes">
 <description>&lt;b&gt;PBSS8110T,215*&lt;/b&gt;&lt;br&gt;
 </description>
 <smd name="1" x="-1.1" y="0.95" dx="1.05" dy="0.6" layer="1"/>
@@ -8066,8 +8078,17 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tlv9101.pdf"&gt; Datasheet 
 <wire x1="-1.625" y1="1.5" x2="-0.575" y2="1.5" width="0.2" layer="21"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="SOT95P230X110-3N" urn="urn:adsk.eagle:package:44173510/2" type="model" library_version="1" library_locally_modified="yes">
+<description>&lt;b&gt;PBSS8110T,215*&lt;/b&gt;&lt;br&gt;
+</description>
+<packageinstances>
+<packageinstance name="SOT95P230X110-3N"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
-<symbol name="PBSS8110T,215">
+<symbol name="PBSS8110T,215" urn="urn:adsk.eagle:symbol:44173509/1" library_version="1" library_locally_modified="yes">
 <wire x1="7.62" y1="2.54" x2="7.62" y2="-2.54" width="0.508" layer="94"/>
 <wire x1="7.62" y1="1.27" x2="10.16" y2="3.81" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-1.27" x2="10.16" y2="-3.81" width="0.254" layer="94"/>
@@ -8088,7 +8109,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tlv9101.pdf"&gt; Datasheet 
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="PBSS8110T,215" prefix="Q">
+<deviceset name="PBSS8110T,215" urn="urn:adsk.eagle:component:44173511/1" locally_modified="yes" prefix="Q" library_version="1" library_locally_modified="yes">
 <description>&lt;b&gt;PBSS8110T - 100 V, 1 A NPN low VCEsat (BISS) transistor&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://assets.nexperia.com/documents/data-sheet/PBSS8110T.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -8101,6 +8122,9 @@ Source: &lt;a href="https://assets.nexperia.com/documents/data-sheet/PBSS8110T.p
 <connect gate="G$1" pin="C" pad="3"/>
 <connect gate="G$1" pin="E" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:44173510/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="PBSS8110T - 100 V, 1 A NPN low VCEsat (BISS) transistor" constant="no"/>
@@ -8116,11 +8140,11 @@ Source: &lt;a href="https://assets.nexperia.com/documents/data-sheet/PBSS8110T.p
 </deviceset>
 </devicesets>
 </library>
-<library name="AP64350SP-13">
+<library name="AP64350SP-13" urn="urn:adsk.eagle:library:44173435">
 <description>&lt;Switching Voltage Regulators 3.8V-40V 3.5A LOW IQ SYN BUCK PRG SW FRQ&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
 <packages>
-<package name="SOIC127P600X163-9N">
+<package name="SOIC127P600X163-9N" urn="urn:adsk.eagle:footprint:44173436/1" library_version="1" library_locally_modified="yes">
 <description>&lt;b&gt;SO-8(EP)_223sss&lt;/b&gt;&lt;br&gt;
 </description>
 <smd name="1" x="-2.688" y="1.905" dx="1.525" dy="0.65" layer="1"/>
@@ -8146,8 +8170,16 @@ Source: &lt;a href="https://assets.nexperia.com/documents/data-sheet/PBSS8110T.p
 <wire x1="-3.45" y1="2.58" x2="-1.925" y2="2.58" width="0.2" layer="21"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="SOIC127P600X163-9N" urn="urn:adsk.eagle:package:44173438/2" type="model" library_version="1" library_locally_modified="yes">
+<description>&lt;b&gt;SO-8(EP)_223sss&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="SOIC127P600X163-9N"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
-<symbol name="AP64350SP-13">
+<symbol name="AP64350SP-13" urn="urn:adsk.eagle:symbol:44173437/1" library_version="1" library_locally_modified="yes">
 <wire x1="5.08" y1="2.54" x2="25.4" y2="2.54" width="0.254" layer="94"/>
 <wire x1="25.4" y1="-15.24" x2="25.4" y2="2.54" width="0.254" layer="94"/>
 <wire x1="25.4" y1="-15.24" x2="5.08" y2="-15.24" width="0.254" layer="94"/>
@@ -8166,7 +8198,7 @@ Source: &lt;a href="https://assets.nexperia.com/documents/data-sheet/PBSS8110T.p
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="AP64350SP-13" prefix="IC">
+<deviceset name="AP64350SP-13" urn="urn:adsk.eagle:component:44173439/1" locally_modified="yes" prefix="IC" library_version="1" library_locally_modified="yes">
 <description>&lt;b&gt;Switching Voltage Regulators 3.8V-40V 3.5A LOW IQ SYN BUCK PRG SW FRQ&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://www.diodes.com//assets/Datasheets/AP64350.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -8185,6 +8217,9 @@ Source: &lt;a href="https://www.diodes.com//assets/Datasheets/AP64350.pdf"&gt; D
 <connect gate="G$1" pin="SW" pad="8"/>
 <connect gate="G$1" pin="VIN" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:44173438/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="Switching Voltage Regulators 3.8V-40V 3.5A LOW IQ SYN BUCK PRG SW FRQ" constant="no"/>
@@ -8200,11 +8235,11 @@ Source: &lt;a href="https://www.diodes.com//assets/Datasheets/AP64350.pdf"&gt; D
 </deviceset>
 </devicesets>
 </library>
-<library name="300S14-U">
+<library name="300S14-U" urn="urn:adsk.eagle:library:44173353">
 <description>&lt;Bipolar Transistors - BJT 4 NPN Matched Trans. Array SO-14&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
 <packages>
-<package name="SOIC127P602X175-14N">
+<package name="SOIC127P602X175-14N" urn="urn:adsk.eagle:footprint:44173355/1" library_version="1" library_locally_modified="yes">
 <description>&lt;b&gt;SO14&lt;/b&gt;&lt;br&gt;
 </description>
 <smd name="1" x="-2.728" y="3.81" dx="1.545" dy="0.65" layer="1"/>
@@ -8239,8 +8274,17 @@ Source: &lt;a href="https://www.diodes.com//assets/Datasheets/AP64350.pdf"&gt; D
 <wire x1="-3.5" y1="4.485" x2="-1.955" y2="4.485" width="0.2" layer="21"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="SOIC127P602X175-14N" urn="urn:adsk.eagle:package:44173357/2" type="model" library_version="1" library_locally_modified="yes">
+<description>&lt;b&gt;SO14&lt;/b&gt;&lt;br&gt;
+</description>
+<packageinstances>
+<packageinstance name="SOIC127P602X175-14N"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
-<symbol name="300S14-U">
+<symbol name="300S14-U" urn="urn:adsk.eagle:symbol:44173356/1" library_version="1" library_locally_modified="yes">
 <wire x1="5.08" y1="2.54" x2="25.4" y2="2.54" width="0.254" layer="94"/>
 <wire x1="25.4" y1="-17.78" x2="25.4" y2="2.54" width="0.254" layer="94"/>
 <wire x1="25.4" y1="-17.78" x2="5.08" y2="-17.78" width="0.254" layer="94"/>
@@ -8264,7 +8308,7 @@ Source: &lt;a href="https://www.diodes.com//assets/Datasheets/AP64350.pdf"&gt; D
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="300S14-U" prefix="Q">
+<deviceset name="300S14-U" urn="urn:adsk.eagle:component:44173358/1" locally_modified="yes" prefix="Q" library_version="1" library_locally_modified="yes">
 <description>&lt;b&gt;Bipolar Transistors - BJT 4 NPN Matched Trans. Array SO-14&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -8288,6 +8332,9 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <connect gate="G$1" pin="SUB_1" pad="4"/>
 <connect gate="G$1" pin="SUB_2" pad="11"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:44173357/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="Bipolar Transistors - BJT 4 NPN Matched Trans. Array SO-14" constant="no"/>
@@ -8303,11 +8350,11 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="744053003">
+<library name="744053003" urn="urn:adsk.eagle:library:44173375">
 <description>&lt;Wurth Shielded Wire-wound SMD Inductor with a Ferrite Core, 3 uH +/-30% 2.8A Idc&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
 <packages>
-<package name="WE-TPC_5818/582892">
+<package name="WE-TPC_5818/582892" urn="urn:adsk.eagle:footprint:44173376/1" library_version="1" library_locally_modified="yes">
 <description>&lt;b&gt;WE-TPC_5818/582892&lt;/b&gt;&lt;br&gt;
 </description>
 <smd name="1" x="-2" y="0" dx="6.3" dy="2.2" layer="1" rot="R90"/>
@@ -8325,8 +8372,16 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <wire x1="-3.5" y1="-3.75" x2="-3.5" y2="3.75" width="0.127" layer="51"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="WE-TPC_5818/582892" urn="urn:adsk.eagle:package:44173378/2" type="model" library_version="1" library_locally_modified="yes">
+<description>&lt;b&gt;WE-TPC_5818/582892&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="WE-TPC_5818/582892"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
-<symbol name="744053003">
+<symbol name="744053003" urn="urn:adsk.eagle:symbol:44173377/1" library_version="1" library_locally_modified="yes">
 <wire x1="5.08" y1="0" x2="7.62" y2="0" width="0.254" layer="94" curve="-175.4"/>
 <wire x1="7.62" y1="0" x2="10.16" y2="0" width="0.254" layer="94" curve="-175.4"/>
 <wire x1="10.16" y1="0" x2="12.7" y2="0" width="0.254" layer="94" curve="-175.4"/>
@@ -8338,7 +8393,7 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="744053003" prefix="L">
+<deviceset name="744053003" urn="urn:adsk.eagle:component:44173379/1" locally_modified="yes" prefix="L" library_version="1" library_locally_modified="yes">
 <description>&lt;b&gt;Wurth Shielded Wire-wound SMD Inductor with a Ferrite Core, 3 uH +/-30% 2.8A Idc&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/744053003.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -8350,6 +8405,9 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/744053003.pdf
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:44173378/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="Wurth Shielded Wire-wound SMD Inductor with a Ferrite Core, 3 uH +/-30% 2.8A Idc" constant="no"/>
@@ -8365,11 +8423,11 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/744053003.pdf
 </deviceset>
 </devicesets>
 </library>
-<library name="SLW-864547-5A-RA-D">
+<library name="SLW-864547-5A-RA-D" urn="urn:adsk.eagle:library:44173530">
 <description>&lt;8.6 x 4.5 x 4.7 mm, 5 mm Raised Slide Actuator, Right Angle, Through Hole, Slide Switch&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
 <packages>
-<package name="SLW8645475ARAD">
+<package name="SLW8645475ARAD" urn="urn:adsk.eagle:footprint:44173531/1" library_version="1" library_locally_modified="yes">
 <description>&lt;b&gt;SLW-864547-5A-RA-D-1&lt;/b&gt;&lt;br&gt;
 </description>
 <pad name="1" x="0" y="0" drill="0.8" diameter="1.3" shape="square"/>
@@ -8405,15 +8463,23 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/744053003.pdf
 <wire x1="-4" y1="0" x2="-3.9" y2="0" width="0.1" layer="21" curve="180"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="SLW8645475ARAD" urn="urn:adsk.eagle:package:44173533/2" type="model" library_version="1" library_locally_modified="yes">
+<description>&lt;b&gt;SLW-864547-5A-RA-D-1&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="SLW8645475ARAD"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
-<symbol name="SLW-864547-5A-RA-D">
+<symbol name="SLW-864547-5A-RA-D" urn="urn:adsk.eagle:symbol:44173532/1" library_version="1" library_locally_modified="yes">
 <wire x1="5.08" y1="2.54" x2="17.78" y2="2.54" width="0.254" layer="94"/>
 <wire x1="17.78" y1="-12.7" x2="17.78" y2="2.54" width="0.254" layer="94"/>
 <wire x1="17.78" y1="-12.7" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
 <wire x1="5.08" y1="2.54" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
 <text x="19.05" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
 <text x="19.05" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="NC" x="0" y="-2.54" length="middle"/>
+<pin name="NC" x="0" y="-2.54" length="middle" direction="nc"/>
 <pin name="COM" x="0" y="-5.08" length="middle"/>
 <pin name="NO" x="0" y="-7.62" length="middle"/>
 <pin name="MH1" x="0" y="0" length="middle"/>
@@ -8421,7 +8487,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/744053003.pdf
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SLW-864547-5A-RA-D" prefix="S">
+<deviceset name="SLW-864547-5A-RA-D" urn="urn:adsk.eagle:component:44173534/1" locally_modified="yes" prefix="S" library_version="1" library_locally_modified="yes">
 <description>&lt;b&gt;8.6 x 4.5 x 4.7 mm, 5 mm Raised Slide Actuator, Right Angle, Through Hole, Slide Switch&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://www.cuidevices.com/product/resource/slw-864547-5a-ra-d.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -8436,6 +8502,9 @@ Source: &lt;a href="https://www.cuidevices.com/product/resource/slw-864547-5a-ra
 <connect gate="G$1" pin="NC" pad="1"/>
 <connect gate="G$1" pin="NO" pad="3"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:44173533/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="8.6 x 4.5 x 4.7 mm, 5 mm Raised Slide Actuator, Right Angle, Through Hole, Slide Switch" constant="no"/>
@@ -8451,7 +8520,7 @@ Source: &lt;a href="https://www.cuidevices.com/product/resource/slw-864547-5a-ra
 </deviceset>
 </devicesets>
 </library>
-<library name="Fuse_Custom">
+<library name="Fuse_Custom" urn="urn:adsk.eagle:library:44173473">
 <packages>
 <package name="R0603" urn="urn:adsk.eagle:footprint:8082147/1">
 <description>&lt;b&gt;Chip RESISTOR, 0603 EIA (1608 Metric)&lt;/b&gt;</description>
@@ -8470,8 +8539,16 @@ Source: &lt;a href="https://www.cuidevices.com/product/resource/slw-864547-5a-ra
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="R0603" urn="urn:adsk.eagle:package:44173475/2" type="model" library_version="1" library_locally_modified="yes">
+<description>&lt;b&gt;Chip RESISTOR, 0603 EIA (1608 Metric)&lt;/b&gt;</description>
+<packageinstances>
+<packageinstance name="R0603"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
-<symbol name="FUSE">
+<symbol name="FUSE" urn="urn:adsk.eagle:symbol:44173474/1" library_version="1" library_locally_modified="yes">
 <wire x1="-5.08" y1="0" x2="-3.556" y2="1.524" width="0.254" layer="94"/>
 <wire x1="0" y1="-1.524" x2="-2.54" y2="1.524" width="0.254" layer="94"/>
 <wire x1="0.889" y1="-1.4986" x2="2.4892" y2="0" width="0.254" layer="94"/>
@@ -8486,7 +8563,7 @@ Source: &lt;a href="https://www.cuidevices.com/product/resource/slw-864547-5a-ra
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="FUSE0603" prefix="F1">
+<deviceset name="FUSE0603" urn="urn:adsk.eagle:component:44173476/1" locally_modified="yes" prefix="F1" library_version="1" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="FUSE" x="-10.16" y="12.7"/>
 </gates>
@@ -8496,6 +8573,9 @@ Source: &lt;a href="https://www.cuidevices.com/product/resource/slw-864547-5a-ra
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:44173475/2"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -8504,11 +8584,11 @@ Source: &lt;a href="https://www.cuidevices.com/product/resource/slw-864547-5a-ra
 </deviceset>
 </devicesets>
 </library>
-<library name="FMMT593TC">
+<library name="FMMT593TC" urn="urn:adsk.eagle:library:44173460">
 <description>&lt;Bipolar (BJT) Transistor PNP 100 V 1 A 50MHz 500 mW Surface Mount SOT-23-3&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
 <packages>
-<package name="SOT95P237X112-3N">
+<package name="SOT95P237X112-3N" urn="urn:adsk.eagle:footprint:44173461/1" library_version="1" library_locally_modified="yes">
 <description>&lt;b&gt;SOT23 (Type DN)_2023&lt;/b&gt;&lt;br&gt;
 </description>
 <smd name="1" x="-1.05" y="0.95" dx="1.25" dy="0.6" layer="1"/>
@@ -8532,8 +8612,17 @@ Source: &lt;a href="https://www.cuidevices.com/product/resource/slw-864547-5a-ra
 <wire x1="-1.675" y1="1.5" x2="-0.425" y2="1.5" width="0.2" layer="21"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="SOT95P237X112-3N" urn="urn:adsk.eagle:package:44173463/2" type="model" library_version="1" library_locally_modified="yes">
+<description>&lt;b&gt;SOT23 (Type DN)_2023&lt;/b&gt;&lt;br&gt;
+</description>
+<packageinstances>
+<packageinstance name="SOT95P237X112-3N"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
-<symbol name="FMMT593TC">
+<symbol name="FMMT593TC" urn="urn:adsk.eagle:symbol:44173462/1" library_version="1" library_locally_modified="yes">
 <wire x1="7.62" y1="2.54" x2="7.62" y2="-2.54" width="0.508" layer="94"/>
 <wire x1="7.62" y1="1.27" x2="10.16" y2="3.81" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-1.27" x2="10.16" y2="-3.81" width="0.254" layer="94"/>
@@ -8554,7 +8643,7 @@ Source: &lt;a href="https://www.cuidevices.com/product/resource/slw-864547-5a-ra
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="FMMT593TC" prefix="Q">
+<deviceset name="FMMT593TC" urn="urn:adsk.eagle:component:44173464/1" locally_modified="yes" prefix="Q" library_version="1" library_locally_modified="yes">
 <description>&lt;b&gt;Bipolar (BJT) Transistor PNP 100 V 1 A 50MHz 500 mW Surface Mount SOT-23-3&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://www.diodes.com/assets/Datasheets/FMMT593.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -8567,6 +8656,9 @@ Source: &lt;a href="https://www.diodes.com/assets/Datasheets/FMMT593.pdf"&gt; Da
 <connect gate="G$1" pin="C" pad="3"/>
 <connect gate="G$1" pin="E" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:44173463/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="Bipolar (BJT) Transistor PNP 100 V 1 A 50MHz 500 mW Surface Mount SOT-23-3" constant="no"/>
@@ -8582,11 +8674,11 @@ Source: &lt;a href="https://www.diodes.com/assets/Datasheets/FMMT593.pdf"&gt; Da
 </deviceset>
 </devicesets>
 </library>
-<library name="ZTP-148SRC1">
+<library name="ZTP-148SRC1" urn="urn:adsk.eagle:library:44173794">
 <description>&lt;Infrared Detectors THERMOPILE IR,TO-46 PKG FOV 85&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
 <packages>
-<package name="ZTP148SRC1">
+<package name="ZTP148SRC1" urn="urn:adsk.eagle:footprint:44173795/1" library_version="1" library_locally_modified="yes">
 <description>&lt;b&gt;ZTP-148SRC1-5&lt;/b&gt;&lt;br&gt;
 </description>
 <pad name="1" x="0" y="1.27" drill="0.7" diameter="1.2"/>
@@ -8612,8 +8704,17 @@ Source: &lt;a href="https://www.diodes.com/assets/Datasheets/FMMT593.pdf"&gt; Da
 <wire x1="-2.7" y1="0" x2="2.7" y2="0" width="0.1" layer="21" curve="180"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="ZTP148SRC1" urn="urn:adsk.eagle:package:44173797/2" type="model" library_version="1" library_locally_modified="yes">
+<description>&lt;b&gt;ZTP-148SRC1-5&lt;/b&gt;&lt;br&gt;
+</description>
+<packageinstances>
+<packageinstance name="ZTP148SRC1"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
-<symbol name="ZTP-148SRC1">
+<symbol name="ZTP-148SRC1" urn="urn:adsk.eagle:symbol:44173796/1" library_version="1" library_locally_modified="yes">
 <wire x1="5.08" y1="22.86" x2="45.72" y2="22.86" width="0.254" layer="94"/>
 <wire x1="45.72" y1="-17.78" x2="45.72" y2="22.86" width="0.254" layer="94"/>
 <wire x1="45.72" y1="-17.78" x2="5.08" y2="-17.78" width="0.254" layer="94"/>
@@ -8627,7 +8728,7 @@ Source: &lt;a href="https://www.diodes.com/assets/Datasheets/FMMT593.pdf"&gt; Da
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ZTP-148SRC1" prefix="IC">
+<deviceset name="ZTP-148SRC1" urn="urn:adsk.eagle:component:44173798/1" locally_modified="yes" prefix="IC" library_version="1" library_locally_modified="yes">
 <description>&lt;b&gt;Infrared Detectors THERMOPILE IR,TO-46 PKG FOV 85&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -8641,6 +8742,9 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <connect gate="G$1" pin="THERMOPILE" pad="4"/>
 <connect gate="G$1" pin="THERMOPILE_GND" pad="3"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:44173797/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="Infrared Detectors THERMOPILE IR,TO-46 PKG FOV 85" constant="no"/>
@@ -8656,9 +8760,9 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="TSW-104-07-F-S">
+<library name="TSW-104-07-F-S" urn="urn:adsk.eagle:library:44173782">
 <packages>
-<package name="SAMTEC_TSW-104-07-F-S">
+<package name="SAMTEC_TSW-104-07-F-S" urn="urn:adsk.eagle:footprint:44173783/1" library_version="1" library_locally_modified="yes">
 <wire x1="-5.08" y1="-1.27" x2="-5.08" y2="1.27" width="0.1" layer="51"/>
 <wire x1="-5.08" y1="1.27" x2="5.08" y2="1.27" width="0.1" layer="51"/>
 <wire x1="5.08" y1="1.27" x2="5.08" y2="-1.27" width="0.1" layer="51"/>
@@ -8684,8 +8788,15 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <pad name="04" x="3.81" y="0" drill="1.02" diameter="1.37"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="SAMTEC_TSW-104-07-F-S" urn="urn:adsk.eagle:package:44173785/2" type="model" library_version="1" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="SAMTEC_TSW-104-07-F-S"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
-<symbol name="TSW-104-07-F-S">
+<symbol name="TSW-104-07-F-S" urn="urn:adsk.eagle:symbol:44173784/1" library_version="1" library_locally_modified="yes">
 <wire x1="-7.62" y1="-5.08" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
 <wire x1="7.62" y1="7.62" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
@@ -8699,7 +8810,7 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="TSW-104-07-F-S" prefix="J">
+<deviceset name="TSW-104-07-F-S" urn="urn:adsk.eagle:component:44173786/1" locally_modified="yes" prefix="J" library_version="1" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="TSW-104-07-F-S" x="0" y="0"/>
 </gates>
@@ -8711,6 +8822,9 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <connect gate="G$1" pin="03" pad="03"/>
 <connect gate="G$1" pin="04" pad="04"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:44173785/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="MANUFACTURER" value="Samtec"/>
@@ -8723,9 +8837,9 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="RS1-02-G">
+<library name="RS1-02-G" urn="urn:adsk.eagle:library:44173519">
 <packages>
-<package name="CONN_RS1-02-G_ADM">
+<package name="CONN_RS1-02-G_ADM" urn="urn:adsk.eagle:footprint:44173520/1" library_version="1" library_locally_modified="yes">
 <pad name="1" x="0" y="0" drill="1.016" diameter="1.524"/>
 <pad name="2" x="2.54" y="0" drill="1.016" diameter="1.524"/>
 <wire x1="0" y1="0" x2="0" y2="3.3528" width="0.1524" layer="47"/>
@@ -8784,19 +8898,6 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <wire x1="-10.668" y1="-1.1938" x2="-10.795" y2="-1.4478" width="0.1524" layer="47"/>
 <wire x1="-10.668" y1="-1.1938" x2="-10.541" y2="-1.4478" width="0.1524" layer="47"/>
 <wire x1="-10.795" y1="-1.4478" x2="-10.541" y2="-1.4478" width="0.1524" layer="47"/>
-<text x="-14.5034" y="-5.2578" size="1.27" layer="47" ratio="6" rot="SR0">Default Padstyle: EX60Y60D40P</text>
-<text x="-15.2654" y="-7.1628" size="1.27" layer="47" ratio="6" rot="SR0">1st Mtg Padstyle: RX110Y80D50P</text>
-<text x="-14.8844" y="-9.0678" size="1.27" layer="47" ratio="6" rot="SR0">2nd Mtg Padstyle: EX70Y70D70P</text>
-<text x="-14.8844" y="-10.9728" size="1.27" layer="47" ratio="6" rot="SR0">3rd Mtg Padstyle: EX70Y70D70P</text>
-<text x="-15.0876" y="-12.8778" size="1.27" layer="47" ratio="6" rot="SR0">Left Mtg Padstyle: EX60Y60D30P</text>
-<text x="-15.6718" y="-14.7828" size="1.27" layer="47" ratio="6" rot="SR0">Right Mtg Padstyle: EX60Y60D30P</text>
-<text x="-13.5382" y="-16.6878" size="1.27" layer="47" ratio="6" rot="SR0">Alt Padstyle 1: OX60Y90D30P</text>
-<text x="-13.5382" y="-18.5928" size="1.27" layer="47" ratio="6" rot="SR0">Alt Padstyle 2: OX90Y60D30P</text>
-<text x="-3.81" y="3.8608" size="0.635" layer="47" ratio="4" rot="SR0">0.1in/2.54mm</text>
-<text x="-2.4892" y="12.1158" size="0.635" layer="47" ratio="4" rot="SR0">0.22in/5.588mm</text>
-<text x="7.112" y="-0.3048" size="0.635" layer="47" ratio="4" rot="SR0">0in/0mm</text>
-<text x="-20.5232" y="0.2794" size="0.635" layer="47" ratio="4" rot="SR0">0.047in/1.194mm</text>
-<text x="-19.2532" y="-0.3048" size="0.635" layer="47" ratio="4" rot="SR0">0.094in/2.388mm</text>
 <wire x1="-1.651" y1="-1.3208" x2="4.191" y2="-1.3208" width="0.1524" layer="21"/>
 <wire x1="4.191" y1="-1.3208" x2="4.191" y2="1.3208" width="0.1524" layer="21"/>
 <wire x1="4.191" y1="1.3208" x2="-1.651" y2="1.3208" width="0.1524" layer="21"/>
@@ -8811,12 +8912,32 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <wire x1="-0.381" y1="1.905" x2="0.381" y2="1.905" width="0.508" layer="51" curve="-180"/>
 <wire x1="-3.048" y1="0" x2="-3.81" y2="0" width="0.508" layer="22" curve="-180"/>
 <wire x1="-3.81" y1="0" x2="-3.048" y2="0" width="0.508" layer="22" curve="-180"/>
+<text x="-14.5034" y="-5.2578" size="1.27" layer="47" ratio="6" rot="SR0">Default Padstyle: EX60Y60D40P</text>
+<text x="-15.2654" y="-7.1628" size="1.27" layer="47" ratio="6" rot="SR0">1st Mtg Padstyle: RX110Y80D50P</text>
+<text x="-14.8844" y="-9.0678" size="1.27" layer="47" ratio="6" rot="SR0">2nd Mtg Padstyle: EX70Y70D70P</text>
+<text x="-14.8844" y="-10.9728" size="1.27" layer="47" ratio="6" rot="SR0">3rd Mtg Padstyle: EX70Y70D70P</text>
+<text x="-15.0876" y="-12.8778" size="1.27" layer="47" ratio="6" rot="SR0">Left Mtg Padstyle: EX60Y60D30P</text>
+<text x="-15.6718" y="-14.7828" size="1.27" layer="47" ratio="6" rot="SR0">Right Mtg Padstyle: EX60Y60D30P</text>
+<text x="-13.5382" y="-16.6878" size="1.27" layer="47" ratio="6" rot="SR0">Alt Padstyle 1: OX60Y90D30P</text>
+<text x="-13.5382" y="-18.5928" size="1.27" layer="47" ratio="6" rot="SR0">Alt Padstyle 2: OX90Y60D30P</text>
+<text x="-3.81" y="3.8608" size="0.635" layer="47" ratio="4" rot="SR0">0.1in/2.54mm</text>
+<text x="-2.4892" y="12.1158" size="0.635" layer="47" ratio="4" rot="SR0">0.22in/5.588mm</text>
+<text x="7.112" y="-0.3048" size="0.635" layer="47" ratio="4" rot="SR0">0in/0mm</text>
+<text x="-20.5232" y="0.2794" size="0.635" layer="47" ratio="4" rot="SR0">0.047in/1.194mm</text>
+<text x="-19.2532" y="-0.3048" size="0.635" layer="47" ratio="4" rot="SR0">0.094in/2.388mm</text>
 <text x="-2.0066" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Name</text>
 <text x="-0.4572" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
 </package>
 </packages>
+<packages3d>
+<package3d name="CONN_RS1-02-G_ADM" urn="urn:adsk.eagle:package:44173524/2" type="model" library_version="1" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="CONN_RS1-02-G_ADM"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
-<symbol name="CONN_002P_000C_1">
+<symbol name="CONN_002P_000C_1" urn="urn:adsk.eagle:symbol:44173523/1" library_version="1" library_locally_modified="yes">
 <pin name="1" x="0" y="0" visible="pad" length="middle" direction="pas"/>
 <pin name="2" x="0" y="-2.54" visible="pad" length="middle" direction="pas"/>
 <wire x1="10.16" y1="0" x2="5.08" y2="0" width="0.1524" layer="94"/>
@@ -8833,7 +8954,7 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="RS1-02-G" prefix="J">
+<deviceset name="RS1-02-G" urn="urn:adsk.eagle:component:44173525/1" locally_modified="yes" prefix="J" library_version="1" library_locally_modified="yes">
 <gates>
 <gate name="A" symbol="CONN_002P_000C_1" x="0" y="0"/>
 </gates>
@@ -8843,6 +8964,9 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <connect gate="A" pin="1" pad="1"/>
 <connect gate="A" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:44173524/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="COPYRIGHT" value="Copyright (C) 2024 Ultra Librarian. All rights reserved." constant="no"/>
@@ -8855,11 +8979,11 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="LT1167CS8-1#PBF">
+<library name="LT1167CS8-1#PBF" urn="urn:adsk.eagle:library:44173498">
 <description>&lt;Instrumentation Amplifiers Programmable Prec Inst Amp&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
 <packages>
-<package name="SOIC127P599X175-8N">
+<package name="SOIC127P599X175-8N" urn="urn:adsk.eagle:footprint:44173499/1" library_version="1" library_locally_modified="yes">
 <description>&lt;b&gt;8-LEAD PLASTIC SO&lt;/b&gt;&lt;br&gt;
 </description>
 <smd name="1" x="-2.712" y="1.905" dx="1.526" dy="0.65" layer="1"/>
@@ -8888,8 +9012,16 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <wire x1="-3.475" y1="2.58" x2="-1.95" y2="2.58" width="0.2" layer="21"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="SOIC127P599X175-8N" urn="urn:adsk.eagle:package:44173501/2" type="model" library_version="1" library_locally_modified="yes">
+<description>&lt;b&gt;8-LEAD PLASTIC SO&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="SOIC127P599X175-8N"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
-<symbol name="LT1167CS8-1#PBF">
+<symbol name="LT1167CS8-1#PBF" urn="urn:adsk.eagle:symbol:44173500/1" library_version="1" library_locally_modified="yes">
 <wire x1="5.08" y1="2.54" x2="25.4" y2="2.54" width="0.254" layer="94"/>
 <wire x1="25.4" y1="-10.16" x2="25.4" y2="2.54" width="0.254" layer="94"/>
 <wire x1="25.4" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
@@ -8907,7 +9039,7 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LT1167CS8-1#PBF" prefix="IC">
+<deviceset name="LT1167CS8-1#PBF" urn="urn:adsk.eagle:component:44173502/1" locally_modified="yes" prefix="IC" library_version="1" library_locally_modified="yes">
 <description>&lt;b&gt;Instrumentation Amplifiers Programmable Prec Inst Amp&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=&amp;ved=2ahUKEwiX6oGy_cT2AhUFLBoKHaJ4BkkQFnoECDYQAQ&amp;url=https://www.analog.com/media/en/technical-documentation/data-sheets/1167fc.pdf&amp;usg=AOvVaw1x3jvf2OheYgevULB3qLIN"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -8925,6 +9057,9 @@ Source: &lt;a href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&
 <connect gate="G$1" pin="RG_1" pad="1"/>
 <connect gate="G$1" pin="RG_2" pad="8"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:44173501/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="Instrumentation Amplifiers Programmable Prec Inst Amp" constant="no"/>
@@ -8940,9 +9075,9 @@ Source: &lt;a href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&
 </deviceset>
 </devicesets>
 </library>
-<library name="ATMEGA328PB_AU32A">
+<library name="ATMEGA328PB_AU32A" urn="urn:adsk.eagle:library:44173444">
 <packages>
-<package name="32A_MCH">
+<package name="32A_MCH" urn="urn:adsk.eagle:footprint:44173447/1" library_version="1" library_locally_modified="yes">
 <smd name="1" x="-4.25" y="2.8" dx="0.5008" dy="1.4612" layer="1" rot="R270"/>
 <smd name="2" x="-4.25" y="2" dx="0.5008" dy="1.4612" layer="1" rot="R270"/>
 <smd name="3" x="-4.25" y="1.2" dx="0.5008" dy="1.4612" layer="1" rot="R270"/>
@@ -8983,25 +9118,6 @@ Source: &lt;a href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&
 <wire x1="3.3782" y1="-3.683" x2="3.683" y2="-3.683" width="0.1524" layer="21"/>
 <wire x1="3.683" y1="3.3782" x2="3.683" y2="3.683" width="0.1524" layer="21"/>
 <wire x1="-3.3782" y1="3.683" x2="-3.683" y2="3.683" width="0.1524" layer="21"/>
-<polygon width="0.0254" layer="21">
-<vertex x="-2.1905" y="-5.2346"/>
-<vertex x="-2.1905" y="-5.4886"/>
-<vertex x="-1.8095" y="-5.4886"/>
-<vertex x="-1.8095" y="-5.2346"/>
-</polygon>
-<polygon width="0.0254" layer="21">
-<vertex x="5.4886" y="-0.2095"/>
-<vertex x="5.4886" y="-0.5905"/>
-<vertex x="5.2346" y="-0.5905"/>
-<vertex x="5.2346" y="-0.2095"/>
-</polygon>
-<polygon width="0.0254" layer="21">
-<vertex x="-1.3905" y="5.2346"/>
-<vertex x="-1.3905" y="5.4886"/>
-<vertex x="-1.0095" y="5.4886"/>
-<vertex x="-1.0095" y="5.2346"/>
-</polygon>
-<text x="-6.1976" y="2.9464" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
 <wire x1="4.2418" y1="2.794" x2="4.6228" y2="2.794" width="0.1524" layer="47"/>
 <wire x1="4.6228" y1="2.794" x2="7.1628" y2="2.794" width="0.1524" layer="47"/>
 <wire x1="7.1628" y1="2.794" x2="7.5438" y2="2.794" width="0.1524" layer="47"/>
@@ -9070,16 +9186,6 @@ Source: &lt;a href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&
 <wire x1="9.0678" y1="-4.6228" x2="8.9408" y2="-4.3688" width="0.1524" layer="47"/>
 <wire x1="9.0678" y1="-4.6228" x2="9.1948" y2="-4.3688" width="0.1524" layer="47"/>
 <wire x1="8.9408" y1="-4.3688" x2="9.1948" y2="-4.3688" width="0.1524" layer="47"/>
-<text x="-21.9202" y="-10.9728" size="1.27" layer="47" ratio="6" rot="SR0">Default Horiz Padstyle: RX19p72Y57p53D0T</text>
-<text x="-21.3614" y="-12.4968" size="1.27" layer="47" ratio="6" rot="SR0">Default Vert Padstyle: RX19p72Y57p53D0T</text>
-<text x="-14.8082" y="-17.0688" size="1.27" layer="47" ratio="6" rot="SR0">Alt 1 Padstyle: OX60Y90D30P</text>
-<text x="-14.8082" y="-18.5928" size="1.27" layer="47" ratio="6" rot="SR0">Alt 2 Padstyle: OX90Y60D30P</text>
-<text x="7.6708" y="2.0828" size="0.635" layer="47" ratio="4" rot="SR0">0.031in/0.8mm</text>
-<text x="0.7874" y="7.6708" size="0.635" layer="47" ratio="4" rot="SR0">0.03in/0.75mm</text>
-<text x="-3.7592" y="9.5758" size="0.635" layer="47" ratio="4" rot="SR0">0.364in/9.25mm</text>
-<text x="-3.175" y="-8.3058" size="0.635" layer="47" ratio="4" rot="SR0">0.28in/7.1mm</text>
-<text x="-14.0208" y="-0.3048" size="0.635" layer="47" ratio="4" rot="SR0">0.28in/7.1mm</text>
-<text x="9.5758" y="-0.3048" size="0.635" layer="47" ratio="4" rot="SR0">0.364in/9.25mm</text>
 <wire x1="2.5654" y1="3.556" x2="3.0226" y2="3.556" width="0.1524" layer="51"/>
 <wire x1="3.0226" y1="3.556" x2="3.0226" y2="4.6228" width="0.1524" layer="51"/>
 <wire x1="3.0226" y1="4.6228" x2="2.5654" y2="4.6228" width="0.1524" layer="51"/>
@@ -9213,10 +9319,39 @@ Source: &lt;a href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&
 <wire x1="3.556" y1="-3.556" x2="3.556" y2="3.556" width="0.1524" layer="51"/>
 <wire x1="3.556" y1="3.556" x2="-3.556" y2="3.556" width="0.1524" layer="51"/>
 <wire x1="-3.556" y1="3.556" x2="-3.556" y2="-3.556" width="0.1524" layer="51"/>
+<polygon width="0.0254" layer="21">
+<vertex x="-2.1905" y="-5.2346"/>
+<vertex x="-2.1905" y="-5.4886"/>
+<vertex x="-1.8095" y="-5.4886"/>
+<vertex x="-1.8095" y="-5.2346"/>
+</polygon>
+<polygon width="0.0254" layer="21">
+<vertex x="5.4886" y="-0.2095"/>
+<vertex x="5.4886" y="-0.5905"/>
+<vertex x="5.2346" y="-0.5905"/>
+<vertex x="5.2346" y="-0.2095"/>
+</polygon>
+<polygon width="0.0254" layer="21">
+<vertex x="-1.3905" y="5.2346"/>
+<vertex x="-1.3905" y="5.4886"/>
+<vertex x="-1.0095" y="5.4886"/>
+<vertex x="-1.0095" y="5.2346"/>
+</polygon>
+<text x="-6.1976" y="2.9464" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
+<text x="-21.9202" y="-10.9728" size="1.27" layer="47" ratio="6" rot="SR0">Default Horiz Padstyle: RX19p72Y57p53D0T</text>
+<text x="-21.3614" y="-12.4968" size="1.27" layer="47" ratio="6" rot="SR0">Default Vert Padstyle: RX19p72Y57p53D0T</text>
+<text x="-14.8082" y="-17.0688" size="1.27" layer="47" ratio="6" rot="SR0">Alt 1 Padstyle: OX60Y90D30P</text>
+<text x="-14.8082" y="-18.5928" size="1.27" layer="47" ratio="6" rot="SR0">Alt 2 Padstyle: OX90Y60D30P</text>
+<text x="7.6708" y="2.0828" size="0.635" layer="47" ratio="4" rot="SR0">0.031in/0.8mm</text>
+<text x="0.7874" y="7.6708" size="0.635" layer="47" ratio="4" rot="SR0">0.03in/0.75mm</text>
+<text x="-3.7592" y="9.5758" size="0.635" layer="47" ratio="4" rot="SR0">0.364in/9.25mm</text>
+<text x="-3.175" y="-8.3058" size="0.635" layer="47" ratio="4" rot="SR0">0.28in/7.1mm</text>
+<text x="-14.0208" y="-0.3048" size="0.635" layer="47" ratio="4" rot="SR0">0.28in/7.1mm</text>
+<text x="9.5758" y="-0.3048" size="0.635" layer="47" ratio="4" rot="SR0">0.364in/9.25mm</text>
 <text x="-3.7338" y="2.5654" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
 <text x="-1.7272" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
 </package>
-<package name="32A_MCH-M">
+<package name="32A_MCH-M" urn="urn:adsk.eagle:footprint:44173446/1" library_version="1" library_locally_modified="yes">
 <smd name="1" x="-4.3008" y="2.8" dx="0.5008" dy="1.766" layer="1" rot="R270"/>
 <smd name="2" x="-4.3008" y="2" dx="0.5008" dy="1.766" layer="1" rot="R270"/>
 <smd name="3" x="-4.3008" y="1.2" dx="0.5008" dy="1.766" layer="1" rot="R270"/>
@@ -9257,25 +9392,6 @@ Source: &lt;a href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&
 <wire x1="3.3782" y1="-3.683" x2="3.683" y2="-3.683" width="0.1524" layer="21"/>
 <wire x1="3.683" y1="3.3782" x2="3.683" y2="3.683" width="0.1524" layer="21"/>
 <wire x1="-3.3782" y1="3.683" x2="-3.683" y2="3.683" width="0.1524" layer="21"/>
-<polygon width="0.0254" layer="21">
-<vertex x="-2.1905" y="-5.4378"/>
-<vertex x="-2.1905" y="-5.6918"/>
-<vertex x="-1.8095" y="-5.6918"/>
-<vertex x="-1.8095" y="-5.4378"/>
-</polygon>
-<polygon width="0.0254" layer="21">
-<vertex x="5.6918" y="-0.2095"/>
-<vertex x="5.6918" y="-0.5905"/>
-<vertex x="5.4378" y="-0.5905"/>
-<vertex x="5.4378" y="-0.2095"/>
-</polygon>
-<polygon width="0.0254" layer="21">
-<vertex x="-1.3905" y="5.4378"/>
-<vertex x="-1.3905" y="5.6918"/>
-<vertex x="-1.0095" y="5.6918"/>
-<vertex x="-1.0095" y="5.4378"/>
-</polygon>
-<text x="-6.4008" y="2.9464" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
 <wire x1="4.2926" y1="2.794" x2="4.6228" y2="2.794" width="0.1524" layer="47"/>
 <wire x1="4.6228" y1="2.794" x2="7.2136" y2="2.794" width="0.1524" layer="47"/>
 <wire x1="7.2136" y1="2.794" x2="7.5946" y2="2.794" width="0.1524" layer="47"/>
@@ -9344,16 +9460,6 @@ Source: &lt;a href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&
 <wire x1="9.1186" y1="-4.6228" x2="8.9916" y2="-4.3688" width="0.1524" layer="47"/>
 <wire x1="9.1186" y1="-4.6228" x2="9.2456" y2="-4.3688" width="0.1524" layer="47"/>
 <wire x1="8.9916" y1="-4.3688" x2="9.2456" y2="-4.3688" width="0.1524" layer="47"/>
-<text x="-21.9202" y="-11.0236" size="1.27" layer="47" ratio="6" rot="SR0">Default Horiz Padstyle: RX19p72Y69p53D0T</text>
-<text x="-21.3614" y="-12.5476" size="1.27" layer="47" ratio="6" rot="SR0">Default Vert Padstyle: RX19p72Y69p53D0T</text>
-<text x="-14.8082" y="-17.1196" size="1.27" layer="47" ratio="6" rot="SR0">Alt 1 Padstyle: OX60Y90D30P</text>
-<text x="-14.8082" y="-18.6436" size="1.27" layer="47" ratio="6" rot="SR0">Alt 2 Padstyle: OX90Y60D30P</text>
-<text x="7.7216" y="2.0828" size="0.635" layer="47" ratio="4" rot="SR0">0.031in/0.8mm</text>
-<text x="0.7874" y="7.7216" size="0.635" layer="47" ratio="4" rot="SR0">0.03in/0.75mm</text>
-<text x="-3.7592" y="9.6266" size="0.635" layer="47" ratio="4" rot="SR0">0.364in/9.25mm</text>
-<text x="-3.175" y="-8.3566" size="0.635" layer="47" ratio="4" rot="SR0">0.28in/7.1mm</text>
-<text x="-14.0716" y="-0.3048" size="0.635" layer="47" ratio="4" rot="SR0">0.28in/7.1mm</text>
-<text x="9.6266" y="-0.3048" size="0.635" layer="47" ratio="4" rot="SR0">0.364in/9.25mm</text>
 <wire x1="2.5654" y1="3.556" x2="3.0226" y2="3.556" width="0.1524" layer="51"/>
 <wire x1="3.0226" y1="3.556" x2="3.0226" y2="4.6228" width="0.1524" layer="51"/>
 <wire x1="3.0226" y1="4.6228" x2="2.5654" y2="4.6228" width="0.1524" layer="51"/>
@@ -9487,11 +9593,40 @@ Source: &lt;a href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&
 <wire x1="-3.556" y1="-3.556" x2="3.556" y2="-3.556" width="0.1524" layer="51"/>
 <wire x1="3.556" y1="-3.556" x2="3.556" y2="3.556" width="0.1524" layer="51"/>
 <wire x1="3.556" y1="3.556" x2="-3.556" y2="3.556" width="0.1524" layer="51"/>
+<polygon width="0.0254" layer="21">
+<vertex x="-2.1905" y="-5.4378"/>
+<vertex x="-2.1905" y="-5.6918"/>
+<vertex x="-1.8095" y="-5.6918"/>
+<vertex x="-1.8095" y="-5.4378"/>
+</polygon>
+<polygon width="0.0254" layer="21">
+<vertex x="5.6918" y="-0.2095"/>
+<vertex x="5.6918" y="-0.5905"/>
+<vertex x="5.4378" y="-0.5905"/>
+<vertex x="5.4378" y="-0.2095"/>
+</polygon>
+<polygon width="0.0254" layer="21">
+<vertex x="-1.3905" y="5.4378"/>
+<vertex x="-1.3905" y="5.6918"/>
+<vertex x="-1.0095" y="5.6918"/>
+<vertex x="-1.0095" y="5.4378"/>
+</polygon>
+<text x="-6.4008" y="2.9464" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
+<text x="-21.9202" y="-11.0236" size="1.27" layer="47" ratio="6" rot="SR0">Default Horiz Padstyle: RX19p72Y69p53D0T</text>
+<text x="-21.3614" y="-12.5476" size="1.27" layer="47" ratio="6" rot="SR0">Default Vert Padstyle: RX19p72Y69p53D0T</text>
+<text x="-14.8082" y="-17.1196" size="1.27" layer="47" ratio="6" rot="SR0">Alt 1 Padstyle: OX60Y90D30P</text>
+<text x="-14.8082" y="-18.6436" size="1.27" layer="47" ratio="6" rot="SR0">Alt 2 Padstyle: OX90Y60D30P</text>
+<text x="7.7216" y="2.0828" size="0.635" layer="47" ratio="4" rot="SR0">0.031in/0.8mm</text>
+<text x="0.7874" y="7.7216" size="0.635" layer="47" ratio="4" rot="SR0">0.03in/0.75mm</text>
+<text x="-3.7592" y="9.6266" size="0.635" layer="47" ratio="4" rot="SR0">0.364in/9.25mm</text>
+<text x="-3.175" y="-8.3566" size="0.635" layer="47" ratio="4" rot="SR0">0.28in/7.1mm</text>
+<text x="-14.0716" y="-0.3048" size="0.635" layer="47" ratio="4" rot="SR0">0.28in/7.1mm</text>
+<text x="9.6266" y="-0.3048" size="0.635" layer="47" ratio="4" rot="SR0">0.364in/9.25mm</text>
 <text x="-3.7338" y="2.5654" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
 <text x="-1.7272" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
 <text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 </package>
-<package name="32A_MCH-L">
+<package name="32A_MCH-L" urn="urn:adsk.eagle:footprint:44173445/1" library_version="1" library_locally_modified="yes">
 <smd name="1" x="-4.1992" y="2.8" dx="0.45" dy="1.1564" layer="1" rot="R270"/>
 <smd name="2" x="-4.1992" y="2" dx="0.45" dy="1.1564" layer="1" rot="R270"/>
 <smd name="3" x="-4.1992" y="1.2" dx="0.45" dy="1.1564" layer="1" rot="R270"/>
@@ -9532,25 +9667,6 @@ Source: &lt;a href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&
 <wire x1="3.3528" y1="-3.683" x2="3.683" y2="-3.683" width="0.1524" layer="21"/>
 <wire x1="3.683" y1="3.3528" x2="3.683" y2="3.683" width="0.1524" layer="21"/>
 <wire x1="-3.3528" y1="3.683" x2="-3.683" y2="3.683" width="0.1524" layer="21"/>
-<polygon width="0.0254" layer="21">
-<vertex x="-2.1905" y="-5.0314"/>
-<vertex x="-2.1905" y="-5.2854"/>
-<vertex x="-1.8095" y="-5.2854"/>
-<vertex x="-1.8095" y="-5.0314"/>
-</polygon>
-<polygon width="0.0254" layer="21">
-<vertex x="5.2854" y="-0.2095"/>
-<vertex x="5.2854" y="-0.5905"/>
-<vertex x="5.0314" y="-0.5905"/>
-<vertex x="5.0314" y="-0.2095"/>
-</polygon>
-<polygon width="0.0254" layer="21">
-<vertex x="-1.3905" y="5.0314"/>
-<vertex x="-1.3905" y="5.2854"/>
-<vertex x="-1.0095" y="5.2854"/>
-<vertex x="-1.0095" y="5.0314"/>
-</polygon>
-<text x="-5.9944" y="2.9464" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
 <wire x1="4.191" y1="2.794" x2="4.6228" y2="2.794" width="0.1524" layer="47"/>
 <wire x1="4.6228" y1="2.794" x2="7.112" y2="2.794" width="0.1524" layer="47"/>
 <wire x1="7.112" y1="2.794" x2="7.493" y2="2.794" width="0.1524" layer="47"/>
@@ -9619,16 +9735,6 @@ Source: &lt;a href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&
 <wire x1="9.017" y1="-4.6228" x2="8.89" y2="-4.3688" width="0.1524" layer="47"/>
 <wire x1="9.017" y1="-4.6228" x2="9.144" y2="-4.3688" width="0.1524" layer="47"/>
 <wire x1="8.89" y1="-4.3688" x2="9.144" y2="-4.3688" width="0.1524" layer="47"/>
-<text x="-21.9202" y="-10.922" size="1.27" layer="47" ratio="6" rot="SR0">Default Horiz Padstyle: RX17p72Y45p53D0T</text>
-<text x="-21.3614" y="-12.446" size="1.27" layer="47" ratio="6" rot="SR0">Default Vert Padstyle: RX17p72Y45p53D0T</text>
-<text x="-14.8082" y="-17.018" size="1.27" layer="47" ratio="6" rot="SR0">Alt 1 Padstyle: OX60Y90D30P</text>
-<text x="-14.8082" y="-18.542" size="1.27" layer="47" ratio="6" rot="SR0">Alt 2 Padstyle: OX90Y60D30P</text>
-<text x="7.62" y="2.0828" size="0.635" layer="47" ratio="4" rot="SR0">0.031in/0.8mm</text>
-<text x="0.7874" y="7.62" size="0.635" layer="47" ratio="4" rot="SR0">0.03in/0.75mm</text>
-<text x="-3.7592" y="9.525" size="0.635" layer="47" ratio="4" rot="SR0">0.364in/9.25mm</text>
-<text x="-3.175" y="-8.255" size="0.635" layer="47" ratio="4" rot="SR0">0.28in/7.1mm</text>
-<text x="-13.97" y="-0.3048" size="0.635" layer="47" ratio="4" rot="SR0">0.28in/7.1mm</text>
-<text x="9.525" y="-0.3048" size="0.635" layer="47" ratio="4" rot="SR0">0.364in/9.25mm</text>
 <wire x1="2.5654" y1="3.556" x2="3.0226" y2="3.556" width="0.1524" layer="51"/>
 <wire x1="3.0226" y1="3.556" x2="3.0226" y2="4.6228" width="0.1524" layer="51"/>
 <wire x1="3.0226" y1="4.6228" x2="2.5654" y2="4.6228" width="0.1524" layer="51"/>
@@ -9762,14 +9868,60 @@ Source: &lt;a href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&
 <wire x1="-3.556" y1="-3.556" x2="3.556" y2="-3.556" width="0.1524" layer="51"/>
 <wire x1="3.556" y1="-3.556" x2="3.556" y2="3.556" width="0.1524" layer="51"/>
 <wire x1="3.556" y1="3.556" x2="-3.556" y2="3.556" width="0.1524" layer="51"/>
+<polygon width="0.0254" layer="21">
+<vertex x="-2.1905" y="-5.0314"/>
+<vertex x="-2.1905" y="-5.2854"/>
+<vertex x="-1.8095" y="-5.2854"/>
+<vertex x="-1.8095" y="-5.0314"/>
+</polygon>
+<polygon width="0.0254" layer="21">
+<vertex x="5.2854" y="-0.2095"/>
+<vertex x="5.2854" y="-0.5905"/>
+<vertex x="5.0314" y="-0.5905"/>
+<vertex x="5.0314" y="-0.2095"/>
+</polygon>
+<polygon width="0.0254" layer="21">
+<vertex x="-1.3905" y="5.0314"/>
+<vertex x="-1.3905" y="5.2854"/>
+<vertex x="-1.0095" y="5.2854"/>
+<vertex x="-1.0095" y="5.0314"/>
+</polygon>
+<text x="-5.9944" y="2.9464" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
+<text x="-21.9202" y="-10.922" size="1.27" layer="47" ratio="6" rot="SR0">Default Horiz Padstyle: RX17p72Y45p53D0T</text>
+<text x="-21.3614" y="-12.446" size="1.27" layer="47" ratio="6" rot="SR0">Default Vert Padstyle: RX17p72Y45p53D0T</text>
+<text x="-14.8082" y="-17.018" size="1.27" layer="47" ratio="6" rot="SR0">Alt 1 Padstyle: OX60Y90D30P</text>
+<text x="-14.8082" y="-18.542" size="1.27" layer="47" ratio="6" rot="SR0">Alt 2 Padstyle: OX90Y60D30P</text>
+<text x="7.62" y="2.0828" size="0.635" layer="47" ratio="4" rot="SR0">0.031in/0.8mm</text>
+<text x="0.7874" y="7.62" size="0.635" layer="47" ratio="4" rot="SR0">0.03in/0.75mm</text>
+<text x="-3.7592" y="9.525" size="0.635" layer="47" ratio="4" rot="SR0">0.364in/9.25mm</text>
+<text x="-3.175" y="-8.255" size="0.635" layer="47" ratio="4" rot="SR0">0.28in/7.1mm</text>
+<text x="-13.97" y="-0.3048" size="0.635" layer="47" ratio="4" rot="SR0">0.28in/7.1mm</text>
+<text x="9.525" y="-0.3048" size="0.635" layer="47" ratio="4" rot="SR0">0.364in/9.25mm</text>
 <text x="-3.7338" y="2.5654" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
 <text x="-3.2766" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Name</text>
 <text x="-1.7272" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
 <text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 </package>
 </packages>
+<packages3d>
+<package3d name="32A_MCH" urn="urn:adsk.eagle:package:44173451/2" type="model" library_version="1" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="32A_MCH"/>
+</packageinstances>
+</package3d>
+<package3d name="32A_MCH-M" urn="urn:adsk.eagle:package:44173450/1" type="box" library_version="1" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="32A_MCH-M"/>
+</packageinstances>
+</package3d>
+<package3d name="32A_MCH-L" urn="urn:adsk.eagle:package:44173449/1" type="box" library_version="1" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="32A_MCH-L"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
-<symbol name="ATMEGA328PB-AU">
+<symbol name="ATMEGA328PB-AU" urn="urn:adsk.eagle:symbol:44173448/1" library_version="1" library_locally_modified="yes">
 <pin name="(OC2B/INT1/PTCXY)PD3" x="2.54" y="0" length="middle"/>
 <pin name="(XCK0/T0/PTCXY)PD4" x="2.54" y="-2.54" length="middle"/>
 <pin name="(SDA1/ICP4/ACO/PTCXY)PE0" x="2.54" y="-5.08" length="middle"/>
@@ -9811,7 +9963,7 @@ Source: &lt;a href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ATMEGA328PB-AU" prefix="U">
+<deviceset name="ATMEGA328PB-AU" urn="urn:adsk.eagle:component:44173452/1" locally_modified="yes" prefix="U" library_version="1" library_locally_modified="yes">
 <gates>
 <gate name="A" symbol="ATMEGA328PB-AU" x="0" y="0"/>
 </gates>
@@ -9851,6 +10003,9 @@ Source: &lt;a href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&
 <connect gate="A" pin="GND_2" pad="5"/>
 <connect gate="A" pin="VCC" pad="4"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:44173451/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="COPYRIGHT" value="Copyright (C) 2024 Ultra Librarian. All rights reserved." constant="no"/>
@@ -9894,6 +10049,9 @@ Source: &lt;a href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&
 <connect gate="A" pin="GND_2" pad="5"/>
 <connect gate="A" pin="VCC" pad="4"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:44173450/1"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="COPYRIGHT" value="Copyright (C) 2024 Ultra Librarian. All rights reserved." constant="no"/>
@@ -9937,6 +10095,9 @@ Source: &lt;a href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&
 <connect gate="A" pin="GND_2" pad="5"/>
 <connect gate="A" pin="VCC" pad="4"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:44173449/1"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="COPYRIGHT" value="Copyright (C) 2024 Ultra Librarian. All rights reserved." constant="no"/>
@@ -10025,11 +10186,11 @@ Source: &lt;a href="https://www.ti.com/lit/ds/symlink/tlv9021-q1.pdf?ts=17068501
 </deviceset>
 </devicesets>
 </library>
-<library name="TMUX1119DBVR">
+<library name="TMUX1119DBVR" urn="urn:adsk.eagle:library:44173763">
 <description>&lt;Analog Switch ICs 3-pA, 5-V, 2:1 (SPDT), 1-channel precision multiplexer&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
 <packages>
-<package name="SOT95P280X145-6N">
+<package name="SOT95P280X145-6N" urn="urn:adsk.eagle:footprint:44173764/1" library_version="1" library_locally_modified="yes">
 <description>&lt;b&gt;DBV0006A SOT-23 - 1.45 mm max height&lt;/b&gt;&lt;br&gt;
 </description>
 <smd name="1" x="-1.25" y="0.95" dx="1.2" dy="0.6" layer="1"/>
@@ -10056,8 +10217,16 @@ Source: &lt;a href="https://www.ti.com/lit/ds/symlink/tlv9021-q1.pdf?ts=17068501
 <wire x1="-1.85" y1="1.6" x2="-0.65" y2="1.6" width="0.2" layer="21"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="SOT95P280X145-6N" urn="urn:adsk.eagle:package:44173766/2" type="model" library_version="1" library_locally_modified="yes">
+<description>&lt;b&gt;DBV0006A SOT-23 - 1.45 mm max height&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="SOT95P280X145-6N"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
-<symbol name="TMUX1119DBVR">
+<symbol name="TMUX1119DBVR" urn="urn:adsk.eagle:symbol:44173765/1" library_version="1" library_locally_modified="yes">
 <wire x1="5.08" y1="2.54" x2="20.32" y2="2.54" width="0.254" layer="94"/>
 <wire x1="20.32" y1="-7.62" x2="20.32" y2="2.54" width="0.254" layer="94"/>
 <wire x1="20.32" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
@@ -10073,7 +10242,7 @@ Source: &lt;a href="https://www.ti.com/lit/ds/symlink/tlv9021-q1.pdf?ts=17068501
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="TMUX1119DBVR" prefix="IC">
+<deviceset name="TMUX1119DBVR" urn="urn:adsk.eagle:component:44173767/1" locally_modified="yes" prefix="IC" library_version="1" library_locally_modified="yes">
 <description>&lt;b&gt;Analog Switch ICs 3-pA, 5-V, 2:1 (SPDT), 1-channel precision multiplexer&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://www.ti.com/lit/gpn/TMUX1119"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -10089,6 +10258,9 @@ Source: &lt;a href="https://www.ti.com/lit/gpn/TMUX1119"&gt; Datasheet &lt;/a&gt
 <connect gate="G$1" pin="SEL" pad="1"/>
 <connect gate="G$1" pin="VDD" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:44173766/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="Analog Switch ICs 3-pA, 5-V, 2:1 (SPDT), 1-channel precision multiplexer" constant="no"/>
@@ -10104,11 +10276,11 @@ Source: &lt;a href="https://www.ti.com/lit/gpn/TMUX1119"&gt; Datasheet &lt;/a&gt
 </deviceset>
 </devicesets>
 </library>
-<library name="TPS7B8650BQDDARQ1">
+<library name="TPS7B8650BQDDARQ1" urn="urn:adsk.eagle:library:44173776">
 <description>&lt;LDO Voltage Regulators Automotive 500-mA, 40-V, ultra-low-IQ, low-dropout (LDO) linear regulator with power good 8-SO PowerPAD -40 to 150&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
 <packages>
-<package name="SOIC127P600X170-9N">
+<package name="SOIC127P600X170-9N" urn="urn:adsk.eagle:footprint:44173777/1" library_version="1" library_locally_modified="yes">
 <description>&lt;b&gt;TPS7B8650BQDDARQ1&lt;/b&gt;&lt;br&gt;
 </description>
 <smd name="1" x="-2.712" y="1.905" dx="1.525" dy="0.65" layer="1"/>
@@ -10134,8 +10306,16 @@ Source: &lt;a href="https://www.ti.com/lit/gpn/TMUX1119"&gt; Datasheet &lt;/a&gt
 <wire x1="-3.475" y1="2.58" x2="-1.95" y2="2.58" width="0.2" layer="21"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="SOIC127P600X170-9N" urn="urn:adsk.eagle:package:44173779/2" type="model" library_version="1" library_locally_modified="yes">
+<description>&lt;b&gt;TPS7B8650BQDDARQ1&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="SOIC127P600X170-9N"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
-<symbol name="TPS7B8650BQDDARQ1">
+<symbol name="TPS7B8650BQDDARQ1" urn="urn:adsk.eagle:symbol:44173778/1" library_version="1" library_locally_modified="yes">
 <wire x1="5.08" y1="2.54" x2="25.4" y2="2.54" width="0.254" layer="94"/>
 <wire x1="25.4" y1="-15.24" x2="25.4" y2="2.54" width="0.254" layer="94"/>
 <wire x1="25.4" y1="-15.24" x2="5.08" y2="-15.24" width="0.254" layer="94"/>
@@ -10154,7 +10334,7 @@ Source: &lt;a href="https://www.ti.com/lit/gpn/TMUX1119"&gt; Datasheet &lt;/a&gt
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="TPS7B8650BQDDARQ1" prefix="IC">
+<deviceset name="TPS7B8650BQDDARQ1" urn="urn:adsk.eagle:component:44173780/1" locally_modified="yes" prefix="IC" library_version="1" library_locally_modified="yes">
 <description>&lt;b&gt;LDO Voltage Regulators Automotive 500-mA, 40-V, ultra-low-IQ, low-dropout (LDO) linear regulator with power good 8-SO PowerPAD -40 to 150&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://www.ti.com/lit/gpn/tps7b86-q1?HQS=ti-null-null-sf-df-pf-sep-wwe&amp;DCM=yes?hkey=EF798316E3902B6ED9A73243A3159BB0"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -10173,6 +10353,9 @@ Source: &lt;a href="https://www.ti.com/lit/gpn/tps7b86-q1?HQS=ti-null-null-sf-df
 <connect gate="G$1" pin="NC_3" pad="6"/>
 <connect gate="G$1" pin="OUT" pad="1"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:44173779/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="LDO Voltage Regulators Automotive 500-mA, 40-V, ultra-low-IQ, low-dropout (LDO) linear regulator with power good 8-SO PowerPAD -40 to 150" constant="no"/>
@@ -10188,11 +10371,11 @@ Source: &lt;a href="https://www.ti.com/lit/gpn/tps7b86-q1?HQS=ti-null-null-sf-df
 </deviceset>
 </devicesets>
 </library>
-<library name="SRP1038CC-100M">
+<library name="SRP1038CC-100M" urn="urn:adsk.eagle:library:44173543">
 <description>&lt;Ind,11x10x3.8mm,10uH+/-20%,8.5A,shd&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
 <packages>
-<package name="INDPM110100X400N">
+<package name="INDPM110100X400N" urn="urn:adsk.eagle:footprint:44173544/1" library_version="1" library_locally_modified="yes">
 <description>&lt;b&gt;SRP1038&lt;/b&gt;&lt;br&gt;
 </description>
 <smd name="1" x="-4.5" y="0" dx="3.55" dy="3.2" layer="1"/>
@@ -10211,8 +10394,16 @@ Source: &lt;a href="https://www.ti.com/lit/gpn/tps7b86-q1?HQS=ti-null-null-sf-df
 <wire x1="-5.5" y1="-5" x2="5.5" y2="-5" width="0.2" layer="21"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="INDPM110100X400N" urn="urn:adsk.eagle:package:44173546/2" type="model" library_version="1" library_locally_modified="yes">
+<description>&lt;b&gt;SRP1038&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="INDPM110100X400N"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
-<symbol name="SRP1038CC-100M">
+<symbol name="SRP1038CC-100M" urn="urn:adsk.eagle:symbol:44173545/1" library_version="1" library_locally_modified="yes">
 <wire x1="5.08" y1="0" x2="7.62" y2="0" width="0.254" layer="94" curve="-175.4"/>
 <wire x1="7.62" y1="0" x2="10.16" y2="0" width="0.254" layer="94" curve="-175.4"/>
 <wire x1="10.16" y1="0" x2="12.7" y2="0" width="0.254" layer="94" curve="-175.4"/>
@@ -10224,7 +10415,7 @@ Source: &lt;a href="https://www.ti.com/lit/gpn/tps7b86-q1?HQS=ti-null-null-sf-df
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SRP1038CC-100M" prefix="L">
+<deviceset name="SRP1038CC-100M" urn="urn:adsk.eagle:component:44173547/1" locally_modified="yes" prefix="L" library_version="1" library_locally_modified="yes">
 <description>&lt;b&gt;Ind,11x10x3.8mm,10uH+/-20%,8.5A,shd&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://www.bourns.com/docs/Product-Datasheets/SRP1038CC.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -10236,6 +10427,9 @@ Source: &lt;a href="https://www.bourns.com/docs/Product-Datasheets/SRP1038CC.pdf
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:44173546/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="Ind,11x10x3.8mm,10uH+/-20%,8.5A,shd" constant="no"/>
@@ -10251,9 +10445,9 @@ Source: &lt;a href="https://www.bourns.com/docs/Product-Datasheets/SRP1038CC.pdf
 </deviceset>
 </devicesets>
 </library>
-<library name="1825910-6">
+<library name="1825910-6" urn="urn:adsk.eagle:library:44173364">
 <packages>
-<package name="SW_1825910-6-4">
+<package name="SW_1825910-6-4" urn="urn:adsk.eagle:footprint:44173365/1" library_version="1" library_locally_modified="yes">
 <wire x1="-2.995" y1="2.995" x2="-2.995" y2="-2.995" width="0.127" layer="51"/>
 <wire x1="-2.995" y1="-2.995" x2="2.995" y2="-2.995" width="0.127" layer="51"/>
 <wire x1="2.995" y1="-2.995" x2="2.995" y2="2.995" width="0.127" layer="51"/>
@@ -10277,17 +10471,20 @@ Source: &lt;a href="https://www.bourns.com/docs/Product-Datasheets/SRP1038CC.pdf
 <pad name="2" x="3.25" y="2.25" drill="0.99"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="SW_1825910-6-4" urn="urn:adsk.eagle:package:44173367/2" type="model" library_version="1" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="SW_1825910-6-4"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
-<symbol name="1825910-6">
+<symbol name="1825910-6" urn="urn:adsk.eagle:symbol:44173366/1" library_version="1" library_locally_modified="yes">
 <wire x1="-5.08" y1="5.08" x2="-5.08" y2="2.54" width="0.127" layer="94"/>
 <wire x1="-5.08" y1="2.54" x2="-5.08" y2="-2.54" width="0.127" layer="94"/>
 <wire x1="-5.08" y1="-2.54" x2="-5.08" y2="-5.08" width="0.127" layer="94"/>
 <wire x1="-1.27" y1="0" x2="1.27" y2="1.27" width="0.127" layer="94"/>
 <wire x1="5.08" y1="5.08" x2="5.08" y2="2.54" width="0.127" layer="94"/>
-<text x="-5.0897" y="5.85315" size="1.803440625" layer="95">&gt;NAME</text>
-<text x="-5.088309375" y="-7.63246875" size="1.802940625" layer="96">&gt;VALUE</text>
-<circle x="-1.27" y="0" radius="0.254" width="0.127" layer="94"/>
-<circle x="1.27" y="0" radius="0.254" width="0.127" layer="94"/>
 <wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.127" layer="94"/>
 <wire x1="5.08" y1="-2.54" x2="5.08" y2="-5.08" width="0.127" layer="94"/>
 <wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.127" layer="94"/>
@@ -10302,6 +10499,10 @@ Source: &lt;a href="https://www.bourns.com/docs/Product-Datasheets/SRP1038CC.pdf
 <wire x1="3.81" y1="2.54" x2="5.08" y2="2.54" width="0.127" layer="94"/>
 <wire x1="3.81" y1="0" x2="3.81" y2="-2.54" width="0.127" layer="94"/>
 <wire x1="3.81" y1="-2.54" x2="5.08" y2="-2.54" width="0.127" layer="94"/>
+<text x="-5.0897" y="5.85315" size="1.803440625" layer="95">&gt;NAME</text>
+<text x="-5.088309375" y="-7.63246875" size="1.802940625" layer="96">&gt;VALUE</text>
+<circle x="-1.27" y="0" radius="0.254" width="0.127" layer="94"/>
+<circle x="1.27" y="0" radius="0.254" width="0.127" layer="94"/>
 <pin name="1" x="-10.16" y="2.54" visible="pad" length="middle" direction="pas"/>
 <pin name="2" x="-10.16" y="-2.54" visible="pad" length="middle" direction="pas"/>
 <pin name="3" x="10.16" y="2.54" visible="pad" length="middle" direction="pas" rot="R180"/>
@@ -10309,7 +10510,7 @@ Source: &lt;a href="https://www.bourns.com/docs/Product-Datasheets/SRP1038CC.pdf
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="1825910-6" prefix="SW">
+<deviceset name="1825910-6" urn="urn:adsk.eagle:component:44173368/1" locally_modified="yes" prefix="SW" library_version="1" library_locally_modified="yes">
 <description>Switch Tactile OFF (ON) SPST Round Button PC Pins 0.05A 24VDC 100000Cycles 1.57N Thru-Hole Loose &lt;a href="https://pricing.snapeda.com/parts/1825910-6/TE%20Connectivity/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="1825910-6" x="0" y="0"/>
@@ -10322,6 +10523,9 @@ Source: &lt;a href="https://www.bourns.com/docs/Product-Datasheets/SRP1038CC.pdf
 <connect gate="G$1" pin="3" pad="3"/>
 <connect gate="G$1" pin="4" pad="4"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:44173367/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="AVAILABILITY" value="In Stock"/>
@@ -14601,11 +14805,11 @@ Source: &lt;a href="https://abracon.com/Resonators/ABL.pdf"&gt; Datasheet &lt;/a
 </deviceset>
 </devicesets>
 </library>
-<library name="163-179PH-EX">
+<library name="163-179PH-EX" urn="urn:adsk.eagle:library:44173317">
 <description>&lt;DC Power Connectors PCB 2.1MM&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
 <packages>
-<package name="163179PHEX">
+<package name="163179PHEX" urn="urn:adsk.eagle:footprint:44173318/1" library_version="1" library_locally_modified="yes">
 <description>&lt;b&gt;163-179PH-EX&lt;/b&gt;&lt;br&gt;
 </description>
 <pad name="A" x="5.15" y="1.365" drill="3.6401" diameter="5.46"/>
@@ -14635,8 +14839,17 @@ Source: &lt;a href="https://abracon.com/Resonators/ABL.pdf"&gt; Datasheet &lt;/a
 <wire x1="8.45" y1="1.265" x2="8.45" y2="1.465" width="0.2" layer="21" curve="-180"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="163179PHEX" urn="urn:adsk.eagle:package:44173320/2" type="model" library_version="1" library_locally_modified="yes">
+<description>&lt;b&gt;163-179PH-EX&lt;/b&gt;&lt;br&gt;
+</description>
+<packageinstances>
+<packageinstance name="163179PHEX"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
-<symbol name="163-179PH-EX">
+<symbol name="163-179PH-EX" urn="urn:adsk.eagle:symbol:44173319/1" library_version="1" library_locally_modified="yes">
 <wire x1="5.08" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
 <wire x1="15.24" y1="-5.08" x2="15.24" y2="2.54" width="0.254" layer="94"/>
 <wire x1="15.24" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
@@ -14649,7 +14862,7 @@ Source: &lt;a href="https://abracon.com/Resonators/ABL.pdf"&gt; Datasheet &lt;/a
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="163-179PH-EX" prefix="J">
+<deviceset name="163-179PH-EX" urn="urn:adsk.eagle:component:44173321/1" locally_modified="yes" prefix="J" library_version="1" library_locally_modified="yes">
 <description>&lt;b&gt;DC Power Connectors PCB 2.1MM&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/163-179PH-EX.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -14662,6 +14875,9 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/163-179PH-EX.
 <connect gate="G$1" pin="B" pad="B"/>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:44173320/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="DC Power Connectors PCB 2.1MM" constant="no"/>
@@ -14696,12 +14912,12 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/163-179PH-EX.
 <variantdefs>
 </variantdefs>
 <parts>
-<part name="IC1" library="AP64350SP-13" deviceset="AP64350SP-13" device=""/>
-<part name="L1" library="744053003" deviceset="744053003" device="" value="3uH"/>
+<part name="IC1" library="AP64350SP-13" library_urn="urn:adsk.eagle:library:44173435" deviceset="AP64350SP-13" device="" package3d_urn="urn:adsk.eagle:package:44173438/2"/>
+<part name="L1" library="744053003" library_urn="urn:adsk.eagle:library:44173375" deviceset="744053003" device="" package3d_urn="urn:adsk.eagle:package:44173378/2" value="3uH"/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF"/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="143k"/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF"/>
-<part name="S1" library="SLW-864547-5A-RA-D" deviceset="SLW-864547-5A-RA-D" device=""/>
+<part name="S1" library="SLW-864547-5A-RA-D" library_urn="urn:adsk.eagle:library:44173530" deviceset="SLW-864547-5A-RA-D" device="" package3d_urn="urn:adsk.eagle:package:44173533/2"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="22.1k"/>
 <part name="X_1" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_2" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
@@ -15002,12 +15218,12 @@ Output: VS_6V</text>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="2M"/>
 <part name="X_5" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_6" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
-<part name="IC1" library="TLV9101IDBVR" deviceset="TLV9101IDBVR" device=""/>
-<part name="IC2" library="TLV9101IDBVR" deviceset="TLV9101IDBVR" device=""/>
-<part name="Q1" library="PBSS8110T_215" deviceset="PBSS8110T,215" device=""/>
-<part name="J1" library="RS1-02-G" deviceset="RS1-02-G" device=""/>
+<part name="IC1" library="TLV9101IDBVR" library_urn="urn:adsk.eagle:library:44173754" deviceset="TLV9101IDBVR" device="" package3d_urn="urn:adsk.eagle:package:44173757/2"/>
+<part name="IC2" library="TLV9101IDBVR" library_urn="urn:adsk.eagle:library:44173754" deviceset="TLV9101IDBVR" device="" package3d_urn="urn:adsk.eagle:package:44173757/2"/>
+<part name="Q1" library="PBSS8110T_215" library_urn="urn:adsk.eagle:library:44173507" deviceset="PBSS8110T,215" device="" package3d_urn="urn:adsk.eagle:package:44173510/2"/>
+<part name="J1" library="RS1-02-G" library_urn="urn:adsk.eagle:library:44173519" deviceset="RS1-02-G" device="" package3d_urn="urn:adsk.eagle:package:44173524/2"/>
 <part name="X_9" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
-<part name="IC3" library="TLV9101IDBVR" deviceset="TLV9101IDBVR" device=""/>
+<part name="IC3" library="TLV9101IDBVR" library_urn="urn:adsk.eagle:library:44173754" deviceset="TLV9101IDBVR" device="" package3d_urn="urn:adsk.eagle:package:44173757/2"/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="560k"/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="240k"/>
 <part name="X_10" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
@@ -15396,13 +15612,13 @@ Outputs: VS_1.5V</text>
 <variantdefs>
 </variantdefs>
 <parts>
-<part name="Q1" library="300S14-U" deviceset="300S14-U" device=""/>
+<part name="Q1" library="300S14-U" library_urn="urn:adsk.eagle:library:44173353" deviceset="300S14-U" device="" package3d_urn="urn:adsk.eagle:package:44173357/2"/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="40k"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1800"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1800"/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100"/>
-<part name="Q2" library="300S14-U" deviceset="300S14-U" device=""/>
-<part name="IC1" library="TLV9101IDBVR" deviceset="TLV9101IDBVR" device=""/>
+<part name="Q2" library="300S14-U" library_urn="urn:adsk.eagle:library:44173353" deviceset="300S14-U" device="" package3d_urn="urn:adsk.eagle:package:44173357/2"/>
+<part name="IC1" library="TLV9101IDBVR" library_urn="urn:adsk.eagle:library:44173754" deviceset="TLV9101IDBVR" device="" package3d_urn="urn:adsk.eagle:package:44173757/2"/>
 <part name="X_1" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_2" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_3" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
@@ -15636,10 +15852,10 @@ Output: V_BG</text>
 <parts>
 <part name="X_1" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_2" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
-<part name="IC1" library="TLV9101IDBVR" deviceset="TLV9101IDBVR" device=""/>
+<part name="IC1" library="TLV9101IDBVR" library_urn="urn:adsk.eagle:library:44173754" deviceset="TLV9101IDBVR" device="" package3d_urn="urn:adsk.eagle:package:44173757/2"/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="2M"/>
-<part name="Q1" library="FMMT593TC" deviceset="FMMT593TC" device=""/>
-<part name="IC2" library="ZTP-148SRC1" deviceset="ZTP-148SRC1" device=""/>
+<part name="Q1" library="FMMT593TC" library_urn="urn:adsk.eagle:library:44173460" deviceset="FMMT593TC" device="" package3d_urn="urn:adsk.eagle:package:44173463/2"/>
+<part name="IC2" library="ZTP-148SRC1" library_urn="urn:adsk.eagle:library:44173794" deviceset="ZTP-148SRC1" device="" package3d_urn="urn:adsk.eagle:package:44173797/2"/>
 <part name="C1" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:8118584/1" value="1uF"/>
 <part name="C2" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:8118584/1" value="1uF"/>
 <part name="C3" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:8118584/1" value="1uF"/>
@@ -15840,9 +16056,9 @@ Output: V_TH</text>
 <variantdefs>
 </variantdefs>
 <parts>
-<part name="IC1" library="LT1167CS8-1#PBF" deviceset="LT1167CS8-1#PBF" device=""/>
+<part name="IC1" library="LT1167CS8-1#PBF" library_urn="urn:adsk.eagle:library:44173498" deviceset="LT1167CS8-1#PBF" device="" package3d_urn="urn:adsk.eagle:package:44173501/2"/>
 <part name="X_1" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
-<part name="IC2" library="TLV9101IDBVR" deviceset="TLV9101IDBVR" device=""/>
+<part name="IC2" library="TLV9101IDBVR" library_urn="urn:adsk.eagle:library:44173754" deviceset="TLV9101IDBVR" device="" package3d_urn="urn:adsk.eagle:package:44173757/2"/>
 <part name="X_2" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_3" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_4" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
@@ -16112,13 +16328,13 @@ Output: V_TH</text>
 <variantdefs>
 </variantdefs>
 <parts>
-<part name="IC1" library="TLV9101IDBVR" deviceset="TLV9101IDBVR" device=""/>
+<part name="IC1" library="TLV9101IDBVR" library_urn="urn:adsk.eagle:library:44173754" deviceset="TLV9101IDBVR" device="" package3d_urn="urn:adsk.eagle:package:44173757/2"/>
 <part name="X_1" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10nF"/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="2500"/>
 <part name="IC3" library="TLV9021QDBVRQ1" deviceset="TLV9021QDBVRQ1" device=""/>
-<part name="IC4" library="TMUX1119DBVR" deviceset="TMUX1119DBVR" device=""/>
-<part name="IC5" library="TMUX1119DBVR" deviceset="TMUX1119DBVR" device=""/>
+<part name="IC4" library="TMUX1119DBVR" library_urn="urn:adsk.eagle:library:44173763" deviceset="TMUX1119DBVR" device="" package3d_urn="urn:adsk.eagle:package:44173766/2"/>
+<part name="IC5" library="TMUX1119DBVR" library_urn="urn:adsk.eagle:library:44173763" deviceset="TMUX1119DBVR" device="" package3d_urn="urn:adsk.eagle:package:44173766/2"/>
 <part name="X_5" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_6" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
@@ -16387,19 +16603,19 @@ V_TOGGLE = 0: V_BG </text>
 </groups>
 <parts>
 <part name="X_1" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
-<part name="F11" library="Fuse_Custom" deviceset="FUSE0603" device=""/>
-<part name="J1" library="TSW-104-07-F-S" deviceset="TSW-104-07-F-S" device=""/>
+<part name="F11" library="Fuse_Custom" library_urn="urn:adsk.eagle:library:44173473" deviceset="FUSE0603" device="" package3d_urn="urn:adsk.eagle:package:44173475/2"/>
+<part name="J1" library="TSW-104-07-F-S" library_urn="urn:adsk.eagle:library:44173782" deviceset="TSW-104-07-F-S" device="" package3d_urn="urn:adsk.eagle:package:44173785/2"/>
 <part name="X_2" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10000"/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10000"/>
-<part name="U1" library="ATMEGA328PB_AU32A" deviceset="ATMEGA328PB-AU" device=""/>
+<part name="U1" library="ATMEGA328PB_AU32A" library_urn="urn:adsk.eagle:library:44173444" deviceset="ATMEGA328PB-AU" device="" package3d_urn="urn:adsk.eagle:package:44173451/2"/>
 <part name="X_3" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF"/>
 <part name="X_5" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_6" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0"/>
-<part name="IC1" library="TPS7B8650BQDDARQ1" deviceset="TPS7B8650BQDDARQ1" device=""/>
+<part name="IC1" library="TPS7B8650BQDDARQ1" library_urn="urn:adsk.eagle:library:44173776" deviceset="TPS7B8650BQDDARQ1" device="" package3d_urn="urn:adsk.eagle:package:44173779/2"/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0"/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
 <part name="X_7" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
@@ -16418,17 +16634,17 @@ V_TOGGLE = 0: V_BG </text>
 <part name="X_4" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_11" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0"/>
-<part name="L1" library="SRP1038CC-100M" deviceset="SRP1038CC-100M" device="" value="10uH"/>
+<part name="L1" library="SRP1038CC-100M" library_urn="urn:adsk.eagle:library:44173543" deviceset="SRP1038CC-100M" device="" package3d_urn="urn:adsk.eagle:package:44173546/2" value="10uH"/>
 <part name="X_12" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0"/>
 <part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0"/>
 <part name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0"/>
-<part name="J3" library="RS1-02-G" deviceset="RS1-02-G" device=""/>
+<part name="J3" library="RS1-02-G" library_urn="urn:adsk.eagle:library:44173519" deviceset="RS1-02-G" device="" package3d_urn="urn:adsk.eagle:package:44173524/2"/>
 <part name="X_18" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0"/>
-<part name="SW1" library="1825910-6" deviceset="1825910-6" device=""/>
-<part name="SW2" library="1825910-6" deviceset="1825910-6" device=""/>
-<part name="SW3" library="1825910-6" deviceset="1825910-6" device=""/>
+<part name="SW1" library="1825910-6" library_urn="urn:adsk.eagle:library:44173364" deviceset="1825910-6" device="" package3d_urn="urn:adsk.eagle:package:44173367/2"/>
+<part name="SW2" library="1825910-6" library_urn="urn:adsk.eagle:library:44173364" deviceset="1825910-6" device="" package3d_urn="urn:adsk.eagle:package:44173367/2"/>
+<part name="SW3" library="1825910-6" library_urn="urn:adsk.eagle:library:44173364" deviceset="1825910-6" device="" package3d_urn="urn:adsk.eagle:package:44173367/2"/>
 <part name="X_19" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_20" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_21" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
@@ -16469,7 +16685,7 @@ V_TOGGLE = 0: V_BG </text>
 <part name="X_17" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_22" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="TP12" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="PAD1-13" package3d_urn="urn:adsk.eagle:package:27946/1"/>
-<part name="J2" library="163-179PH-EX" deviceset="163-179PH-EX" device=""/>
+<part name="J2" library="163-179PH-EX" library_urn="urn:adsk.eagle:library:44173317" deviceset="163-179PH-EX" device="" package3d_urn="urn:adsk.eagle:package:44173320/2"/>
 </parts>
 <sheets>
 <sheet>
