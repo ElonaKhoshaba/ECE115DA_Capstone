@@ -150,9 +150,9 @@
 <board>
 <fusionsync huburn="a.YnVzaW5lc3M6bXlnMzI3OTcw" projecturn="a.YnVzaW5lc3M6bXlnMzI3OTcwIzIwMjQwNDE1NzU2NTYxOTUx" f3durn="urn:adsk.wipprod:dm.lineage:tQM6r5fLRAKn8Vv6Tyr36w" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="214322d9-8856-4937-9c28-a071a34bf047" lastsyncedrevisionid="214322d9-8856-4937-9c28-a071a34bf047" lastboardhashguid="ac539a2e-9705-62b5-93d1-fa129fd6ad15" lastpushedtime="2024-05-07T20:17:41Z" linktopcb3d="true"/>
 <plain>
-<wire x1="-0.381" y1="0" x2="41.382" y2="0" width="0" layer="20" grouprefs="M"/>
-<wire x1="41.382" y1="0" x2="41.382" y2="68.25" width="0" layer="20" grouprefs="M"/>
-<wire x1="41.382" y1="68.25" x2="-0.381" y2="68.25" width="0" layer="20"/>
+<wire x1="-0.381" y1="0" x2="49.002" y2="0" width="0" layer="20" grouprefs="M"/>
+<wire x1="49.002" y1="0" x2="49.002" y2="68.25" width="0" layer="20" grouprefs="M"/>
+<wire x1="49.002" y1="68.25" x2="-0.381" y2="68.25" width="0" layer="20"/>
 <wire x1="-0.381" y1="68.25" x2="-0.381" y2="0" width="0" layer="20"/>
 <text x="19.177" y="61.595" size="0.4064" layer="25" distance="43" rot="R180">BUCK IC</text>
 <text x="26.67" y="39.624" size="0.254" layer="25">gnd</text>
@@ -1332,7 +1332,8 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 </packages>
 <packages3d>
 <package3d name="SOT95P280X145-5N" urn="urn:adsk.eagle:package:44173757/3" type="model" library_version="3">
-<description>&lt;b&gt;DBV0005A_a&lt;/b&gt;&lt;br&gt;</description>
+<description>&lt;b&gt;DBV0005A_a&lt;/b&gt;&lt;br&gt;
+</description>
 <packageinstances>
 <packageinstance name="SOT95P280X145-5N"/>
 </packageinstances>
@@ -1380,7 +1381,8 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 </packages>
 <packages3d>
 <package3d name="SOIC127P602X175-14N" urn="urn:adsk.eagle:package:44173357/3" type="model" library_version="3">
-<description>&lt;b&gt;SO14&lt;/b&gt;&lt;br&gt;</description>
+<description>&lt;b&gt;SO14&lt;/b&gt;&lt;br&gt;
+</description>
 <packageinstances>
 <packageinstance name="SOIC127P602X175-14N"/>
 </packageinstances>
@@ -1806,7 +1808,8 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 </packages>
 <packages3d>
 <package3d name="SOT95P230X110-3N" urn="urn:adsk.eagle:package:44173510/3" type="model" library_version="3">
-<description>&lt;b&gt;PBSS8110T,215*&lt;/b&gt;&lt;br&gt;</description>
+<description>&lt;b&gt;PBSS8110T,215*&lt;/b&gt;&lt;br&gt;
+</description>
 <packageinstances>
 <packageinstance name="SOT95P230X110-3N"/>
 </packageinstances>
@@ -1875,7 +1878,8 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 </packages>
 <packages3d>
 <package3d name="ZTP148SRC1" urn="urn:adsk.eagle:package:44173797/3" type="model" library_version="3">
-<description>&lt;b&gt;ZTP-148SRC1-5&lt;/b&gt;&lt;br&gt;</description>
+<description>&lt;b&gt;ZTP-148SRC1-5&lt;/b&gt;&lt;br&gt;
+</description>
 <packageinstances>
 <packageinstance name="ZTP148SRC1"/>
 </packageinstances>
@@ -1912,7 +1916,8 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 </packages>
 <packages3d>
 <package3d name="SOT95P237X112-3N" urn="urn:adsk.eagle:package:44173463/3" type="model" library_version="3">
-<description>&lt;b&gt;SOT23 (Type DN)_2023&lt;/b&gt;&lt;br&gt;</description>
+<description>&lt;b&gt;SOT23 (Type DN)_2023&lt;/b&gt;&lt;br&gt;
+</description>
 <packageinstances>
 <packageinstance name="SOT95P237X112-3N"/>
 </packageinstances>
@@ -2304,7 +2309,8 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 </packages>
 <packages3d>
 <package3d name="5010" urn="urn:adsk.eagle:package:44174101/3" type="model" library_version="3">
-<description>&lt;b&gt;5010-4&lt;/b&gt;&lt;br&gt;</description>
+<description>&lt;b&gt;5010-4&lt;/b&gt;&lt;br&gt;
+</description>
 <packageinstances>
 <packageinstance name="5010"/>
 </packageinstances>
@@ -3637,11 +3643,11 @@ design rules under a new name.</description>
 <board_group name="M"/>
 </groups>
 <elements>
-<element name="AF:C1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF" x="-23.495" y="20.701" smashed="yes" rot="R90">
-<attribute name="NAME" x="-21.971" y="19.304" size="0.4064" layer="25" rot="R90"/>
-<attribute name="POPULARITY" value="37" x="-23.495" y="20.701" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="-23.495" y="20.701" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="-21.336" y="19.304" size="0.4064" layer="27" rot="R90"/>
+<element name="AF:C1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF" x="-23.495" y="22.225" smashed="yes" rot="R90">
+<attribute name="NAME" x="-21.971" y="20.828" size="0.4064" layer="25" rot="R90"/>
+<attribute name="POPULARITY" value="37" x="-23.495" y="22.225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="-23.495" y="22.225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="-21.336" y="20.828" size="0.4064" layer="27" rot="R90"/>
 </element>
 <element name="AF:C2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF" x="-36.576" y="21.971" smashed="yes" rot="R270">
 <attribute name="NAME" x="-38.1" y="21.971" size="0.4064" layer="25" rot="R270"/>
@@ -3781,22 +3787,22 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="39.243" y="53.213" size="0.4064" layer="27" rot="R270"/>
 </element>
 <element name="BK:C3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF" x="22.352" y="61.341" smashed="yes" rot="MR180">
-<attribute name="NAME" x="17.653" y="62.23" size="0.4064" layer="26" rot="MR180"/>
+<attribute name="NAME" x="23.114" y="60.325" size="0.4064" layer="25" rot="R180"/>
 <attribute name="POPULARITY" value="37" x="22.352" y="61.341" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="22.352" y="61.341" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="VALUE" x="21.336" y="62.992" size="0.4064" layer="28" rot="MR180"/>
+<attribute name="VALUE" x="23.114" y="62.738" size="0.4064" layer="27" rot="R180"/>
 </element>
 <element name="BK:C5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="3.3nF" x="32.131" y="59.436" smashed="yes" rot="MR90">
-<attribute name="NAME" x="33.401" y="57.658" size="0.4064" layer="26" rot="MR90"/>
+<attribute name="NAME" x="33.401" y="58.801" size="0.4064" layer="26" rot="MR90"/>
 <attribute name="POPULARITY" value="37" x="32.131" y="59.436" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="32.131" y="59.436" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="34.417" y="58.42" size="0.4064" layer="28" rot="MR90"/>
 </element>
 <element name="BK:C6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="22pF" x="26.543" y="60.579" smashed="yes" rot="MR90">
-<attribute name="NAME" x="28.321" y="62.23" size="0.4064" layer="26" rot="MR0"/>
+<attribute name="NAME" x="26.162" y="62.23" size="0.4064" layer="25"/>
 <attribute name="POPULARITY" value="37" x="26.543" y="60.579" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="26.543" y="60.579" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="VALUE" x="25.019" y="60.325" size="0.4064" layer="28" rot="MR90"/>
+<attribute name="VALUE" x="25.654" y="61.468" size="0.4064" layer="27" rot="R90"/>
 </element>
 <element name="BK:IC1" library="AP64350SP-13" library_urn="urn:adsk.eagle:library:44173435" package="SOIC127P600X163-9N" package3d_urn="urn:adsk.eagle:package:44173438/3" value="AP64350SP-13" x="21.717" y="58.293" smashed="yes">
 <attribute name="DESCRIPTION" value="Switching Voltage Regulators 3.8V-40V 3.5A LOW IQ SYN BUCK PRG SW FRQ" x="21.717" y="58.293" size="1.778" layer="27" display="off"/>
@@ -3877,17 +3883,17 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="18.288" y="48.895" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VALUE" x="19.939" y="48.641" size="0.4064" layer="28" rot="MR180"/>
 </element>
-<element name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF" x="55.499" y="57.531" smashed="yes">
-<attribute name="NAME" x="54.102" y="58.674" size="0.4064" layer="25"/>
-<attribute name="POPULARITY" value="37" x="55.499" y="57.531" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="55.499" y="57.531" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="55.118" y="58.674" size="0.4064" layer="27"/>
+<element name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF" x="16.891" y="3.048" smashed="yes" rot="MR0">
+<attribute name="NAME" x="18.288" y="4.191" size="0.4064" layer="26" rot="MR0"/>
+<attribute name="POPULARITY" value="37" x="16.891" y="3.048" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="16.891" y="3.048" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VALUE" x="17.272" y="4.191" size="0.4064" layer="28" rot="MR0"/>
 </element>
-<element name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF" x="6.858" y="9.144" smashed="yes" rot="MR0">
-<attribute name="NAME" x="8.001" y="10.287" size="0.4064" layer="26" rot="MR0"/>
-<attribute name="POPULARITY" value="37" x="6.858" y="9.144" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="6.858" y="9.144" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="6.858" y="10.287" size="0.4064" layer="28" rot="MR0"/>
+<element name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF" x="6.858" y="9.144" smashed="yes" rot="MR90">
+<attribute name="NAME" x="8.001" y="8.001" size="0.4064" layer="26" rot="MR90"/>
+<attribute name="POPULARITY" value="37" x="6.858" y="9.144" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="6.858" y="9.144" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="VALUE" x="8.001" y="9.144" size="0.4064" layer="28" rot="MR90"/>
 </element>
 <element name="ADC:C1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10nF" x="30.48" y="-8.636" smashed="yes" grouprefs="M">
 <attribute name="NAME" x="28.956" y="-10.16" size="0.4064" layer="25"/>
@@ -3928,14 +3934,14 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="TMUX1119DBVR" x="19.812" y="-10.541" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="595-TMUX1119DBVR" x="19.812" y="-10.541" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TMUX1119DBVR?qs=9r4v7xj2Lnn%2FqYCDWCSZ7w%3D%3D" x="19.812" y="-10.541" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="19.812" y="-13.97" size="0.4064" layer="25" align="center"/>
-<attribute name="VALUE" x="19.812" y="-8.001" size="0.4064" layer="27" align="center"/>
+<attribute name="NAME" x="19.812" y="-12.827" size="0.4064" layer="25" align="center"/>
+<attribute name="VALUE" x="19.812" y="-8.763" size="0.4064" layer="27" align="center"/>
 </element>
 <element name="ADC:R1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="2500" x="23.876" y="-10.795" smashed="yes" rot="R180" grouprefs="M">
-<attribute name="NAME" x="23.876" y="-8.255" size="0.4064" layer="25" rot="R180"/>
+<attribute name="NAME" x="24.638" y="-9.398" size="0.4064" layer="25" rot="R180"/>
 <attribute name="POPULARITY" value="77" x="23.876" y="-10.795" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="23.876" y="-10.795" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="23.876" y="-12.065" size="0.4064" layer="27" rot="R180"/>
+<attribute name="VALUE" x="24.257" y="-12.065" size="0.4064" layer="27" rot="R180"/>
 </element>
 <element name="ADC:R2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k" x="39.624" y="-12.065" smashed="yes" rot="MR270" grouprefs="M">
 <attribute name="NAME" x="38.862" y="-11.303" size="0.4064" layer="26" rot="MR270"/>
@@ -3962,22 +3968,23 @@ design rules under a new name.</description>
 <attribute name="STANDARD" value="Manufacturer Recommendations" x="6.985" y="2.286" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="3.429" y="3.937" size="0.4064" layer="27"/>
 </element>
-<element name="J3" library="RS1-02-G" library_urn="urn:adsk.eagle:library:44173519" package="CONN_RS1-02-G_ADM" package3d_urn="urn:adsk.eagle:package:44173524/3" value="RS1-02-G" x="70.485" y="21.59" smashed="yes" rot="R180">
-<attribute name="COPYRIGHT" value="Copyright (C) 2024 Ultra Librarian. All rights reserved." x="70.485" y="21.59" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RS1-02-G" x="70.485" y="21.59" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFR_NAME" value="ADAM TECHNOLOGIES INC" x="70.485" y="21.59" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="70.485" y="21.59" size="0.4064" layer="27" ratio="6" rot="SR180"/>
-<attribute name="VALUE" x="70.104" y="23.495" size="0.4064" layer="27" ratio="6" rot="SR180"/>
+<element name="J3" library="RS1-02-G" library_urn="urn:adsk.eagle:library:44173519" package="CONN_RS1-02-G_ADM" package3d_urn="urn:adsk.eagle:package:44173524/3" value="AD2" x="36.195" y="28.448" smashed="yes">
+<attribute name="AD2" value="AD2" x="36.195" y="28.448" size="1.778" layer="27" display="off"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2024 Ultra Librarian. All rights reserved." x="36.195" y="28.448" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RS1-02-G" x="36.195" y="28.448" size="1.778" layer="27" display="off"/>
+<attribute name="MFR_NAME" value="ADAM TECHNOLOGIES INC" x="36.195" y="28.448" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="35.052" y="26.543" size="0.4064" layer="27" ratio="6" rot="SR0"/>
+<attribute name="VALUE" x="36.195" y="26.543" size="0.4064" layer="27" ratio="6" rot="SR0"/>
 </element>
-<element name="L1" library="SRP1038CC-100M" library_urn="urn:adsk.eagle:library:44173543" package="INDPM110100X400N" package3d_urn="urn:adsk.eagle:package:44173546/3" value="10uH" x="55.118" y="6.731" smashed="yes">
-<attribute name="DESCRIPTION" value="Ind,11x10x3.8mm,10uH+/-20%,8.5A,shd" x="55.118" y="6.731" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="4mm" x="55.118" y="6.731" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Bourns" x="55.118" y="6.731" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SRP1038CC-100M" x="55.118" y="6.731" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="652-SRP1038CC-100M" x="55.118" y="6.731" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Bourns/SRP1038CC-100M?qs=1Kr7Jg1SGW%252BXHFZ7Gpw7DQ%3D%3D" x="55.118" y="6.731" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="54.102" y="12.446" size="0.4064" layer="25" align="center"/>
-<attribute name="VALUE" x="55.372" y="12.446" size="0.4064" layer="27" align="center"/>
+<element name="L1" library="SRP1038CC-100M" library_urn="urn:adsk.eagle:library:44173543" package="INDPM110100X400N" package3d_urn="urn:adsk.eagle:package:44173546/3" value="10uH" x="31.75" y="8.636" smashed="yes" rot="MR0">
+<attribute name="DESCRIPTION" value="Ind,11x10x3.8mm,10uH+/-20%,8.5A,shd" x="31.75" y="8.636" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="4mm" x="31.75" y="8.636" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Bourns" x="31.75" y="8.636" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SRP1038CC-100M" x="31.75" y="8.636" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="652-SRP1038CC-100M" x="31.75" y="8.636" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Bourns/SRP1038CC-100M?qs=1Kr7Jg1SGW%252BXHFZ7Gpw7DQ%3D%3D" x="31.75" y="8.636" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="32.766" y="14.351" size="0.4064" layer="26" rot="MR0" align="center"/>
+<attribute name="VALUE" x="31.496" y="14.351" size="0.4064" layer="28" rot="MR0" align="center"/>
 </element>
 <element name="LDO:C1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF" x="33.782" y="38.354" smashed="yes" rot="MR180">
 <attribute name="NAME" x="31.369" y="39.878" size="0.4064" layer="26" rot="MR180"/>
@@ -4106,28 +4113,28 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="19.939" y="34.671" size="0.4064" layer="27"/>
 </element>
 <element name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0" x="20.447" y="-6.858" smashed="yes">
-<attribute name="NAME" x="21.209" y="-5.715" size="0.4064" layer="25"/>
+<attribute name="NAME" x="19.304" y="-5.715" size="0.4064" layer="25"/>
 <attribute name="POPULARITY" value="77" x="20.447" y="-6.858" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="20.447" y="-6.858" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="20.066" y="-5.715" size="0.4064" layer="27"/>
+<attribute name="VALUE" x="21.209" y="-5.715" size="0.4064" layer="27"/>
 </element>
-<element name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0" x="96.139" y="57.531" smashed="yes">
-<attribute name="NAME" x="96.139" y="57.531" size="0.4064" layer="25"/>
-<attribute name="POPULARITY" value="77" x="96.139" y="57.531" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="96.139" y="57.531" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="96.139" y="57.531" size="0.4064" layer="27"/>
+<element name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0" x="35.941" y="-2.286" smashed="yes">
+<attribute name="NAME" x="34.417" y="-1.143" size="0.4064" layer="25"/>
+<attribute name="POPULARITY" value="77" x="35.941" y="-2.286" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="35.941" y="-2.286" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="37.084" y="-1.143" size="0.4064" layer="27"/>
 </element>
-<element name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0" x="91.059" y="57.531" smashed="yes">
-<attribute name="NAME" x="91.059" y="57.531" size="0.4064" layer="25"/>
-<attribute name="POPULARITY" value="77" x="91.059" y="57.531" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="91.059" y="57.531" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="91.059" y="57.531" size="0.4064" layer="27"/>
+<element name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0" x="28.575" y="12.192" smashed="yes">
+<attribute name="NAME" x="27.051" y="13.335" size="0.4064" layer="25"/>
+<attribute name="POPULARITY" value="77" x="28.575" y="12.192" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="28.575" y="12.192" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="29.718" y="13.335" size="0.4064" layer="27"/>
 </element>
-<element name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0" x="85.979" y="57.531" smashed="yes">
-<attribute name="NAME" x="85.979" y="57.531" size="0.4064" layer="25"/>
-<attribute name="POPULARITY" value="77" x="85.979" y="57.531" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="85.979" y="57.531" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="85.979" y="57.531" size="0.4064" layer="27"/>
+<element name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0" x="24.765" y="-4.318" smashed="yes" rot="R90">
+<attribute name="NAME" x="23.622" y="-5.842" size="0.4064" layer="25" rot="R90"/>
+<attribute name="POPULARITY" value="77" x="24.765" y="-4.318" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="24.765" y="-4.318" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="23.622" y="-3.175" size="0.4064" layer="27" rot="R90"/>
 </element>
 <element name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0" x="31.496" y="47.625" smashed="yes" rot="R270">
 <attribute name="NAME" x="31.623" y="46.101" size="0.4064" layer="25" rot="R270"/>
@@ -4141,11 +4148,11 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="32.004" y="42.037" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="30.988" y="42.164" size="0.4064" layer="28" rot="MR270"/>
 </element>
-<element name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0" x="42.672" y="36.957" smashed="yes" rot="R180">
-<attribute name="NAME" x="43.815" y="35.814" size="0.4064" layer="25" rot="R180"/>
-<attribute name="POPULARITY" value="77" x="42.672" y="36.957" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="42.672" y="36.957" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="41.91" y="35.814" size="0.4064" layer="27" rot="R180"/>
+<element name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0" x="40.005" y="32.385" smashed="yes" rot="R270">
+<attribute name="NAME" x="41.148" y="33.528" size="0.4064" layer="25" rot="R270"/>
+<attribute name="POPULARITY" value="77" x="40.005" y="32.385" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="40.005" y="32.385" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="41.148" y="31.623" size="0.4064" layer="27" rot="R270"/>
 </element>
 <element name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100k" x="16.256" y="35.687" smashed="yes">
 <attribute name="NAME" x="14.859" y="34.036" size="0.4064" layer="25"/>
@@ -4165,17 +4172,17 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="15.24" y="52.832" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="15.24" y="54.737" size="0.4064" layer="28" rot="MR270"/>
 </element>
-<element name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k" x="52.959" y="48.641" smashed="yes">
-<attribute name="NAME" x="51.562" y="49.784" size="0.4064" layer="25"/>
-<attribute name="POPULARITY" value="77" x="52.959" y="48.641" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="52.959" y="48.641" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="52.959" y="49.784" size="0.4064" layer="27"/>
+<element name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k" x="8.763" y="16.256" smashed="yes" rot="MR0">
+<attribute name="NAME" x="10.16" y="17.399" size="0.4064" layer="26" rot="MR0"/>
+<attribute name="POPULARITY" value="77" x="8.763" y="16.256" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="8.763" y="16.256" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VALUE" x="8.763" y="17.399" size="0.4064" layer="28" rot="MR0"/>
 </element>
-<element name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k" x="6.35" y="12.827" smashed="yes" rot="MR0">
-<attribute name="NAME" x="7.747" y="13.843" size="0.4064" layer="26" rot="MR0"/>
-<attribute name="POPULARITY" value="77" x="6.35" y="12.827" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="6.35" y="12.827" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="5.842" y="13.97" size="0.4064" layer="28" rot="MR0"/>
+<element name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k" x="7.874" y="12.827" smashed="yes" rot="MR90">
+<attribute name="NAME" x="8.89" y="11.43" size="0.4064" layer="26" rot="MR90"/>
+<attribute name="POPULARITY" value="77" x="7.874" y="12.827" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="7.874" y="12.827" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="VALUE" x="9.017" y="13.335" size="0.4064" layer="28" rot="MR90"/>
 </element>
 <element name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0" x="21.336" y="31.369" smashed="yes" rot="R180">
 <attribute name="NAME" x="19.685" y="31.75" size="0.4064" layer="25" rot="R180"/>
@@ -4187,9 +4194,7 @@ design rules under a new name.</description>
 <attribute name="AVAILABILITY" value="In Stock" x="4.064" y="23.876" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/1825910-6/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=eda" x="4.064" y="23.876" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="COMMENT" value="1825910-6" x="4.064" y="23.876" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DESCRIPTION" value="
-Switch Push Button OFF (ON) SPST Round Button 0.05A 24VDC Momentary Contact PC Pins Thru-Hole
-" x="4.064" y="23.876" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value=" Switch Push Button OFF (ON) SPST Round Button 0.05A 24VDC Momentary Contact PC Pins Thru-Hole " x="4.064" y="23.876" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="TE Connectivity" x="4.064" y="23.876" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MP" value="1825910-6" x="4.064" y="23.876" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="0.635" y="23.114" size="0.4064" layer="25" rot="R90"/>
@@ -4201,9 +4206,7 @@ Switch Push Button OFF (ON) SPST Round Button 0.05A 24VDC Momentary Contact PC P
 <attribute name="AVAILABILITY" value="In Stock" x="4.064" y="33.147" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/1825910-6/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=eda" x="4.064" y="33.147" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="COMMENT" value="1825910-6" x="4.064" y="33.147" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DESCRIPTION" value="
-Switch Push Button OFF (ON) SPST Round Button 0.05A 24VDC Momentary Contact PC Pins Thru-Hole
-" x="4.064" y="33.147" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value=" Switch Push Button OFF (ON) SPST Round Button 0.05A 24VDC Momentary Contact PC Pins Thru-Hole " x="4.064" y="33.147" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="TE Connectivity" x="4.064" y="33.147" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MP" value="1825910-6" x="4.064" y="33.147" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="0.635" y="32.385" size="0.4064" layer="25" rot="R90"/>
@@ -4215,9 +4218,7 @@ Switch Push Button OFF (ON) SPST Round Button 0.05A 24VDC Momentary Contact PC P
 <attribute name="AVAILABILITY" value="In Stock" x="4.064" y="42.926" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/1825910-6/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=eda" x="4.064" y="42.926" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="COMMENT" value="1825910-6" x="4.064" y="42.926" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DESCRIPTION" value="
-Switch Push Button OFF (ON) SPST Round Button 0.05A 24VDC Momentary Contact PC Pins Thru-Hole
-" x="4.064" y="42.926" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value=" Switch Push Button OFF (ON) SPST Round Button 0.05A 24VDC Momentary Contact PC Pins Thru-Hole " x="4.064" y="42.926" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="TE Connectivity" x="4.064" y="42.926" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MP" value="1825910-6" x="4.064" y="42.926" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="0.508" y="41.656" size="0.4064" layer="25" rot="R90"/>
@@ -4264,17 +4265,17 @@ Switch Push Button OFF (ON) SPST Round Button 0.05A 24VDC Momentary Contact PC P
 <attribute name="MFR_NAME" value="Microchip" x="15.621" y="10.287" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="18.288" y="4.191" size="0.4064" layer="28" ratio="6" rot="SMR0"/>
 </element>
-<element name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="22pF" x="12.827" y="18.796" smashed="yes" rot="MR180">
-<attribute name="NAME" x="12.192" y="18.161" size="0.4064" layer="26" rot="MR180"/>
-<attribute name="POPULARITY" value="37" x="12.827" y="18.796" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="12.827" y="18.796" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="VALUE" x="12.192" y="20.701" size="0.4064" layer="28" rot="MR180"/>
+<element name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="22pF" x="17.399" y="16.891" smashed="yes" rot="MR180">
+<attribute name="NAME" x="18.161" y="18.415" size="0.4064" layer="26" rot="MR180"/>
+<attribute name="POPULARITY" value="37" x="17.399" y="16.891" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="17.399" y="16.891" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="VALUE" x="16.002" y="18.415" size="0.4064" layer="28" rot="MR180"/>
 </element>
-<element name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="22pF" x="20.447" y="18.415" smashed="yes" rot="MR0">
-<attribute name="NAME" x="21.082" y="19.05" size="0.4064" layer="26" rot="MR0"/>
-<attribute name="POPULARITY" value="37" x="20.447" y="18.415" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="20.447" y="18.415" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="21.082" y="16.51" size="0.4064" layer="28" rot="MR0"/>
+<element name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="22pF" x="21.209" y="16.129" smashed="yes" rot="MR0">
+<attribute name="NAME" x="22.606" y="17.145" size="0.4064" layer="26" rot="MR0"/>
+<attribute name="POPULARITY" value="37" x="21.209" y="16.129" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="21.209" y="16.129" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VALUE" x="20.701" y="17.272" size="0.4064" layer="28" rot="MR0"/>
 </element>
 <element name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF" x="21.336" y="28.702" smashed="yes">
 <attribute name="NAME" x="18.542" y="28.321" size="0.4064" layer="25"/>
@@ -4315,205 +4316,205 @@ Switch Push Button OFF (ON) SPST Round Button 0.05A 24VDC Momentary Contact PC P
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kobiconn/163-179PH-EX?qs=Xb8IjHhkxj5l2UOaIqcGCw%3D%3D" x="6.096" y="55.245" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="0" y="62.865" size="0.4064" layer="25" align="center"/>
 </element>
-<element name="ADC:IC2" library="TLV9021QDBVRQ1" library_urn="urn:adsk.eagle:library:44173559" package="SOT95P280X145-5N" package3d_urn="urn:adsk.eagle:package:44173562/3" value="TLV9021QDBVRQ1" x="26.67" y="-16.002" smashed="yes">
-<attribute name="DESCRIPTION" value="Analog Comparators HIGH PERFORMANCE 5V OD SINGLE COMPARATOR" x="26.67" y="-16.002" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.45mm" x="26.67" y="-16.002" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="26.67" y="-16.002" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="TLV9021QDBVRQ1" x="26.67" y="-16.002" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="595-TLV9021QDBVRQ1" x="26.67" y="-16.002" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV9021QDBVRQ1?qs=Z%252BL2brAPG1KR79adoYSPzQ%3D%3D" x="26.67" y="-16.002" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="26.543" y="-13.843" size="0.4064" layer="25" align="center"/>
-<attribute name="VALUE" x="26.543" y="-18.288" size="0.4064" layer="27" align="center"/>
+<element name="ADC:IC2" library="TLV9021QDBVRQ1" library_urn="urn:adsk.eagle:library:44173559" package="SOT95P280X145-5N" package3d_urn="urn:adsk.eagle:package:44173562/3" value="TLV9021QDBVRQ1" x="26.67" y="-16.002" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="Analog Comparators HIGH PERFORMANCE 5V OD SINGLE COMPARATOR" x="26.67" y="-16.002" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="1.45mm" x="26.67" y="-16.002" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="26.67" y="-16.002" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TLV9021QDBVRQ1" x="26.67" y="-16.002" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-TLV9021QDBVRQ1" x="26.67" y="-16.002" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV9021QDBVRQ1?qs=Z%252BL2brAPG1KR79adoYSPzQ%3D%3D" x="26.67" y="-16.002" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="24.511" y="-16.129" size="0.4064" layer="25" rot="R90" align="center"/>
+<attribute name="VALUE" x="28.956" y="-16.129" size="0.4064" layer="27" rot="R90" align="center"/>
 </element>
-<element name="J4" library="TSW-104-07-F-S" library_urn="urn:adsk.eagle:library:44173782" package="SAMTEC_TSW-104-07-F-S" package3d_urn="urn:adsk.eagle:package:44173785/3" value="TSW-104-07-F-S" x="-72.39" y="54.864" smashed="yes">
-<attribute name="MANUFACTURER" value="Samtec" x="-72.39" y="54.864" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-77.327" y="56.622" size="0.4064" layer="25"/>
-<attribute name="PARTREV" value="R" x="-72.39" y="54.864" size="1.778" layer="27" display="off"/>
-<attribute name="STANDARD" value="Manufacturer Recommendations" x="-72.39" y="54.864" size="1.778" layer="27" display="off"/>
+<element name="J4" library="TSW-104-07-F-S" library_urn="urn:adsk.eagle:library:44173782" package="SAMTEC_TSW-104-07-F-S" package3d_urn="urn:adsk.eagle:package:44173785/3" value="MCU" x="2.667" y="11.811" smashed="yes" rot="R90">
+<attribute name="MANUFACTURER" value="Samtec" x="2.667" y="11.811" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="0.909" y="6.874" size="0.4064" layer="25" rot="R90"/>
+<attribute name="PARTREV" value="R" x="2.667" y="11.811" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="STANDARD" value="Manufacturer Recommendations" x="2.667" y="11.811" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="TP1" library="5010" library_urn="urn:adsk.eagle:library:44174098" package="5010" package3d_urn="urn:adsk.eagle:package:44174101/3" value="5010" x="42.672" y="49.149" smashed="yes">
-<attribute name="DESCRIPTION" value="KEYSTONE - 5010 - TEST POINT, PCB, THROUGH HOLE" x="42.672" y="49.149" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="8.28mm" x="42.672" y="49.149" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Keystone Electronics" x="42.672" y="49.149" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="5010" x="42.672" y="49.149" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="534-5010" x="42.672" y="49.149" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5010?qs=qOqV1E1P08SzD%252BWfk1wMXQ%3D%3D" x="42.672" y="49.149" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="40.386" y="52.197" size="0.4064" layer="25" align="center"/>
+<element name="6V" library="5010" library_urn="urn:adsk.eagle:library:44174098" package="5010" package3d_urn="urn:adsk.eagle:package:44174101/3" value="5010" x="33.528" y="65.151" smashed="yes">
+<attribute name="DESCRIPTION" value="KEYSTONE - 5010 - TEST POINT, PCB, THROUGH HOLE" x="33.528" y="65.151" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="8.28mm" x="33.528" y="65.151" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Keystone Electronics" x="33.528" y="65.151" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="5010" x="33.528" y="65.151" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="534-5010" x="33.528" y="65.151" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5010?qs=qOqV1E1P08SzD%252BWfk1wMXQ%3D%3D" x="33.528" y="65.151" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="33.528" y="68.199" size="0.4064" layer="25" align="center"/>
 </element>
-<element name="TP2" library="5010" library_urn="urn:adsk.eagle:library:44174098" package="5010" package3d_urn="urn:adsk.eagle:package:44174101/3" value="5010" x="-75.057" y="42.291" smashed="yes">
-<attribute name="DESCRIPTION" value="KEYSTONE - 5010 - TEST POINT, PCB, THROUGH HOLE" x="-75.057" y="42.291" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="8.28mm" x="-75.057" y="42.291" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Keystone Electronics" x="-75.057" y="42.291" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="5010" x="-75.057" y="42.291" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="534-5010" x="-75.057" y="42.291" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5010?qs=qOqV1E1P08SzD%252BWfk1wMXQ%3D%3D" x="-75.057" y="42.291" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-75.057" y="42.291" size="0.4064" layer="25" align="center"/>
+<element name="5V" library="5010" library_urn="urn:adsk.eagle:library:44174098" package="5010" package3d_urn="urn:adsk.eagle:package:44174101/3" value="5010" x="44.958" y="39.624" smashed="yes">
+<attribute name="DESCRIPTION" value="KEYSTONE - 5010 - TEST POINT, PCB, THROUGH HOLE" x="44.958" y="39.624" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="8.28mm" x="44.958" y="39.624" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Keystone Electronics" x="44.958" y="39.624" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="5010" x="44.958" y="39.624" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="534-5010" x="44.958" y="39.624" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5010?qs=qOqV1E1P08SzD%252BWfk1wMXQ%3D%3D" x="44.958" y="39.624" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="44.831" y="42.672" size="0.4064" layer="25" align="center"/>
 </element>
-<element name="TP3" library="5010" library_urn="urn:adsk.eagle:library:44174098" package="5010" package3d_urn="urn:adsk.eagle:package:44174101/3" value="5010" x="-75.057" y="36.957" smashed="yes">
-<attribute name="DESCRIPTION" value="KEYSTONE - 5010 - TEST POINT, PCB, THROUGH HOLE" x="-75.057" y="36.957" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="8.28mm" x="-75.057" y="36.957" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Keystone Electronics" x="-75.057" y="36.957" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="5010" x="-75.057" y="36.957" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="534-5010" x="-75.057" y="36.957" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5010?qs=qOqV1E1P08SzD%252BWfk1wMXQ%3D%3D" x="-75.057" y="36.957" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-75.057" y="36.957" size="0.4064" layer="25" align="center"/>
+<element name="2.5V" library="5010" library_urn="urn:adsk.eagle:library:44174098" package="5010" package3d_urn="urn:adsk.eagle:package:44174101/3" value="5010" x="45.339" y="33.147" smashed="yes">
+<attribute name="DESCRIPTION" value="KEYSTONE - 5010 - TEST POINT, PCB, THROUGH HOLE" x="45.339" y="33.147" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="8.28mm" x="45.339" y="33.147" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Keystone Electronics" x="45.339" y="33.147" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="5010" x="45.339" y="33.147" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="534-5010" x="45.339" y="33.147" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5010?qs=qOqV1E1P08SzD%252BWfk1wMXQ%3D%3D" x="45.339" y="33.147" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="45.339" y="36.195" size="0.4064" layer="25" align="center"/>
 </element>
-<element name="TP4" library="5010" library_urn="urn:adsk.eagle:library:44174098" package="5010" package3d_urn="urn:adsk.eagle:package:44174101/3" value="5010" x="-75.057" y="31.623" smashed="yes">
-<attribute name="DESCRIPTION" value="KEYSTONE - 5010 - TEST POINT, PCB, THROUGH HOLE" x="-75.057" y="31.623" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="8.28mm" x="-75.057" y="31.623" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Keystone Electronics" x="-75.057" y="31.623" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="5010" x="-75.057" y="31.623" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="534-5010" x="-75.057" y="31.623" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5010?qs=qOqV1E1P08SzD%252BWfk1wMXQ%3D%3D" x="-75.057" y="31.623" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-75.057" y="31.623" size="0.4064" layer="25" align="center"/>
+<element name="1.5V" library="5010" library_urn="urn:adsk.eagle:library:44174098" package="5010" package3d_urn="urn:adsk.eagle:package:44174101/3" value="5010" x="45.339" y="26.289" smashed="yes">
+<attribute name="DESCRIPTION" value="KEYSTONE - 5010 - TEST POINT, PCB, THROUGH HOLE" x="45.339" y="26.289" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="8.28mm" x="45.339" y="26.289" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Keystone Electronics" x="45.339" y="26.289" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="5010" x="45.339" y="26.289" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="534-5010" x="45.339" y="26.289" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5010?qs=qOqV1E1P08SzD%252BWfk1wMXQ%3D%3D" x="45.339" y="26.289" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="45.466" y="29.21" size="0.4064" layer="25" align="center"/>
 </element>
-<element name="TP5" library="5010" library_urn="urn:adsk.eagle:library:44174098" package="5010" package3d_urn="urn:adsk.eagle:package:44174101/3" value="5010" x="-75.057" y="26.289" smashed="yes">
-<attribute name="DESCRIPTION" value="KEYSTONE - 5010 - TEST POINT, PCB, THROUGH HOLE" x="-75.057" y="26.289" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="8.28mm" x="-75.057" y="26.289" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Keystone Electronics" x="-75.057" y="26.289" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="5010" x="-75.057" y="26.289" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="534-5010" x="-75.057" y="26.289" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5010?qs=qOqV1E1P08SzD%252BWfk1wMXQ%3D%3D" x="-75.057" y="26.289" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-75.057" y="26.289" size="0.4064" layer="25" align="center"/>
+<element name="V_TH" library="5010" library_urn="urn:adsk.eagle:library:44174098" package="5010" package3d_urn="urn:adsk.eagle:package:44174101/3" value="5010" x="7.62" y="9.144" smashed="yes">
+<attribute name="DESCRIPTION" value="KEYSTONE - 5010 - TEST POINT, PCB, THROUGH HOLE" x="7.62" y="9.144" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="8.28mm" x="7.62" y="9.144" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Keystone Electronics" x="7.62" y="9.144" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="5010" x="7.62" y="9.144" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="534-5010" x="7.62" y="9.144" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5010?qs=qOqV1E1P08SzD%252BWfk1wMXQ%3D%3D" x="7.62" y="9.144" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="7.62" y="9.144" size="0.4064" layer="25" align="center"/>
 </element>
-<element name="TP6" library="5010" library_urn="urn:adsk.eagle:library:44174098" package="5010" package3d_urn="urn:adsk.eagle:package:44174101/3" value="5010" x="-75.057" y="20.955" smashed="yes">
-<attribute name="DESCRIPTION" value="KEYSTONE - 5010 - TEST POINT, PCB, THROUGH HOLE" x="-75.057" y="20.955" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="8.28mm" x="-75.057" y="20.955" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Keystone Electronics" x="-75.057" y="20.955" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="5010" x="-75.057" y="20.955" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="534-5010" x="-75.057" y="20.955" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5010?qs=qOqV1E1P08SzD%252BWfk1wMXQ%3D%3D" x="-75.057" y="20.955" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-75.057" y="20.955" size="0.4064" layer="25" align="center"/>
+<element name="V_BG" library="5010" library_urn="urn:adsk.eagle:library:44174098" package="5010" package3d_urn="urn:adsk.eagle:package:44174101/3" value="5010" x="44.958" y="20.193" smashed="yes">
+<attribute name="DESCRIPTION" value="KEYSTONE - 5010 - TEST POINT, PCB, THROUGH HOLE" x="44.958" y="20.193" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="8.28mm" x="44.958" y="20.193" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Keystone Electronics" x="44.958" y="20.193" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="5010" x="44.958" y="20.193" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="534-5010" x="44.958" y="20.193" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5010?qs=qOqV1E1P08SzD%252BWfk1wMXQ%3D%3D" x="44.958" y="20.193" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="44.958" y="23.241" size="0.4064" layer="25" align="center"/>
 </element>
-<element name="TP7" library="5010" library_urn="urn:adsk.eagle:library:44174098" package="5010" package3d_urn="urn:adsk.eagle:package:44174101/3" value="5010" x="-75.057" y="15.621" smashed="yes">
-<attribute name="DESCRIPTION" value="KEYSTONE - 5010 - TEST POINT, PCB, THROUGH HOLE" x="-75.057" y="15.621" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="8.28mm" x="-75.057" y="15.621" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Keystone Electronics" x="-75.057" y="15.621" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="5010" x="-75.057" y="15.621" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="534-5010" x="-75.057" y="15.621" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5010?qs=qOqV1E1P08SzD%252BWfk1wMXQ%3D%3D" x="-75.057" y="15.621" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-75.057" y="15.621" size="0.4064" layer="25" align="center"/>
+<element name="V_TP" library="5010" library_urn="urn:adsk.eagle:library:44174098" package="5010" package3d_urn="urn:adsk.eagle:package:44174101/3" value="5010" x="45.339" y="10.287" smashed="yes">
+<attribute name="DESCRIPTION" value="KEYSTONE - 5010 - TEST POINT, PCB, THROUGH HOLE" x="45.339" y="10.287" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="8.28mm" x="45.339" y="10.287" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Keystone Electronics" x="45.339" y="10.287" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="5010" x="45.339" y="10.287" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="534-5010" x="45.339" y="10.287" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5010?qs=qOqV1E1P08SzD%252BWfk1wMXQ%3D%3D" x="45.339" y="10.287" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="45.466" y="13.208" size="0.4064" layer="25" align="center"/>
 </element>
-<element name="TP8" library="5010" library_urn="urn:adsk.eagle:library:44174098" package="5010" package3d_urn="urn:adsk.eagle:package:44174101/3" value="5010" x="-75.057" y="10.287" smashed="yes">
-<attribute name="DESCRIPTION" value="KEYSTONE - 5010 - TEST POINT, PCB, THROUGH HOLE" x="-75.057" y="10.287" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="8.28mm" x="-75.057" y="10.287" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Keystone Electronics" x="-75.057" y="10.287" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="5010" x="-75.057" y="10.287" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="534-5010" x="-75.057" y="10.287" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5010?qs=qOqV1E1P08SzD%252BWfk1wMXQ%3D%3D" x="-75.057" y="10.287" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-75.057" y="10.287" size="0.4064" layer="25" align="center"/>
+<element name="V_SIG" library="5010" library_urn="urn:adsk.eagle:library:44174098" package="5010" package3d_urn="urn:adsk.eagle:package:44174101/3" value="5010" x="-16.002" y="19.05" smashed="yes">
+<attribute name="DESCRIPTION" value="KEYSTONE - 5010 - TEST POINT, PCB, THROUGH HOLE" x="-16.002" y="19.05" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="8.28mm" x="-16.002" y="19.05" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Keystone Electronics" x="-16.002" y="19.05" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="5010" x="-16.002" y="19.05" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="534-5010" x="-16.002" y="19.05" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5010?qs=qOqV1E1P08SzD%252BWfk1wMXQ%3D%3D" x="-16.002" y="19.05" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-16.002" y="21.971" size="0.4064" layer="25" align="center"/>
 </element>
-<element name="TP9" library="5010" library_urn="urn:adsk.eagle:library:44174098" package="5010" package3d_urn="urn:adsk.eagle:package:44174101/3" value="5010" x="-75.057" y="4.953" smashed="yes">
-<attribute name="DESCRIPTION" value="KEYSTONE - 5010 - TEST POINT, PCB, THROUGH HOLE" x="-75.057" y="4.953" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="8.28mm" x="-75.057" y="4.953" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Keystone Electronics" x="-75.057" y="4.953" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="5010" x="-75.057" y="4.953" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="534-5010" x="-75.057" y="4.953" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5010?qs=qOqV1E1P08SzD%252BWfk1wMXQ%3D%3D" x="-75.057" y="4.953" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-75.057" y="4.953" size="0.4064" layer="25" align="center"/>
+<element name="RST_ADC" library="5010" library_urn="urn:adsk.eagle:library:44174098" package="5010" package3d_urn="urn:adsk.eagle:package:44174101/3" value="5010" x="14.478" y="2.667" smashed="yes">
+<attribute name="DESCRIPTION" value="KEYSTONE - 5010 - TEST POINT, PCB, THROUGH HOLE" x="14.478" y="2.667" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="8.28mm" x="14.478" y="2.667" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Keystone Electronics" x="14.478" y="2.667" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="5010" x="14.478" y="2.667" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="534-5010" x="14.478" y="2.667" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5010?qs=qOqV1E1P08SzD%252BWfk1wMXQ%3D%3D" x="14.478" y="2.667" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="14.478" y="2.667" size="0.4064" layer="25" align="center"/>
 </element>
-<element name="TP10" library="5010" library_urn="urn:adsk.eagle:library:44174098" package="5010" package3d_urn="urn:adsk.eagle:package:44174101/3" value="5010" x="-75.057" y="-0.381" smashed="yes">
-<attribute name="DESCRIPTION" value="KEYSTONE - 5010 - TEST POINT, PCB, THROUGH HOLE" x="-75.057" y="-0.381" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="8.28mm" x="-75.057" y="-0.381" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Keystone Electronics" x="-75.057" y="-0.381" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="5010" x="-75.057" y="-0.381" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="534-5010" x="-75.057" y="-0.381" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5010?qs=qOqV1E1P08SzD%252BWfk1wMXQ%3D%3D" x="-75.057" y="-0.381" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-75.057" y="-0.381" size="0.4064" layer="25" align="center"/>
+<element name="TP10" library="5010" library_urn="urn:adsk.eagle:library:44174098" package="5010" package3d_urn="urn:adsk.eagle:package:44174101/3" value="5010" x="11.811" y="19.05" smashed="yes">
+<attribute name="DESCRIPTION" value="KEYSTONE - 5010 - TEST POINT, PCB, THROUGH HOLE" x="11.811" y="19.05" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="8.28mm" x="11.811" y="19.05" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Keystone Electronics" x="11.811" y="19.05" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="5010" x="11.811" y="19.05" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="534-5010" x="11.811" y="19.05" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5010?qs=qOqV1E1P08SzD%252BWfk1wMXQ%3D%3D" x="11.811" y="19.05" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="11.811" y="19.05" size="0.4064" layer="25" align="center"/>
 </element>
-<element name="TP11" library="5010" library_urn="urn:adsk.eagle:library:44174098" package="5010" package3d_urn="urn:adsk.eagle:package:44174101/3" value="5010" x="-75.057" y="-5.715" smashed="yes">
-<attribute name="DESCRIPTION" value="KEYSTONE - 5010 - TEST POINT, PCB, THROUGH HOLE" x="-75.057" y="-5.715" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="8.28mm" x="-75.057" y="-5.715" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Keystone Electronics" x="-75.057" y="-5.715" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="5010" x="-75.057" y="-5.715" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="534-5010" x="-75.057" y="-5.715" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5010?qs=qOqV1E1P08SzD%252BWfk1wMXQ%3D%3D" x="-75.057" y="-5.715" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-75.057" y="-5.715" size="0.4064" layer="25" align="center"/>
+<element name="V_TOGGLE" library="5010" library_urn="urn:adsk.eagle:library:44174098" package="5010" package3d_urn="urn:adsk.eagle:package:44174101/3" value="5010" x="22.479" y="3.81" smashed="yes">
+<attribute name="DESCRIPTION" value="KEYSTONE - 5010 - TEST POINT, PCB, THROUGH HOLE" x="22.479" y="3.81" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="8.28mm" x="22.479" y="3.81" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Keystone Electronics" x="22.479" y="3.81" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="5010" x="22.479" y="3.81" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="534-5010" x="22.479" y="3.81" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5010?qs=qOqV1E1P08SzD%252BWfk1wMXQ%3D%3D" x="22.479" y="3.81" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="22.479" y="3.81" size="0.4064" layer="25" align="center"/>
 </element>
-<element name="TP12" library="5010" library_urn="urn:adsk.eagle:library:44174098" package="5010" package3d_urn="urn:adsk.eagle:package:44174101/3" value="5010" x="-75.057" y="-11.049" smashed="yes">
-<attribute name="DESCRIPTION" value="KEYSTONE - 5010 - TEST POINT, PCB, THROUGH HOLE" x="-75.057" y="-11.049" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="8.28mm" x="-75.057" y="-11.049" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Keystone Electronics" x="-75.057" y="-11.049" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="5010" x="-75.057" y="-11.049" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="534-5010" x="-75.057" y="-11.049" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5010?qs=qOqV1E1P08SzD%252BWfk1wMXQ%3D%3D" x="-75.057" y="-11.049" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-75.057" y="-11.049" size="0.4064" layer="25" align="center"/>
+<element name="MISO_MCU" library="5010" library_urn="urn:adsk.eagle:library:44174098" package="5010" package3d_urn="urn:adsk.eagle:package:44174101/3" value="5010" x="-4.953" y="13.716" smashed="yes">
+<attribute name="DESCRIPTION" value="KEYSTONE - 5010 - TEST POINT, PCB, THROUGH HOLE" x="-4.953" y="13.716" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="8.28mm" x="-4.953" y="13.716" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Keystone Electronics" x="-4.953" y="13.716" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="5010" x="-4.953" y="13.716" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="534-5010" x="-4.953" y="13.716" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5010?qs=qOqV1E1P08SzD%252BWfk1wMXQ%3D%3D" x="-4.953" y="13.716" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-4.953" y="16.764" size="0.4064" layer="25" align="center"/>
 </element>
-<element name="TP13" library="5010" library_urn="urn:adsk.eagle:library:44174098" package="5010" package3d_urn="urn:adsk.eagle:package:44174101/3" value="5010" x="-75.057" y="-16.383" smashed="yes">
-<attribute name="DESCRIPTION" value="KEYSTONE - 5010 - TEST POINT, PCB, THROUGH HOLE" x="-75.057" y="-16.383" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="8.28mm" x="-75.057" y="-16.383" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Keystone Electronics" x="-75.057" y="-16.383" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="5010" x="-75.057" y="-16.383" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="534-5010" x="-75.057" y="-16.383" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5010?qs=qOqV1E1P08SzD%252BWfk1wMXQ%3D%3D" x="-75.057" y="-16.383" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-75.057" y="-16.383" size="0.4064" layer="25" align="center"/>
+<element name="MOSI_MCU" library="5010" library_urn="urn:adsk.eagle:library:44174098" package="5010" package3d_urn="urn:adsk.eagle:package:44174101/3" value="5010" x="-4.953" y="8.001" smashed="yes">
+<attribute name="DESCRIPTION" value="KEYSTONE - 5010 - TEST POINT, PCB, THROUGH HOLE" x="-4.953" y="8.001" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="8.28mm" x="-4.953" y="8.001" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Keystone Electronics" x="-4.953" y="8.001" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="5010" x="-4.953" y="8.001" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="534-5010" x="-4.953" y="8.001" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5010?qs=qOqV1E1P08SzD%252BWfk1wMXQ%3D%3D" x="-4.953" y="8.001" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-4.953" y="10.922" size="0.4064" layer="25" align="center"/>
 </element>
-<element name="TP14" library="5010" library_urn="urn:adsk.eagle:library:44174098" package="5010" package3d_urn="urn:adsk.eagle:package:44174101/3" value="5010" x="-75.057" y="-21.717" smashed="yes">
-<attribute name="DESCRIPTION" value="KEYSTONE - 5010 - TEST POINT, PCB, THROUGH HOLE" x="-75.057" y="-21.717" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="8.28mm" x="-75.057" y="-21.717" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Keystone Electronics" x="-75.057" y="-21.717" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="5010" x="-75.057" y="-21.717" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="534-5010" x="-75.057" y="-21.717" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5010?qs=qOqV1E1P08SzD%252BWfk1wMXQ%3D%3D" x="-75.057" y="-21.717" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-75.057" y="-21.717" size="0.4064" layer="25" align="center"/>
+<element name="PB_START" library="5010" library_urn="urn:adsk.eagle:library:44174098" package="5010" package3d_urn="urn:adsk.eagle:package:44174101/3" value="5010" x="-3.048" y="20.955" smashed="yes">
+<attribute name="DESCRIPTION" value="KEYSTONE - 5010 - TEST POINT, PCB, THROUGH HOLE" x="-3.048" y="20.955" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="8.28mm" x="-3.048" y="20.955" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Keystone Electronics" x="-3.048" y="20.955" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="5010" x="-3.048" y="20.955" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="534-5010" x="-3.048" y="20.955" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5010?qs=qOqV1E1P08SzD%252BWfk1wMXQ%3D%3D" x="-3.048" y="20.955" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-3.048" y="24.003" size="0.4064" layer="25" align="center"/>
 </element>
-<element name="TP15" library="5010" library_urn="urn:adsk.eagle:library:44174098" package="5010" package3d_urn="urn:adsk.eagle:package:44174101/3" value="5010" x="-75.057" y="-27.051" smashed="yes">
-<attribute name="DESCRIPTION" value="KEYSTONE - 5010 - TEST POINT, PCB, THROUGH HOLE" x="-75.057" y="-27.051" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="8.28mm" x="-75.057" y="-27.051" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Keystone Electronics" x="-75.057" y="-27.051" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="5010" x="-75.057" y="-27.051" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="534-5010" x="-75.057" y="-27.051" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5010?qs=qOqV1E1P08SzD%252BWfk1wMXQ%3D%3D" x="-75.057" y="-27.051" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-75.057" y="-27.051" size="0.4064" layer="25" align="center"/>
+<element name="MCU_RST" library="5010" library_urn="urn:adsk.eagle:library:44174098" package="5010" package3d_urn="urn:adsk.eagle:package:44174101/3" value="5010" x="-5.334" y="2.286" smashed="yes">
+<attribute name="DESCRIPTION" value="KEYSTONE - 5010 - TEST POINT, PCB, THROUGH HOLE" x="-5.334" y="2.286" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="8.28mm" x="-5.334" y="2.286" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Keystone Electronics" x="-5.334" y="2.286" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="5010" x="-5.334" y="2.286" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="534-5010" x="-5.334" y="2.286" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5010?qs=qOqV1E1P08SzD%252BWfk1wMXQ%3D%3D" x="-5.334" y="2.286" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-5.334" y="5.207" size="0.4064" layer="25" align="center"/>
 </element>
-<element name="TP16" library="5010" library_urn="urn:adsk.eagle:library:44174098" package="5010" package3d_urn="urn:adsk.eagle:package:44174101/3" value="5010" x="-75.057" y="-32.385" smashed="yes">
-<attribute name="DESCRIPTION" value="KEYSTONE - 5010 - TEST POINT, PCB, THROUGH HOLE" x="-75.057" y="-32.385" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="8.28mm" x="-75.057" y="-32.385" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Keystone Electronics" x="-75.057" y="-32.385" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="5010" x="-75.057" y="-32.385" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="534-5010" x="-75.057" y="-32.385" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5010?qs=qOqV1E1P08SzD%252BWfk1wMXQ%3D%3D" x="-75.057" y="-32.385" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-75.057" y="-32.385" size="0.4064" layer="25" align="center"/>
+<element name="SDA" library="5010" library_urn="urn:adsk.eagle:library:44174098" package="5010" package3d_urn="urn:adsk.eagle:package:44174101/3" value="5010" x="8.382" y="-3.429" smashed="yes">
+<attribute name="DESCRIPTION" value="KEYSTONE - 5010 - TEST POINT, PCB, THROUGH HOLE" x="8.382" y="-3.429" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="8.28mm" x="8.382" y="-3.429" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Keystone Electronics" x="8.382" y="-3.429" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="5010" x="8.382" y="-3.429" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="534-5010" x="8.382" y="-3.429" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5010?qs=qOqV1E1P08SzD%252BWfk1wMXQ%3D%3D" x="8.382" y="-3.429" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="8.382" y="-0.508" size="0.4064" layer="25" align="center"/>
 </element>
-<element name="TP17" library="5010" library_urn="urn:adsk.eagle:library:44174098" package="5010" package3d_urn="urn:adsk.eagle:package:44174101/3" value="5010" x="-75.057" y="-37.719" smashed="yes">
-<attribute name="DESCRIPTION" value="KEYSTONE - 5010 - TEST POINT, PCB, THROUGH HOLE" x="-75.057" y="-37.719" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="8.28mm" x="-75.057" y="-37.719" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Keystone Electronics" x="-75.057" y="-37.719" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="5010" x="-75.057" y="-37.719" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="534-5010" x="-75.057" y="-37.719" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5010?qs=qOqV1E1P08SzD%252BWfk1wMXQ%3D%3D" x="-75.057" y="-37.719" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-75.057" y="-37.719" size="0.4064" layer="25" align="center"/>
+<element name="AVCC" library="5010" library_urn="urn:adsk.eagle:library:44174098" package="5010" package3d_urn="urn:adsk.eagle:package:44174101/3" value="5010" x="13.716" y="-3.429" smashed="yes">
+<attribute name="DESCRIPTION" value="KEYSTONE - 5010 - TEST POINT, PCB, THROUGH HOLE" x="13.716" y="-3.429" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="8.28mm" x="13.716" y="-3.429" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Keystone Electronics" x="13.716" y="-3.429" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="5010" x="13.716" y="-3.429" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="534-5010" x="13.716" y="-3.429" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5010?qs=qOqV1E1P08SzD%252BWfk1wMXQ%3D%3D" x="13.716" y="-3.429" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="13.716" y="-0.508" size="0.4064" layer="25" align="center"/>
 </element>
-<element name="BK:TP1" library="5010" library_urn="urn:adsk.eagle:library:44174098" package="5010" package3d_urn="urn:adsk.eagle:package:44174101/3" value="5010" x="-75.057" y="-43.053" smashed="yes">
-<attribute name="DESCRIPTION" value="KEYSTONE - 5010 - TEST POINT, PCB, THROUGH HOLE" x="-75.057" y="-43.053" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="8.28mm" x="-75.057" y="-43.053" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Keystone Electronics" x="-75.057" y="-43.053" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="5010" x="-75.057" y="-43.053" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="534-5010" x="-75.057" y="-43.053" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5010?qs=qOqV1E1P08SzD%252BWfk1wMXQ%3D%3D" x="-75.057" y="-43.053" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-75.057" y="-43.053" size="0.4064" layer="25" align="center"/>
+<element name="BK:SW_NODE" library="5010" library_urn="urn:adsk.eagle:library:44174098" package="5010" package3d_urn="urn:adsk.eagle:package:44174101/3" value="5010" x="6.858" y="65.913" smashed="yes">
+<attribute name="DESCRIPTION" value="KEYSTONE - 5010 - TEST POINT, PCB, THROUGH HOLE" x="6.858" y="65.913" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="8.28mm" x="6.858" y="65.913" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Keystone Electronics" x="6.858" y="65.913" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="5010" x="6.858" y="65.913" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="534-5010" x="6.858" y="65.913" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5010?qs=qOqV1E1P08SzD%252BWfk1wMXQ%3D%3D" x="6.858" y="65.913" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="6.858" y="68.961" size="0.4064" layer="25" align="center"/>
 </element>
-<element name="Y1" library="ABL-16.000MHZ-B2" library_urn="urn:adsk.eagle:library:44174246" package="ABL" package3d_urn="urn:adsk.eagle:package:44174249/4" value="ABL-16.000MHZ-B2" x="-75.438" y="-49.53" smashed="yes">
-<attribute name="DESCRIPTION" value="ABRACON - ABL-16.000MHZ-B2 - CRYSTAL" x="-75.438" y="-49.53" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="mm" x="-75.438" y="-49.53" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="ABRACON" x="-75.438" y="-49.53" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ABL-16.000MHZ-B2" x="-75.438" y="-49.53" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="815-ABL-16-B2" x="-75.438" y="-49.53" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ABRACON/ABL-16.000MHZ-B2?qs=A7YjigRBFZlH19Ss3q%252BAbA%3D%3D" x="-75.438" y="-49.53" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-72.998" y="-49.53" size="0.4064" layer="25" align="center"/>
-<attribute name="VALUE" x="-72.998" y="-49.53" size="0.4064" layer="27" align="center"/>
+<element name="Y1" library="ABL-16.000MHZ-B2" library_urn="urn:adsk.eagle:library:44174246" package="ABL" package3d_urn="urn:adsk.eagle:package:44174249/4" value="ABL-16.000MHZ-B2" x="11.049" y="25.908" smashed="yes" rot="MR180">
+<attribute name="DESCRIPTION" value="ABRACON - ABL-16.000MHZ-B2 - CRYSTAL" x="11.049" y="25.908" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="HEIGHT" value="mm" x="11.049" y="25.908" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="ABRACON" x="11.049" y="25.908" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ABL-16.000MHZ-B2" x="11.049" y="25.908" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="815-ABL-16-B2" x="11.049" y="25.908" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ABRACON/ABL-16.000MHZ-B2?qs=A7YjigRBFZlH19Ss3q%252BAbA%3D%3D" x="11.049" y="25.908" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="13.489" y="25.908" size="0.4064" layer="26" rot="MR180" align="center"/>
+<attribute name="VALUE" x="13.489" y="25.908" size="0.4064" layer="28" rot="MR180" align="center"/>
 </element>
-<element name="TT:C1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF" x="-60.579" y="63.246" smashed="yes">
-<attribute name="NAME" x="-61.976" y="64.262" size="0.4064" layer="25"/>
-<attribute name="VALUE" x="-61.976" y="61.722" size="0.4064" layer="27"/>
+<element name="TT:C1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF" x="-15.24" y="28.194" smashed="yes">
+<attribute name="NAME" x="-16.637" y="29.21" size="0.4064" layer="25"/>
+<attribute name="VALUE" x="-16.637" y="26.67" size="0.4064" layer="27"/>
 </element>
-<element name="TT:C2" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF" x="-80.01" y="-59.436" smashed="yes">
-<attribute name="NAME" x="-80.645" y="-58.801" size="0.4064" layer="25"/>
-<attribute name="VALUE" x="-80.645" y="-61.341" size="0.4064" layer="27"/>
+<element name="TT:C2" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF" x="-15.24" y="30.861" smashed="yes">
+<attribute name="NAME" x="-16.637" y="31.877" size="0.4064" layer="25"/>
+<attribute name="VALUE" x="-14.605" y="31.877" size="0.4064" layer="27"/>
 </element>
-<element name="TT:C3" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF" x="-80.01" y="-63.246" smashed="yes">
-<attribute name="NAME" x="-80.645" y="-62.611" size="0.4064" layer="25"/>
-<attribute name="VALUE" x="-80.645" y="-65.151" size="0.4064" layer="27"/>
+<element name="TT:C3" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF" x="-15.24" y="25.146" smashed="yes" rot="R90">
+<attribute name="NAME" x="-16.256" y="23.749" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="-16.383" y="25.908" size="0.4064" layer="27" rot="R90"/>
 </element>
 </elements>
 <signals>
@@ -4566,9 +4567,7 @@ Switch Push Button OFF (ON) SPST Round Button 0.05A 24VDC Momentary Contact PC P
 <wire x1="29.464" y1="49.911" x2="29.464" y2="46.609" width="0.381" layer="1"/>
 <wire x1="28.409" y1="49.911" x2="29.464" y2="49.911" width="0.381" layer="1"/>
 <wire x1="31.496" y1="48.475" x2="31.496" y2="49.911" width="0.381" layer="1"/>
-<wire x1="35.665" y1="58.293" x2="35.665" y2="62.633" width="0.254" layer="1"/>
-<wire x1="35.665" y1="62.633" x2="35.052" y2="63.246" width="0.254" layer="1"/>
-<contactref element="TP1" pad="1"/>
+<contactref element="6V" pad="1"/>
 <wire x1="28.409" y1="49.911" x2="27.813" y2="50.507" width="0.4064" layer="1"/>
 <wire x1="35.372" y1="49.637" x2="34.717" y2="50.292" width="0.4064" layer="1"/>
 <wire x1="34.717" y1="50.292" x2="33.909" y2="50.292" width="0.4064" layer="1"/>
@@ -4579,45 +4578,46 @@ Switch Push Button OFF (ON) SPST Round Button 0.05A 24VDC Momentary Contact PC P
 <wire x1="31.496" y1="52.92" x2="31.457" y2="52.959" width="0.4064" layer="1"/>
 <wire x1="29.464" y1="49.911" x2="31.115" y2="49.911" width="0.4064" layer="1"/>
 <wire x1="31.115" y1="49.911" x2="31.496" y2="50.292" width="0.4064" layer="1"/>
-<wire x1="35.372" y1="49.637" x2="42.672" y2="49.149" width="0" layer="19" extent="1-1"/>
-<wire x1="29.464" y1="46.543" x2="29.464" y2="46.609" width="0" layer="19" extent="1-1"/>
+<wire x1="35.665" y1="58.293" x2="35.665" y2="63.014" width="0.3048" layer="1"/>
+<wire x1="35.665" y1="63.014" x2="33.528" y2="65.151" width="0.3048" layer="1"/>
+<wire x1="29.464" y1="46.609" x2="29.464" y2="46.543" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SCL">
 <contactref element="U1" pad="28"/>
 <contactref element="R6" pad="1"/>
 <contactref element="J1" pad="03"/>
-<wire x1="8.255" y1="2.286" x2="7.2" y2="12.827" width="0" layer="19" extent="1-1"/>
-<wire x1="11.371" y1="9.887" x2="7.2" y2="12.827" width="0" layer="19" extent="1-16"/>
+<wire x1="7.874" y1="11.977" x2="11.371" y2="9.887" width="0" layer="19" extent="16-16"/>
+<wire x1="8.255" y1="2.286" x2="11.371" y2="9.887" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="SDA">
 <contactref element="R5" pad="1"/>
 <contactref element="U1" pad="27"/>
 <contactref element="J1" pad="04"/>
-<contactref element="TP16" pad="1"/>
-<wire x1="11.371" y1="9.087" x2="-75.057" y2="-32.385" width="0" layer="19" extent="16-16"/>
-<wire x1="52.109" y1="48.641" x2="11.371" y2="9.087" width="0" layer="19" extent="1-16"/>
-<wire x1="10.795" y1="2.286" x2="52.109" y2="48.641" width="0" layer="19" extent="1-1"/>
+<contactref element="SDA" pad="1"/>
+<wire x1="11.371" y1="9.087" x2="9.613" y2="16.256" width="0" layer="19" extent="16-16"/>
+<wire x1="10.795" y1="2.286" x2="11.371" y2="9.087" width="0" layer="19" extent="16-16"/>
+<wire x1="8.382" y1="-3.429" x2="10.795" y2="2.286" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ADC_EXT_INT">
 <contactref element="U1" pad="32"/>
 <contactref element="R12" pad="2"/>
 <contactref element="TP10" pad="1"/>
-<wire x1="37.338" y1="-6.389" x2="-75.057" y2="-0.381" width="0" layer="19" extent="1-1"/>
 <wire x1="11.371" y1="13.087" x2="37.338" y2="-6.389" width="0" layer="19" extent="1-16"/>
+<wire x1="11.811" y1="19.05" x2="11.371" y2="13.087" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="RST_ADC">
 <contactref element="U1" pad="23"/>
 <contactref element="ADC:IC4" pad="1"/>
-<contactref element="TP9" pad="1"/>
-<wire x1="31.43" y1="-3.449" x2="-75.057" y2="4.953" width="0" layer="19" extent="1-1"/>
-<wire x1="13.621" y1="6.037" x2="31.43" y2="-3.449" width="0" layer="19" extent="1-16"/>
+<contactref element="RST_ADC" pad="1"/>
+<wire x1="14.478" y1="2.667" x2="31.43" y2="-3.449" width="0" layer="19" extent="1-1"/>
+<wire x1="13.621" y1="6.037" x2="14.478" y2="2.667" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="V_TOGGLE">
 <contactref element="U1" pad="24"/>
 <contactref element="ADC:IC5" pad="1"/>
-<contactref element="TP11" pad="1"/>
-<wire x1="-75.057" y1="-5.715" x2="18.562" y2="-9.591" width="0" layer="19" extent="1-1"/>
-<wire x1="12.821" y1="6.037" x2="18.562" y2="-9.591" width="0" layer="19" extent="1-16"/>
+<contactref element="V_TOGGLE" pad="1"/>
+<wire x1="12.821" y1="6.037" x2="22.479" y2="3.81" width="0" layer="19" extent="16-16"/>
+<wire x1="18.562" y1="-9.591" x2="22.479" y2="3.81" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$9">
 <contactref element="R1" pad="2"/>
@@ -4657,13 +4657,13 @@ Switch Push Button OFF (ON) SPST Round Button 0.05A 24VDC Momentary Contact PC P
 <via x="37.338" y="-12.954" extent="1-16" drill="0.35" grouprefs="M"/>
 <wire x1="37.338" y1="-12.954" x2="37.338" y2="-8.001" width="0.1524" layer="1" grouprefs="M"/>
 <contactref element="ADC:IC2" pad="1"/>
-<wire x1="35.474" y1="-12.954" x2="25.42" y2="-15.052" width="0" layer="19" extent="1-1"/>
-<wire x1="37.338" y1="-8.089" x2="37.338" y2="-8.001" width="0" layer="19" extent="1-1"/>
+<wire x1="37.338" y1="-8.001" x2="37.338" y2="-8.089" width="0" layer="19" extent="1-1"/>
+<wire x1="25.72" y1="-17.252" x2="35.474" y2="-12.954" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$15">
 <contactref element="U1" pad="20"/>
 <contactref element="C6" pad="1"/>
-<wire x1="16.021" y1="6.037" x2="54.649" y2="57.531" width="0" layer="19" extent="1-16"/>
+<wire x1="17.741" y1="3.048" x2="16.021" y2="6.037" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="V_TH">
 <contactref element="U1" pad="26"/>
@@ -4671,23 +4671,23 @@ Switch Push Button OFF (ON) SPST Round Button 0.05A 24VDC Momentary Contact PC P
 <contactref element="TT:IC2" pad="2"/>
 <wire x1="35.814" y1="10.16" x2="35.814" y2="14.571" width="0.254" layer="1"/>
 <wire x1="35.814" y1="14.571" x2="36.703" y2="15.46" width="0.254" layer="1"/>
-<contactref element="TP5" pad="1"/>
-<wire x1="11.371" y1="8.287" x2="-75.057" y2="26.289" width="0" layer="19" extent="16-16"/>
-<wire x1="35.814" y1="10.16" x2="11.371" y2="8.287" width="0" layer="19" extent="16-16"/>
+<contactref element="V_TH" pad="1"/>
+<wire x1="11.371" y1="8.287" x2="35.814" y2="10.16" width="0" layer="19" extent="16-16"/>
+<wire x1="7.62" y1="9.144" x2="11.371" y2="8.287" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="V_SIG_ADC">
 <contactref element="R19" pad="2"/>
 <contactref element="U1" pad="19"/>
-<wire x1="16.821" y1="6.037" x2="86.829" y2="57.531" width="0" layer="19" extent="1-16"/>
+<wire x1="16.821" y1="6.037" x2="24.765" y2="-3.468" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$4">
 <contactref element="U1" pad="18"/>
 <contactref element="C4" pad="1"/>
 <contactref element="L1" pad="1"/>
-<contactref element="TP17" pad="1"/>
-<wire x1="17.621" y1="6.037" x2="-75.057" y2="-37.719" width="0" layer="19" extent="16-16"/>
-<wire x1="50.618" y1="6.731" x2="17.621" y2="6.037" width="0" layer="19" extent="1-16"/>
-<wire x1="23.837" y1="8.255" x2="50.618" y2="6.731" width="0" layer="19" extent="1-1"/>
+<contactref element="AVCC" pad="1"/>
+<wire x1="23.837" y1="8.255" x2="36.25" y2="8.636" width="0" layer="19" extent="16-16"/>
+<wire x1="17.621" y1="6.037" x2="23.837" y2="8.255" width="0" layer="19" extent="16-16"/>
+<wire x1="13.716" y1="-3.429" x2="17.621" y2="6.037" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="VS_5V_BACKUP">
 <contactref element="IC1" pad="1"/>
@@ -4752,23 +4752,23 @@ Switch Push Button OFF (ON) SPST Round Button 0.05A 24VDC Momentary Contact PC P
 <wire x1="19.597" y1="33.528" x2="19.265" y2="33.528" width="0.1524" layer="1"/>
 <wire x1="19.265" y1="33.528" x2="17.106" y2="35.687" width="0.1524" layer="1"/>
 <wire x1="34.29" y1="22.098" x2="34.29" y2="22.772" width="0.1524" layer="16"/>
-<contactref element="TP2" pad="1"/>
+<contactref element="5V" pad="1"/>
 <contactref element="TT:C1" pad="1"/>
 <contactref element="TT:C2" pad="1"/>
-<wire x1="-61.429" y1="63.246" x2="-75.057" y2="42.291" width="0" layer="19" extent="1-1"/>
-<wire x1="-80.86" y1="-59.436" x2="-61.429" y2="63.246" width="0" layer="19" extent="1-1"/>
-<wire x1="-23.495" y1="19.851" x2="-75.057" y2="42.291" width="0" layer="19" extent="1-1"/>
-<wire x1="-25.801" y1="21.905" x2="-23.495" y2="19.851" width="0" layer="19" extent="1-1"/>
+<wire x1="36.769" y1="24.865" x2="44.958" y2="39.624" width="0" layer="19" extent="1-1"/>
+<wire x1="27.25" y1="8.636" x2="34.29" y2="20.535" width="0" layer="19" extent="16-16"/>
+<wire x1="22.479" y1="12.407" x2="27.25" y2="8.636" width="0" layer="19" extent="16-16"/>
+<wire x1="15.221" y1="14.537" x2="22.479" y2="12.407" width="0" layer="19" extent="16-16"/>
+<wire x1="7.874" y1="13.677" x2="15.221" y2="14.537" width="0" layer="19" extent="16-16"/>
+<wire x1="7.913" y1="16.256" x2="7.874" y2="13.677" width="0" layer="19" extent="16-16"/>
+<wire x1="6.858" y1="8.294" x2="7.874" y2="13.677" width="0" layer="19" extent="16-16"/>
+<wire x1="5.715" y1="2.286" x2="6.858" y2="8.294" width="0" layer="19" extent="16-16"/>
+<wire x1="35.091" y1="-2.286" x2="27.25" y2="8.636" width="0" layer="19" extent="1-16"/>
+<wire x1="-16.09" y1="28.194" x2="7.913" y2="16.256" width="0" layer="19" extent="1-16"/>
+<wire x1="-16.09" y1="30.861" x2="-16.09" y2="28.194" width="0" layer="19" extent="1-1"/>
+<wire x1="-23.495" y1="21.375" x2="-16.09" y2="28.194" width="0" layer="19" extent="1-1"/>
+<wire x1="-25.801" y1="21.905" x2="-23.495" y2="21.375" width="0" layer="19" extent="1-1"/>
 <wire x1="-32.512" y1="25.101" x2="-25.801" y2="21.905" width="0" layer="19" extent="1-1"/>
-<wire x1="15.24" y1="17.907" x2="-23.495" y2="19.851" width="0" layer="19" extent="1-1"/>
-<wire x1="22.479" y1="12.407" x2="15.221" y2="14.537" width="0" layer="19" extent="1-16"/>
-<wire x1="34.29" y1="20.535" x2="22.479" y2="12.407" width="0" layer="19" extent="1-16"/>
-<wire x1="53.809" y1="48.641" x2="36.769" y2="24.865" width="0" layer="19" extent="1-1"/>
-<wire x1="5.5" y1="12.827" x2="53.809" y2="48.641" width="0" layer="19" extent="1-1"/>
-<wire x1="95.289" y1="57.531" x2="5.5" y2="12.827" width="0" layer="19" extent="1-1"/>
-<wire x1="7.708" y1="9.144" x2="5.5" y2="12.827" width="0" layer="19" extent="1-1"/>
-<wire x1="5.715" y1="2.286" x2="7.708" y2="9.144" width="0" layer="19" extent="1-1"/>
-<wire x1="59.618" y1="6.731" x2="5.715" y2="2.286" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VS_2.5V_OUT">
 <contactref element="TT:IC2" pad="3"/>
@@ -4796,13 +4796,13 @@ Switch Push Button OFF (ON) SPST Round Button 0.05A 24VDC Momentary Contact PC P
 <wire x1="24.765" y1="14.097" x2="25.527" y2="13.335" width="0.1524" layer="16"/>
 <wire x1="25.527" y1="13.335" x2="28.917" y2="13.335" width="0.1524" layer="16"/>
 <wire x1="32.6" y1="13.374" x2="34.544" y2="11.43" width="0.1524" layer="16"/>
-<contactref element="TP3" pad="1"/>
+<contactref element="2.5V" pad="1"/>
 <contactref element="TT:C3" pad="1"/>
-<wire x1="-80.86" y1="-63.246" x2="-75.057" y2="36.957" width="0" layer="19" extent="1-1"/>
-<wire x1="-36.576" y1="22.821" x2="-75.057" y2="36.957" width="0" layer="19" extent="1-1"/>
-<wire x1="-32.512" y1="30.525" x2="-35.052" y2="25.101" width="0" layer="19" extent="1-1"/>
-<wire x1="20.828" y1="25.058" x2="-29.933" y2="32.639" width="0" layer="19" extent="1-1"/>
-<wire x1="32.6" y1="13.374" x2="28.917" y2="13.335" width="0" layer="19" extent="16-16"/>
+<wire x1="32.6" y1="13.374" x2="45.339" y2="33.147" width="0" layer="19" extent="16-16"/>
+<wire x1="28.917" y1="13.335" x2="32.6" y2="13.374" width="0" layer="19" extent="16-16"/>
+<wire x1="-15.24" y1="24.296" x2="20.828" y2="25.058" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.933" y1="32.639" x2="-15.24" y2="24.296" width="0" layer="19" extent="1-1"/>
+<wire x1="-35.052" y1="25.101" x2="-32.512" y2="30.525" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="V_BG">
 <contactref element="R22" pad="2"/>
@@ -4821,11 +4821,11 @@ Switch Push Button OFF (ON) SPST Round Button 0.05A 24VDC Momentary Contact PC P
 <wire x1="32.932" y1="38.354" x2="33.02" y2="38.266" width="0.1524" layer="16"/>
 <wire x1="33.02" y1="38.266" x2="33.02" y2="35.433" width="0.254" layer="16"/>
 <wire x1="30.734" y1="38.354" x2="32.932" y2="38.354" width="0.254" layer="16"/>
-<contactref element="TP6" pad="1"/>
-<wire x1="34.945" y1="37.277" x2="41.822" y2="36.957" width="0" layer="19" extent="1-1"/>
-<wire x1="37.907" y1="20.213" x2="33.02" y2="35.433" width="0" layer="19" extent="1-1"/>
+<contactref element="V_BG" pad="1"/>
+<wire x1="34.945" y1="37.277" x2="40.005" y2="31.535" width="0" layer="19" extent="1-1"/>
+<wire x1="37.907" y1="20.213" x2="40.005" y2="31.535" width="0" layer="19" extent="1-1"/>
+<wire x1="44.958" y1="20.193" x2="37.907" y2="20.213" width="0" layer="19" extent="1-1"/>
 <wire x1="21.062" y1="-11.491" x2="37.907" y2="20.213" width="0" layer="19" extent="1-1"/>
-<wire x1="-75.057" y1="20.955" x2="21.062" y2="-11.491" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VS_1.5V_OUT">
 <contactref element="R18" pad="2"/>
@@ -4839,9 +4839,9 @@ Switch Push Button OFF (ON) SPST Round Button 0.05A 24VDC Momentary Contact PC P
 <wire x1="32.573" y1="23.221" x2="32.573" y2="26.223" width="0.1524" layer="1"/>
 <wire x1="29.503" y1="17.018" x2="29.464" y2="17.057" width="0.1524" layer="1"/>
 <wire x1="29.464" y1="17.057" x2="29.464" y2="19.177" width="0.1524" layer="1"/>
-<contactref element="TP4" pad="1"/>
-<wire x1="29.503" y1="17.018" x2="-75.057" y2="31.623" width="0" layer="19" extent="1-1"/>
-<wire x1="91.909" y1="57.531" x2="32.573" y2="26.223" width="0" layer="19" extent="1-1"/>
+<contactref element="1.5V" pad="1"/>
+<wire x1="32.573" y1="26.223" x2="45.339" y2="26.289" width="0" layer="19" extent="1-1"/>
+<wire x1="29.425" y1="12.192" x2="29.503" y2="17.018" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="V_SIG">
 <contactref element="R16" pad="1"/>
@@ -4853,10 +4853,10 @@ Switch Push Button OFF (ON) SPST Round Button 0.05A 24VDC Momentary Contact PC P
 <wire x1="-28.367" y1="21.971" x2="-28.301" y2="21.905" width="0.1524" layer="1"/>
 <wire x1="-28.301" y1="21.905" x2="-27.701" y2="21.905" width="0.1524" layer="1"/>
 <wire x1="-27.701" y1="21.905" x2="-25.801" y2="20.005" width="0.1524" layer="1"/>
-<contactref element="TP8" pad="1"/>
-<wire x1="19.597" y1="-6.858" x2="-75.057" y2="10.287" width="0" layer="19" extent="1-1"/>
-<wire x1="-25.801" y1="20.005" x2="19.597" y2="-6.858" width="0" layer="19" extent="1-1"/>
-<wire x1="85.129" y1="57.531" x2="19.597" y2="-6.858" width="0" layer="19" extent="1-1"/>
+<contactref element="V_SIG" pad="1"/>
+<wire x1="19.597" y1="-6.858" x2="24.765" y2="-5.168" width="0" layer="19" extent="1-1"/>
+<wire x1="-16.002" y1="19.05" x2="19.597" y2="-6.858" width="0" layer="19" extent="1-1"/>
+<wire x1="-25.801" y1="20.005" x2="-16.002" y2="19.05" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="R2" pad="2"/>
@@ -4877,8 +4877,8 @@ Switch Push Button OFF (ON) SPST Round Button 0.05A 24VDC Momentary Contact PC P
 <wire x1="-33.87" y1="32.639" x2="-34.163" y2="32.932" width="0.1524" layer="1"/>
 <wire x1="-33.87" y1="32.639" x2="-33.87" y2="30.613" width="0.1524" layer="1"/>
 <wire x1="-33.87" y1="30.613" x2="-33.782" y2="30.525" width="0.1524" layer="1"/>
-<contactref element="TP7" pad="1"/>
-<wire x1="34.544" y1="8.89" x2="-75.057" y2="15.621" width="0" layer="19" extent="1-1"/>
+<contactref element="V_TP" pad="1"/>
+<wire x1="34.544" y1="8.89" x2="45.339" y2="10.287" width="0" layer="19" extent="1-1"/>
 <wire x1="-33.782" y1="30.525" x2="34.544" y2="8.89" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
@@ -4891,8 +4891,8 @@ Switch Push Button OFF (ON) SPST Round Button 0.05A 24VDC Momentary Contact PC P
 <contactref element="R18" pad="1"/>
 <contactref element="ADC:IC1" pad="3"/>
 <contactref element="ADC:IC2" pad="4"/>
-<wire x1="28.301" y1="5.141" x2="90.209" y2="57.531" width="0" layer="19" extent="1-1"/>
-<wire x1="27.92" y1="-16.952" x2="28.301" y2="5.141" width="0" layer="19" extent="1-1"/>
+<wire x1="28.301" y1="5.141" x2="27.725" y2="12.192" width="0" layer="19" extent="1-1"/>
+<wire x1="27.62" y1="-14.752" x2="28.301" y2="5.141" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$6">
 <contactref element="R17" pad="2"/>
@@ -4907,12 +4907,12 @@ Switch Push Button OFF (ON) SPST Round Button 0.05A 24VDC Momentary Contact PC P
 <wire x1="30.861" y1="-12.573" x2="31.623" y2="-12.573" width="0.1524" layer="1" grouprefs="M"/>
 <wire x1="31.623" y1="-12.573" x2="32.065" y2="-13.015" width="0.1524" layer="1" grouprefs="M"/>
 <contactref element="ADC:IC2" pad="5"/>
-<wire x1="25.801" y1="3.241" x2="96.989" y2="57.531" width="0" layer="19" extent="1-1"/>
-<wire x1="30.48" y1="-3.449" x2="25.801" y2="3.241" width="0" layer="19" extent="1-1"/>
+<wire x1="30.48" y1="-3.449" x2="36.791" y2="-2.286" width="0" layer="19" extent="1-1"/>
+<wire x1="25.801" y1="3.241" x2="30.48" y2="-3.449" width="0" layer="19" extent="1-1"/>
 <wire x1="33.313" y1="-11.938" x2="30.48" y2="-3.449" width="0" layer="19" extent="1-16"/>
+<wire x1="25.72" y1="-14.752" x2="30.861" y2="-12.573" width="0" layer="19" extent="1-1"/>
 <wire x1="39.624" y1="-11.215" x2="33.313" y2="-11.938" width="0" layer="19" extent="16-16"/>
-<wire x1="18.562" y1="-10.541" x2="30.861" y2="-12.573" width="0" layer="19" extent="1-1"/>
-<wire x1="27.92" y1="-15.052" x2="18.562" y2="-10.541" width="0" layer="19" extent="1-1"/>
+<wire x1="18.562" y1="-10.541" x2="25.72" y2="-14.752" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$7">
 <contactref element="R22" pad="1"/>
@@ -4935,7 +4935,7 @@ Switch Push Button OFF (ON) SPST Round Button 0.05A 24VDC Momentary Contact PC P
 <signal name="N$11">
 <contactref element="J3" pad="2"/>
 <contactref element="R23" pad="1"/>
-<wire x1="43.522" y1="36.957" x2="67.945" y2="21.59" width="0" layer="19" extent="1-1"/>
+<wire x1="38.735" y1="28.448" x2="40.005" y2="33.235" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$19">
 <contactref element="R24" pad="1"/>
@@ -4956,43 +4956,43 @@ Switch Push Button OFF (ON) SPST Round Button 0.05A 24VDC Momentary Contact PC P
 <contactref element="SW3" pad="3"/>
 <contactref element="U1" pad="29"/>
 <contactref element="J4" pad="01"/>
-<contactref element="TP15" pad="1"/>
-<wire x1="-76.2" y1="54.864" x2="-75.057" y2="-27.051" width="0" layer="19" extent="1-1"/>
-<wire x1="11.371" y1="10.687" x2="-76.2" y2="54.864" width="0" layer="19" extent="16-16"/>
-<wire x1="6.314" y1="39.676" x2="11.371" y2="10.687" width="0" layer="19" extent="16-16"/>
+<contactref element="MCU_RST" pad="1"/>
+<wire x1="11.371" y1="10.687" x2="6.314" y2="39.676" width="0" layer="19" extent="16-16"/>
+<wire x1="2.667" y1="8.001" x2="11.371" y2="10.687" width="0" layer="19" extent="16-16"/>
+<wire x1="-5.334" y1="2.286" x2="2.667" y2="8.001" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PB_START">
 <contactref element="SW1" pad="3"/>
 <contactref element="U1" pad="12"/>
-<contactref element="TP14" pad="1"/>
-<wire x1="19.871" y1="10.687" x2="-75.057" y2="-21.717" width="0" layer="19" extent="16-16"/>
+<contactref element="PB_START" pad="1"/>
 <wire x1="6.314" y1="20.626" x2="19.871" y2="10.687" width="0" layer="19" extent="16-16"/>
+<wire x1="-3.048" y1="20.955" x2="6.314" y2="20.626" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MOSI_MCU">
 <contactref element="U1" pad="15"/>
 <contactref element="J4" pad="02"/>
-<contactref element="TP13" pad="1"/>
-<wire x1="-73.66" y1="54.864" x2="-75.057" y2="-16.383" width="0" layer="19" extent="1-1"/>
-<wire x1="19.871" y1="8.287" x2="-73.66" y2="54.864" width="0" layer="19" extent="16-16"/>
+<contactref element="MOSI_MCU" pad="1"/>
+<wire x1="2.667" y1="10.541" x2="19.871" y2="8.287" width="0" layer="19" extent="16-16"/>
+<wire x1="-4.953" y1="8.001" x2="2.667" y2="10.541" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MISO_MCU">
 <contactref element="U1" pad="16"/>
 <contactref element="J4" pad="03"/>
-<contactref element="TP12" pad="1"/>
-<wire x1="-71.12" y1="54.864" x2="-75.057" y2="-11.049" width="0" layer="19" extent="1-1"/>
-<wire x1="19.871" y1="7.487" x2="-71.12" y2="54.864" width="0" layer="19" extent="16-16"/>
+<contactref element="MISO_MCU" pad="1"/>
+<wire x1="2.667" y1="13.081" x2="19.871" y2="7.487" width="0" layer="19" extent="16-16"/>
+<wire x1="-4.953" y1="13.716" x2="2.667" y2="13.081" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SCK_MCU">
 <contactref element="U1" pad="17"/>
 <contactref element="J4" pad="04"/>
-<wire x1="18.421" y1="6.037" x2="-68.58" y2="54.864" width="0" layer="19" extent="16-16"/>
+<wire x1="2.667" y1="15.621" x2="18.421" y2="6.037" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="PB_MISC1">
 <contactref element="SW2" pad="3"/>
 <contactref element="U1" pad="13"/>
 <wire x1="19.871" y1="9.887" x2="6.314" y2="29.897" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="0">
+<signal name="0" airwireshidden="yes">
 <contactref element="C5" pad="2"/>
 <contactref element="R4" pad="1"/>
 <contactref element="J1" pad="01"/>
@@ -5058,70 +5058,70 @@ Switch Push Button OFF (ON) SPST Round Button 0.05A 24VDC Momentary Contact PC P
 <contactref element="TT:C1" pad="2"/>
 <contactref element="TT:C2" pad="2"/>
 <contactref element="TT:C3" pad="2"/>
-<wire x1="-79.16" y1="-59.436" x2="-79.16" y2="-63.246" width="0" layer="19" extent="1-1"/>
-<wire x1="-36.576" y1="21.121" x2="-79.16" y2="-59.436" width="0" layer="19" extent="1-1"/>
-<wire x1="-31.496" y1="18.454" x2="-36.576" y2="21.121" width="0" layer="19" extent="1-1"/>
-<wire x1="-28.301" y1="20.955" x2="-31.496" y2="18.454" width="0" layer="19" extent="1-1"/>
-<wire x1="-23.495" y1="21.551" x2="-28.301" y2="20.955" width="0" layer="19" extent="1-1"/>
-<wire x1="-35.052" y1="30.525" x2="-36.576" y2="21.121" width="0" layer="19" extent="1-1"/>
-<wire x1="-28.233" y1="32.639" x2="-35.052" y2="30.525" width="0" layer="19" extent="1-1"/>
-<wire x1="1.814" y1="20.626" x2="-23.495" y2="21.551" width="0" layer="19" extent="1-1"/>
-<wire x1="1.814" y1="29.897" x2="1.814" y2="20.626" width="0" layer="19" extent="1-1"/>
-<wire x1="1.814" y1="39.676" x2="1.814" y2="29.897" width="0" layer="19" extent="1-1"/>
-<wire x1="11.977" y1="18.796" x2="1.814" y2="20.626" width="0" layer="19" extent="16-16"/>
-<wire x1="16.021" y1="14.537" x2="11.977" y2="18.796" width="0" layer="19" extent="16-16"/>
-<wire x1="21.297" y1="18.415" x2="16.021" y2="14.537" width="0" layer="19" extent="16-16"/>
-<wire x1="21.102" y1="22.352" x2="21.297" y2="18.415" width="0" layer="19" extent="1-16"/>
-<wire x1="20.828" y1="26.758" x2="21.102" y2="22.352" width="0" layer="19" extent="1-1"/>
-<wire x1="22.186" y1="28.702" x2="20.828" y2="26.758" width="0" layer="19" extent="1-1"/>
-<wire x1="26.924" y1="22.567" x2="21.102" y2="22.352" width="0" layer="19" extent="1-16"/>
-<wire x1="29.464" y1="21.551" x2="26.924" y2="22.567" width="0" layer="19" extent="16-16"/>
-<wire x1="31.623" y1="20.721" x2="29.464" y2="21.551" width="0" layer="19" extent="1-16"/>
-<wire x1="31.203" y1="17.018" x2="31.623" y2="20.721" width="0" layer="19" extent="1-1"/>
-<wire x1="36.957" y1="20.213" x2="31.623" y2="20.721" width="0" layer="19" extent="1-1"/>
-<wire x1="33.274" y1="10.16" x2="31.203" y2="17.018" width="0" layer="19" extent="1-1"/>
-<wire x1="22.479" y1="10.707" x2="16.021" y2="14.537" width="0" layer="19" extent="1-16"/>
-<wire x1="28.301" y1="4.191" x2="33.274" y2="10.16" width="0" layer="19" extent="1-1"/>
-<wire x1="29.53" y1="-3.449" x2="28.301" y2="4.191" width="0" layer="19" extent="1-1"/>
-<wire x1="27.94" y1="34.378" x2="22.186" y2="28.702" width="0" layer="19" extent="1-1"/>
-<wire x1="30.861" y1="34.378" x2="27.94" y2="34.378" width="0" layer="19" extent="1-1"/>
-<wire x1="27.051" y1="38.1" x2="27.94" y2="34.378" width="0" layer="19" extent="1-1"/>
-<wire x1="34.632" y1="38.354" x2="30.861" y2="34.378" width="0" layer="19" extent="1-16"/>
-<wire x1="34.945" y1="38.227" x2="34.632" y2="38.354" width="0" layer="19" extent="1-16"/>
-<wire x1="37.592" y1="31.916" x2="34.945" y2="38.227" width="0" layer="19" extent="1-1"/>
-<wire x1="15.221" y1="6.037" x2="16.021" y2="14.537" width="0" layer="19" extent="16-16"/>
-<wire x1="24.384" y1="46.543" x2="27.051" y2="38.1" width="0" layer="19" extent="1-1"/>
-<wire x1="25.019" y1="48.68" x2="24.384" y2="46.543" width="0" layer="19" extent="1-16"/>
-<wire x1="19.138" y1="48.895" x2="24.384" y2="46.543" width="0" layer="19" extent="1-16"/>
-<wire x1="20.066" y1="52.578" x2="19.138" y2="48.895" width="0" layer="19" extent="16-16"/>
-<wire x1="22.778" y1="54.483" x2="20.066" y2="52.578" width="0" layer="19" extent="16-16"/>
-<wire x1="24.892" y1="55.841" x2="22.778" y2="54.483" width="0" layer="19" extent="16-16"/>
-<wire x1="23.153" y1="57.531" x2="24.892" y2="55.841" width="0" layer="19" extent="16-16"/>
+<wire x1="26.543" y1="61.429" x2="32.131" y2="60.286" width="0" layer="19" extent="16-16"/>
+<wire x1="24.405" y1="58.928" x2="26.543" y2="61.429" width="0" layer="19" extent="1-16"/>
+<wire x1="23.153" y1="57.531" x2="24.405" y2="58.928" width="0" layer="19" extent="1-16"/>
 <wire x1="21.717" y1="58.293" x2="23.153" y2="57.531" width="0" layer="19" extent="1-16"/>
-<wire x1="24.405" y1="58.928" x2="23.153" y2="57.531" width="0" layer="19" extent="1-16"/>
 <wire x1="20.408" y1="56.388" x2="21.717" y2="58.293" width="0" layer="19" extent="1-16"/>
-<wire x1="26.543" y1="61.429" x2="24.405" y2="58.928" width="0" layer="19" extent="1-16"/>
+<wire x1="24.892" y1="55.841" x2="23.153" y2="57.531" width="0" layer="19" extent="16-16"/>
+<wire x1="22.778" y1="54.483" x2="24.892" y2="55.841" width="0" layer="19" extent="16-16"/>
+<wire x1="20.066" y1="52.578" x2="22.778" y2="54.483" width="0" layer="19" extent="16-16"/>
+<wire x1="19.138" y1="48.895" x2="20.066" y2="52.578" width="0" layer="19" extent="16-16"/>
 <wire x1="15.24" y1="53.682" x2="20.066" y2="52.578" width="0" layer="19" extent="16-16"/>
 <wire x1="16.002" y1="44.257" x2="19.138" y2="48.895" width="0" layer="19" extent="1-16"/>
 <wire x1="13.462" y1="44.257" x2="16.002" y2="44.257" width="0" layer="19" extent="1-1"/>
 <wire x1="16.002" y1="38.801" x2="16.002" y2="44.257" width="0" layer="19" extent="1-1"/>
 <wire x1="13.462" y1="38.801" x2="16.002" y2="38.801" width="0" layer="19" extent="1-1"/>
-<wire x1="32.131" y1="60.286" x2="26.543" y2="61.429" width="0" layer="19" extent="16-16"/>
+<wire x1="24.384" y1="46.543" x2="19.138" y2="48.895" width="0" layer="19" extent="1-16"/>
+<wire x1="25.019" y1="48.68" x2="24.384" y2="46.543" width="0" layer="19" extent="1-16"/>
 <wire x1="21.781" y1="65.405" x2="26.543" y2="61.429" width="0" layer="19" extent="16-16"/>
 <wire x1="16.471" y1="64.389" x2="21.781" y2="65.405" width="0" layer="19" extent="1-1"/>
 <wire x1="8.296" y1="51.71" x2="15.24" y2="53.682" width="0" layer="19" extent="16-16"/>
 <wire x1="5.246" y1="56.61" x2="8.296" y2="51.71" width="0" layer="19" extent="1-1"/>
+<wire x1="27.051" y1="38.1" x2="24.384" y2="46.543" width="0" layer="19" extent="1-1"/>
+<wire x1="27.94" y1="34.378" x2="27.051" y2="38.1" width="0" layer="19" extent="1-1"/>
+<wire x1="30.861" y1="34.378" x2="27.94" y2="34.378" width="0" layer="19" extent="1-1"/>
+<wire x1="34.632" y1="38.354" x2="30.861" y2="34.378" width="0" layer="19" extent="1-16"/>
+<wire x1="34.945" y1="38.227" x2="34.632" y2="38.354" width="0" layer="19" extent="1-16"/>
+<wire x1="37.592" y1="31.916" x2="34.945" y2="38.227" width="0" layer="19" extent="1-1"/>
+<wire x1="36.195" y1="28.448" x2="37.592" y2="31.916" width="0" layer="19" extent="1-1"/>
+<wire x1="22.186" y1="28.702" x2="27.94" y2="34.378" width="0" layer="19" extent="1-1"/>
+<wire x1="20.828" y1="26.758" x2="22.186" y2="28.702" width="0" layer="19" extent="1-1"/>
+<wire x1="21.102" y1="22.352" x2="20.828" y2="26.758" width="0" layer="19" extent="1-1"/>
+<wire x1="26.924" y1="22.567" x2="21.102" y2="22.352" width="0" layer="19" extent="1-16"/>
+<wire x1="29.464" y1="21.551" x2="26.924" y2="22.567" width="0" layer="19" extent="16-16"/>
+<wire x1="31.623" y1="20.721" x2="29.464" y2="21.551" width="0" layer="19" extent="1-16"/>
+<wire x1="31.203" y1="17.018" x2="31.623" y2="20.721" width="0" layer="19" extent="1-1"/>
+<wire x1="36.957" y1="20.213" x2="31.623" y2="20.721" width="0" layer="19" extent="1-1"/>
+<wire x1="22.059" y1="16.129" x2="21.102" y2="22.352" width="0" layer="19" extent="1-16"/>
+<wire x1="22.479" y1="10.707" x2="22.059" y2="16.129" width="0" layer="19" extent="16-16"/>
+<wire x1="22.137" y1="8.255" x2="22.479" y2="10.707" width="0" layer="19" extent="16-16"/>
+<wire x1="16.549" y1="16.891" x2="22.059" y2="16.129" width="0" layer="19" extent="16-16"/>
+<wire x1="16.021" y1="14.537" x2="16.549" y2="16.891" width="0" layer="19" extent="16-16"/>
+<wire x1="33.274" y1="10.16" x2="31.203" y2="17.018" width="0" layer="19" extent="1-1"/>
+<wire x1="15.221" y1="6.037" x2="22.137" y2="8.255" width="0" layer="19" extent="16-16"/>
+<wire x1="16.041" y1="3.048" x2="15.221" y2="6.037" width="0" layer="19" extent="16-16"/>
+<wire x1="28.301" y1="4.191" x2="22.137" y2="8.255" width="0" layer="19" extent="1-16"/>
+<wire x1="29.53" y1="-3.449" x2="28.301" y2="4.191" width="0" layer="19" extent="1-1"/>
 <wire x1="36.322" y1="47.137" x2="34.632" y2="38.354" width="0" layer="19" extent="1-16"/>
 <wire x1="37.338" y1="51.728" x2="36.322" y2="47.137" width="0" layer="19" extent="1-1"/>
+<wire x1="6.858" y1="9.994" x2="15.221" y2="6.037" width="0" layer="19" extent="16-16"/>
+<wire x1="3.175" y1="2.286" x2="6.858" y2="9.994" width="0" layer="19" extent="16-16"/>
 <wire x1="35.013" y1="-11.938" x2="29.53" y2="-3.449" width="0" layer="19" extent="1-16"/>
-<wire x1="25.42" y1="-16.002" x2="35.013" y2="-11.938" width="0" layer="19" extent="1-16"/>
-<wire x1="18.562" y1="-11.491" x2="25.42" y2="-16.002" width="0" layer="19" extent="1-1"/>
-<wire x1="56.349" y1="57.531" x2="37.338" y2="51.728" width="0" layer="19" extent="1-1"/>
-<wire x1="22.137" y1="8.255" x2="56.349" y2="57.531" width="0" layer="19" extent="1-1"/>
-<wire x1="70.485" y1="21.59" x2="22.137" y2="8.255" width="0" layer="19" extent="1-1"/>
-<wire x1="6.008" y1="9.144" x2="70.485" y2="21.59" width="0" layer="19" extent="1-1"/>
-<wire x1="3.175" y1="2.286" x2="6.008" y2="9.144" width="0" layer="19" extent="1-1"/>
-<wire x1="-59.729" y1="63.246" x2="-35.052" y2="30.525" width="0" layer="19" extent="1-1"/>
+<wire x1="26.67" y1="-17.252" x2="35.013" y2="-11.938" width="0" layer="19" extent="1-16"/>
+<wire x1="18.562" y1="-11.491" x2="26.67" y2="-17.252" width="0" layer="19" extent="1-1"/>
+<wire x1="1.814" y1="39.676" x2="13.462" y2="38.801" width="0" layer="19" extent="1-1"/>
+<wire x1="1.814" y1="29.897" x2="1.814" y2="39.676" width="0" layer="19" extent="1-1"/>
+<wire x1="1.814" y1="20.626" x2="1.814" y2="29.897" width="0" layer="19" extent="1-1"/>
+<wire x1="-14.39" y1="30.861" x2="1.814" y2="29.897" width="0" layer="19" extent="1-1"/>
+<wire x1="-14.39" y1="28.194" x2="-14.39" y2="30.861" width="0" layer="19" extent="1-1"/>
+<wire x1="-15.24" y1="25.996" x2="-14.39" y2="28.194" width="0" layer="19" extent="1-1"/>
+<wire x1="-23.495" y1="23.075" x2="-15.24" y2="25.996" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.301" y1="20.955" x2="-23.495" y2="23.075" width="0" layer="19" extent="1-1"/>
+<wire x1="-31.496" y1="18.454" x2="-28.301" y2="20.955" width="0" layer="19" extent="1-1"/>
+<wire x1="-36.576" y1="21.121" x2="-31.496" y2="18.454" width="0" layer="19" extent="1-1"/>
+<wire x1="-35.052" y1="30.525" x2="-36.576" y2="21.121" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.233" y1="32.639" x2="-35.052" y2="30.525" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BK:N$2">
 <contactref element="BK:IC1" pad="8"/>
@@ -5136,8 +5136,8 @@ Switch Push Button OFF (ON) SPST Round Button 0.05A 24VDC Momentary Contact PC P
 <wire x1="24.345" y1="62.484" x2="28.956" y2="62.484" width="0.1524" layer="16"/>
 <wire x1="24.405" y1="60.198" x2="29.75" y2="60.198" width="0.508" layer="1"/>
 <wire x1="29.75" y1="60.198" x2="31.655" y2="58.293" width="0.508" layer="1"/>
-<contactref element="BK:TP1" pad="1"/>
-<wire x1="31.655" y1="58.293" x2="-75.057" y2="-43.053" width="0" layer="19" extent="1-1"/>
+<contactref element="BK:SW_NODE" pad="1"/>
+<wire x1="6.858" y1="65.913" x2="23.202" y2="61.341" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="BK:N$3">
 <contactref element="BK:IC1" pad="1"/>
@@ -5450,29 +5450,28 @@ Switch Push Button OFF (ON) SPST Round Button 0.05A 24VDC Momentary Contact PC P
 <wire x1="31.43" y1="-5.949" x2="31.623" y2="-6.142" width="0.1524" layer="1" grouprefs="M"/>
 <wire x1="31.623" y1="-6.142" x2="31.623" y2="-8.636" width="0.1524" layer="1" grouprefs="M"/>
 <contactref element="ADC:IC2" pad="3"/>
-<wire x1="31.33" y1="-8.636" x2="25.42" y2="-16.952" width="0" layer="19" extent="1-1"/>
-<wire x1="28.301" y1="3.241" x2="31.43" y2="-5.949" width="0" layer="19" extent="1-1"/>
+<wire x1="31.43" y1="-5.949" x2="28.301" y2="3.241" width="0" layer="19" extent="1-1"/>
+<wire x1="27.62" y1="-17.252" x2="31.33" y2="-8.636" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="EXT_CLK_1">
 <contactref element="C9" pad="2"/>
 <contactref element="U1" pad="7"/>
 <wire x1="17.621" y1="14.537" x2="17.681" y2="14.597" width="0.1524" layer="16"/>
-<wire x1="13.677" y1="23.153" x2="13.677" y2="18.796" width="0.1524" layer="16"/>
-<wire x1="17.621" y1="14.537" x2="17.621" y2="17.138" width="0.1524" layer="16"/>
-<wire x1="17.621" y1="17.138" x2="15.963" y2="18.796" width="0.1524" layer="16"/>
-<wire x1="15.963" y1="18.796" x2="13.677" y2="18.796" width="0.1524" layer="16"/>
+<wire x1="18.249" y1="21.248" x2="18.249" y2="16.891" width="0.1524" layer="16"/>
+<wire x1="18.249" y1="16.891" x2="17.621" y2="16.263" width="0.1524" layer="16"/>
+<wire x1="17.621" y1="16.263" x2="17.621" y2="14.537" width="0.1524" layer="16"/>
 <contactref element="Y1" pad="1"/>
-<wire x1="17.621" y1="14.537" x2="-75.438" y2="-49.53" width="0" layer="19" extent="16-16"/>
+<wire x1="18.249" y1="21.248" x2="11.049" y2="25.908" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="EXT_CLK_2">
 <contactref element="C10" pad="2"/>
 <contactref element="U1" pad="8"/>
-<wire x1="19.597" y1="18.415" x2="19.597" y2="23.637" width="0.1524" layer="16"/>
-<wire x1="19.597" y1="23.637" x2="15.113" y2="28.121" width="0.1524" layer="16"/>
-<wire x1="19.597" y1="18.415" x2="18.421" y2="17.239" width="0.1524" layer="16"/>
-<wire x1="18.421" y1="17.239" x2="18.421" y2="14.537" width="0.1524" layer="16"/>
+<wire x1="20.359" y1="16.129" x2="20.359" y2="22.875" width="0.1524" layer="16"/>
+<wire x1="20.359" y1="22.875" x2="15.113" y2="28.121" width="0.1524" layer="16"/>
+<wire x1="20.359" y1="16.129" x2="18.767" y2="14.537" width="0.1524" layer="16"/>
+<wire x1="18.421" y1="14.537" x2="18.767" y2="14.537" width="0.1524" layer="16"/>
 <contactref element="Y1" pad="2"/>
-<wire x1="18.421" y1="14.537" x2="-70.558" y2="-49.53" width="0" layer="19" extent="16-16"/>
+<wire x1="15.113" y1="28.121" x2="15.929" y2="25.908" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="VS_5V">
 <contactref element="R9" pad="1"/>

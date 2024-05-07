@@ -7994,7 +7994,8 @@ Source: AVX .. aphvc.pdf</description>
 </packages>
 <packages3d>
 <package3d name="SOT95P280X145-5N" urn="urn:adsk.eagle:package:44173757/3" type="model" library_version="3">
-<description>&lt;b&gt;DBV0005A_a&lt;/b&gt;&lt;br&gt;</description>
+<description>&lt;b&gt;DBV0005A_a&lt;/b&gt;&lt;br&gt;
+</description>
 <packageinstances>
 <packageinstance name="SOT95P280X145-5N"/>
 </packageinstances>
@@ -8079,7 +8080,8 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tlv9101.pdf"&gt; Datasheet 
 </packages>
 <packages3d>
 <package3d name="SOT95P230X110-3N" urn="urn:adsk.eagle:package:44173510/3" type="model" library_version="3">
-<description>&lt;b&gt;PBSS8110T,215*&lt;/b&gt;&lt;br&gt;</description>
+<description>&lt;b&gt;PBSS8110T,215*&lt;/b&gt;&lt;br&gt;
+</description>
 <packageinstances>
 <packageinstance name="SOT95P230X110-3N"/>
 </packageinstances>
@@ -8274,7 +8276,8 @@ Source: &lt;a href="https://www.diodes.com//assets/Datasheets/AP64350.pdf"&gt; D
 </packages>
 <packages3d>
 <package3d name="SOIC127P602X175-14N" urn="urn:adsk.eagle:package:44173357/3" type="model" library_version="3">
-<description>&lt;b&gt;SO14&lt;/b&gt;&lt;br&gt;</description>
+<description>&lt;b&gt;SO14&lt;/b&gt;&lt;br&gt;
+</description>
 <packageinstances>
 <packageinstance name="SOIC127P602X175-14N"/>
 </packageinstances>
@@ -8609,7 +8612,8 @@ Source: &lt;a href="https://www.cuidevices.com/product/resource/slw-864547-5a-ra
 </packages>
 <packages3d>
 <package3d name="SOT95P237X112-3N" urn="urn:adsk.eagle:package:44173463/3" type="model" library_version="3">
-<description>&lt;b&gt;SOT23 (Type DN)_2023&lt;/b&gt;&lt;br&gt;</description>
+<description>&lt;b&gt;SOT23 (Type DN)_2023&lt;/b&gt;&lt;br&gt;
+</description>
 <packageinstances>
 <packageinstance name="SOT95P237X112-3N"/>
 </packageinstances>
@@ -8696,7 +8700,8 @@ Source: &lt;a href="https://www.diodes.com/assets/Datasheets/FMMT593.pdf"&gt; Da
 </packages>
 <packages3d>
 <package3d name="ZTP148SRC1" urn="urn:adsk.eagle:package:44173797/3" type="model" library_version="3">
-<description>&lt;b&gt;ZTP-148SRC1-5&lt;/b&gt;&lt;br&gt;</description>
+<description>&lt;b&gt;ZTP-148SRC1-5&lt;/b&gt;&lt;br&gt;
+</description>
 <packageinstances>
 <packageinstance name="ZTP148SRC1"/>
 </packageinstances>
@@ -10441,9 +10446,7 @@ Source: &lt;a href="https://www.bourns.com/docs/Product-Datasheets/SRP1038CC.pdf
 <attribute name="AVAILABILITY" value="In Stock"/>
 <attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/1825910-6/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=eda"/>
 <attribute name="COMMENT" value="1825910-6"/>
-<attribute name="DESCRIPTION" value="
-Switch Push Button OFF (ON) SPST Round Button 0.05A 24VDC Momentary Contact PC Pins Thru-Hole
-"/>
+<attribute name="DESCRIPTION" value=" Switch Push Button OFF (ON) SPST Round Button 0.05A 24VDC Momentary Contact PC Pins Thru-Hole "/>
 <attribute name="MF" value="TE Connectivity"/>
 <attribute name="MP" value="1825910-6"/>
 <attribute name="PACKAGE" value="None"/>
@@ -10648,7 +10651,8 @@ Source: &lt;a href="https://www.ti.com/lit/ds/symlink/tlv9021-q1.pdf?ts=17068501
 </packages>
 <packages3d>
 <package3d name="5010" urn="urn:adsk.eagle:package:44174101/3" type="model" library_version="3">
-<description>&lt;b&gt;5010-4&lt;/b&gt;&lt;br&gt;</description>
+<description>&lt;b&gt;5010-4&lt;/b&gt;&lt;br&gt;
+</description>
 <packageinstances>
 <packageinstance name="5010"/>
 </packageinstances>
@@ -14941,7 +14945,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="3.3nF"/>
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="22pF"/>
 <part name="X_8" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
-<part name="TP1" library="5010" library_urn="urn:adsk.eagle:library:44174098" deviceset="5010" device="" package3d_urn="urn:adsk.eagle:package:44174101/3"/>
+<part name="SW_NODE" library="5010" library_urn="urn:adsk.eagle:library:44174098" deviceset="5010" device="" package3d_urn="urn:adsk.eagle:package:44174101/3"/>
 </parts>
 <sheets>
 <sheet>
@@ -15011,7 +15015,7 @@ Output: VS_6V</text>
 <attribute name="VALUE" x="112.776" y="36.449" size="1.778" layer="96"/>
 </instance>
 <instance part="X_8" gate="G$1" x="106.68" y="30.48" smashed="yes"/>
-<instance part="TP1" gate="G$1" x="106.68" y="91.44" smashed="yes">
+<instance part="SW_NODE" gate="G$1" x="106.68" y="91.44" smashed="yes">
 <attribute name="NAME" x="123.19" y="92.456" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="123.19" y="89.916" size="1.778" layer="96" align="center-left"/>
 </instance>
@@ -15052,7 +15056,7 @@ Output: VS_6V</text>
 <wire x1="101.6" y1="76.2" x2="106.68" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="76.2" x2="106.68" y2="91.44" width="0.1524" layer="91"/>
 <junction x="106.68" y="76.2"/>
-<pinref part="TP1" gate="G$1" pin="1"/>
+<pinref part="SW_NODE" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -16647,7 +16651,9 @@ V_TOGGLE = 0: V_BG </text>
 <part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0"/>
 <part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0"/>
 <part name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0"/>
-<part name="J3" library="RS1-02-G" library_urn="urn:adsk.eagle:library:44173519" deviceset="RS1-02-G" device="" package3d_urn="urn:adsk.eagle:package:44173524/3"/>
+<part name="J3" library="RS1-02-G" library_urn="urn:adsk.eagle:library:44173519" deviceset="RS1-02-G" device="" package3d_urn="urn:adsk.eagle:package:44173524/3" value="AD2">
+<attribute name="AD2" value="AD2"/>
+</part>
 <part name="X_18" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0"/>
 <part name="SW1" library="1825910-6" library_urn="urn:adsk.eagle:library:44173364" deviceset="1825910-6" device="" package3d_urn="urn:adsk.eagle:package:44173367/3"/>
@@ -16675,24 +16681,24 @@ V_TOGGLE = 0: V_BG </text>
 <part name="X_17" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_22" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="J2" library="163-179PH-EX" library_urn="urn:adsk.eagle:library:44173317" deviceset="163-179PH-EX" device="" package3d_urn="urn:adsk.eagle:package:44173320/3"/>
-<part name="J4" library="TSW-104-07-F-S" library_urn="urn:adsk.eagle:library:44173782" deviceset="TSW-104-07-F-S" device="" package3d_urn="urn:adsk.eagle:package:44173785/3"/>
-<part name="TP1" library="5010" library_urn="urn:adsk.eagle:library:44174098" deviceset="5010" device="" package3d_urn="urn:adsk.eagle:package:44174101/3"/>
-<part name="TP2" library="5010" library_urn="urn:adsk.eagle:library:44174098" deviceset="5010" device="" package3d_urn="urn:adsk.eagle:package:44174101/3"/>
-<part name="TP3" library="5010" library_urn="urn:adsk.eagle:library:44174098" deviceset="5010" device="" package3d_urn="urn:adsk.eagle:package:44174101/3"/>
-<part name="TP4" library="5010" library_urn="urn:adsk.eagle:library:44174098" deviceset="5010" device="" package3d_urn="urn:adsk.eagle:package:44174101/3"/>
-<part name="TP5" library="5010" library_urn="urn:adsk.eagle:library:44174098" deviceset="5010" device="" package3d_urn="urn:adsk.eagle:package:44174101/3"/>
-<part name="TP6" library="5010" library_urn="urn:adsk.eagle:library:44174098" deviceset="5010" device="" package3d_urn="urn:adsk.eagle:package:44174101/3"/>
-<part name="TP7" library="5010" library_urn="urn:adsk.eagle:library:44174098" deviceset="5010" device="" package3d_urn="urn:adsk.eagle:package:44174101/3"/>
-<part name="TP8" library="5010" library_urn="urn:adsk.eagle:library:44174098" deviceset="5010" device="" package3d_urn="urn:adsk.eagle:package:44174101/3"/>
-<part name="TP9" library="5010" library_urn="urn:adsk.eagle:library:44174098" deviceset="5010" device="" package3d_urn="urn:adsk.eagle:package:44174101/3"/>
+<part name="J4" library="TSW-104-07-F-S" library_urn="urn:adsk.eagle:library:44173782" deviceset="TSW-104-07-F-S" device="" package3d_urn="urn:adsk.eagle:package:44173785/3" value="MCU"/>
+<part name="6V" library="5010" library_urn="urn:adsk.eagle:library:44174098" deviceset="5010" device="" package3d_urn="urn:adsk.eagle:package:44174101/3"/>
+<part name="5V" library="5010" library_urn="urn:adsk.eagle:library:44174098" deviceset="5010" device="" package3d_urn="urn:adsk.eagle:package:44174101/3"/>
+<part name="2.5V" library="5010" library_urn="urn:adsk.eagle:library:44174098" deviceset="5010" device="" package3d_urn="urn:adsk.eagle:package:44174101/3"/>
+<part name="1.5V" library="5010" library_urn="urn:adsk.eagle:library:44174098" deviceset="5010" device="" package3d_urn="urn:adsk.eagle:package:44174101/3"/>
+<part name="V_TH" library="5010" library_urn="urn:adsk.eagle:library:44174098" deviceset="5010" device="" package3d_urn="urn:adsk.eagle:package:44174101/3"/>
+<part name="V_BG" library="5010" library_urn="urn:adsk.eagle:library:44174098" deviceset="5010" device="" package3d_urn="urn:adsk.eagle:package:44174101/3"/>
+<part name="V_TP" library="5010" library_urn="urn:adsk.eagle:library:44174098" deviceset="5010" device="" package3d_urn="urn:adsk.eagle:package:44174101/3"/>
+<part name="V_SIG" library="5010" library_urn="urn:adsk.eagle:library:44174098" deviceset="5010" device="" package3d_urn="urn:adsk.eagle:package:44174101/3"/>
+<part name="RST_ADC" library="5010" library_urn="urn:adsk.eagle:library:44174098" deviceset="5010" device="" package3d_urn="urn:adsk.eagle:package:44174101/3"/>
 <part name="TP10" library="5010" library_urn="urn:adsk.eagle:library:44174098" deviceset="5010" device="" package3d_urn="urn:adsk.eagle:package:44174101/3"/>
-<part name="TP11" library="5010" library_urn="urn:adsk.eagle:library:44174098" deviceset="5010" device="" package3d_urn="urn:adsk.eagle:package:44174101/3"/>
-<part name="TP12" library="5010" library_urn="urn:adsk.eagle:library:44174098" deviceset="5010" device="" package3d_urn="urn:adsk.eagle:package:44174101/3"/>
-<part name="TP13" library="5010" library_urn="urn:adsk.eagle:library:44174098" deviceset="5010" device="" package3d_urn="urn:adsk.eagle:package:44174101/3"/>
-<part name="TP14" library="5010" library_urn="urn:adsk.eagle:library:44174098" deviceset="5010" device="" package3d_urn="urn:adsk.eagle:package:44174101/3"/>
-<part name="TP15" library="5010" library_urn="urn:adsk.eagle:library:44174098" deviceset="5010" device="" package3d_urn="urn:adsk.eagle:package:44174101/3"/>
-<part name="TP16" library="5010" library_urn="urn:adsk.eagle:library:44174098" deviceset="5010" device="" package3d_urn="urn:adsk.eagle:package:44174101/3"/>
-<part name="TP17" library="5010" library_urn="urn:adsk.eagle:library:44174098" deviceset="5010" device="" package3d_urn="urn:adsk.eagle:package:44174101/3"/>
+<part name="V_TOGGLE" library="5010" library_urn="urn:adsk.eagle:library:44174098" deviceset="5010" device="" package3d_urn="urn:adsk.eagle:package:44174101/3"/>
+<part name="MISO_MCU" library="5010" library_urn="urn:adsk.eagle:library:44174098" deviceset="5010" device="" package3d_urn="urn:adsk.eagle:package:44174101/3"/>
+<part name="MOSI_MCU" library="5010" library_urn="urn:adsk.eagle:library:44174098" deviceset="5010" device="" package3d_urn="urn:adsk.eagle:package:44174101/3"/>
+<part name="PB_START" library="5010" library_urn="urn:adsk.eagle:library:44174098" deviceset="5010" device="" package3d_urn="urn:adsk.eagle:package:44174101/3"/>
+<part name="MCU_RST" library="5010" library_urn="urn:adsk.eagle:library:44174098" deviceset="5010" device="" package3d_urn="urn:adsk.eagle:package:44174101/3"/>
+<part name="SDA" library="5010" library_urn="urn:adsk.eagle:library:44174098" deviceset="5010" device="" package3d_urn="urn:adsk.eagle:package:44174101/3"/>
+<part name="AVCC" library="5010" library_urn="urn:adsk.eagle:library:44174098" deviceset="5010" device="" package3d_urn="urn:adsk.eagle:package:44174101/3"/>
 <part name="Y1" library="ABL-16.000MHZ-B2" library_urn="urn:adsk.eagle:library:44174246" deviceset="ABL-16.000MHZ-B2" device="" package3d_urn="urn:adsk.eagle:package:44174249/4"/>
 </parts>
 <sheets>
@@ -16863,7 +16869,8 @@ will go to MCU to trigger counting</text>
 <attribute name="VALUE" x="-179.07" y="65.278" size="1.778" layer="96"/>
 </instance>
 <instance part="J3" gate="A" x="-172.72" y="40.64" smashed="yes" rot="R180">
-<attribute name="NAME" x="-179.4256" y="35.3314" size="2.0828" layer="95" ratio="6" rot="SR180"/>
+<attribute name="NAME" x="-176.8856" y="35.3314" size="2.0828" layer="95" ratio="6" rot="SR180"/>
+<attribute name="AD2" x="-175.26" y="38.1" size="1.778" layer="96" rot="R180" display="name"/>
 </instance>
 <instance part="X_18" gate="G$1" x="-167.64" y="35.56" smashed="yes"/>
 <instance part="R23" gate="G$1" x="-167.64" y="53.34" smashed="yes" rot="R90">
@@ -16932,39 +16939,39 @@ will go to MCU to trigger counting</text>
 <attribute name="NAME" x="-372.88" y="17.78" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-358.14" y="15.24" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="TP1" gate="G$1" x="-464.82" y="0" smashed="yes">
+<instance part="6V" gate="G$1" x="-464.82" y="0" smashed="yes">
 <attribute name="NAME" x="-448.31" y="1.27" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-448.31" y="-1.27" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="TP2" gate="G$1" x="-464.82" y="-10.16" smashed="yes">
+<instance part="5V" gate="G$1" x="-464.82" y="-10.16" smashed="yes">
 <attribute name="NAME" x="-448.31" y="-8.636" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-448.31" y="-11.176" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="TP3" gate="G$1" x="-464.82" y="-20.32" smashed="yes">
+<instance part="2.5V" gate="G$1" x="-464.82" y="-20.32" smashed="yes">
 <attribute name="NAME" x="-448.31" y="-19.05" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-448.31" y="-21.59" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="TP4" gate="G$1" x="-464.82" y="-30.48" smashed="yes">
+<instance part="1.5V" gate="G$1" x="-464.82" y="-30.48" smashed="yes">
 <attribute name="NAME" x="-448.31" y="-29.21" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-448.31" y="-31.75" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="TP5" gate="G$1" x="-464.82" y="-40.64" smashed="yes">
+<instance part="V_TH" gate="G$1" x="-464.82" y="-40.64" smashed="yes">
 <attribute name="NAME" x="-448.31" y="-39.37" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-448.31" y="-41.91" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="TP6" gate="G$1" x="-464.82" y="-50.8" smashed="yes">
+<instance part="V_BG" gate="G$1" x="-464.82" y="-50.8" smashed="yes">
 <attribute name="NAME" x="-448.31" y="-49.53" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-448.31" y="-52.07" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="TP7" gate="G$1" x="-464.82" y="-60.96" smashed="yes">
+<instance part="V_TP" gate="G$1" x="-464.82" y="-60.96" smashed="yes">
 <attribute name="NAME" x="-448.31" y="-59.69" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-448.31" y="-62.23" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="TP8" gate="G$1" x="-464.82" y="-71.12" smashed="yes">
+<instance part="V_SIG" gate="G$1" x="-464.82" y="-71.12" smashed="yes">
 <attribute name="NAME" x="-448.31" y="-69.85" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-448.31" y="-72.39" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="TP9" gate="G$1" x="-464.82" y="-81.28" smashed="yes">
+<instance part="RST_ADC" gate="G$1" x="-464.82" y="-81.28" smashed="yes">
 <attribute name="NAME" x="-448.31" y="-80.01" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-448.31" y="-82.55" size="1.778" layer="96" align="center-left"/>
 </instance>
@@ -16972,31 +16979,31 @@ will go to MCU to trigger counting</text>
 <attribute name="NAME" x="-448.31" y="-90.17" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-448.31" y="-92.71" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="TP11" gate="G$1" x="-414.02" y="0" smashed="yes">
+<instance part="V_TOGGLE" gate="G$1" x="-414.02" y="0" smashed="yes">
 <attribute name="NAME" x="-397.764" y="1.27" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-397.764" y="-1.27" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="TP12" gate="G$1" x="-414.02" y="-10.16" smashed="yes">
+<instance part="MISO_MCU" gate="G$1" x="-414.02" y="-10.16" smashed="yes">
 <attribute name="NAME" x="-397.764" y="-8.89" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-397.764" y="-11.43" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="TP13" gate="G$1" x="-414.02" y="-20.32" smashed="yes">
+<instance part="MOSI_MCU" gate="G$1" x="-414.02" y="-20.32" smashed="yes">
 <attribute name="NAME" x="-397.764" y="-19.05" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-397.764" y="-21.59" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="TP14" gate="G$1" x="-414.02" y="-30.48" smashed="yes">
+<instance part="PB_START" gate="G$1" x="-414.02" y="-30.48" smashed="yes">
 <attribute name="NAME" x="-397.764" y="-29.21" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-397.764" y="-31.75" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="TP15" gate="G$1" x="-414.02" y="-40.64" smashed="yes">
+<instance part="MCU_RST" gate="G$1" x="-414.02" y="-40.64" smashed="yes">
 <attribute name="NAME" x="-397.764" y="-39.37" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-397.764" y="-41.91" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="TP16" gate="G$1" x="-414.02" y="-50.8" smashed="yes">
+<instance part="SDA" gate="G$1" x="-414.02" y="-50.8" smashed="yes">
 <attribute name="NAME" x="-397.51" y="-49.53" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-397.51" y="-52.07" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="TP17" gate="G$1" x="-142.24" y="-127" smashed="yes">
+<instance part="AVCC" gate="G$1" x="-142.24" y="-127" smashed="yes">
 <attribute name="NAME" x="-125.73" y="-124.46" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-125.73" y="-127" size="1.778" layer="96" align="center-left"/>
 </instance>
@@ -17046,7 +17053,7 @@ will go to MCU to trigger counting</text>
 <segment>
 <wire x1="-464.82" y1="0" x2="-469.9" y2="0" width="0.1524" layer="91"/>
 <label x="-469.9" y="0" size="1.778" layer="95" align="bottom-right"/>
-<pinref part="TP1" gate="G$1" pin="1"/>
+<pinref part="6V" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="VS_5V" class="0">
@@ -17091,7 +17098,7 @@ will go to MCU to trigger counting</text>
 <segment>
 <wire x1="-414.02" y1="-50.8" x2="-419.1" y2="-50.8" width="0.1524" layer="91"/>
 <label x="-419.1" y="-50.8" size="1.778" layer="95" rot="R180"/>
-<pinref part="TP16" gate="G$1" pin="1"/>
+<pinref part="SDA" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="ADC_EXT_INT" class="0">
@@ -17122,7 +17129,7 @@ will go to MCU to trigger counting</text>
 <segment>
 <wire x1="-464.82" y1="-81.28" x2="-469.9" y2="-81.28" width="0.1524" layer="91"/>
 <label x="-469.9" y="-81.28" size="1.778" layer="95" rot="R180"/>
-<pinref part="TP9" gate="G$1" pin="1"/>
+<pinref part="RST_ADC" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="V_TOGGLE" class="0">
@@ -17139,7 +17146,7 @@ will go to MCU to trigger counting</text>
 <segment>
 <wire x1="-414.02" y1="0" x2="-419.1" y2="0" width="0.1524" layer="91"/>
 <label x="-419.1" y="0" size="1.778" layer="95" rot="R180"/>
-<pinref part="TP11" gate="G$1" pin="1"/>
+<pinref part="V_TOGGLE" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -17203,7 +17210,7 @@ will go to MCU to trigger counting</text>
 <segment>
 <wire x1="-464.82" y1="-40.64" x2="-469.9" y2="-40.64" width="0.1524" layer="91"/>
 <label x="-469.9" y="-40.64" size="1.778" layer="95" rot="R180"/>
-<pinref part="TP5" gate="G$1" pin="1"/>
+<pinref part="V_TH" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="V_SIG_ADC" class="0">
@@ -17230,7 +17237,7 @@ will go to MCU to trigger counting</text>
 <wire x1="-142.24" y1="-101.6" x2="-144.78" y2="-101.6" width="0.1524" layer="91"/>
 <wire x1="-142.24" y1="-127" x2="-142.24" y2="-101.6" width="0.1524" layer="91"/>
 <junction x="-142.24" y="-101.6"/>
-<pinref part="TP17" gate="G$1" pin="1"/>
+<pinref part="AVCC" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="VS_5V_BACKUP" class="0">
@@ -17327,7 +17334,7 @@ will go to MCU to trigger counting</text>
 <segment>
 <wire x1="-464.82" y1="-10.16" x2="-469.9" y2="-10.16" width="0.1524" layer="91"/>
 <label x="-469.9" y="-10.16" size="1.778" layer="95" align="bottom-right"/>
-<pinref part="TP2" gate="G$1" pin="1"/>
+<pinref part="5V" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="VS_2.5V_OUT" class="0">
@@ -17353,7 +17360,7 @@ will go to MCU to trigger counting</text>
 <segment>
 <wire x1="-464.82" y1="-20.32" x2="-469.9" y2="-20.32" width="0.1524" layer="91"/>
 <label x="-469.9" y="-20.32" size="1.778" layer="95" align="bottom-right"/>
-<pinref part="TP3" gate="G$1" pin="1"/>
+<pinref part="2.5V" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="V_BG" class="0">
@@ -17380,7 +17387,7 @@ will go to MCU to trigger counting</text>
 <segment>
 <wire x1="-464.82" y1="-50.8" x2="-469.9" y2="-50.8" width="0.1524" layer="91"/>
 <label x="-469.9" y="-50.8" size="1.778" layer="95" rot="R180"/>
-<pinref part="TP6" gate="G$1" pin="1"/>
+<pinref part="V_BG" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="VS_1.5V_OUT" class="0">
@@ -17401,7 +17408,7 @@ will go to MCU to trigger counting</text>
 <segment>
 <wire x1="-464.82" y1="-30.48" x2="-469.9" y2="-30.48" width="0.1524" layer="91"/>
 <label x="-469.9" y="-30.48" size="1.778" layer="95" align="bottom-right"/>
-<pinref part="TP4" gate="G$1" pin="1"/>
+<pinref part="1.5V" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="V_SIG" class="0">
@@ -17422,7 +17429,7 @@ will go to MCU to trigger counting</text>
 <segment>
 <wire x1="-464.82" y1="-71.12" x2="-469.9" y2="-71.12" width="0.1524" layer="91"/>
 <label x="-469.9" y="-71.12" size="1.778" layer="95" rot="R180"/>
-<pinref part="TP8" gate="G$1" pin="1"/>
+<pinref part="V_SIG" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -17451,7 +17458,7 @@ will go to MCU to trigger counting</text>
 <segment>
 <wire x1="-464.82" y1="-60.96" x2="-469.9" y2="-60.96" width="0.1524" layer="91"/>
 <label x="-469.9" y="-60.96" size="1.778" layer="95" rot="R180"/>
-<pinref part="TP7" gate="G$1" pin="1"/>
+<pinref part="V_TP" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -17520,7 +17527,7 @@ will go to MCU to trigger counting</text>
 <segment>
 <wire x1="-414.02" y1="-40.64" x2="-419.1" y2="-40.64" width="0.1524" layer="91"/>
 <label x="-419.1" y="-40.64" size="1.778" layer="95" rot="R180"/>
-<pinref part="TP15" gate="G$1" pin="1"/>
+<pinref part="MCU_RST" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="-353.06" y1="2.54" x2="-347.98" y2="2.54" width="0.1524" layer="91"/>
@@ -17539,7 +17546,7 @@ will go to MCU to trigger counting</text>
 <segment>
 <wire x1="-414.02" y1="-30.48" x2="-419.1" y2="-30.48" width="0.1524" layer="91"/>
 <label x="-419.1" y="-30.48" size="1.778" layer="95" rot="R180"/>
-<pinref part="TP14" gate="G$1" pin="1"/>
+<pinref part="PB_START" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="U1" gate="A" pin="(ICP1/CLKO/PTCXY)PB0"/>
@@ -17561,7 +17568,7 @@ will go to MCU to trigger counting</text>
 <segment>
 <wire x1="-414.02" y1="-20.32" x2="-419.1" y2="-20.32" width="0.1524" layer="91"/>
 <label x="-419.1" y="-20.32" size="1.778" layer="95" rot="R180"/>
-<pinref part="TP13" gate="G$1" pin="1"/>
+<pinref part="MOSI_MCU" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="MISO_MCU" class="0">
@@ -17578,7 +17585,7 @@ will go to MCU to trigger counting</text>
 <segment>
 <wire x1="-414.02" y1="-10.16" x2="-419.1" y2="-10.16" width="0.1524" layer="91"/>
 <label x="-419.1" y="-10.16" size="1.778" layer="95" rot="R180"/>
-<pinref part="TP12" gate="G$1" pin="1"/>
+<pinref part="MISO_MCU" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="SCK_MCU" class="0">
