@@ -15233,7 +15233,7 @@ Output: VS_6V</text>
 <part name="IC1" library="TLV9101IDBVR" library_urn="urn:adsk.eagle:library:44173754" deviceset="TLV9101IDBVR" device="" package3d_urn="urn:adsk.eagle:package:44173757/3"/>
 <part name="IC2" library="TLV9101IDBVR" library_urn="urn:adsk.eagle:library:44173754" deviceset="TLV9101IDBVR" device="" package3d_urn="urn:adsk.eagle:package:44173757/3"/>
 <part name="Q1" library="PBSS8110T_215" library_urn="urn:adsk.eagle:library:44173507" deviceset="PBSS8110T,215" device="" package3d_urn="urn:adsk.eagle:package:44173510/3"/>
-<part name="J1" library="RS1-02-G" library_urn="urn:adsk.eagle:library:44173519" deviceset="RS1-02-G" device="" package3d_urn="urn:adsk.eagle:package:44173524/3"/>
+<part name="AD2_5V" library="RS1-02-G" library_urn="urn:adsk.eagle:library:44173519" deviceset="RS1-02-G" device="" package3d_urn="urn:adsk.eagle:package:44173524/3"/>
 <part name="X_9" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="IC3" library="TLV9101IDBVR" library_urn="urn:adsk.eagle:library:44173754" deviceset="TLV9101IDBVR" device="" package3d_urn="urn:adsk.eagle:package:44173757/3"/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="560k"/>
@@ -15307,7 +15307,7 @@ Outputs: VS_1.5V</text>
 <attribute name="NAME" x="-11.43" y="69.85" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-11.43" y="67.31" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="J1" gate="A" x="-5.08" y="30.48" smashed="yes" rot="MR0">
+<instance part="AD2_5V" gate="A" x="-5.08" y="30.48" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-10.0076" y="22.3266" size="2.0828" layer="95" ratio="6" rot="SMR0"/>
 </instance>
 <instance part="X_9" gate="G$1" x="-2.54" y="22.86" smashed="yes"/>
@@ -15438,7 +15438,7 @@ Outputs: VS_1.5V</text>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="J1" gate="A" pin="1"/>
+<pinref part="AD2_5V" gate="A" pin="1"/>
 <pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="-5.08" y1="30.48" x2="1.524" y2="30.48" width="0.1524" layer="91"/>
 </segment>
@@ -15508,7 +15508,7 @@ Outputs: VS_1.5V</text>
 <pinref part="X_6" gate="G$1" pin="0"/>
 </segment>
 <segment>
-<pinref part="J1" gate="A" pin="2"/>
+<pinref part="AD2_5V" gate="A" pin="2"/>
 <wire x1="-5.08" y1="27.94" x2="-2.54" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="X_9" gate="G$1" pin="0"/>
 <wire x1="-2.54" y1="27.94" x2="-2.54" y2="22.86" width="0.1524" layer="91"/>
@@ -16651,14 +16651,14 @@ V_TOGGLE = 0: V_BG </text>
 <part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0"/>
 <part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0"/>
 <part name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0"/>
-<part name="J3" library="RS1-02-G" library_urn="urn:adsk.eagle:library:44173519" deviceset="RS1-02-G" device="" package3d_urn="urn:adsk.eagle:package:44173524/3" value="AD2">
+<part name="AD2_BG" library="RS1-02-G" library_urn="urn:adsk.eagle:library:44173519" deviceset="RS1-02-G" device="" package3d_urn="urn:adsk.eagle:package:44173524/3" value="AD2_BG">
 <attribute name="AD2" value="AD2"/>
 </part>
 <part name="X_18" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0"/>
-<part name="SW1" library="1825910-6" library_urn="urn:adsk.eagle:library:44173364" deviceset="1825910-6" device="" package3d_urn="urn:adsk.eagle:package:44173367/3"/>
-<part name="SW2" library="1825910-6" library_urn="urn:adsk.eagle:library:44173364" deviceset="1825910-6" device="" package3d_urn="urn:adsk.eagle:package:44173367/3"/>
-<part name="SW3" library="1825910-6" library_urn="urn:adsk.eagle:library:44173364" deviceset="1825910-6" device="" package3d_urn="urn:adsk.eagle:package:44173367/3"/>
+<part name="SW_START" library="1825910-6" library_urn="urn:adsk.eagle:library:44173364" deviceset="1825910-6" device="" package3d_urn="urn:adsk.eagle:package:44173367/3"/>
+<part name="SW_MISC1" library="1825910-6" library_urn="urn:adsk.eagle:library:44173364" deviceset="1825910-6" device="" package3d_urn="urn:adsk.eagle:package:44173367/3"/>
+<part name="SW_MCU_RST" library="1825910-6" library_urn="urn:adsk.eagle:library:44173364" deviceset="1825910-6" device="" package3d_urn="urn:adsk.eagle:package:44173367/3"/>
 <part name="X_19" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_20" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_21" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
@@ -16700,6 +16700,7 @@ V_TOGGLE = 0: V_BG </text>
 <part name="SDA" library="5010" library_urn="urn:adsk.eagle:library:44174098" deviceset="5010" device="" package3d_urn="urn:adsk.eagle:package:44174101/3"/>
 <part name="AVCC" library="5010" library_urn="urn:adsk.eagle:library:44174098" deviceset="5010" device="" package3d_urn="urn:adsk.eagle:package:44174101/3"/>
 <part name="Y1" library="ABL-16.000MHZ-B2" library_urn="urn:adsk.eagle:library:44174246" deviceset="ABL-16.000MHZ-B2" device="" package3d_urn="urn:adsk.eagle:package:44174249/4"/>
+<part name="5V_BACKUP" library="5010" library_urn="urn:adsk.eagle:library:44174098" deviceset="5010" device="" package3d_urn="urn:adsk.eagle:package:44174101/3"/>
 </parts>
 <sheets>
 <sheet>
@@ -16868,7 +16869,7 @@ will go to MCU to trigger counting</text>
 <attribute name="NAME" x="-176.53" y="64.9986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-179.07" y="65.278" size="1.778" layer="96"/>
 </instance>
-<instance part="J3" gate="A" x="-172.72" y="40.64" smashed="yes" rot="R180">
+<instance part="AD2_BG" gate="A" x="-172.72" y="40.64" smashed="yes" rot="R180">
 <attribute name="NAME" x="-176.8856" y="35.3314" size="2.0828" layer="95" ratio="6" rot="SR180"/>
 <attribute name="AD2" x="-175.26" y="38.1" size="1.778" layer="96" rot="R180" display="name"/>
 </instance>
@@ -16877,15 +16878,15 @@ will go to MCU to trigger counting</text>
 <attribute name="NAME" x="-169.1386" y="52.07" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-169.418" y="49.53" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="SW1" gate="G$1" x="-358.14" y="-129.54" smashed="yes">
+<instance part="SW_START" gate="G$1" x="-358.14" y="-129.54" smashed="yes">
 <attribute name="NAME" x="-363.2297" y="-123.68685" size="1.803440625" layer="95"/>
 <attribute name="VALUE" x="-363.228309375" y="-137.17246875" size="1.802940625" layer="96"/>
 </instance>
-<instance part="SW2" gate="G$1" x="-358.14" y="-147.32" smashed="yes">
+<instance part="SW_MISC1" gate="G$1" x="-358.14" y="-147.32" smashed="yes">
 <attribute name="NAME" x="-363.2297" y="-141.46685" size="1.803440625" layer="95"/>
 <attribute name="VALUE" x="-363.228309375" y="-154.95246875" size="1.802940625" layer="96"/>
 </instance>
-<instance part="SW3" gate="G$1" x="-358.14" y="-165.1" smashed="yes">
+<instance part="SW_MCU_RST" gate="G$1" x="-358.14" y="-165.1" smashed="yes">
 <attribute name="NAME" x="-363.2297" y="-159.24685" size="1.803440625" layer="95"/>
 <attribute name="VALUE" x="-363.228309375" y="-172.73246875" size="1.802940625" layer="96"/>
 </instance>
@@ -17010,6 +17011,10 @@ will go to MCU to trigger counting</text>
 <instance part="Y1" gate="G$1" x="-358.14" y="-27.94" smashed="yes" rot="R270">
 <attribute name="NAME" x="-351.536" y="-29.464" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-351.79" y="-31.75" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="5V_BACKUP" gate="G$1" x="-114.3" y="147.32" smashed="yes" rot="R90">
+<attribute name="NAME" x="-115.57" y="163.83" size="1.778" layer="95" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="-113.03" y="163.83" size="1.778" layer="96" rot="R90" align="center-left"/>
 </instance>
 </instances>
 <busses>
@@ -17250,9 +17255,13 @@ will go to MCU to trigger counting</text>
 <junction x="-142.24" y="142.24"/>
 <pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="-129.54" y1="142.24" x2="-129.54" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="-129.54" y1="142.24" x2="-104.14" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="-129.54" y1="142.24" x2="-114.3" y2="142.24" width="0.1524" layer="91"/>
 <junction x="-129.54" y="142.24"/>
 <label x="-104.14" y="142.24" size="1.778" layer="95"/>
+<pinref part="5V_BACKUP" gate="G$1" pin="1"/>
+<wire x1="-114.3" y1="142.24" x2="-104.14" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="-114.3" y1="147.32" x2="-114.3" y2="142.24" width="0.1524" layer="91"/>
+<junction x="-114.3" y="142.24"/>
 </segment>
 <segment>
 <pinref part="R13" gate="G$1" pin="2"/>
@@ -17491,7 +17500,7 @@ will go to MCU to trigger counting</text>
 </net>
 <net name="N$11" class="0">
 <segment>
-<pinref part="J3" gate="A" pin="2"/>
+<pinref part="AD2_BG" gate="A" pin="2"/>
 <wire x1="-172.72" y1="43.18" x2="-167.64" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="R23" gate="G$1" pin="1"/>
 <wire x1="-167.64" y1="43.18" x2="-167.64" y2="48.26" width="0.1524" layer="91"/>
@@ -17500,12 +17509,12 @@ will go to MCU to trigger counting</text>
 <net name="N$19" class="0">
 <segment>
 <pinref part="R24" gate="G$1" pin="1"/>
-<pinref part="SW1" gate="G$1" pin="4"/>
+<pinref part="SW_START" gate="G$1" pin="4"/>
 <wire x1="-347.98" y1="-132.08" x2="-345.44" y2="-132.08" width="0.1524" layer="91"/>
-<pinref part="SW2" gate="G$1" pin="4"/>
+<pinref part="SW_MISC1" gate="G$1" pin="4"/>
 <wire x1="-347.98" y1="-149.86" x2="-345.44" y2="-149.86" width="0.1524" layer="91"/>
 <wire x1="-345.44" y1="-149.86" x2="-345.44" y2="-132.08" width="0.1524" layer="91"/>
-<pinref part="SW3" gate="G$1" pin="4"/>
+<pinref part="SW_MCU_RST" gate="G$1" pin="4"/>
 <wire x1="-347.98" y1="-167.64" x2="-345.44" y2="-167.64" width="0.1524" layer="91"/>
 <wire x1="-345.44" y1="-167.64" x2="-345.44" y2="-149.86" width="0.1524" layer="91"/>
 <junction x="-345.44" y="-149.86"/>
@@ -17515,7 +17524,7 @@ will go to MCU to trigger counting</text>
 </net>
 <net name="MCU_RST" class="0">
 <segment>
-<pinref part="SW3" gate="G$1" pin="3"/>
+<pinref part="SW_MCU_RST" gate="G$1" pin="3"/>
 <wire x1="-347.98" y1="-162.56" x2="-340.36" y2="-162.56" width="0.1524" layer="91"/>
 <label x="-340.36" y="-162.56" size="1.778" layer="95"/>
 </segment>
@@ -17537,7 +17546,7 @@ will go to MCU to trigger counting</text>
 </net>
 <net name="PB_START" class="0">
 <segment>
-<pinref part="SW1" gate="G$1" pin="3"/>
+<pinref part="SW_START" gate="G$1" pin="3"/>
 <wire x1="-347.98" y1="-127" x2="-342.9" y2="-127" width="0.1524" layer="91"/>
 <label x="-340.36" y="-137.16" size="1.778" layer="95"/>
 <wire x1="-342.9" y1="-127" x2="-342.9" y2="-137.16" width="0.1524" layer="91"/>
@@ -17603,7 +17612,7 @@ will go to MCU to trigger counting</text>
 </net>
 <net name="PB_MISC1" class="0">
 <segment>
-<pinref part="SW2" gate="G$1" pin="3"/>
+<pinref part="SW_MISC1" gate="G$1" pin="3"/>
 <wire x1="-347.98" y1="-144.78" x2="-340.36" y2="-144.78" width="0.1524" layer="91"/>
 <label x="-340.36" y="-144.78" size="1.778" layer="95"/>
 </segment>
@@ -17688,26 +17697,26 @@ will go to MCU to trigger counting</text>
 <pinref part="X_12" gate="G$1" pin="0"/>
 </segment>
 <segment>
-<pinref part="J3" gate="A" pin="1"/>
+<pinref part="AD2_BG" gate="A" pin="1"/>
 <wire x1="-172.72" y1="40.64" x2="-167.64" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="-167.64" y1="40.64" x2="-167.64" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="X_18" gate="G$1" pin="0"/>
 <label x="-167.64" y="38.1" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SW1" gate="G$1" pin="1"/>
+<pinref part="SW_START" gate="G$1" pin="1"/>
 <wire x1="-368.3" y1="-127" x2="-375.92" y2="-127" width="0.1524" layer="91"/>
 <wire x1="-375.92" y1="-127" x2="-375.92" y2="-129.54" width="0.1524" layer="91"/>
 <pinref part="X_20" gate="G$1" pin="0"/>
 </segment>
 <segment>
-<pinref part="SW2" gate="G$1" pin="1"/>
+<pinref part="SW_MISC1" gate="G$1" pin="1"/>
 <wire x1="-368.3" y1="-144.78" x2="-375.92" y2="-144.78" width="0.1524" layer="91"/>
 <wire x1="-375.92" y1="-144.78" x2="-375.92" y2="-147.32" width="0.1524" layer="91"/>
 <pinref part="X_19" gate="G$1" pin="0"/>
 </segment>
 <segment>
-<pinref part="SW3" gate="G$1" pin="1"/>
+<pinref part="SW_MCU_RST" gate="G$1" pin="1"/>
 <wire x1="-368.3" y1="-162.56" x2="-375.92" y2="-162.56" width="0.1524" layer="91"/>
 <pinref part="X_21" gate="G$1" pin="0"/>
 <wire x1="-375.92" y1="-162.56" x2="-375.92" y2="-165.1" width="0.1524" layer="91"/>
