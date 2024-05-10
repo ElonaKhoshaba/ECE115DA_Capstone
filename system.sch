@@ -16691,7 +16691,7 @@ V_TOGGLE = 0: V_BG </text>
 <part name="V_TP" library="5010" library_urn="urn:adsk.eagle:library:44174098" deviceset="5010" device="" package3d_urn="urn:adsk.eagle:package:44174101/3"/>
 <part name="V_SIG" library="5010" library_urn="urn:adsk.eagle:library:44174098" deviceset="5010" device="" package3d_urn="urn:adsk.eagle:package:44174101/3"/>
 <part name="RST_ADC" library="5010" library_urn="urn:adsk.eagle:library:44174098" deviceset="5010" device="" package3d_urn="urn:adsk.eagle:package:44174101/3"/>
-<part name="TP10" library="5010" library_urn="urn:adsk.eagle:library:44174098" deviceset="5010" device="" package3d_urn="urn:adsk.eagle:package:44174101/3"/>
+<part name="ADC_EXT_INT" library="5010" library_urn="urn:adsk.eagle:library:44174098" deviceset="5010" device="" package3d_urn="urn:adsk.eagle:package:44174101/3"/>
 <part name="V_TOGGLE" library="5010" library_urn="urn:adsk.eagle:library:44174098" deviceset="5010" device="" package3d_urn="urn:adsk.eagle:package:44174101/3"/>
 <part name="MISO_MCU" library="5010" library_urn="urn:adsk.eagle:library:44174098" deviceset="5010" device="" package3d_urn="urn:adsk.eagle:package:44174101/3"/>
 <part name="MOSI_MCU" library="5010" library_urn="urn:adsk.eagle:library:44174098" deviceset="5010" device="" package3d_urn="urn:adsk.eagle:package:44174101/3"/>
@@ -16976,7 +16976,7 @@ will go to MCU to trigger counting</text>
 <attribute name="NAME" x="-448.31" y="-80.01" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-448.31" y="-82.55" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="TP10" gate="G$1" x="-464.82" y="-91.44" smashed="yes">
+<instance part="ADC_EXT_INT" gate="G$1" x="-464.82" y="-91.44" smashed="yes">
 <attribute name="NAME" x="-448.31" y="-90.17" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-448.31" y="-92.71" size="1.778" layer="96" align="center-left"/>
 </instance>
@@ -17117,7 +17117,7 @@ will go to MCU to trigger counting</text>
 <segment>
 <wire x1="-464.82" y1="-91.44" x2="-469.9" y2="-91.44" width="0.1524" layer="91"/>
 <label x="-469.9" y="-91.44" size="1.778" layer="95" rot="R180"/>
-<pinref part="TP10" gate="G$1" pin="1"/>
+<pinref part="ADC_EXT_INT" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="RST_ADC" class="0">
