@@ -7994,8 +7994,7 @@ Source: AVX .. aphvc.pdf</description>
 </packages>
 <packages3d>
 <package3d name="SOT95P280X145-5N" urn="urn:adsk.eagle:package:44173757/3" type="model" library_version="3">
-<description>&lt;b&gt;DBV0005A_a&lt;/b&gt;&lt;br&gt;
-</description>
+<description>&lt;b&gt;DBV0005A_a&lt;/b&gt;&lt;br&gt;</description>
 <packageinstances>
 <packageinstance name="SOT95P280X145-5N"/>
 </packageinstances>
@@ -8080,8 +8079,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tlv9101.pdf"&gt; Datasheet 
 </packages>
 <packages3d>
 <package3d name="SOT95P230X110-3N" urn="urn:adsk.eagle:package:44173510/3" type="model" library_version="3">
-<description>&lt;b&gt;PBSS8110T,215*&lt;/b&gt;&lt;br&gt;
-</description>
+<description>&lt;b&gt;PBSS8110T,215*&lt;/b&gt;&lt;br&gt;</description>
 <packageinstances>
 <packageinstance name="SOT95P230X110-3N"/>
 </packageinstances>
@@ -8276,8 +8274,7 @@ Source: &lt;a href="https://www.diodes.com//assets/Datasheets/AP64350.pdf"&gt; D
 </packages>
 <packages3d>
 <package3d name="SOIC127P602X175-14N" urn="urn:adsk.eagle:package:44173357/3" type="model" library_version="3">
-<description>&lt;b&gt;SO14&lt;/b&gt;&lt;br&gt;
-</description>
+<description>&lt;b&gt;SO14&lt;/b&gt;&lt;br&gt;</description>
 <packageinstances>
 <packageinstance name="SOIC127P602X175-14N"/>
 </packageinstances>
@@ -8612,8 +8609,7 @@ Source: &lt;a href="https://www.cuidevices.com/product/resource/slw-864547-5a-ra
 </packages>
 <packages3d>
 <package3d name="SOT95P237X112-3N" urn="urn:adsk.eagle:package:44173463/3" type="model" library_version="3">
-<description>&lt;b&gt;SOT23 (Type DN)_2023&lt;/b&gt;&lt;br&gt;
-</description>
+<description>&lt;b&gt;SOT23 (Type DN)_2023&lt;/b&gt;&lt;br&gt;</description>
 <packageinstances>
 <packageinstance name="SOT95P237X112-3N"/>
 </packageinstances>
@@ -8700,8 +8696,7 @@ Source: &lt;a href="https://www.diodes.com/assets/Datasheets/FMMT593.pdf"&gt; Da
 </packages>
 <packages3d>
 <package3d name="ZTP148SRC1" urn="urn:adsk.eagle:package:44173797/3" type="model" library_version="3">
-<description>&lt;b&gt;ZTP-148SRC1-5&lt;/b&gt;&lt;br&gt;
-</description>
+<description>&lt;b&gt;ZTP-148SRC1-5&lt;/b&gt;&lt;br&gt;</description>
 <packageinstances>
 <packageinstance name="ZTP148SRC1"/>
 </packageinstances>
@@ -10446,7 +10441,9 @@ Source: &lt;a href="https://www.bourns.com/docs/Product-Datasheets/SRP1038CC.pdf
 <attribute name="AVAILABILITY" value="In Stock"/>
 <attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/1825910-6/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=eda"/>
 <attribute name="COMMENT" value="1825910-6"/>
-<attribute name="DESCRIPTION" value=" Switch Push Button OFF (ON) SPST Round Button 0.05A 24VDC Momentary Contact PC Pins Thru-Hole "/>
+<attribute name="DESCRIPTION" value="
+Switch Push Button OFF (ON) SPST Round Button 0.05A 24VDC Momentary Contact PC Pins Thru-Hole
+"/>
 <attribute name="MF" value="TE Connectivity"/>
 <attribute name="MP" value="1825910-6"/>
 <attribute name="PACKAGE" value="None"/>
@@ -10651,8 +10648,7 @@ Source: &lt;a href="https://www.ti.com/lit/ds/symlink/tlv9021-q1.pdf?ts=17068501
 </packages>
 <packages3d>
 <package3d name="5010" urn="urn:adsk.eagle:package:44174101/3" type="model" library_version="3">
-<description>&lt;b&gt;5010-4&lt;/b&gt;&lt;br&gt;
-</description>
+<description>&lt;b&gt;5010-4&lt;/b&gt;&lt;br&gt;</description>
 <packageinstances>
 <packageinstance name="5010"/>
 </packageinstances>
